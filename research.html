@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="Grant Molnar's webpage on his research" />
-	<meta name="keywords" content="mathematics, PhD, Dartmouth" />
+	<meta name="keywords" content="mathematics, poetry" />
 	<meta name="author" content="Grant Molnar" />
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
@@ -17,6 +17,47 @@
 	</script>
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 	</script>
+	<style>
+		.publication-list {
+			list-style-type: none;
+			padding-left: 0;
+			counter-reset: publication-list;
+			display: flex;
+			flex-direction: column-reverse;
+		}
+
+		.publication-list li {
+			display: flex;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+
+		.publication-list li::before {
+			content: counter(publication-list) ". ";
+			counter-increment: publication-list;
+			font-weight: bold;
+			margin-right: 10px;
+		}
+
+		.bullet-list {
+			list-style-type: disc;
+			/* Use disc for bullet points */
+			padding-left: 20px;
+			/* Adjust as needed for alignment */
+			display: flex;
+			flex-direction: column-reverse;
+			/* Reverse the visual order of list items */
+			margin-bottom: 15px;
+		}
+
+
+		.bullet-list li {
+			display: list-item;
+			/* Ensure bullet points are displayed */
+			margin-bottom: 15px;
+		}
+	</style>
+
 	<title>Grant Molnar</title>
 </head>
 
@@ -44,6 +85,7 @@
 				<ul class="menu">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="research.html">Research</a></li>
+					<li><a href="poetry.html">Poetry</a></li>
 					<li><a href="teaching.html">Teaching</a></li>
 					<li><a href="contact.html">Contact</a></li>
 					<li><a href="pdfs/2024_CV.pdf">CV</a></li>
@@ -58,132 +100,166 @@
 				<br> <br>
 
 				<h2>Publications</h2>
-
-
-				<TR VALIGN=top>
-					<TD>6. </TD>
-					<TD>[<A HREF="https://arxiv.org/abs/2212.11354">2212.11354</A>] [<A
-							HREF="https://link.springer.com/article/10.1007/s40993-023-00482-6">Link</A>]
-					<TD><I>Counting elliptic curves over the rationals with a 7-isogeny</I> (with John Voight),
-						Research in Number Theory <B>9</B>, 75 (2023).</TD>
-				</TR>
-
-				<br><br>
-
-				<TR VALIGN=top>
-					<TD>5. </TD>
-					<TD>[<A HREF="https://arxiv.org/abs/2302.13909">2302.13909</A>] [<A
-							HREF="https://www.sciencedirect.com/science/article/abs/pii/S0096300323003703?via%3Dihub">Link</A>]
-					</TD>
-					<TD><I>Reactive means in the Iterated Prisoner's Dilemma</I> (with Caroline Hammond and Feng Fu),
-						Applied Mathematics and Computation <B>458</B>, 128201 (2023).</TD>
-				</TR>
-
-				<br><br>
-
-				<TR VALIGN=top>
-					<TD>4. </TD>
-					<TD>[<A HREF="https://arxiv.org/abs/2012.14403">2012.14403</A>] [<A
-							HREF="https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/mtk.12157">Link</A>]</TD>
-					<TD><I>The arithmetic of modular grids</I> (with Michael Griffin and Paul Jenkins), Mathematika
-						<B>68</B>, 1080-1119 (2022).
-					</TD>
-				</TR>
-
-				<br><br>
-
-				<TR VALIGN=top>
-					<TD>3. </TD>
-					<TD>[<A HREF="https://arxiv.org/abs/2006.10697">2006.10697</A>] [<A
-							HREF="https://www.sciencedirect.com/science/article/pii/S0022314X21002845">Link</A>]</TD>
-					<TD><I>Odd, spoof perfect factorizations</I> (with the BYU Computational Number Theory Group),
-						Journal of Number Theory <B>234</B> 31-47 (2022).</TD>
-				</TR>
-
-				<br><br>
-
-				<TR VALIGN=top>
-					<TD>2. </TD>
-					<TD>[<A HREF="https://arxiv.org/abs/1709.10023">1709.10023</A>] [<A
-							HREF="https://link.springer.com/article/10.1007/s11139-018-0009-8#citeas">Link</A>]</TD>
-					<TD><I>Zagier duality for level p weakly holomorphic modular forms</I> (with Paul Jenkins), The
-						Ramanujan Journal <B>50</B>, 93–109 (2019).</TD>
-				</TR>
-
-				<br><br>
-
-				<TR VALIGN=top>
-					<TD>1. </TD>
-					<TD>[<A HREF="https://arxiv.org/abs/1505.00085">1505.00085</A>] [<A
-							HREF="https://link.springer.com/article/10.1007/s00373-015-1674-7">Link</A>]</TD>
-					<TD><I>Graphs with the strong Havel-Hakimi property</I> (with Michael Barrus), Graphs and
-						Combinatorics <B>32</B>, 1689–1697 (2016).</TD>
-				</TR>
-
-				<br><br>
+				<ol class="publication-list">
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/1505.00085">1505.00085</a>]
+								[<a href="https://link.springer.com/article/10.1007/s00373-015-1674-7">Link</a>]
+							</span>
+							<span class="publication-description">
+								<i>Graphs with the strong Havel-Hakimi property</i> (with Michael Barrus), Graphs and
+								Combinatorics <b>32</b>, 1689–1697 (2016).
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/1709.10023">1709.10023</a>]
+								[<a href="https://link.springer.com/article/10.1007/s11139-018-0009-8#citeas">Link</a>]
+							</span>
+							<span class="publication-description">
+								<i>Zagier duality for level p weakly holomorphic modular forms</i> (with Paul Jenkins),
+								The Ramanujan Journal <b>50</b>, 93–109 (2019).
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/2006.10697">2006.10697</a>]
+								[<a href="https://www.sciencedirect.com/science/article/pii/S0022314X21002845">Link</a>]
+							</span>
+							<span class="publication-description">
+								<i>Odd, spoof perfect factorizations</i> (with the BYU Computational Number Theory
+								Group), Journal of Number Theory <b>234</b> 31-47 (2022).
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/2012.14403">2012.14403</a>]
+								[<a
+									href="https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/mtk.12157">Link</a>]
+							</span>
+							<span class="publication-description">
+								<i>The arithmetic of modular grids</i> (with Michael Griffin and Paul Jenkins),
+								Mathematika <b>68</b>, 1080-1119 (2022).
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/2302.13909">2302.13909</a>]
+								[<a
+									href="https://www.sciencedirect.com/science/article/abs/pii/S0096300323003703?via%3Dihub">Link</a>]
+							</span>
+							<span class="publication-description">
+								<i>Reactive means in the Iterated Prisoner's Dilemma</i> (with Caroline Hammond and Feng
+								Fu), Applied Mathematics and Computation <b>458</b>, 128201 (2023).
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/2212.11354">2212.11354</a>]
+								[<a href="https://link.springer.com/article/10.1007/s40993-023-00482-6">Link</a>]
+							</span>
+							<span class="publication-description">
+								<i>Counting elliptic curves over the rationals with a 7-isogeny</i> (with John Voight),
+								Research in Number Theory <b>9</b>, 75 (2023).
+							</span>
+						</div>
+					</li>
+				</ol>
 
 				<h2>Preprints</h2>
+				<ul class="bullet-list">
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/2105.04592">2105.04592</a>]
+							</span>
+							<span class="publication-description">
+								<i>Telescopic, multiplicative, and rational extensions of summations</i> (with Robert
+								Dawson), preprint.
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/2111.09938">2111.09938</a>]
+							</span>
+							<span class="publication-description">
+								<i>Multiplicative summations into algebraically closed fields</i> (with Robert Dawson),
+								preprint.
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/2301.10302">2301.10302</a>]
+							</span>
+							<span class="publication-description">
+								<i>A database of basic numerical invariants of Hilbert modular surfaces</i> (with Eran
+								Assaf, Angelica Babei, Ben Breen, Edgar Costa, Juanita Duque-Rosero, Aleksander Horawa,
+								Jean Kieffer, Avinash Kulkarni, Sam Schiavone, John Voight), preprint.
+							</span>
+						</div>
+					</li>
 
-				<TR VALIGN=top>
-					<TD>&bull;</TD>
-					<TD>[<A HREF="https://arxiv.org/abs/2301.10302">2301.10302</A>]</TD>
-					<TD><I>A database of basic numerical invariants of Hilbert modular surfaces</I> (with Eran Assaf,
-						Angelica Babei, Ben Breen, Edgar Costa, Juanita Duque-Rosero, Aleksander Horawa, Jean Kieffer,
-						Avinash Kulkarni, Sam Schiavone, John Voight), preprint.</TD>
-				</TR>
+				</ul>
 
-				<br><br>
-
-				<TR VALIGN=top>
-					<TD>&bull;</TD>
-					<TD>[<A HREF="https://arxiv.org/abs/2111.09938">2111.09938</A>]</TD>
-					<TD><I>Multiplicative summations into algebraically closed fields</I> (with Robert Dawson),
-						preprint.</TD>
-				</TR>
-
-				<br><br>
-
-				<TR VALIGN=top>
-					<TD>&bull;</TD>
-					<TD>[<A HREF="https://arxiv.org/abs/2105.04592">2012.14403</A>]</TD>
-					<TD><I>Telescopic, multiplicative, and rational extensions of summations</I> (with Robert Dawson),
-						preprint.</TD>
-				</TR>
-
-				<br><br>
 
 				<h2>Theses</h2>
-
-				<TR VALIGN=top>
-					<TD>&bull;</TD>
-					<TD> </TD>
-					<TD>[<A
-							HREF="https://grantmolnar.com/pdfs/Counting_elliptic_curves_with_a_cyclic_m_isogeny_over_Q.pdf">Link</A>]
-					</TD>
-					<TD><I>Counting elliptic curves with a cyclic $m$-isogeny over $\mathbb{Q}$</I>, PhD Thesis in
-						Mathematics from Dartmouth College (2023).</TD>
-				</TR>
-
-				<br><br>
-
-				<TR VALIGN=top>
-					<TD>&bull;</TD>
-					<TD> </TD>
-					<TD>[<A HREF="https://grantmolnar.com/pdfs/The_arithmetic_of_modular_grids.pdf">Link</A>]</TD>
-					<TD><I>The arithmetic of modular grids</I>, Master's Thesis in Mathematics from Brigham Young
-						University (2018).</TD>
-				</TR>
-
-				<br><br>
+				<ul class="bullet-list" style="list-style-type: disc; /* Use disc for bullet points */">
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://grantmolnar.com/pdfs/The_arithmetic_of_modular_grids.pdf">Link</a>]
+							</span>
+							<span class="publication-description">
+								<i>The arithmetic of modular grids</i>, Master's Thesis in Mathematics from Brigham
+								Young University (2018).
+							</span>
+						</div>
+					</li>
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a
+									href="https://grantmolnar.com/pdfs/Counting_elliptic_curves_with_a_cyclic_m-isogeny_over_Q.pdf">Link</a>]
+							</span>
+							<span class="publication-description">
+								<i>Counting elliptic curves with a cyclic $m$-isogeny over $\mathbb{Q}$</i>, PhD Thesis
+								in Mathematics from Dartmouth College (2023).
+							</span>
+						</div>
+					</li>
+					<!-- Additional theses -->
+				</ul>
 
 				<h2>Expository Notes</h2>
+				<ul class="bullet-list">
+					<li>
+						<div class="publication-item">
+							<span class="publication-links">
+								[<a href="https://arxiv.org/abs/2102.12995">2102.12995</a>]
+							</span>
+							<span class="publication-description">
+								<i>Fast-growing series are transcendental</i> (with Robert Dawson), unpublished.
+							</span>
+						</div>
+					</li>
+					<!-- Additional expository notes can be added here following the same format -->
+				</ul>
 
-
-				<TR VALIGN=top>
-					<TD>&bull;</TD>
-					<TD>[<A HREF="https://arxiv.org/abs/2102.12995">2102.12995</A>] </TD>
-					<TD><I>Fast-growing series are transcendental</I> (with Robert Dawson), unpublished.</TD>
-				</TR>
 
 			</div>
 

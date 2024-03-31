@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Grant Molnar's webpage with his poetry" />
+	<meta name="keywords" content="mathematics, poetry" />
+	<meta name="author" content="Grant Molnar" />
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
+
+	<script>
+		MathJax = {
+			tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			}
+		};
+	</script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+	</script>
+	<style>
+		.poem {
+			font-size: 16px;
+			/* Adjust as needed */
+			color: rgb(0, 0, 0);
+		}
+
+		.poem-title {
+			color: rgb(171, 120, 55);
+		}
+	</style>
+	<script>
+		function toggleVisibility(category) {
+			var content = document.getElementById(category);
+			if (content.style.display === "none") {
+				content.style.display = "block";
+			} else {
+				content.style.display = "none";
+			}
+		}
+	</script>
+	<title>Grant Molnar</title>
+</head>
+
+<body class="light blue smaller freestyle01">
+	<div id="layout">
+
+		<div class="row smaller">
+			<div class="col c5 smaller">
+				<h1><a href="index.html">Grant Molnar</a></h1>
+			</div>
+
+			<div class="col c7 aligncenter">
+				<p class="slogan">Software Algorithm Developer</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col c12 aligncenter">
+				<img src="images/mathGrantBackground1.jpg" width="960" height="592" alt="" />
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col c2 alignleft">
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="poetry.html">Poetry</a></li>
+					<li><a href="teaching.html">Teaching</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="pdfs/2024_CV.pdf">CV</a></li>
+				</ul>
+			</div>
+
+			<div class="col c10">
+				"Once we learn to read, we can never again see letters as mere inky squiggles."
+				<br>&mdash;Daniel Gilbert
+				<br> <br>
+
+				<em>I wrote every poem here. Neither stanza, line, nor phrase was composed by
+					an AI. Explore my poetry by clicking on the style of your interest.</em><br>
+				<br>
+
+			</div>
+
+
+
+			<div class="col c8">
+
+				<h2 onclick="toggleVisibility('echo acrostics')">ECHO ACROSTICS</h2>
+				<div id="echo acrostics" style="display:none;">
+					<div class="poem">
+						<b class="poem-title">Rainfall</b><br>
+						<strong>R</strong>ejoice! The Heavens opened wide<br>
+						<strong>A</strong>nd bathed the land in healing rain<br>
+						<strong>I</strong>n Lightning’s wake, the Thunder cried<br>
+						“<strong>N</strong>ow Earth shall all be clean again!”<br>
+						<strong>F</strong>ie! Fickle Fate, since summertide,<br>
+						<strong>A</strong>non your ardor ebbs; ‘tis plain<br>
+						<strong>L</strong>ustration’s luster won’t abide<br>
+						<strong>L</strong>o! Drizzles leave a muddy stain
+					</div>
+					<br><br>
+
+					<div class="poem">
+						<b class="poem-title">Blood Red</b><br>
+						<strong>B</strong>emangled cask; elixir sweet<br>
+						<strong>L</strong>oquacious crowds delight in wine<br>
+						<strong>O</strong>bliging fight in Antoine’s heat<br>
+						<strong>O</strong>blation to their scarlet shrine<br>
+						<strong>D</strong>estruction of their class conceit<br>
+						<strong>R</strong>ecorded “BLOOD” foretells decline<br>
+						<strong>E</strong>ach man of Paris on his feet—<br>
+						<strong>D</strong>evoted subjects? Rutting swine?<br>
+					</div>
+					<br><br>
+
+					<div class="poem">
+						<b class="poem-title">Oh, Be Glad...</b><br>
+						<strong>O</strong>bservant, seeking insight’s light<br>
+						<strong>H</strong>er peace maintains a slow retreat<br>
+						<strong>B</strong>eneath a dark and starless night<br>
+						<strong>E</strong>mbraced by shadows’ cold deceit<br>
+						<strong>G</strong>ive up the shroud that veils your sight<br>
+						<strong>L</strong>et comfort lift you to your feet<br>
+						<strong>A</strong>ccept a hope both strong and bright<br>
+						<strong>D</strong>elight in faith and friendship sweet<br>
+					</div>
+					<br><br>
+
+				</div>
+
+				<h2 onclick="toggleVisibility('limericks')">LIMERICKS</h2>
+				<div id="limericks" style="display:none;">
+					<div class="poem">
+						<b class="poem-title">Spring Greetings</b><br>
+						I encountered a wasp on the wing<br>
+						Who delivered a merciless sting<br>
+						I exclaimed: “My good sir!”<br>
+						She corrected me: “Her”<br>
+						And then darted away with a zing!<br>
+					</div>
+					<br><br>
+
+				</div>
+
+
+				<h2 onclick="toggleVisibility('sonnets')">SONNETS</h2>
+				<div id="sonnets" style="display:none;">
+					<div class="poem">
+						<b class="poem-title">A Doctorate Disclosed</b><br>
+						My thesis seeks to count elliptic curves <br>
+						With $m$-isogeny and over $\mathbb{Q}$. <br>
+						To order them by height na&iuml;vely serves; <br>
+						The inverse Mellin transform caps our coup. <br> <br>
+
+						I also fashion inequalities <br>
+						Equivalent to Riemann's star surmise. <br>
+						My claims are more than mere frivolities: <br>
+						From LCMs, they readily arise. <br> <br>
+
+						I study some summations on the side: <br>
+						Convergent series, ilk of lesser fame. <br>
+						I catalogue the laws that these abide, <br>
+						Then find extensions which fulfill the same. <br> <br>
+
+						I strive to prove what's worthy, fun, and true. <br>
+						In short, arithmetic is what I do.<br>
+					</div>
+					<br><br>
+
+					<!-- 
+					<div class="poem">
+						<b class="poem-title">Penning Passing Passions</b><br>
+						When academic duties disappear<br>
+						And other obligations bide their time,<br>
+						I fain would pen a poem, bright and clear:<br>
+						A clever comely lilting little rhyme.<br><br>
+
+						Perhaps I'll write of terrors told in myth<br>
+						Or of my love's dulcet delightful smile.<br>
+						Whatever takes my fancy will herewith<br>
+						Afford a fine diversion for a while.<br><br>
+
+						And when the verse I've written down is done,<br>
+						I guess I'll have to write another one!<br>
+					</div> 
+					<br><br>
+				-->
+
+					<div class="poem">
+						<b class="poem-title">A New Day</b><br>
+						The sky forebodes, o’ercast with somber pall<br>
+						A weight that smothers in its heavy hours<br>
+						But lo! A clarion flame will burn it all<br>
+						The sun will rise with all his potent powers<br><br>
+
+						The earth beneath is patient in her shroud<br>
+						As still as death, though life may scurry on<br>
+						She’ll rise again, resplendent, regal proud<br>
+						To kiss the sun beneath the breaking dawn<br><br>
+
+						And we alike may lift our weary eyes<br>
+						Though weighty fortunes rest upon our wings<br>
+						And gaze upon the luminescent skies<br>
+						And greet the East and all the hope he brings<br><br>
+
+						The night is black, but passes sure and swift<br>
+						And day is ours, a sudden sacred gift<br>
+					</div>
+					<br><br>
+
+					<div class="poem">
+						<b class="poem-title">Scattered Days</b><br>
+						Alas for days like scattered golden leaves:<br>
+						Abandoned litter on the fallow ground.<br>
+						Another moment tumbles, turns, and weaves,<br>
+						Then flutters to the earth without a sound.<br><br>
+
+						I rake the days or leaves into a heap.<br>
+						The vivid mess accrues before my eyes<br>
+						As half-forgotten dreams are buried deep<br>
+						And scarlet thoughts assume a drabber guise.<br><br>
+
+						The Tree of Life is rife with verdure now:<br>
+						She wanes anon as Autumn hastens on.<br>
+						And though I try, I cannot fathom how<br>
+						To keep her green, pristine like Summer's dawn.<br><br>
+
+						Lo! Winter looms, and soon I too shall go<br>
+						To join my leaves or days beneath the snow.<br>
+					</div>
+					<br><br>
+					<!-- 
+					<div class="poem">
+						<b class="poem-title">Atonement</b><br>
+						The grotto where he bled was stark and bare,<br>
+						divorced from heaven, hemmed by slabs of stone.<br>
+						He clutched the oil-slicked basin, wracked by prayer<br>
+						too raw and poignant to endure alone.<br><br>
+
+						The cross from which he hung was stark and bare,<br>
+						beneath a heaven dark with holy rage.<br>
+						And Earth herself lamented in despair<br>
+						as Yahweh’s passing crowned the former age.<br><br>
+
+						The now-forsaken tomb is stark and bare,<br>
+						and Jesus Christ ascends with glory rife.<br>
+						The Spirit bearing witness, I declare<br>
+						that through the Son we have Eternal Life.<br><br>
+
+
+
+					</div>
+					<br><br>
+				-->
+
+				</div>
+
+
+				<h2 onclick="toggleVisibility('free verse')">FREE VERSE</h2>
+				<div id="free verse" style="display:none;">
+					<div class="poem">
+						<b class="poem-title">The Lonely Song</b><br>
+						When they slither and fly<br>
+						Between bubbling red stone<br>
+						Can they find us,<br>
+						Here within the soft timber?<br>
+						For among the treasure<br>
+						Time will saunter through striking madness:<br>
+						Do not continue to be the tinder of time<br>
+						Run down by the patterned surface<br>
+						And old life is gone<br>
+						Can you love us when you find us?<br>
+						Is it a game to you?<br>
+					</div>
+					<br><br>
+
+					<div class="poem">
+						<b class="poem-title">Friendship</b><br>
+						A friendship is—<br>
+						An open heart<br>
+						An earnest hug<br>
+						A gentle smile<br>
+						A lilting laugh<br>
+						A helping hand<br>
+						A mindful gift<br>
+						A moment shared<br><br>
+
+						A leap of faith<br><br>
+
+						A friendship is a fragile rose<br>
+						A fragrant bloom from barren earth<br>
+						A grace too large for careless prose<br>
+						A cherished trust of endless worth<br>
+
+					</div>
+					<br><br>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div id="footer" class="row">
+			<div class="col c12 aligncenter">
+				<h3>&copy; 2020 Grant Molnar</h3>
+				<p><a href="http://andreasviklund.com/templates/origo/">Template design</a> by <a
+						href="http://andreasviklund.com/">Andreas Viklund</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
