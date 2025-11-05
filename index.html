@@ -1,65 +1,91 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Grant Molnar's home page" />
-	<meta name="keywords" content="mathematics, poetry" />
-	<meta name="author" content="Grant Molnar" />
-	<link href="http://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
-	<title>Grant Molnar</title>
+    <meta charset="utf-8">
+    <title>Grant Molnar</title>
+    <meta name="description" content="Grant Molnar's webpage">
+    <meta name="author" content="Grant Molnar">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts (HTTPS + preconnect) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="site.css" media="all">
 </head>
 
 <body class="light blue smaller freestyle01">
-	<div id="layout">
-		<div class="row smaller">
-			<div class="col c5 smaller">
-				<h1><a href="index.html">Grant Molnar</a></h1>
-			</div>
-			<div class="col c7 aligncenter">
-				<p class="slogan">AI/ML Engineer</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col c12 aligncenter">
-				<img src="images/mathGrantBackground1.jpg" width="960" height="592" alt="Grant Molnar Background" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="col c2 alignleft">
-				<ul class="menu">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="research.html">Research</a></li>
-					<li><a href="poetry.html">Poetry</a></li>
-					<!--<li><a href="teaching.html">Teaching</a></li>-->
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="pdfs/2025_CV.pdf">CV</a></li>
-				</ul>
-			</div>
-			<div class="col c8">
-				<p>"An equation has no meaning for me unless it expresses a thought of God."<br>&mdash;Srinivasa
-					Ramanujan</p>
-				<h2>About me</h2>
-				<p>I am a AI/ML engineer and an avid mathematician. Professionally, I innovate in areas such as cognitive agents, signal segmentation systems, and satellite scheduling algorithms. Academically, I explore number theory, geometry, graph theory, and game theory. <!--my research is focused on analytic number theory, with applications to arithmetic statistics and elementary number theory. However, I also dabble in algebra, geometry, game theory, graph theory, and logic. -->
-					<br> <br>
-					I received my PhD in mathematics from Dartmouth College in 2023, with <a href="https://jvoight.github.io/">John Voight</a> as my advisor.  I received my MS in mathematics from Brigham Young University in 2018, with <a href="https://mjgriffinmath.com/">Michael Griffin</a> and <a href="https://math.byu.edu/~jenkins/">Paul Jenkins</a> as my advisors.</p>
-			</div>
-			<div class="col c2">
-				<h3>Links:</h3>
-				<p><a href="https://utahmath.org/">Utah Math Olympiad</a><br />
-					<a href="https://github.com/grantmolnar">GitHub</a>
-				</p>
-			</div>
-		</div>
-		<div id="footer" class="row">
-			<div class="col c12 aligncenter">
-				<h3>&copy; 2020 Grant Molnar</h3>
-				<p><a href="http://andreasviklund.com/templates/origo/">Template design</a> by <a
-						href="http://andreasviklund.com/">Andreas Viklund</a></p>
-			</div>
-		</div>
-	</div>
+    <div id="layout">
+        <header class="row smaller" role="banner">
+            <div class="col c5 smaller">
+                <h1><a href="index.html">Grant Molnar</a></h1>
+            </div>
+            <div class="col c7 aligncenter">
+                <p class="slogan">AI/ML Engineering Manager</p>
+            </div>
+        </header>
+
+        <div class="row">
+            <div class="col c12 aligncenter">
+                <div class="hero hero--cover">
+                    <img src="images/mathGrantBackground1.jpg" width="960" height="592" alt="Grant Molnar Background">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <nav class="col c2 alignleft" aria-label="Primary">
+                <ul class="menu">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="poetry.html">Poetry</a></li>
+                    <li><a href="pdfs/2025_CV.pdf">CV</a></li>
+                </ul>
+            </nav>
+
+            <main class="col c7" role="main">
+                <p>
+                    "An equation has no meaning for me unless it expresses a thought of God."<br>&mdash;Srinivasa
+                    Ramanujan
+                </p>
+
+                <h2>About me</h2>
+                <p>I am a AI/ML engineer and an avid mathematician. Professionally, I innovate in areas such as
+                    cognitive agents, signal segmentation systems, and satellite scheduling algorithms. Academically, I
+                    explore number theory, geometry, graph theory, and game theory.
+                    <!--my research is focused on analytic number theory, with applications to arithmetic statistics and elementary number theory. However, I also dabble in algebra, geometry, game theory, graph theory, and logic. -->
+                    <br> <br>
+                    I received my PhD in mathematics from Dartmouth College in 2023, with <a
+                        href="https://jvoight.github.io/">John Voight</a> as my advisor. I received my MS in mathematics
+                    from Brigham Young University in 2018, with <a href="https://mjgriffinmath.com/">Michael Griffin</a>
+                    and <a href="https://math.byu.edu/~jenkins/">Paul Jenkins</a> as my advisors.
+                </p>
+            </main>
+
+            <aside class="col c3" role="complementary" style="text-align:right">
+                <h3>Links</h3>
+                <p><a href="https://utahmath.org/">Utah Math Olympiad</a>
+                    <br />
+                    <a href="http://www.linkedin.com/in/grant-molnar-em5772156649">LinkedIn</a>
+                    <br />
+                    <a href="https://github.com/grantmolnar">GitHub</a>
+                </p>
+            </aside>
+        </div>
+
+        <footer id="footer" class="row" role="contentinfo">
+            <div class="col c12 aligncenter">
+                <h3>&copy; 2025 Grant Molnar</h3>
+                <p>
+                    <a href="https://andreasviklund.com/templates/origo/">Template design</a>
+                    inspired by <a href="https://andreasviklund.com/">Andreas Viklund</a>
+                </p>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

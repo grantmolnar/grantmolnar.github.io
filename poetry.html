@@ -1,34 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Grant Molnar's webpage with his poetry" />
-	<meta name="keywords" content="mathematics, poetry" />
-	<meta name="author" content="Grant Molnar" />
-	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
+	<meta charset="utf-8">
+	<title>Grant Molnar — Poetry</title>
+	<meta name="description" content="Poetry by Grant Molnar">
+	<meta name="author" content="Grant Molnar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Google Fonts (HTTPS + preconnect) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="site.css" media="all">
+
+
+
+	<!-- MathJax is needed for LaTeX in poems (e.g., $m$, \mathbb{Q}) -->
 	<script>
-		MathJax = {
-			tex: {
-				inlineMath: [['$', '$'], ['\\(', '\\)']]
-			}
-		};
+		MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
 	</script>
-	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-	</script>
-	<style>
-		.poem {
-			font-size: 16px;
-			/* Adjust as needed */
-			color: rgb(0, 0, 0);
-		}
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
-		.poem-title {
-			color: rgb(171, 120, 55);
-		}
-	</style>
 	<script>
 		function toggleVisibility(category) {
 			var content = document.getElementById(category);
@@ -39,54 +33,53 @@
 			}
 		}
 	</script>
-	<title>Grant Molnar</title>
 </head>
 
 <body class="light blue smaller freestyle01">
 	<div id="layout">
 
-		<div class="row smaller">
+		<!-- Header -->
+		<header class="row smaller" role="banner">
 			<div class="col c5 smaller">
 				<h1><a href="index.html">Grant Molnar</a></h1>
 			</div>
-
 			<div class="col c7 aligncenter">
-				<p class="slogan">AI/ML Engineer</p>
+				<p class="slogan">AI/ML Engineering Manager</p>
 			</div>
-		</div>
+		</header>
 
+		<!-- Hero -->
 		<div class="row">
 			<div class="col c12 aligncenter">
-				<img src="images/mathGrantBackground1.jpg" width="960" height="592" alt="" />
+				<div class="hero hero--cover">
+					<img src="images/mathGrantBackground1.jpg" width="960" height="592" alt="Grant Molnar Background">
+				</div>
 			</div>
 		</div>
 
+		<!-- Main area -->
 		<div class="row">
-			<div class="col c2 alignleft">
+			<nav class="col c2 alignleft" aria-label="Primary">
 				<ul class="menu">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="research.html">Research</a></li>
-					<li><a href="poetry.html">Poetry</a></li>
-					<!--<li><a href="teaching.html">Teaching</a></li>-->
 					<li><a href="contact.html">Contact</a></li>
+					<li><a href="poetry.html" aria-current="page">Poetry</a></li>
 					<li><a href="pdfs/2025_CV.pdf">CV</a></li>
 				</ul>
-			</div>
+			</nav>
 
-			<div class="col c10">
-				"Once we learn to read, we can never again see letters as mere inky squiggles."
-				<br>&mdash;Daniel Gilbert
-				<br> <br>
+			<main class="col c10" role="main">
+				<div class="intro">
+					<p>
+						"Once we learn to read, we can never again see letters as mere inky squiggles."
+						<br>&mdash;Daniel Gilbert
+						<br> <br>
 
-				<em>I wrote every poem here. Neither stanza, line, nor phrase was composed by
-					an AI. Explore my poetry by clicking on the style of your interest.</em><br>
-				<br>
-
-			</div>
-
-
-
-			<div class="col c8">
+						<em>I wrote every poem here. Neither stanza, line, nor phrase was composed by
+							an AI. Explore my poetry by clicking on the style of your interest.</em>
+					</p>
+				</div>
 
 				<h2 onclick="toggleVisibility('echo acrostics')">Echo Acrostics</h2>
 				<div id="echo acrostics" style="display:none;">
@@ -134,17 +127,17 @@
 					<br><br>
 
 					<div class="poem">
-							<!--<b class="poem-title">Oh, Be Glad...</b><br>-->
-							<strong>L</strong>et sleep sweep over all your thoughts<br>
-							<strong>E</strong>rasing reason's leaden scrawl.<br>
-							<strong>T</strong>hough worry ties your heart in knots,<br>
-							<strong>H</strong>ypnotic dreams unwind them all.<br>
-							<strong>A</strong>nd if your vernal vision rots,<br>
-							<strong>R</strong>emanding you to nightmare's thrall&mdash;<br>
-							<strong>G</strong>o on in hope, connect the dots!<br>
-							<strong>Y</strong>ou'll rise again at morning's call.<br>
-						</div>
-						<br><br>
+						<!--<b class="poem-title">Oh, Be Glad...</b><br>-->
+						<strong>L</strong>et sleep sweep over all your thoughts<br>
+						<strong>E</strong>rasing reason's leaden scrawl.<br>
+						<strong>T</strong>hough worry ties your heart in knots,<br>
+						<strong>H</strong>ypnotic dreams unwind them all.<br>
+						<strong>A</strong>nd if your vernal vision rots,<br>
+						<strong>R</strong>emanding you to nightmare's thrall&mdash;<br>
+						<strong>G</strong>o on in hope, connect the dots!<br>
+						<strong>Y</strong>ou'll rise again at morning's call.<br>
+					</div>
+					<br><br>
 
 				</div>
 
@@ -181,7 +174,7 @@
 						Setting trees aflame<br>
 					</div>
 					<br><br>
-					
+
 					<div class="poem">
 						<!--2025/04/09-->
 						The robin falls still<br>
@@ -346,7 +339,7 @@
 						Then slipped beneath the black without a trace.<br>
 					</div>
 					<br><br>
-					
+
 					<div class="poem">
 						<b class="poem-title">Bare
 							Passion</b><br><!--Written in 2015 in Jerusalem, save for the last stanza composed 2025/03/31-->
@@ -391,7 +384,7 @@
 						I cannot help but wage another war<br>
 					</div>
 					<br><br>
-					
+
 					<!--<div class="poem">
 						<b class="poem-title">The Storm Before The Rain Begins To
 							Fall</b><br><!--The first and third stanza were composed on 2025/03/13; the balance of the poem was written 
@@ -418,105 +411,121 @@
 
 				</div>
 
-					<h2 onclick="toggleVisibility('free verse')">Free Verse</h2>
-					<div id="free verse" style="display:none;">
-						<div class="poem">
-							<b class="poem-title">Friendship</b><br>
-							A friendship is&mdash;<br>
-							An open heart<br>
-							An earnest hug<br>
-							A gentle smile<br>
-							A lilting laugh<br>
-							A helping hand<br>
-							A mindful gift<br>
-							A moment shared<br><br>
+				<h2 onclick="toggleVisibility('free verse')">Free Verse</h2>
+				<div id="free verse" style="display:none;">
+					<div class="poem">
+						<b class="poem-title">Friendship</b><br>
+						A friendship is&mdash;<br>
+						An open heart<br>
+						An earnest hug<br>
+						A gentle smile<br>
+						A lilting laugh<br>
+						A helping hand<br>
+						A mindful gift<br>
+						A moment shared<br><br>
 
-							A leap of faith<br><br>
+						A leap of faith<br><br>
 
-							A friendship is a fragile rose<br>
-							A fragrant bloom from barren earth<br>
-							A grace too large for careless prose<br>
-							A cherished trust of endless worth<br>
-
-						</div>
-						<br><br>
-
-						<div class="poem">
-							<b class="poem-title">The Lonely Song</b><br>
-							When they slither and fly<br>
-							Between bubbling red stone,<br>
-							Can they find us<br>
-							Here within the soft timber?<br>
-							For among the treasure<br>
-							Time will saunter through striking madness:<br>
-							Do not continue to be the tinder of time<br>
-							Run down by the patterned surface<br>
-							And old life is gone.<br>
-							Can you love us when you find us?<br>
-							Is it a game to you?<br>
-						</div>
-						<br><br>
-
+						A friendship is a fragile rose<br>
+						A fragrant bloom from barren earth<br>
+						A grace too large for careless prose<br>
+						A cherished trust of endless worth<br>
 
 					</div>
+					<br><br>
 
-					<h2 onclick="toggleVisibility('miscellaneous')">Miscellaneous</h2>
-					<div id="miscellaneous" style="display:none;">
-						<!--<div class="poem">
-							<b class="poem-title">Mara's Psalm</b><br>
-							<!--A psalm by Mara, Galtrin's twin sister, written the evening after he left the Tivan Monastery on a pilgrimage out into the world
-						</div>
-						<br><br>-->
-
-						<div class="poem">
-							<b class="poem-title">For You</b><br>
-							Afraid, alone, and feeling blue,<br>
-							You long for love and comfort too.<br>
-							But as you watch mistakes accrue<br>
-							You feel lost and wonder who<br>
-							Would care enough to pull you through.<br>
-							The Lamb of God has come to do<br>
-							The Work His Father bid Him to.<br>
-							His love is deep and word is true<br>
-							And in His grace He’ll make you new&mdash;<br><br>
-
-							The Son of Man has died for you.<br>
-						</div>
-						<br><br>
-
-						<!--<div class="poem">
-							<b class="poem-title">Mara's Psalm</b><br>
-							<!--A psalm by Mara, Galtrin's twin sister, written the evening after he left the Tivan Monastery on a pilgrimage out into the world
-						</div>
-						<br><br>-->
-
-						<div class="poem">
-							<b class="poem-title">Projection</b><br>
-							I've often heard the seasoned cynic claim<br>
-							That dreams are naught but phantoms of the mind<br>
-							That fear and faith and friendship are the same:<br>
-							Projections of a psyche trite and blind.<br><br>
-
-							O subtle cynic, sly or circumspect,<br>
-							How dare you shut your eyes against the light!<br>
-							We dream not to project but to reflect<br>
-							The cosmos as a model in our sight.<br>
-						</div>
-						<br><br>
-
+					<div class="poem">
+						<b class="poem-title">The Lonely Song</b><br>
+						When they slither and fly<br>
+						Between bubbling red stone,<br>
+						Can they find us<br>
+						Here within the soft timber?<br>
+						For among the treasure<br>
+						Time will saunter through striking madness:<br>
+						Do not continue to be the tinder of time<br>
+						Run down by the patterned surface<br>
+						And old life is gone.<br>
+						Can you love us when you find us?<br>
+						Is it a game to you?<br>
 					</div>
-				
+					<br><br>
 
-			</div>
 
-			<div id="footer" class="row">
-				<div class="col c12 aligncenter">
-					<h3>&copy; 2020 Grant Molnar</h3>
-					<p><a href="http://andreasviklund.com/templates/origo/">Template design</a> by <a
-							href="http://andreasviklund.com/">Andreas Viklund</a>
 				</div>
-			</div>
+
+				<h2 onclick="toggleVisibility('miscellaneous')">Miscellaneous</h2>
+				<div id="miscellaneous" style="display:none;">
+					<!--<div class="poem">
+							<b class="poem-title">Mara's Psalm</b><br>
+							<!--A psalm by Mara, Galtrin's twin sister, written the evening after he left the Tivan Monastery on a pilgrimage out into the world
+						</div>
+						<br><br>-->
+
+					<div class="poem">
+						<b class="poem-title">For You</b><br>
+						Afraid, alone, and feeling blue,<br>
+						You long for love and comfort too.<br>
+						But as you watch mistakes accrue<br>
+						You feel lost and wonder who<br>
+						Would care enough to pull you through.<br>
+						The Lamb of God has come to do<br>
+						The Work His Father bid Him to.<br>
+						His love is deep and word is true<br>
+						And in His grace He’ll make you new&mdash;<br><br>
+
+						The Son of Man has died for you.<br>
+					</div>
+					<br><br>
+
+					<!--<div class="poem">
+							<b class="poem-title">Mara's Psalm</b><br>
+							<!--A psalm by Mara, Galtrin's twin sister, written the evening after he left the Tivan Monastery on a pilgrimage out into the world
+						</div>
+						<br><br>-->
+
+					<div class="poem">
+						<b class="poem-title">Projection</b><br>
+						I've often heard the seasoned cynic claim<br>
+						That dreams are naught but phantoms of the mind<br>
+						That fear and faith and friendship are the same:<br>
+						Projections of a psyche trite and blind.<br><br>
+
+						O subtle cynic, sly or circumspect,<br>
+						How dare you shut your eyes against the light!<br>
+						We dream not to project but to reflect<br>
+						The cosmos as a model in our sight.<br>
+					</div>
+					<br><br>
+
+				</div>
+
+			</main>
 		</div>
+
+		<!-- Footer -->
+		<footer id="footer" class="row" role="contentinfo">
+			<div class="col c12 aligncenter">
+				<h3>&copy; 2025 Grant Molnar</h3>
+				<p>
+					<a href="https://andreasviklund.com/templates/origo/">Template design</a>
+					inspired by <a href="https://andreasviklund.com/">Andreas Viklund</a>
+				</p>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Accessible toggle behavior -->
+	<script>
+		document.querySelectorAll('.toggle').forEach(btn => {
+			const target = document.getElementById(btn.getAttribute('aria-controls'));
+			btn.addEventListener('click', () => {
+				const expanded = btn.getAttribute('aria-expanded') === 'true';
+				btn.setAttribute('aria-expanded', String(!expanded));
+				if (target) target.hidden = expanded;
+			});
+		});
+	</script>
 </body>
 
 </html>

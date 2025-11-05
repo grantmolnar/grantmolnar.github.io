@@ -1,90 +1,91 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Grant Molnar's contact webpage" />
-	<meta name="keywords" content="mathematics, poetry" />
-	<meta name="author" content="Grant Molnar" />
-	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
-	<title>Grant Molnar</title>
+	<meta charset="utf-8">
+	<title>Grant Molnar — Contact</title>
+	<meta name="description" content="Grant Molnar's contact webpage">
+	<meta name="author" content="Grant Molnar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Google Fonts (HTTPS + preconnect) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+	<!-- Site CSS -->
+	<link rel="stylesheet" href="site.css" media="all">
 </head>
 
 <body class="light blue smaller freestyle01">
 	<div id="layout">
 
-		<div class="row smaller">
+		<!-- Header -->
+		<header class="row smaller" role="banner">
 			<div class="col c5 smaller">
 				<h1><a href="index.html">Grant Molnar</a></h1>
 			</div>
-
 			<div class="col c7 aligncenter">
-				<p class="slogan">Software Algorithm Developer</p>
+				<p class="slogan">AI/ML Engineering Manager</p>
 			</div>
-		</div>
+		</header>
 
+		<!-- Hero -->
 		<div class="row">
 			<div class="col c12 aligncenter">
-				<img src="images/mathGrantBackground1.jpg" width="960" height="592" alt="" />
+				<div class="hero hero--cover">
+					<img src="images/mathGrantBackground1.jpg" width="960" height="592" alt="Grant Molnar Background">
+				</div>
 			</div>
 		</div>
 
+		<!-- Main area: nav + content -->
 		<div class="row">
-			<div class="col c2 alignleft">
+			<nav class="col c2 alignleft" aria-label="Primary">
 				<ul class="menu">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="research.html">Research</a></li>
+					<li><a href="contact.html" aria-current="page">Contact</a></li>
 					<li><a href="poetry.html">Poetry</a></li>
-					<!--<li><a href="teaching.html">Teaching</a></li>-->
-					<li><a href="contact.html">Contact</a></li>
 					<li><a href="pdfs/2025_CV.pdf">CV</a></li>
 				</ul>
-			</div>
+			</nav>
 
-			<div class="col c10">
-				<!--Is there any knowledge in the world which is so certain that no reasonable man could doubt it?--Bertrand Russell-->
-				<!--"Life is to be enjoyed, not just endured."&mdash;Gordon B. Hinckley-->
-				<!--"I have discovered that life is not a series of great heroic acts. Life at its best is a matter of
+			<main class="col c10" role="main">
+				<blockquote class="intro">
+					<p>
+						<!--Is there any knowledge in the world which is so certain that no reasonable man could doubt it?--Bertrand Russell-->
+						<!--"Life is to be enjoyed, not just endured."&mdash;Gordon B. Hinckley-->
+						<!--"I have discovered that life is not a series of great heroic acts. Life at its best is a matter of
 				consistent goodness and decency, doing without fanfare that which needed to be done when it needed to be
 				done."
 				<br>&mdash;Gordon B. Hinckley-->
-				"A little work directed to a good end is better than a great deal of work directed to a bad end, though
-				the apostles of the strenuous life seem to think otherwise."
-				<br>&mdash;Bertrand Russell
-				<br> <br>
-			</div>
+						"A little work directed to a good end is better than a great deal of work directed to a bad end,
+						though
+						the apostles of the strenuous life seem to think otherwise."
+						<br>&mdash;Bertrand Russell
+					</p>
+				</blockquote>
 
-			<div class="col c8">
-				<h2>CONTACT</h2>
-				<div style="margin-left: 0px;"><big style="color: rgb(171, 120, 55);"><!--<span <br><B>Address:</B><br>
-							<span style="color: rgb(0, 0, 0);">Dartmouth College</span><br style="color: rgb(0, 0, 0);">
-							<span style="color: rgb(0, 0, 0);">Mathematics Department</span><br
-								style="color: rgb(0, 0, 0);">
-							<span style="color: rgb(0, 0, 0);">6188 Kemeny Hall </span><br style="color: rgb(0, 0, 0);">
-							<span style="color: rgb(0, 0, 0);">Hanover, NH 03755</span><br>-->
-						<!--<br>
-Phone:<br>
-<span style="color: rgb(0, 0, 0);">(919) 886 - 1851</span><br>
-<br>
-						<br><B>Office:</B><br>
-						<span style="color: rgb(0, 0, 0);">245 Kemeny Hall</span><br>-->
-						<!--<br>--><B>E-mail:</B><!--<br>-->
-						<span style="color: rgb(0, 0, 0);">molnar.grant.5772@gmail.com</span><br>
-						<br><br>
-				</div>
+				<h2>Contact</h2>
+				<p>
+					Email: <a href="mailto:molnar.grant.5772@gmail.com">molnar.grant.5772@gmail.com</a>
+				</p>
+			</main>
+		</div>
 
-
-			</div>
-
-			<div id="footer" class="row">
-				<div class="col c12 aligncenter">
-					<h3>&copy; 2020 Grant Molnar</h3>
-					<p><a href="http://andreasviklund.com/templates/origo/">Template design</a> by <a
-							href="http://andreasviklund.com/">Andreas Viklund</a>
-				</div>
+		<!-- Footer -->
+		<div id="footer" class="row">
+			<div class="col c12 aligncenter">
+				<h3>&copy; 2025 Grant Molnar</h3>
+				<p>
+					<a href="https://andreasviklund.com/templates/origo/">Template design</a>
+					inspired by <a href="https://andreasviklund.com/">Andreas Viklund</a>
+				</p>
 			</div>
 		</div>
+
+	</div>
 </body>
 
 </html>
