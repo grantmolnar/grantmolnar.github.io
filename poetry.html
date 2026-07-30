@@ -23,23 +23,13 @@
 	</script>
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
-	<script>
-		function toggleVisibility(category) {
-			var content = document.getElementById(category);
-			if (content.style.display === "none") {
-				content.style.display = "block";
-			} else {
-				content.style.display = "none";
-			}
-		}
-	</script>
 </head>
 
 <body class="light blue smaller freestyle01">
 	<div id="layout">
 
 		<!-- Header -->
-		<header class="row smaller" role="banner">
+		<header class="row smaller">
 			<div class="col c5 smaller">
 				<h1><a href="index.html">Grant Molnar</a></h1>
 			</div>
@@ -52,7 +42,7 @@
 		<div class="row">
 			<div class="col c12 aligncenter">
 				<div class="hero hero--cover">
-					<img src="images/mathGrantBackground1.jpg" width="960" height="592" alt="Grant Molnar Background">
+					<img src="images/mathGrantBackground1.jpg" width="960" height="592" alt="">
 				</div>
 			</div>
 		</div>
@@ -69,7 +59,7 @@
 				</ul>
 			</nav>
 
-			<main class="col c10" role="main">
+			<main class="col c10">
 				<div class="intro">
 					<p>
 						"Once we learn to read, we can never again see letters as mere inky squiggles."
@@ -81,14 +71,14 @@
 					</p>
 				</div>
 
-				<h2 onclick="toggleVisibility('echo acrostics')">Echo Acrostics</h2>
-				<div id="echo acrostics" style="display:none;">
+				<h2 class="poetry-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="echo-acrostics">Echo Acrostics</h2>
+				<div id="echo-acrostics" style="display:none;">
 					<div class="poem">
 						<!--I coined the term "echo acrostic" to describe an acrostic with the same number of syllables to each line that there are lines in the poem, written with iambic meter and an ABABAB... rhyming scheme.-->
 
 						<div class="poem">
-							<!--<b class="poem-title">Blood
-								Red</b><br><!--Written for AP Literature, when we were reading A Tale of Two Cities-->
+							<!-- <b class="poem-title">Blood Red</b><br>
+							Written for AP Literature while reading A Tale of Two Cities. -->
 							<strong>B</strong>emangled cask; elixir sweet<br>
 							<strong>L</strong>oquacious crowds delight in wine<br>
 							<strong>O</strong>bliging fight in Antoine’s heat<br>
@@ -141,7 +131,7 @@
 
 				</div>
 
-				<h2 onclick="toggleVisibility('haiku')">Haiku</h2>
+				<h2 class="poetry-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="haiku">Haiku</h2>
 				<div id="haiku" style="display:none;">
 					<div class="poem">
 						<!--2025/04/02-->
@@ -194,7 +184,7 @@
 
 				</div>
 
-				<h2 onclick="toggleVisibility('limericks')">Limericks</h2>
+				<h2 class="poetry-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="limericks">Limericks</h2>
 				<div id="limericks" style="display:none;">
 					<div class="poem">
 						<b class="poem-title">Dipterological Trivia</b><br><!--2025/03/31-->
@@ -217,7 +207,8 @@
 					<br><br>
 
 					<!--<div class="poem">
-						<b class="poem-title">Concerning Spirits</b><br><!--2025/03/31
+						<b class="poem-title">Concerning Spirits</b><br>
+						Date: 2025/03/31.
 						Whenever I meet with a ghost<br>
 						(For they haunt me more often than most)<br>
 						I'm possessed without fail<br>
@@ -228,7 +219,7 @@
 
 				</div>
 
-				<h2 onclick="toggleVisibility('sonnets')">Sonnets</h2>
+				<h2 class="poetry-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="sonnets">Sonnets</h2>
 				<div id="sonnets" style="display:none;">
 					<div class="poem">
 						<b class="poem-title">A Doctorate Distilled</b><br>
@@ -252,7 +243,7 @@
 					</div>
 					<br><br>
 
-					<!-- 
+					<!--
 					<div class="poem">
 						<b class="poem-title">Penning Passing Passions</b><br>
 						When academic duties disappear<br>
@@ -267,7 +258,7 @@
 
 						And when the verse I've written down is done,<br>
 						I guess I'll have to write another one!<br>
-					</div> 
+					</div>
 					<br><br>
 				-->
 
@@ -387,7 +378,8 @@
 
 					<!--<div class="poem">
 						<b class="poem-title">The Storm Before The Rain Begins To
-							Fall</b><br><!--The first and third stanza were composed on 2025/03/13; the balance of the poem was written 
+							Fall</b><br>
+						The first and third stanzas were composed on 2025/03/13; the balance of the poem was written
 
 					A dark duvet enfolding Mother Earth<br>
 					A slate gray hammer of colossal weight<br>
@@ -411,8 +403,8 @@
 
 				</div>
 
-				<h2 onclick="toggleVisibility('free verse')">Free Verse</h2>
-				<div id="free verse" style="display:none;">
+				<h2 class="poetry-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="free-verse">Free Verse</h2>
+				<div id="free-verse" style="display:none;">
 					<div class="poem">
 						<b class="poem-title">Friendship</b><br>
 						A friendship is&mdash;<br>
@@ -453,11 +445,11 @@
 
 				</div>
 
-				<h2 onclick="toggleVisibility('miscellaneous')">Miscellaneous</h2>
+				<h2 class="poetry-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="miscellaneous">Miscellaneous</h2>
 				<div id="miscellaneous" style="display:none;">
 					<!--<div class="poem">
 							<b class="poem-title">Mara's Psalm</b><br>
-							<!--A psalm by Mara, Galtrin's twin sister, written the evening after he left the Tivan Monastery on a pilgrimage out into the world
+							A psalm by Mara, Galtrin's twin sister, written the evening after he left the Tivan Monastery on a pilgrimage out into the world.
 						</div>
 						<br><br>-->
 
@@ -479,7 +471,7 @@
 
 					<!--<div class="poem">
 							<b class="poem-title">Mara's Psalm</b><br>
-							<!--A psalm by Mara, Galtrin's twin sister, written the evening after he left the Tivan Monastery on a pilgrimage out into the world
+							A psalm by Mara, Galtrin's twin sister, written the evening after he left the Tivan Monastery on a pilgrimage out into the world.
 						</div>
 						<br><br>-->
 
@@ -503,7 +495,7 @@
 		</div>
 
 		<!-- Footer -->
-		<footer id="footer" class="row" role="contentinfo">
+		<footer id="footer" class="row">
 			<div class="col c12 aligncenter">
 				<h3>&copy; 2025 Grant Molnar</h3>
 				<p>
@@ -515,14 +507,24 @@
 
 	</div>
 
-	<!-- Accessible toggle behavior -->
 	<script>
-		document.querySelectorAll('.toggle').forEach(btn => {
-			const target = document.getElementById(btn.getAttribute('aria-controls'));
-			btn.addEventListener('click', () => {
-				const expanded = btn.getAttribute('aria-expanded') === 'true';
-				btn.setAttribute('aria-expanded', String(!expanded));
-				if (target) target.hidden = expanded;
+		document.querySelectorAll('.poetry-toggle').forEach((heading) => {
+			const target = document.getElementById(heading.getAttribute('aria-controls'));
+
+			function toggleSection() {
+				if (!target) return;
+
+				const willExpand = target.style.display === 'none';
+				target.style.display = willExpand ? 'block' : 'none';
+				heading.setAttribute('aria-expanded', String(willExpand));
+			}
+
+			heading.addEventListener('click', toggleSection);
+			heading.addEventListener('keydown', (event) => {
+				if (event.key === 'Enter' || event.key === ' ') {
+					event.preventDefault();
+					toggleSection();
+				}
 			});
 		});
 	</script>
