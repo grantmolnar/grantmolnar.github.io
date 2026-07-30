@@ -1,0 +1,2829 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-bell-beneath-harrowgate",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "session_started",
+      "session_number": 1,
+      "title": "Two Ways Down",
+      "played_on": null,
+      "participants": [
+        "Dema Harl",
+        "Sister Calve Norn",
+        "Ilyra Vey",
+        "Torren Pike",
+        "Miren Glass"
+      ],
+      "attendance_note": "",
+      "opening_note": "The Open Chain accepts a temporary descent commission, divides between the processional stair and quarry cleft, and agrees that rescue, route preparation, and evidence custody must all remain visible."
+    },
+    {
+      "sequence": 2,
+      "operation_number": 2,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "cracked-chapterhouse",
+      "party_label": "All five members of the Open Chain"
+    },
+    {
+      "sequence": 3,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "chapterhouse-survey-hall-of-bent-knees",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "chapterhouse-survey-ropeworks-of-three-burdens",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "chapterhouse-survey-chain-scriptorium",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "chapterhouse-survey-the-toll-is-a-pressure-release-not-a-summons",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "chapterhouse-survey-harrowgate-can-survive-a-controlled-collapse-only-if-the-quarry-vents-open",
+      "visit_number": 1
+    },
+    {
+      "sequence": 8,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "chapterhouse-emergency-authority-gaps",
+      "visit_number": 1
+    },
+    {
+      "sequence": 9,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "chapterhouse-buried-trust-debt",
+      "visit_number": 1
+    },
+    {
+      "sequence": 10,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "chapterhouse-evacuation-lines",
+      "visit_number": 1
+    },
+    {
+      "sequence": 11,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Miren reads the commission aloud and adds that no emergency authority renews itself. Dema marks the three surface districts above the old quarry vents."
+    },
+    {
+      "sequence": 12,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "The party divides for the two entrances but agrees to regroup before any irreversible transfer of water, memory, or load."
+    },
+    {
+      "sequence": 13,
+      "operation_number": 3,
+      "type": "revelation_established",
+      "revelation_id": "the-hall-answers-to-any-petitioner-who-pays-its-toll",
+      "supporting_clue_ids": [
+        "chapterhouse-survey-hall-of-bent-knees"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 14,
+      "operation_number": 3,
+      "type": "encounter_unlocked",
+      "encounter_id": "hall-of-bent-knees",
+      "source_revelation_id": "the-hall-answers-to-any-petitioner-who-pays-its-toll",
+      "reason": ""
+    },
+    {
+      "sequence": 15,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "the-ropeworks-can-be-entered-above-or-below",
+      "supporting_clue_ids": [
+        "chapterhouse-survey-ropeworks-of-three-burdens"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "ropeworks-of-three-burdens",
+      "source_revelation_id": "the-ropeworks-can-be-entered-above-or-below",
+      "reason": ""
+    },
+    {
+      "sequence": 17,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "the-chain-plates-preserve-a-map-of-the-buried-house",
+      "supporting_clue_ids": [
+        "chapterhouse-survey-chain-scriptorium"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 18,
+      "operation_number": 5,
+      "type": "encounter_unlocked",
+      "encounter_id": "chain-scriptorium",
+      "source_revelation_id": "the-chain-plates-preserve-a-map-of-the-buried-house",
+      "reason": ""
+    },
+    {
+      "sequence": 19,
+      "operation_number": 6,
+      "type": "revelation_established",
+      "revelation_id": "the-toll-is-a-pressure-release-not-a-summons",
+      "supporting_clue_ids": [
+        "chapterhouse-survey-the-toll-is-a-pressure-release-not-a-summons"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 20,
+      "operation_number": 7,
+      "type": "revelation_established",
+      "revelation_id": "harrowgate-can-survive-a-controlled-collapse-only-if-the-quarry-vents-open",
+      "supporting_clue_ids": [
+        "chapterhouse-survey-harrowgate-can-survive-a-controlled-collapse-only-if-the-quarry-vents-open"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 21,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "the-low-choir-compact-needs-witness-passage-provision-maintenance-limits-and-remedy",
+      "supporting_clue_ids": [
+        "chapterhouse-emergency-authority-gaps"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 22,
+      "operation_number": 9,
+      "type": "revelation_established",
+      "revelation_id": "the-royal-treasury-is-also-the-bells-maintenance-trust",
+      "supporting_clue_ids": [
+        "chapterhouse-buried-trust-debt"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 23,
+      "operation_number": 10,
+      "type": "revelation_established",
+      "revelation_id": "safe-quarry-venting-needs-open-mouths-prepared-roots-and-staged-release",
+      "supporting_clue_ids": [
+        "chapterhouse-evacuation-lines"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 24,
+      "operation_number": 11,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "cracked-chapterhouse",
+      "text": "The descent commission is bounded to the present emergency and cannot renew itself without public review."
+    },
+    {
+      "sequence": 25,
+      "operation_number": 12,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "quarry-cleft",
+      "party_label": "Dema and Torren scouting the quarry descent"
+    },
+    {
+      "sequence": 26,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-service-marks-hall-of-bent-knees",
+      "visit_number": 2
+    },
+    {
+      "sequence": 27,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-service-marks-ropeworks-of-three-burdens",
+      "visit_number": 2
+    },
+    {
+      "sequence": 28,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-service-marks-lantern-cistern",
+      "visit_number": 2
+    },
+    {
+      "sequence": 29,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-service-marks-garden-of-teeth",
+      "visit_number": 2
+    },
+    {
+      "sequence": 30,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-service-marks-menagerie-of-quiet-beasts",
+      "visit_number": 2
+    },
+    {
+      "sequence": 31,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-service-marks-the-ember-company-cut-the-queen-s-chain-and-split-itself",
+      "visit_number": 2
+    },
+    {
+      "sequence": 32,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-service-marks-harrowgate-can-survive-a-controlled-collapse-only-if-the-quarry-vents-open",
+      "visit_number": 2
+    },
+    {
+      "sequence": 33,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-sacrificial-vent-survey",
+      "visit_number": 2
+    },
+    {
+      "sequence": 34,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-hunter-lure-and-retreat-pattern",
+      "visit_number": 2
+    },
+    {
+      "sequence": 35,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "quarry-buried-vent-mouths",
+      "visit_number": 2
+    },
+    {
+      "sequence": 36,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Dema and Torren divert the lamp hunter with a cold hooded light rather than kill it, then rescue stranded porter Gannet Sol from the cage ledge."
+    },
+    {
+      "sequence": 37,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "The northern and western vent mouths are physically open below; the hospital vent remains blocked by occupied foundations above."
+    },
+    {
+      "sequence": 38,
+      "operation_number": 13,
+      "type": "revelation_established",
+      "revelation_id": "the-lantern-cistern-still-feeds-the-ward-lamps",
+      "supporting_clue_ids": [
+        "quarry-service-marks-lantern-cistern"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 39,
+      "operation_number": 13,
+      "type": "encounter_unlocked",
+      "encounter_id": "lantern-cistern",
+      "source_revelation_id": "the-lantern-cistern-still-feeds-the-ward-lamps",
+      "reason": ""
+    },
+    {
+      "sequence": 40,
+      "operation_number": 14,
+      "type": "revelation_established",
+      "revelation_id": "the-garden-roots-mark-a-dry-passage-through-the-ossuary",
+      "supporting_clue_ids": [
+        "quarry-service-marks-garden-of-teeth"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 41,
+      "operation_number": 14,
+      "type": "encounter_unlocked",
+      "encounter_id": "garden-of-teeth",
+      "source_revelation_id": "the-garden-roots-mark-a-dry-passage-through-the-ossuary",
+      "reason": ""
+    },
+    {
+      "sequence": 42,
+      "operation_number": 15,
+      "type": "revelation_established",
+      "revelation_id": "the-quiet-menagerie-opens-behind-the-quarry-cages",
+      "supporting_clue_ids": [
+        "quarry-service-marks-menagerie-of-quiet-beasts"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 43,
+      "operation_number": 15,
+      "type": "encounter_unlocked",
+      "encounter_id": "menagerie-of-quiet-beasts",
+      "source_revelation_id": "the-quiet-menagerie-opens-behind-the-quarry-cages",
+      "reason": ""
+    },
+    {
+      "sequence": 44,
+      "operation_number": 16,
+      "type": "revelation_established",
+      "revelation_id": "the-ember-company-cut-the-queens-chain-and-split-itself",
+      "supporting_clue_ids": [
+        "quarry-service-marks-the-ember-company-cut-the-queen-s-chain-and-split-itself"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 45,
+      "operation_number": 17,
+      "type": "revelation_established",
+      "revelation_id": "the-root-sluices-can-save-harrowgate-by-spending-the-garden",
+      "supporting_clue_ids": [
+        "quarry-sacrificial-vent-survey"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 46,
+      "operation_number": 18,
+      "type": "revelation_established",
+      "revelation_id": "quiet-beasts-require-an-appetite-a-boundary-and-a-return",
+      "supporting_clue_ids": [
+        "quarry-hunter-lure-and-retreat-pattern"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 47,
+      "operation_number": 19,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "quarry-cleft",
+      "text": "Gannet Sol is rescued; the lamp hunter survives in a marked refuge; two lower vent mouths are confirmed usable."
+    },
+    {
+      "sequence": 48,
+      "operation_number": 20,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "hall-of-bent-knees",
+      "party_label": "Calve, Ilyra, and Miren on the processional stair"
+    },
+    {
+      "sequence": 49,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "petition-plate-ropeworks-of-three-burdens",
+      "visit_number": 3
+    },
+    {
+      "sequence": 50,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "petition-plate-chain-scriptorium",
+      "visit_number": 3
+    },
+    {
+      "sequence": 51,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "petition-plate-salt-barracks",
+      "visit_number": 3
+    },
+    {
+      "sequence": 52,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "petition-plate-garden-of-teeth",
+      "visit_number": 3
+    },
+    {
+      "sequence": 53,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "petition-plate-the-dungeon-is-governed-by-water-light-and-burden",
+      "visit_number": 3
+    },
+    {
+      "sequence": 54,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "petition-plate-the-salt-wardens-disagree-whether-duty-requires-repair-or-release",
+      "visit_number": 3
+    },
+    {
+      "sequence": 55,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "hall-emergency-marshal-petition",
+      "visit_number": 3
+    },
+    {
+      "sequence": 56,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "hall-final-weight-sacrifice-ruling",
+      "visit_number": 3
+    },
+    {
+      "sequence": 57,
+      "operation_number": 20,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "The petition scale accepts volunteered equipment and a written public purpose. The bronze examiner rejects Ilyra’s Vey seal as sufficient royal authority."
+    },
+    {
+      "sequence": 58,
+      "operation_number": 20,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Calve prevents the burden-bearers from pinning a petitioner whose inherited oath is not her own."
+    },
+    {
+      "sequence": 59,
+      "operation_number": 21,
+      "type": "clue_missed",
+      "clue_id": "petition-plate-lantern-cistern",
+      "visit_number": 3
+    },
+    {
+      "sequence": 60,
+      "operation_number": 22,
+      "type": "revelation_established",
+      "revelation_id": "the-salt-barracks-keeps-an-intact-inner-gate",
+      "supporting_clue_ids": [
+        "petition-plate-salt-barracks"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 61,
+      "operation_number": 22,
+      "type": "encounter_unlocked",
+      "encounter_id": "salt-barracks",
+      "source_revelation_id": "the-salt-barracks-keeps-an-intact-inner-gate",
+      "reason": ""
+    },
+    {
+      "sequence": 62,
+      "operation_number": 23,
+      "type": "revelation_established",
+      "revelation_id": "the-dungeon-is-governed-by-water-light-and-burden",
+      "supporting_clue_ids": [
+        "petition-plate-the-dungeon-is-governed-by-water-light-and-burden"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 63,
+      "operation_number": 24,
+      "type": "revelation_established",
+      "revelation_id": "the-salt-wardens-disagree-whether-duty-requires-repair-or-release",
+      "supporting_clue_ids": [
+        "petition-plate-the-salt-wardens-disagree-whether-duty-requires-repair-or-release"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 64,
+      "operation_number": 25,
+      "type": "revelation_established",
+      "revelation_id": "warden-command-requires-a-claim-a-muster-and-an-accepted-duty",
+      "supporting_clue_ids": [
+        "hall-emergency-marshal-petition"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 65,
+      "operation_number": 26,
+      "type": "revelation_established",
+      "revelation_id": "dropping-a-well-buys-time-by-making-one-loss-permanent",
+      "supporting_clue_ids": [
+        "hall-final-weight-sacrifice-ruling"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 66,
+      "operation_number": 27,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "hall-of-bent-knees",
+      "text": "The Hall recognizes the Open Chain as petitioners but recognizes no royal claimant as sole master."
+    },
+    {
+      "sequence": 67,
+      "operation_number": 28,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "ropeworks-of-three-burdens",
+      "party_label": "The reunited Open Chain"
+    },
+    {
+      "sequence": 68,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-load-tally-chain-scriptorium",
+      "visit_number": 4
+    },
+    {
+      "sequence": 69,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-load-tally-lantern-cistern",
+      "visit_number": 4
+    },
+    {
+      "sequence": 70,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-load-tally-reliquary-under-water",
+      "visit_number": 4
+    },
+    {
+      "sequence": 71,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-load-tally-salt-barracks",
+      "visit_number": 4
+    },
+    {
+      "sequence": 72,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-load-tally-counterweight-wells",
+      "visit_number": 4
+    },
+    {
+      "sequence": 73,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-load-tally-the-ember-company-cut-the-queen-s-chain-and-split-itself",
+      "visit_number": 4
+    },
+    {
+      "sequence": 74,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-load-tally-the-bell-can-be-stabilized-silenced-claimed-or-destroyed",
+      "visit_number": 4
+    },
+    {
+      "sequence": 75,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-saint-manifold-tally",
+      "visit_number": 4
+    },
+    {
+      "sequence": 76,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-muster-load-lines",
+      "visit_number": 4
+    },
+    {
+      "sequence": 77,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-last-teeth-control-line",
+      "visit_number": 4
+    },
+    {
+      "sequence": 78,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-chapel-synchronizing-line",
+      "visit_number": 4
+    },
+    {
+      "sequence": 79,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-load-path-before-weight",
+      "visit_number": 4
+    },
+    {
+      "sequence": 80,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-quarter-cycle-tally",
+      "visit_number": 4
+    },
+    {
+      "sequence": 81,
+      "operation_number": 28,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The party braces the Crown Drum, slows the Water Drum, and refuses to stop the Memory Drum until the consequences for the Low Choir are understood."
+    },
+    {
+      "sequence": 82,
+      "operation_number": 28,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Torren identifies Captain Maelin Rook’s counter-order in the surviving Company knots."
+    },
+    {
+      "sequence": 83,
+      "operation_number": 29,
+      "type": "revelation_established",
+      "revelation_id": "the-drowned-reliquary-opens-when-its-upper-bells-breathe",
+      "supporting_clue_ids": [
+        "ropeworks-load-tally-reliquary-under-water"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 84,
+      "operation_number": 29,
+      "type": "encounter_unlocked",
+      "encounter_id": "reliquary-under-water",
+      "source_revelation_id": "the-drowned-reliquary-opens-when-its-upper-bells-breathe",
+      "reason": ""
+    },
+    {
+      "sequence": 85,
+      "operation_number": 30,
+      "type": "revelation_established",
+      "revelation_id": "the-counterweight-wells-can-be-reached-without-the-royal-lift",
+      "supporting_clue_ids": [
+        "ropeworks-load-tally-counterweight-wells"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 86,
+      "operation_number": 30,
+      "type": "encounter_unlocked",
+      "encounter_id": "counterweight-wells",
+      "source_revelation_id": "the-counterweight-wells-can-be-reached-without-the-royal-lift",
+      "reason": ""
+    },
+    {
+      "sequence": 87,
+      "operation_number": 31,
+      "type": "revelation_established",
+      "revelation_id": "the-bell-can-be-stabilized-silenced-claimed-or-destroyed",
+      "supporting_clue_ids": [
+        "ropeworks-load-tally-the-bell-can-be-stabilized-silenced-claimed-or-destroyed"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 88,
+      "operation_number": 32,
+      "type": "revelation_established",
+      "revelation_id": "the-reliquarys-copper-saints-can-hold-breath-and-move-water",
+      "supporting_clue_ids": [
+        "ropeworks-saint-manifold-tally"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 89,
+      "operation_number": 33,
+      "type": "revelation_established",
+      "revelation_id": "four-pivot-brakes-and-the-wells-counterchain-control-the-chapel",
+      "supporting_clue_ids": [
+        "ropeworks-chapel-synchronizing-line"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 90,
+      "operation_number": 34,
+      "type": "revelation_established",
+      "revelation_id": "the-wells-balance-mass-load-path-and-timing-separately",
+      "supporting_clue_ids": [
+        "ropeworks-load-path-before-weight"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 91,
+      "operation_number": 35,
+      "type": "revelation_established",
+      "revelation_id": "the-deep-bell-moves-through-breath-load-crown-descent-and-sounding",
+      "supporting_clue_ids": [
+        "ropeworks-quarter-cycle-tally"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 92,
+      "operation_number": 36,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "ropeworks-of-three-burdens",
+      "text": "The Crown Drum is braced and the Water Drum slowed; the Memory Drum remains operating under protest."
+    },
+    {
+      "sequence": 93,
+      "operation_number": 37,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "chain-scriptorium",
+      "party_label": "The reunited Open Chain with rescued upper porters"
+    },
+    {
+      "sequence": 94,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "hanging-concordance-hall-of-bent-knees",
+      "visit_number": 5
+    },
+    {
+      "sequence": 95,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "hanging-concordance-ropeworks-of-three-burdens",
+      "visit_number": 5
+    },
+    {
+      "sequence": 96,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "hanging-concordance-salt-barracks",
+      "visit_number": 5
+    },
+    {
+      "sequence": 97,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "hanging-concordance-feast-of-empty-chairs",
+      "visit_number": 5
+    },
+    {
+      "sequence": 98,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "hanging-concordance-inverted-chapel",
+      "visit_number": 5
+    },
+    {
+      "sequence": 99,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "hanging-concordance-king-s-narrow-grave",
+      "visit_number": 5
+    },
+    {
+      "sequence": 100,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "hanging-concordance-the-dungeon-is-governed-by-water-light-and-burden",
+      "visit_number": 5
+    },
+    {
+      "sequence": 101,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "hanging-concordance-every-toll-steals-memory-from-the-low-choir",
+      "visit_number": 5
+    },
+    {
+      "sequence": 102,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "hanging-concordance-the-crown-can-be-replaced-without-restoring-avarra-s-sentence",
+      "visit_number": 5
+    },
+    {
+      "sequence": 103,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-lamplighter-condemnation",
+      "visit_number": 5
+    },
+    {
+      "sequence": 104,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-rejection-of-common-measure",
+      "visit_number": 5
+    },
+    {
+      "sequence": 105,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-tablet-transfer-precedents",
+      "visit_number": 5
+    },
+    {
+      "sequence": 106,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-inheritance-limitation-plate",
+      "visit_number": 5
+    },
+    {
+      "sequence": 107,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-chapel-brake-concordance",
+      "visit_number": 5
+    },
+    {
+      "sequence": 108,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-living-tool-liability-chain",
+      "visit_number": 5
+    },
+    {
+      "sequence": 109,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-genealogy-concordance",
+      "visit_number": 5
+    },
+    {
+      "sequence": 110,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-no-rehoisting-covenant",
+      "visit_number": 5
+    },
+    {
+      "sequence": 111,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-limited-command-precedents",
+      "visit_number": 5
+    },
+    {
+      "sequence": 112,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "scriptorium-avarra-dismemberment-order",
+      "visit_number": 5
+    },
+    {
+      "sequence": 113,
+      "operation_number": 37,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "The buried-house map is copied without removing load-bearing plates. Ilyra seals the genealogy chains as evidence rather than treasure."
+    },
+    {
+      "sequence": 114,
+      "operation_number": 37,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "The party learns that custody, maintenance authority, and release limits were deliberately recorded in different chains."
+    },
+    {
+      "sequence": 115,
+      "operation_number": 38,
+      "type": "clue_missed",
+      "clue_id": "hanging-concordance-reliquary-under-water",
+      "visit_number": 5
+    },
+    {
+      "sequence": 116,
+      "operation_number": 39,
+      "type": "revelation_established",
+      "revelation_id": "the-feast-hall-shelters-the-low-choir",
+      "supporting_clue_ids": [
+        "hanging-concordance-feast-of-empty-chairs"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 117,
+      "operation_number": 39,
+      "type": "encounter_unlocked",
+      "encounter_id": "feast-of-empty-chairs",
+      "source_revelation_id": "the-feast-hall-shelters-the-low-choir",
+      "reason": ""
+    },
+    {
+      "sequence": 118,
+      "operation_number": 40,
+      "type": "revelation_established",
+      "revelation_id": "the-inverted-chapel-hangs-beneath-the-old-nave",
+      "supporting_clue_ids": [
+        "hanging-concordance-inverted-chapel"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 119,
+      "operation_number": 40,
+      "type": "encounter_unlocked",
+      "encounter_id": "inverted-chapel",
+      "source_revelation_id": "the-inverted-chapel-hangs-beneath-the-old-nave",
+      "reason": ""
+    },
+    {
+      "sequence": 120,
+      "operation_number": 41,
+      "type": "revelation_established",
+      "revelation_id": "the-kings-narrow-grave-lies-behind-the-chained-genealogy",
+      "supporting_clue_ids": [
+        "hanging-concordance-king-s-narrow-grave"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 121,
+      "operation_number": 41,
+      "type": "encounter_unlocked",
+      "encounter_id": "kings-narrow-grave",
+      "source_revelation_id": "the-kings-narrow-grave-lies-behind-the-chained-genealogy",
+      "reason": ""
+    },
+    {
+      "sequence": 122,
+      "operation_number": 42,
+      "type": "revelation_established",
+      "revelation_id": "every-toll-steals-memory-from-the-low-choir",
+      "supporting_clue_ids": [
+        "hanging-concordance-every-toll-steals-memory-from-the-low-choir"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 123,
+      "operation_number": 43,
+      "type": "revelation_established",
+      "revelation_id": "the-crown-can-be-replaced-without-restoring-avarras-sentence",
+      "supporting_clue_ids": [
+        "hanging-concordance-the-crown-can-be-replaced-without-restoring-avarra-s-sentence"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 124,
+      "operation_number": 44,
+      "type": "revelation_established",
+      "revelation_id": "ward-light-is-both-a-fence-and-a-memory-channel",
+      "supporting_clue_ids": [
+        "scriptorium-lamplighter-condemnation"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 125,
+      "operation_number": 45,
+      "type": "revelation_established",
+      "revelation_id": "a-civic-burden-needs-voluntary-weights-and-an-accepted-frame",
+      "supporting_clue_ids": [
+        "scriptorium-rejection-of-common-measure"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 126,
+      "operation_number": 46,
+      "type": "revelation_established",
+      "revelation_id": "a-warden-continues-through-shell-tablet-and-witness",
+      "supporting_clue_ids": [
+        "scriptorium-tablet-transfer-precedents"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 127,
+      "operation_number": 47,
+      "type": "revelation_established",
+      "revelation_id": "an-inherited-name-carries-chosen-duty-not-ownership-of-its-bearer",
+      "supporting_clue_ids": [
+        "scriptorium-inheritance-limitation-plate"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 128,
+      "operation_number": 48,
+      "type": "revelation_established",
+      "revelation_id": "every-quiet-beast-removes-one-excess-and-creates-another-risk",
+      "supporting_clue_ids": [
+        "scriptorium-living-tool-liability-chain"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 129,
+      "operation_number": 49,
+      "type": "revelation_established",
+      "revelation_id": "the-three-genealogies-divide-custody-maintenance-and-release",
+      "supporting_clue_ids": [
+        "scriptorium-genealogy-concordance"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 130,
+      "operation_number": 50,
+      "type": "revelation_established",
+      "revelation_id": "iron-tongue-commands-need-a-source-an-address-and-a-limit",
+      "supporting_clue_ids": [
+        "scriptorium-limited-command-precedents"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 131,
+      "operation_number": 51,
+      "type": "revelation_established",
+      "revelation_id": "avarras-will-survives-as-measure-refusal-and-witness",
+      "supporting_clue_ids": [
+        "scriptorium-avarra-dismemberment-order"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 132,
+      "operation_number": 52,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "chain-scriptorium",
+      "text": "The buried-house map and three genealogy jurisdictions are copied; no structural plate is removed."
+    },
+    {
+      "sequence": 133,
+      "operation_number": 53,
+      "type": "session_ended",
+      "session_number": 1,
+      "closing_note": "The upper machine is mapped, the Ropeworks is braced, the Scriptorium is preserved, and routes to water, Wardens, roots, Chapel, Grave, and Wells are known."
+    },
+    {
+      "sequence": 134,
+      "operation_number": 54,
+      "type": "session_started",
+      "session_number": 2,
+      "title": "Water That Remembers",
+      "played_on": null,
+      "participants": [
+        "Dema Harl",
+        "Sister Calve Norn",
+        "Ilyra Vey",
+        "Torren Pike",
+        "Miren Glass"
+      ],
+      "attendance_note": "",
+      "opening_note": "The party descends for Lamplighter Senn, Tavia Hest, Rhea Colm, and the Common Measure before the next pulse makes rescue impossible."
+    },
+    {
+      "sequence": 135,
+      "operation_number": 55,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "lantern-cistern",
+      "party_label": "The Open Chain with a Ropeworks safety line"
+    },
+    {
+      "sequence": 136,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lamplighter-service-line-reliquary-under-water",
+      "visit_number": 6
+    },
+    {
+      "sequence": 137,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lamplighter-service-line-garden-of-teeth",
+      "visit_number": 6
+    },
+    {
+      "sequence": 138,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lamplighter-service-line-black-rain-cistern",
+      "visit_number": 6
+    },
+    {
+      "sequence": 139,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lamplighter-service-line-the-dungeon-is-governed-by-water-light-and-burden",
+      "visit_number": 6
+    },
+    {
+      "sequence": 140,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lamplighter-service-line-every-toll-steals-memory-from-the-low-choir",
+      "visit_number": 6
+    },
+    {
+      "sequence": 141,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lantern-mourning-bell-line",
+      "visit_number": 6
+    },
+    {
+      "sequence": 142,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lantern-filter-return-account",
+      "visit_number": 6
+    },
+    {
+      "sequence": 143,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lantern-cistern-memory-decanting-marks",
+      "visit_number": 6
+    },
+    {
+      "sequence": 144,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lantern-cinderback-ward-warning",
+      "visit_number": 6
+    },
+    {
+      "sequence": 145,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "lantern-unclaimed-memory-drift",
+      "visit_number": 6
+    },
+    {
+      "sequence": 146,
+      "operation_number": 55,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Processional and Mourning boughs are kept lit, Ossuary is dimmed, and Deep remains at half strength. Two portable oil measures remain uncommitted."
+    },
+    {
+      "sequence": 147,
+      "operation_number": 55,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Tavia Hest and Lamplighter Senn are brought into the expedition; released memories confirm the second Company contract schedule."
+    },
+    {
+      "sequence": 148,
+      "operation_number": 56,
+      "type": "revelation_established",
+      "revelation_id": "the-black-rain-cistern-touches-the-mountain-fault",
+      "supporting_clue_ids": [
+        "lamplighter-service-line-black-rain-cistern"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 149,
+      "operation_number": 56,
+      "type": "encounter_unlocked",
+      "encounter_id": "black-rain-cistern",
+      "source_revelation_id": "the-black-rain-cistern-touches-the-mountain-fault",
+      "reason": ""
+    },
+    {
+      "sequence": 150,
+      "operation_number": 57,
+      "type": "revelation_established",
+      "revelation_id": "the-garden-makes-food-clean-water-and-memory-from-the-dead",
+      "supporting_clue_ids": [
+        "lantern-filter-return-account"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 151,
+      "operation_number": 58,
+      "type": "revelation_established",
+      "revelation_id": "memory-cups-preserve-witnessed-recall-but-require-a-willing-carrier",
+      "supporting_clue_ids": [
+        "lantern-cistern-memory-decanting-marks"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 152,
+      "operation_number": 59,
+      "type": "revelation_established",
+      "revelation_id": "memory-restoration-needs-an-identified-memory-a-recipient-and-recognition",
+      "supporting_clue_ids": [
+        "lantern-unclaimed-memory-drift"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 153,
+      "operation_number": 60,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "lantern-cistern",
+      "text": "Selective ward-light is established; Tavia Hest and Lamplighter Senn join the rescue column."
+    },
+    {
+      "sequence": 154,
+      "operation_number": 61,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "reliquary-under-water",
+      "party_label": "The Open Chain, Lamplighter Senn, and Tavia Hest"
+    },
+    {
+      "sequence": 155,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-salvage-mark-inverted-chapel",
+      "visit_number": 7
+    },
+    {
+      "sequence": 156,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-salvage-mark-king-s-narrow-grave",
+      "visit_number": 7
+    },
+    {
+      "sequence": 157,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-salvage-mark-the-crown-can-be-replaced-without-restoring-avarra-s-sentence",
+      "visit_number": 7
+    },
+    {
+      "sequence": 158,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-six-saint-manifold",
+      "visit_number": 7
+    },
+    {
+      "sequence": 159,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-pallbearer-recognition-record",
+      "visit_number": 7
+    },
+    {
+      "sequence": 160,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-gray-water-service-mark",
+      "visit_number": 7
+    },
+    {
+      "sequence": 161,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-common-measure-six-weight-sockets",
+      "visit_number": 7
+    },
+    {
+      "sequence": 162,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-breath-brake-water-clutch",
+      "visit_number": 7
+    },
+    {
+      "sequence": 163,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-yoke-four-response-marks",
+      "visit_number": 7
+    },
+    {
+      "sequence": 164,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-water-mass-out-of-phase",
+      "visit_number": 7
+    },
+    {
+      "sequence": 165,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-returning-breath-recognition",
+      "visit_number": 7
+    },
+    {
+      "sequence": 166,
+      "operation_number": 61,
+      "type": "clue_spotted",
+      "clue_id": "reliquary-black-return-cost",
+      "visit_number": 7
+    },
+    {
+      "sequence": 167,
+      "operation_number": 61,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Returning Breath is primed, Rhea Colm is rescued, and the Kneeling Saint is held halfway to stabilize middle water."
+    },
+    {
+      "sequence": 168,
+      "operation_number": 61,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The party recovers the Pilgrim’s Yoke, Common Measure components, emergency seals, and Corven Braid’s drowned contract satchel."
+    },
+    {
+      "sequence": 169,
+      "operation_number": 62,
+      "type": "clue_missed",
+      "clue_id": "reliquary-salvage-mark-black-rain-cistern",
+      "visit_number": 7
+    },
+    {
+      "sequence": 170,
+      "operation_number": 63,
+      "type": "revelation_established",
+      "revelation_id": "chapel-acceptance-requires-authority-consent-duration-and-remedy",
+      "supporting_clue_ids": [
+        "reliquary-yoke-four-response-marks"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 171,
+      "operation_number": 64,
+      "type": "revelation_established",
+      "revelation_id": "black-rain-pressure-can-be-routed-delayed-or-divided-but-not-erased",
+      "supporting_clue_ids": [
+        "reliquary-black-return-cost"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 172,
+      "operation_number": 65,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "reliquary-under-water",
+      "text": "Rhea Colm is rescued; middle water is stable; the Common Measure and Pilgrim’s Yoke are recovered."
+    },
+    {
+      "sequence": 173,
+      "operation_number": 66,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "ropeworks-of-three-burdens",
+      "party_label": "Dema, Torren, and Rhea Colm returning by the water line"
+    },
+    {
+      "sequence": 174,
+      "operation_number": 66,
+      "type": "clue_spotted",
+      "clue_id": "ropeworks-load-tally-the-dungeon-is-governed-by-water-light-and-burden",
+      "visit_number": 8
+    },
+    {
+      "sequence": 175,
+      "operation_number": 66,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Dema uses the Reliquary return to rebalance the Water Drum. The lower line now carries a predictable pulse instead of alternating surge and vacuum."
+    },
+    {
+      "sequence": 176,
+      "operation_number": 67,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "ropeworks-of-three-burdens",
+      "text": "The Water Drum now receives a predictable middle-water return from the Reliquary."
+    },
+    {
+      "sequence": 177,
+      "operation_number": 68,
+      "type": "session_ended",
+      "session_number": 2,
+      "closing_note": "Selective light is established, Rhea and Tavia are alive, the Reliquary rests at middle water, and the Water Drum has been rebalanced after a deliberate return to the Ropeworks."
+    },
+    {
+      "sequence": 178,
+      "operation_number": 69,
+      "type": "session_started",
+      "session_number": 3,
+      "title": "The Salt Muster",
+      "played_on": null,
+      "participants": [
+        "Dema Harl",
+        "Sister Calve Norn",
+        "Ilyra Vey",
+        "Torren Pike",
+        "Miren Glass"
+      ],
+      "attendance_note": "",
+      "opening_note": "The party seeks an inner command that can supply crews without converting every Warden into a royal instrument."
+    },
+    {
+      "sequence": 179,
+      "operation_number": 70,
+      "type": "encounter_visited",
+      "visit_number": 9,
+      "encounter_id": "salt-barracks",
+      "party_label": "The Open Chain under Barracks truce"
+    },
+    {
+      "sequence": 180,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "warden-muster-route-hall-of-bent-knees",
+      "visit_number": 9
+    },
+    {
+      "sequence": 181,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "warden-muster-route-chain-scriptorium",
+      "visit_number": 9
+    },
+    {
+      "sequence": 182,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "warden-muster-route-menagerie-of-quiet-beasts",
+      "visit_number": 9
+    },
+    {
+      "sequence": 183,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "warden-muster-route-counterweight-wells",
+      "visit_number": 9
+    },
+    {
+      "sequence": 184,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "warden-muster-route-choir-of-iron-tongues",
+      "visit_number": 9
+    },
+    {
+      "sequence": 185,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "warden-muster-route-the-salt-wardens-disagree-whether-duty-requires-repair-or-release",
+      "visit_number": 9
+    },
+    {
+      "sequence": 186,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "barracks-threefold-continuity-demonstration",
+      "visit_number": 9
+    },
+    {
+      "sequence": 187,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "barracks-witnessed-duty-alias",
+      "visit_number": 9
+    },
+    {
+      "sequence": 188,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "barracks-command-duty-remedy-clause",
+      "visit_number": 9
+    },
+    {
+      "sequence": 189,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "barracks-three-claim-jurisdictions",
+      "visit_number": 9
+    },
+    {
+      "sequence": 190,
+      "operation_number": 70,
+      "type": "clue_spotted",
+      "clue_id": "barracks-order-without-relief",
+      "visit_number": 9
+    },
+    {
+      "sequence": 191,
+      "operation_number": 70,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "The party refuses to restore every tablet by rule. Ora Pell’s separation is treated as voluntary; Maston Grey’s as suppression of testimony."
+    },
+    {
+      "sequence": 192,
+      "operation_number": 70,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Vesra, Dalca, and Cleth each state a command claim, rank support, and testable duty before the empty chair."
+    },
+    {
+      "sequence": 193,
+      "operation_number": 71,
+      "type": "clue_missed",
+      "clue_id": "warden-muster-route-feast-of-empty-chairs",
+      "visit_number": 9
+    },
+    {
+      "sequence": 194,
+      "operation_number": 72,
+      "type": "revelation_established",
+      "revelation_id": "the-iron-tongues-command-the-bells-lesser-mechanisms",
+      "supporting_clue_ids": [
+        "warden-muster-route-choir-of-iron-tongues"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 195,
+      "operation_number": 72,
+      "type": "encounter_unlocked",
+      "encounter_id": "choir-of-iron-tongues",
+      "source_revelation_id": "the-iron-tongues-command-the-bells-lesser-mechanisms",
+      "reason": ""
+    },
+    {
+      "sequence": 196,
+      "operation_number": 73,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "salt-barracks",
+      "text": "The command dispute remains open while consent and suppressed testimony are investigated."
+    },
+    {
+      "sequence": 197,
+      "operation_number": 74,
+      "type": "encounter_visited",
+      "visit_number": 10,
+      "encounter_id": "garden-of-teeth",
+      "party_label": "The Open Chain with Edda-of-the-Warm-Stone"
+    },
+    {
+      "sequence": 198,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "root-way-memory-lantern-cistern",
+      "visit_number": 10
+    },
+    {
+      "sequence": 199,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "root-way-memory-salt-barracks",
+      "visit_number": 10
+    },
+    {
+      "sequence": 200,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "root-way-memory-menagerie-of-quiet-beasts",
+      "visit_number": 10
+    },
+    {
+      "sequence": 201,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "root-way-memory-the-salt-wardens-disagree-whether-duty-requires-repair-or-release",
+      "visit_number": 10
+    },
+    {
+      "sequence": 202,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "garden-wick-eater-migration-scars",
+      "visit_number": 10
+    },
+    {
+      "sequence": 203,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "garden-tablets-speaking-without-shells",
+      "visit_number": 10
+    },
+    {
+      "sequence": 204,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "garden-three-bed-working",
+      "visit_number": 10
+    },
+    {
+      "sequence": 205,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "garden-three-pressure-shutters",
+      "visit_number": 10
+    },
+    {
+      "sequence": 206,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "garden-name-brine-return-choice",
+      "visit_number": 10
+    },
+    {
+      "sequence": 207,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "garden-beast-transfer-lines",
+      "visit_number": 10
+    },
+    {
+      "sequence": 208,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "garden-pressure-in-the-roots",
+      "visit_number": 10
+    },
+    {
+      "sequence": 209,
+      "operation_number": 74,
+      "type": "clue_spotted",
+      "clue_id": "garden-shutters-vent-map",
+      "visit_number": 10
+    },
+    {
+      "sequence": 210,
+      "operation_number": 74,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Maston Grey’s tablet is recovered from Silver Root. The party harvests limited repair fiber and toothcaps while preserving household food output."
+    },
+    {
+      "sequence": 211,
+      "operation_number": 74,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Upper Jaw is cleared and rigged for remote opening; Widow’s Run and Last Teeth remain closed."
+    },
+    {
+      "sequence": 212,
+      "operation_number": 75,
+      "type": "clue_missed",
+      "clue_id": "root-way-memory-feast-of-empty-chairs",
+      "visit_number": 10
+    },
+    {
+      "sequence": 213,
+      "operation_number": 76,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "garden-of-teeth",
+      "text": "Upper Jaw is prepared; Maston Grey’s tablet is recovered; the principal food and filtration beds remain working."
+    },
+    {
+      "sequence": 214,
+      "operation_number": 77,
+      "type": "encounter_visited",
+      "visit_number": 11,
+      "encounter_id": "feast-of-empty-chairs",
+      "party_label": "The Open Chain among the four household tables"
+    },
+    {
+      "sequence": 215,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "low-choir-place-record-chain-scriptorium",
+      "visit_number": 11
+    },
+    {
+      "sequence": 216,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "low-choir-place-record-garden-of-teeth",
+      "visit_number": 11
+    },
+    {
+      "sequence": 217,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "low-choir-place-record-king-s-narrow-grave",
+      "visit_number": 11
+    },
+    {
+      "sequence": 218,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "low-choir-place-record-every-toll-steals-memory-from-the-low-choir",
+      "visit_number": 11
+    },
+    {
+      "sequence": 219,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "feast-household-weight-tradition",
+      "visit_number": 11
+    },
+    {
+      "sequence": 220,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "feast-toothcap-ration-ledger",
+      "visit_number": 11
+    },
+    {
+      "sequence": 221,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "feast-nara-seven-name-recital",
+      "visit_number": 11
+    },
+    {
+      "sequence": 222,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "feast-six-duty-weight-board",
+      "visit_number": 11
+    },
+    {
+      "sequence": 223,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "feast-sable-consent-account",
+      "visit_number": 11
+    },
+    {
+      "sequence": 224,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "feast-narrow-line-three-standings",
+      "visit_number": 11
+    },
+    {
+      "sequence": 225,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "feast-three-person-restoration",
+      "visit_number": 11
+    },
+    {
+      "sequence": 226,
+      "operation_number": 77,
+      "type": "visit_note_recorded",
+      "visit_number": 11,
+      "text": "Soli’s household memory is returned to willing witnesses rather than poured into a public archive."
+    },
+    {
+      "sequence": 227,
+      "operation_number": 77,
+      "type": "visit_note_recorded",
+      "visit_number": 11,
+      "text": "The four tables draft witness, passage, provision, maintenance, limit, and remedy weights without pretending to form one household."
+    },
+    {
+      "sequence": 228,
+      "operation_number": 78,
+      "type": "clue_missed",
+      "clue_id": "low-choir-place-record-inverted-chapel",
+      "visit_number": 11
+    },
+    {
+      "sequence": 229,
+      "operation_number": 79,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "feast-of-empty-chairs",
+      "text": "A six-weight Low Choir compact exists in draft and Soli’s memory is returned by consent."
+    },
+    {
+      "sequence": 230,
+      "operation_number": 80,
+      "type": "encounter_visited",
+      "visit_number": 12,
+      "encounter_id": "salt-barracks",
+      "party_label": "The Open Chain returning with tablets, names, and Low Choir witnesses"
+    },
+    {
+      "sequence": 231,
+      "operation_number": 80,
+      "type": "clue_spotted",
+      "clue_id": "warden-muster-route-feast-of-empty-chairs",
+      "visit_number": 12
+    },
+    {
+      "sequence": 232,
+      "operation_number": 80,
+      "type": "clue_spotted",
+      "clue_id": "barracks-bounded-duty-precedent",
+      "visit_number": 12
+    },
+    {
+      "sequence": 233,
+      "operation_number": 80,
+      "type": "visit_note_recorded",
+      "visit_number": 12,
+      "text": "Maston Grey is rejoined after shell, tablet, and witnesses agree. Ora Pell remains blank by choice and serves as an uncommanded route sentinel."
+    },
+    {
+      "sequence": 234,
+      "operation_number": 80,
+      "type": "visit_note_recorded",
+      "visit_number": 12,
+      "text": "Vesra and Dalca accept joint emergency command. Cleth’s ranks retain a narrow veto against opening Last Teeth without evacuation proof."
+    },
+    {
+      "sequence": 235,
+      "operation_number": 81,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "salt-barracks",
+      "text": "Vesra and Dalca hold joint bounded command; Maston Grey is restored; Ora Pell remains voluntarily unjoined."
+    },
+    {
+      "sequence": 236,
+      "operation_number": 82,
+      "type": "session_ended",
+      "session_number": 3,
+      "closing_note": "Maston Grey is restored, Ora Pell remains voluntarily unjoined, and a joint emergency command between Vesra and Dalca holds a bounded duty under Quoin’s witnessed release clause."
+    },
+    {
+      "sequence": 237,
+      "operation_number": 83,
+      "type": "session_started",
+      "session_number": 4,
+      "title": "The Hanging Judgment",
+      "played_on": null,
+      "participants": [
+        "Dema Harl",
+        "Sister Calve Norn",
+        "Ilyra Vey",
+        "Torren Pike",
+        "Miren Glass"
+      ],
+      "attendance_note": "",
+      "opening_note": "The party rotates the Chapel to rescue Merrit Dole and Elra Mott, then tests whether royal evidence can enlarge rather than replace civic consent."
+    },
+    {
+      "sequence": 238,
+      "operation_number": 84,
+      "type": "encounter_visited",
+      "visit_number": 13,
+      "encounter_id": "inverted-chapel",
+      "party_label": "The Open Chain with Warden brake crews"
+    },
+    {
+      "sequence": 239,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-execution-line-reliquary-under-water",
+      "visit_number": 13
+    },
+    {
+      "sequence": 240,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-execution-line-feast-of-empty-chairs",
+      "visit_number": 13
+    },
+    {
+      "sequence": 241,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-execution-line-counterweight-wells",
+      "visit_number": 13
+    },
+    {
+      "sequence": 242,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-execution-line-choir-of-iron-tongues",
+      "visit_number": 13
+    },
+    {
+      "sequence": 243,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-breathing-saint-liturgy",
+      "visit_number": 13
+    },
+    {
+      "sequence": 244,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-acceptance-collar-station",
+      "visit_number": 13
+    },
+    {
+      "sequence": 245,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-four-declaration-stations",
+      "visit_number": 13
+    },
+    {
+      "sequence": 246,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-maintenance-instrument-appeal",
+      "visit_number": 13
+    },
+    {
+      "sequence": 247,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-declaration-and-command-parallel",
+      "visit_number": 13
+    },
+    {
+      "sequence": 248,
+      "operation_number": 84,
+      "type": "clue_spotted",
+      "clue_id": "chapel-recognition-without-mass",
+      "visit_number": 13
+    },
+    {
+      "sequence": 249,
+      "operation_number": 84,
+      "type": "visit_note_recorded",
+      "visit_number": 13,
+      "text": "The Chapel is turned through Mourning to upright while Merrit Dole and Elra Mott are released. No execution turn is invoked."
+    },
+    {
+      "sequence": 250,
+      "operation_number": 84,
+      "type": "visit_note_recorded",
+      "visit_number": 13,
+      "text": "The Common Measure receives provisional authority, bearer consent, a one-toll duration, and a remedy, but is not consecrated as a permanent replacement."
+    },
+    {
+      "sequence": 251,
+      "operation_number": 85,
+      "type": "clue_missed",
+      "clue_id": "chapel-execution-line-menagerie-of-quiet-beasts",
+      "visit_number": 13
+    },
+    {
+      "sequence": 252,
+      "operation_number": 86,
+      "type": "revelation_established",
+      "revelation_id": "freeing-the-crown-requires-transferring-or-spending-its-load",
+      "supporting_clue_ids": [
+        "chapel-recognition-without-mass"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 253,
+      "operation_number": 87,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "inverted-chapel",
+      "text": "The Chapel stands upright; Merrit and Elra are free; the Common Measure has provisional one-operation recognition."
+    },
+    {
+      "sequence": 254,
+      "operation_number": 88,
+      "type": "encounter_visited",
+      "visit_number": 14,
+      "encounter_id": "kings-narrow-grave",
+      "party_label": "The Open Chain, Elra Mott, and two neutral Warden witnesses"
+    },
+    {
+      "sequence": 255,
+      "operation_number": 88,
+      "type": "clue_spotted",
+      "clue_id": "royal-mortuary-seal-hall-of-bent-knees",
+      "visit_number": 14
+    },
+    {
+      "sequence": 256,
+      "operation_number": 88,
+      "type": "clue_spotted",
+      "clue_id": "royal-mortuary-seal-inverted-chapel",
+      "visit_number": 14
+    },
+    {
+      "sequence": 257,
+      "operation_number": 88,
+      "type": "clue_spotted",
+      "clue_id": "royal-mortuary-seal-black-rain-cistern",
+      "visit_number": 14
+    },
+    {
+      "sequence": 258,
+      "operation_number": 88,
+      "type": "clue_spotted",
+      "clue_id": "royal-mortuary-seal-deep-bell",
+      "visit_number": 14
+    },
+    {
+      "sequence": 259,
+      "operation_number": 88,
+      "type": "clue_spotted",
+      "clue_id": "grave-three-genealogy-plates",
+      "visit_number": 14
+    },
+    {
+      "sequence": 260,
+      "operation_number": 88,
+      "type": "clue_spotted",
+      "clue_id": "grave-maintenance-trust-inventory",
+      "visit_number": 14
+    },
+    {
+      "sequence": 261,
+      "operation_number": 88,
+      "type": "clue_spotted",
+      "clue_id": "grave-crown-is-maintenance-mass",
+      "visit_number": 14
+    },
+    {
+      "sequence": 262,
+      "operation_number": 88,
+      "type": "visit_note_recorded",
+      "visit_number": 14,
+      "text": "Orren Saye is defeated and taken alive after Torren refuses to abandon him to the narrowing walls."
+    },
+    {
+      "sequence": 263,
+      "operation_number": 88,
+      "type": "visit_note_recorded",
+      "visit_number": 14,
+      "text": "Ilyra accepts Golden Branch custody without exclusive use; Dema receives the Burden Chain copy; Calve and Miren jointly witness the Ash terms."
+    },
+    {
+      "sequence": 264,
+      "operation_number": 88,
+      "type": "visit_note_recorded",
+      "visit_number": 14,
+      "text": "Four crown-bars, three splice links, the Royal Brake sequence, debt records, and remedy funds are removed. Ceremonial goods and two crown-bars remain in trust."
+    },
+    {
+      "sequence": 265,
+      "operation_number": 89,
+      "type": "clue_missed",
+      "clue_id": "royal-mortuary-seal-choir-of-iron-tongues",
+      "visit_number": 14
+    },
+    {
+      "sequence": 266,
+      "operation_number": 90,
+      "type": "revelation_established",
+      "revelation_id": "the-deep-bell-has-four-approaches-and-no-safe-floor",
+      "supporting_clue_ids": [
+        "royal-mortuary-seal-deep-bell"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 267,
+      "operation_number": 90,
+      "type": "encounter_unlocked",
+      "encounter_id": "deep-bell",
+      "source_revelation_id": "the-deep-bell-has-four-approaches-and-no-safe-floor",
+      "reason": ""
+    },
+    {
+      "sequence": 268,
+      "operation_number": 91,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "kings-narrow-grave",
+      "text": "Orren is alive in custody; the three genealogies and maintenance trust are divided among witnessed custodians."
+    },
+    {
+      "sequence": 269,
+      "operation_number": 92,
+      "type": "encounter_visited",
+      "visit_number": 15,
+      "encounter_id": "inverted-chapel",
+      "party_label": "The Open Chain returning with the Ash Witness and maintenance trust records"
+    },
+    {
+      "sequence": 270,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "chapel-execution-line-menagerie-of-quiet-beasts",
+      "visit_number": 15
+    },
+    {
+      "sequence": 271,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "chapel-execution-line-the-crown-can-be-replaced-without-restoring-avarra-s-sentence",
+      "visit_number": 15
+    },
+    {
+      "sequence": 272,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "chapel-recognition-without-balance",
+      "visit_number": 15
+    },
+    {
+      "sequence": 273,
+      "operation_number": 92,
+      "type": "visit_note_recorded",
+      "visit_number": 15,
+      "text": "The Ash Witness is added to the acceptance record. The transfer frame may govern one Crown release operation and then must be dismantled or renewed by a fresh compact."
+    },
+    {
+      "sequence": 274,
+      "operation_number": 93,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "inverted-chapel",
+      "text": "The transfer frame’s recognition now includes Avarra’s surrender limits and an automatic end after Crown release."
+    },
+    {
+      "sequence": 275,
+      "operation_number": 94,
+      "type": "session_ended",
+      "session_number": 4,
+      "closing_note": "The Common Measure is recognized only as a temporary transfer frame; Orren is held alive; the three genealogies are divided among witnessed custodians; and the Chapel records a real withdrawal and remedy clause."
+    },
+    {
+      "sequence": 276,
+      "operation_number": 95,
+      "type": "session_started",
+      "session_number": 5,
+      "title": "Gold Is Weight",
+      "played_on": null,
+      "participants": [
+        "Dema Harl",
+        "Sister Calve Norn",
+        "Ilyra Vey",
+        "Torren Pike",
+        "Miren Glass"
+      ],
+      "attendance_note": "",
+      "opening_note": "The party brings crown-bars, splice links, the Pilgrim’s Yoke, and the partially recognized Common Measure into the Wells without treating any one object as a universal solution."
+    },
+    {
+      "sequence": 277,
+      "operation_number": 96,
+      "type": "encounter_visited",
+      "visit_number": 16,
+      "encounter_id": "counterweight-wells",
+      "party_label": "The Open Chain with Maelin Rook and mixed Warden crews"
+    },
+    {
+      "sequence": 278,
+      "operation_number": 96,
+      "type": "clue_spotted",
+      "clue_id": "well-balance-inscription-choir-of-iron-tongues",
+      "visit_number": 16
+    },
+    {
+      "sequence": 279,
+      "operation_number": 96,
+      "type": "clue_spotted",
+      "clue_id": "well-balance-inscription-black-rain-cistern",
+      "visit_number": 16
+    },
+    {
+      "sequence": 280,
+      "operation_number": 96,
+      "type": "clue_spotted",
+      "clue_id": "well-balance-inscription-the-toll-is-a-pressure-release-not-a-summons",
+      "visit_number": 16
+    },
+    {
+      "sequence": 281,
+      "operation_number": 96,
+      "type": "clue_spotted",
+      "clue_id": "well-balance-inscription-the-crown-can-be-replaced-without-restoring-avarra-s-sentence",
+      "visit_number": 16
+    },
+    {
+      "sequence": 282,
+      "operation_number": 96,
+      "type": "clue_spotted",
+      "clue_id": "wells-three-measure-house-gauges",
+      "visit_number": 16
+    },
+    {
+      "sequence": 283,
+      "operation_number": 96,
+      "type": "clue_spotted",
+      "clue_id": "wells-three-drop-consequence-plates",
+      "visit_number": 16
+    },
+    {
+      "sequence": 284,
+      "operation_number": 96,
+      "type": "clue_spotted",
+      "clue_id": "wells-four-brake-windows",
+      "visit_number": 16
+    },
+    {
+      "sequence": 285,
+      "operation_number": 96,
+      "type": "clue_spotted",
+      "clue_id": "wells-crown-deficit-gauge",
+      "visit_number": 16
+    },
+    {
+      "sequence": 286,
+      "operation_number": 96,
+      "type": "visit_note_recorded",
+      "visit_number": 16,
+      "text": "Four crown-bars and the Pilgrim’s Yoke close most of the Royal deficit. The Civic path is linked to the temporary Common Measure governor."
+    },
+    {
+      "sequence": 287,
+      "operation_number": 96,
+      "type": "visit_note_recorded",
+      "visit_number": 16,
+      "text": "The Funerary path is isolated from automatic Low Choir memory draw but remains physically braced while Garden and quarry routes are prepared."
+    },
+    {
+      "sequence": 288,
+      "operation_number": 97,
+      "type": "clue_missed",
+      "clue_id": "well-balance-inscription-deep-bell",
+      "visit_number": 16
+    },
+    {
+      "sequence": 289,
+      "operation_number": 98,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "counterweight-wells",
+      "text": "Royal and Civic load paths are prepared; the Funerary path is severed from automatic mnemonic intake but not yet released from load."
+    },
+    {
+      "sequence": 290,
+      "operation_number": 99,
+      "type": "encounter_visited",
+      "visit_number": 17,
+      "encounter_id": "feast-of-empty-chairs",
+      "party_label": "Miren, Calve, Ilyra, and household delegates"
+    },
+    {
+      "sequence": 291,
+      "operation_number": 99,
+      "type": "clue_spotted",
+      "clue_id": "low-choir-place-record-inverted-chapel",
+      "visit_number": 17
+    },
+    {
+      "sequence": 292,
+      "operation_number": 99,
+      "type": "clue_spotted",
+      "clue_id": "low-choir-place-record-the-bell-can-be-stabilized-silenced-claimed-or-destroyed",
+      "visit_number": 17
+    },
+    {
+      "sequence": 293,
+      "operation_number": 99,
+      "type": "clue_spotted",
+      "clue_id": "feast-compact-witness-rehearsal",
+      "visit_number": 17
+    },
+    {
+      "sequence": 294,
+      "operation_number": 99,
+      "type": "visit_note_recorded",
+      "visit_number": 17,
+      "text": "House Vey funds provision and remedy without buying title. Low Choir households name maintainers and preserve a right to withdraw from mnemonic work."
+    },
+    {
+      "sequence": 295,
+      "operation_number": 99,
+      "type": "visit_note_recorded",
+      "visit_number": 17,
+      "text": "The compact creates a one-year maintenance term, quarterly public accounts, replacement training, and an automatic Chapel review."
+    },
+    {
+      "sequence": 296,
+      "operation_number": 100,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "feast-of-empty-chairs",
+      "text": "The compact is funded, names maintainers, permits withdrawal, and requires quarterly accounts and automatic review."
+    },
+    {
+      "sequence": 297,
+      "operation_number": 101,
+      "type": "encounter_visited",
+      "visit_number": 18,
+      "encounter_id": "counterweight-wells",
+      "party_label": "The Open Chain and named compact maintainers"
+    },
+    {
+      "sequence": 298,
+      "operation_number": 101,
+      "type": "clue_spotted",
+      "clue_id": "well-balance-inscription-deep-bell",
+      "visit_number": 18
+    },
+    {
+      "sequence": 299,
+      "operation_number": 101,
+      "type": "clue_spotted",
+      "clue_id": "wells-crown-bar-dual-use-scales",
+      "visit_number": 18
+    },
+    {
+      "sequence": 300,
+      "operation_number": 101,
+      "type": "visit_note_recorded",
+      "visit_number": 18,
+      "text": "The Royal Well is prepared to take the Crown’s initial release shock; the Civic Well will carry the temporary governor; the Funerary Well remains braced and severed from involuntary memory intake."
+    },
+    {
+      "sequence": 301,
+      "operation_number": 102,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "counterweight-wells",
+      "text": "The Funerary Well was dropped, permanently sacrificing lower memory access."
+    },
+    {
+      "sequence": 302,
+      "operation_number": 103,
+      "type": "operation_voided",
+      "target_operation_number": 102,
+      "reason": "The table initially recorded a permanent Funerary drop. The crew had severed mnemonic intake and set a brace; the Well remained physically in service."
+    },
+    {
+      "sequence": 303,
+      "operation_number": 104,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "counterweight-wells",
+      "text": "The Funerary Well remains braced and physically active while automatic Low Choir memory intake is severed; no Well was dropped."
+    },
+    {
+      "sequence": 304,
+      "operation_number": 105,
+      "type": "session_ended",
+      "session_number": 5,
+      "closing_note": "Royal, Civic, and Funerary load paths are separately prepared; the Low Choir compact supplies maintainers and remedies; and the journal corrects a false report that the Funerary Well was dropped."
+    },
+    {
+      "sequence": 305,
+      "operation_number": 106,
+      "type": "session_started",
+      "session_number": 6,
+      "title": "The Routes of Strain",
+      "played_on": null,
+      "participants": [
+        "Dema Harl",
+        "Sister Calve Norn",
+        "Ilyra Vey",
+        "Torren Pike",
+        "Miren Glass"
+      ],
+      "attendance_note": "",
+      "opening_note": "The party separates Avarra’s faculties, stages Black Rain, clears quarry vent districts, prepares the Upper Jaw, and brings the surface into the settlement before final descent."
+    },
+    {
+      "sequence": 306,
+      "operation_number": 107,
+      "type": "encounter_visited",
+      "visit_number": 19,
+      "encounter_id": "choir-of-iron-tongues",
+      "party_label": "The Open Chain with Tern-of-One-Name and Warden speakers"
+    },
+    {
+      "sequence": 307,
+      "operation_number": 107,
+      "type": "clue_spotted",
+      "clue_id": "iron-tongue-command-king-s-narrow-grave",
+      "visit_number": 19
+    },
+    {
+      "sequence": 308,
+      "operation_number": 107,
+      "type": "clue_spotted",
+      "clue_id": "iron-tongue-command-deep-bell",
+      "visit_number": 19
+    },
+    {
+      "sequence": 309,
+      "operation_number": 107,
+      "type": "clue_spotted",
+      "clue_id": "iron-tongue-command-mouth-below",
+      "visit_number": 19
+    },
+    {
+      "sequence": 310,
+      "operation_number": 107,
+      "type": "clue_spotted",
+      "clue_id": "iron-tongue-command-the-salt-wardens-disagree-whether-duty-requires-repair-or-release",
+      "visit_number": 19
+    },
+    {
+      "sequence": 311,
+      "operation_number": 107,
+      "type": "clue_spotted",
+      "clue_id": "iron-tongue-command-every-toll-steals-memory-from-the-low-choir",
+      "visit_number": 19
+    },
+    {
+      "sequence": 312,
+      "operation_number": 107,
+      "type": "clue_spotted",
+      "clue_id": "choir-dais-three-empty-sockets",
+      "visit_number": 19
+    },
+    {
+      "sequence": 313,
+      "operation_number": 107,
+      "type": "clue_spotted",
+      "clue_id": "choir-joining-rail-instructions",
+      "visit_number": 19
+    },
+    {
+      "sequence": 314,
+      "operation_number": 107,
+      "type": "clue_spotted",
+      "clue_id": "choir-preparatory-recital",
+      "visit_number": 19
+    },
+    {
+      "sequence": 315,
+      "operation_number": 107,
+      "type": "clue_spotted",
+      "clue_id": "choir-first-mouth-cadence-record",
+      "visit_number": 19
+    },
+    {
+      "sequence": 316,
+      "operation_number": 107,
+      "type": "visit_note_recorded",
+      "visit_number": 19,
+      "text": "Measure remains bound to the Crown, Refusal is copied into a portable silent tongue held by Calve, and Witness is routed into an open register held under Miren and Low Choir custody."
+    },
+    {
+      "sequence": 317,
+      "operation_number": 107,
+      "type": "visit_note_recorded",
+      "visit_number": 19,
+      "text": "Every lesser command is issued with a source, exact address, and limit. The Iron Cantor is not destroyed and cannot monopolize the command gallery."
+    },
+    {
+      "sequence": 318,
+      "operation_number": 108,
+      "type": "revelation_established",
+      "revelation_id": "the-mouth-below-opens-beneath-the-last-sounding-chamber",
+      "supporting_clue_ids": [
+        "iron-tongue-command-mouth-below"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 319,
+      "operation_number": 108,
+      "type": "encounter_unlocked",
+      "encounter_id": "mouth-below",
+      "source_revelation_id": "the-mouth-below-opens-beneath-the-last-sounding-chamber",
+      "reason": ""
+    },
+    {
+      "sequence": 320,
+      "operation_number": 109,
+      "type": "revelation_established",
+      "revelation_id": "a-mouth-settlement-needs-an-offering-a-boundary-and-a-return",
+      "supporting_clue_ids": [
+        "choir-first-mouth-cadence-record"
+      ],
+      "note": "Established from independently recovered operating evidence during the demonstrated descent."
+    },
+    {
+      "sequence": 321,
+      "operation_number": 110,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "choir-of-iron-tongues",
+      "text": "Avarra’s faculties are separately safeguarded and the Choir accepts bounded command grammar."
+    },
+    {
+      "sequence": 322,
+      "operation_number": 111,
+      "type": "encounter_visited",
+      "visit_number": 20,
+      "encounter_id": "black-rain-cistern",
+      "party_label": "The Open Chain with Rain Warden parley"
+    },
+    {
+      "sequence": 323,
+      "operation_number": 111,
+      "type": "clue_spotted",
+      "clue_id": "faultkeeper-gauge-counterweight-wells",
+      "visit_number": 20
+    },
+    {
+      "sequence": 324,
+      "operation_number": 111,
+      "type": "clue_spotted",
+      "clue_id": "faultkeeper-gauge-deep-bell",
+      "visit_number": 20
+    },
+    {
+      "sequence": 325,
+      "operation_number": 111,
+      "type": "clue_spotted",
+      "clue_id": "faultkeeper-gauge-the-toll-is-a-pressure-release-not-a-summons",
+      "visit_number": 20
+    },
+    {
+      "sequence": 326,
+      "operation_number": 111,
+      "type": "clue_spotted",
+      "clue_id": "faultkeeper-gauge-harrowgate-can-survive-a-controlled-collapse-only-if-the-quarry-vents-open",
+      "visit_number": 20
+    },
+    {
+      "sequence": 327,
+      "operation_number": 111,
+      "type": "clue_spotted",
+      "clue_id": "black-rain-four-gutters",
+      "visit_number": 20
+    },
+    {
+      "sequence": 328,
+      "operation_number": 111,
+      "type": "clue_spotted",
+      "clue_id": "cistern-manifold-staging-plate",
+      "visit_number": 20
+    },
+    {
+      "sequence": 329,
+      "operation_number": 111,
+      "type": "visit_note_recorded",
+      "visit_number": 20,
+      "text": "The quarry manifold, Garden root line, and Royal Well route are prepared to divide strain. The Foundation Weir is capped and the Mouth sluice remains closed."
+    },
+    {
+      "sequence": 330,
+      "operation_number": 111,
+      "type": "visit_note_recorded",
+      "visit_number": 20,
+      "text": "Rain Wardens accept staged release after Dema demonstrates the evacuated surface mouths and Miren records the limits."
+    },
+    {
+      "sequence": 331,
+      "operation_number": 112,
+      "type": "clue_missed",
+      "clue_id": "faultkeeper-gauge-mouth-below",
+      "visit_number": 20
+    },
+    {
+      "sequence": 332,
+      "operation_number": 113,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "black-rain-cistern",
+      "text": "Three bounded strain routes are prepared; Foundation Weir and Mouth sluice remain closed."
+    },
+    {
+      "sequence": 333,
+      "operation_number": 114,
+      "type": "encounter_visited",
+      "visit_number": 21,
+      "encounter_id": "quarry-cleft",
+      "party_label": "Dema, Torren, and surface vent crews"
+    },
+    {
+      "sequence": 334,
+      "operation_number": 114,
+      "type": "clue_spotted",
+      "clue_id": "quarry-service-marks-the-toll-is-a-pressure-release-not-a-summons",
+      "visit_number": 21
+    },
+    {
+      "sequence": 335,
+      "operation_number": 114,
+      "type": "visit_note_recorded",
+      "visit_number": 21,
+      "text": "Surface crews clear the northern and western mouths. The hospital vent remains closed; its share is reassigned to Upper Jaw and Royal Well capacity."
+    },
+    {
+      "sequence": 336,
+      "operation_number": 114,
+      "type": "visit_note_recorded",
+      "visit_number": 21,
+      "text": "The lamp hunter is driven into a marked refuge before blasting and will not be trapped in the vent pulse."
+    },
+    {
+      "sequence": 337,
+      "operation_number": 115,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "quarry-cleft",
+      "text": "Northern and western quarry mouths are cleared above and below; the hospital vent remains protected."
+    },
+    {
+      "sequence": 338,
+      "operation_number": 116,
+      "type": "encounter_visited",
+      "visit_number": 22,
+      "encounter_id": "garden-of-teeth",
+      "party_label": "Calve, Miren, and Garden keepers"
+    },
+    {
+      "sequence": 339,
+      "operation_number": 116,
+      "type": "clue_spotted",
+      "clue_id": "root-way-memory-feast-of-empty-chairs",
+      "visit_number": 22
+    },
+    {
+      "sequence": 340,
+      "operation_number": 116,
+      "type": "clue_spotted",
+      "clue_id": "root-way-memory-harrowgate-can-survive-a-controlled-collapse-only-if-the-quarry-vents-open",
+      "visit_number": 22
+    },
+    {
+      "sequence": 341,
+      "operation_number": 116,
+      "type": "clue_spotted",
+      "clue_id": "garden-silver-root-cup-nest",
+      "visit_number": 22
+    },
+    {
+      "sequence": 342,
+      "operation_number": 116,
+      "type": "visit_note_recorded",
+      "visit_number": 22,
+      "text": "Upper Jaw is fully prepared for one staged opening. Food beds and Widow’s Run are isolated so the operation spends route capacity rather than the Garden’s whole community."
+    },
+    {
+      "sequence": 343,
+      "operation_number": 117,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "garden-of-teeth",
+      "text": "Upper Jaw can open on command while food, memory, and Last Teeth remain isolated."
+    },
+    {
+      "sequence": 344,
+      "operation_number": 118,
+      "type": "encounter_visited",
+      "visit_number": 23,
+      "encounter_id": "cracked-chapterhouse",
+      "party_label": "Ilyra, Miren, and the surface emergency council"
+    },
+    {
+      "sequence": 345,
+      "operation_number": 118,
+      "type": "visit_note_recorded",
+      "visit_number": 23,
+      "text": "The emergency council evacuates two districts, funds six months of crews immediately, and places the Crown trust under four divided keys: civic, Low Choir, House Vey, and funerary witness."
+    },
+    {
+      "sequence": 346,
+      "operation_number": 118,
+      "type": "visit_note_recorded",
+      "visit_number": 23,
+      "text": "Miren sends the final operation notice into the streets in ordinary language, including the possibility of failure and the date of automatic review."
+    },
+    {
+      "sequence": 347,
+      "operation_number": 119,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "cracked-chapterhouse",
+      "text": "Two districts are evacuated and the Crown trust, maintenance funding, and public review are active before the finale."
+    },
+    {
+      "sequence": 348,
+      "operation_number": 120,
+      "type": "encounter_visited",
+      "visit_number": 24,
+      "encounter_id": "black-rain-cistern",
+      "party_label": "The reunited Open Chain for the final pressure stage"
+    },
+    {
+      "sequence": 349,
+      "operation_number": 120,
+      "type": "clue_spotted",
+      "clue_id": "faultkeeper-gauge-mouth-below",
+      "visit_number": 24
+    },
+    {
+      "sequence": 350,
+      "operation_number": 120,
+      "type": "clue_spotted",
+      "clue_id": "black-rain-collapse-sequence-root-stage",
+      "visit_number": 24
+    },
+    {
+      "sequence": 351,
+      "operation_number": 120,
+      "type": "visit_note_recorded",
+      "visit_number": 24,
+      "text": "Black Rain is lowered to Draw level and divided among prepared quarry, Garden, and Royal paths. No unbounded route remains open toward foundations or Mouth."
+    },
+    {
+      "sequence": 352,
+      "operation_number": 121,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "black-rain-cistern",
+      "text": "Black Rain rests at Draw level with quarry, Garden, and Royal routes staged in sequence."
+    },
+    {
+      "sequence": 353,
+      "operation_number": 122,
+      "type": "session_ended",
+      "session_number": 6,
+      "closing_note": "Measure, Refusal, and Witness are separately safeguarded; two quarry mouths and the Upper Jaw are ready; the Foundation Weir and Mouth sluice remain bounded; and evacuation, funding, and review are active above."
+    },
+    {
+      "sequence": 354,
+      "operation_number": 123,
+      "type": "session_started",
+      "session_number": 7,
+      "title": "A Bell That Does Not Sound",
+      "played_on": null,
+      "participants": [
+        "Dema Harl",
+        "Sister Calve Norn",
+        "Ilyra Vey",
+        "Torren Pike",
+        "Miren Glass"
+      ],
+      "attendance_note": "",
+      "opening_note": "The Open Chain enters the Deep Bell with a prepared hybrid: free the Crown, use the Common Measure as a temporary governor, divide the load among visible systems, and prevent a full Sounding."
+    },
+    {
+      "sequence": 355,
+      "operation_number": 124,
+      "type": "encounter_visited",
+      "visit_number": 25,
+      "encounter_id": "deep-bell",
+      "party_label": "The Open Chain, Maelin Rook, Vesra, Dalca, and compact crews"
+    },
+    {
+      "sequence": 356,
+      "operation_number": 124,
+      "type": "clue_spotted",
+      "clue_id": "bell-frame-witness-mark-mouth-below",
+      "visit_number": 25
+    },
+    {
+      "sequence": 357,
+      "operation_number": 124,
+      "type": "clue_spotted",
+      "clue_id": "bell-frame-witness-mark-the-bell-can-be-stabilized-silenced-claimed-or-destroyed",
+      "visit_number": 25
+    },
+    {
+      "sequence": 358,
+      "operation_number": 124,
+      "type": "clue_spotted",
+      "clue_id": "bell-four-phase-speaking-rail",
+      "visit_number": 25
+    },
+    {
+      "sequence": 359,
+      "operation_number": 124,
+      "type": "clue_spotted",
+      "clue_id": "bell-empty-load-path-warning",
+      "visit_number": 25
+    },
+    {
+      "sequence": 360,
+      "operation_number": 124,
+      "type": "visit_note_recorded",
+      "visit_number": 25,
+      "text": "During Taking Breath, the crews hold the phase while the Crown locks are opened through all three jurisdictions."
+    },
+    {
+      "sequence": 361,
+      "operation_number": 124,
+      "type": "visit_note_recorded",
+      "visit_number": 25,
+      "text": "During Drawing Load, the Common Measure governs a temporary parallel transfer into the Royal and Civic paths while Refusal rejects an attempted command cascade."
+    },
+    {
+      "sequence": 362,
+      "operation_number": 124,
+      "type": "visit_note_recorded",
+      "visit_number": 25,
+      "text": "At Crown Descent, the Crown is freed and the clapper locked away from the bell skin. At Sounding, the quarry mouths and Upper Jaw take bounded pulses; the Bell does not complete a full tone."
+    },
+    {
+      "sequence": 363,
+      "operation_number": 124,
+      "type": "visit_note_recorded",
+      "visit_number": 25,
+      "text": "The automatic Funerary draw ends. The Crown enters divided public custody, and the maintenance compact begins under a one-year term with funded remedy and review."
+    },
+    {
+      "sequence": 364,
+      "operation_number": 125,
+      "type": "clue_missed",
+      "clue_id": "bell-crown-three-resonances",
+      "visit_number": 25
+    },
+    {
+      "sequence": 365,
+      "operation_number": 126,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "deep-bell",
+      "text": "The Crown is free; the Bell is silenced without destruction; the Funerary draw is closed; distributed civic maintenance begins."
+    },
+    {
+      "sequence": 366,
+      "operation_number": 127,
+      "type": "session_ended",
+      "session_number": 7,
+      "closing_note": "The Crown is free in divided public custody, the automatic Funerary draw is closed, the Bell is locked away from its skin, Harrowgate survives, and an expensive maintenance institution begins under a one-year term and automatic review."
+    }
+  ]
+}

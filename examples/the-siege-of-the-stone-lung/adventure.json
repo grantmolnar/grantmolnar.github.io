@@ -1,0 +1,1359 @@
+{
+  "schema_version": 3,
+  "adventure": {
+    "id": "the-siege-of-the-stone-lung",
+    "title": "The Siege of the Stone Lung",
+    "synopsis": "On the nineteenth day of the siege, Kest Mourne's right gate tower splits from parapet to foundation and the civic lantern above the Pale Gardens burns blue. The Host of the Lower Road has closed every caravan route and driven sappers beneath the walls. First Warden Ilyra Dain answers with a temporary six-lantern commission: cross the city's defensive sectors, spend its last reserves where they can still matter, and carry field truth back into command before the Stone Lung reaches its next crisis.",
+    "premise": "An Underdark city is failing by sectors while an enemy host times its assaults to the strokes of the ancient engine that gives the city air. A local, foreign, or mixed company receives bounded authority across six fronts. It must buy military time, distinguish sabotage from structural failure, uncover the old theft beneath the siege, and decide what survival obliges Kest Mourne to restore.",
+    "explanation": "The Host came for the Stone Lung, not Kest Mourne's streets. Eighteen years ago, a lethal mold blight forced Kest Mourne to seal the engine's southern branch, cutting the settlement of Lorn away from most of its fresh-air exchange. The quarantine was justified; what followed was not. The blight died, the promised purge and filter works were abandoned, and the council made the closure permanent while falsifying the conduit maps. Lorn survived on auxiliary chimneys until its last reliable shaft collapsed six weeks ago. Marshal Sera Venn sent the original Lorn conduit plate and demanded a joint inspection. Kest Mourne called it a forgery and sealed it beside the old minutes. Venn now intends to seize the Lung and compel a controlled reopening. Her chief engineer, Korr Bas, holds wartime technical command over the Host's resonance corps once its crews reach their work. Certain that delay is another death sentence for Lorn, he has hidden a larger yield and issued Heartstrike orders beyond Venn's limits. Methane-rich black breath has gathered behind the southern masonry; the charge will ignite it and drive flame through the deep galleries of both cities. The commission must keep Kest Mourne alive long enough to expose the old decision, separate Venn's enforceable claim from Bas's catastrophe, and settle whether the Lung will be closed, sacrificed, or made to breathe for both settlements again.",
+    "validation": {
+      "minimum_clues_per_revelation": 3,
+      "minimum_source_encounters_per_revelation": 3,
+      "minimum_incoming_clues_per_encounter": 3,
+      "minimum_incoming_source_encounters_per_encounter": 3,
+      "minimum_outgoing_clues_per_encounter": 3,
+      "minimum_distinct_encounter_targets_per_encounter": 3,
+      "minimum_edge_connectivity": 3,
+      "require_directed_reachability": true
+    },
+    "tags": {
+      "genres": [
+        "Siege",
+        "Military fantasy",
+        "Investigation"
+      ],
+      "game_systems": [
+        "Dungeons & Dragons"
+      ],
+      "settings": [
+        "Underdark",
+        "Original fantasy city"
+      ],
+      "party_size": {
+        "minimum": 3,
+        "maximum": 5
+      },
+      "level": {
+        "minimum": null,
+        "maximum": null
+      },
+      "combat_intensity": "heavy",
+      "keywords": [
+        "Sector defense",
+        "Resource allocation",
+        "Ancient machinery",
+        "Civic crisis"
+      ]
+    }
+  },
+  "references": [
+    {
+      "id": "f4f7d2d8-d36a-4156-a898-981753326347",
+      "kind": "person",
+      "title": "First Warden Ilyra Dain",
+      "aliases": [
+        "Ilyra Dain",
+        "Ilyra",
+        "First Warden Dain"
+      ],
+      "summary": "Kest Mourne's First Warden, a siege commander who lets verified facts reverse orders and whose six-lantern commission crosses sectors without replacing civil or technical authority.",
+      "content": "## Six flames, one bounded writ\n\nFirst Warden Ilyra Dain commands Kest Mourne's defense from the Lantern Court. Her six-lantern commission exists because ordinary command stops at sector boundaries while bombardment, air, food, water, and evacuation do not. The writ permits cross-sector movement, bounded requisitions, emergency reallocations, prisoner exchanges, evacuations, and temporary parleys. It does not permit surrender, punishment of civilians, permanent transfer of the Stone Lung, or a technical order that competent crews judge impossible.\n\n## A fact must become an order\n\nIlyra inherited false infrastructure records rather than the decision that made them. She will spend lives to hold defensible ground, but she distrusts gestures that only look resolute. A report matters to her when its source can be tested, its cost can be named, and its conclusion can alter work already under way. She can reverse an order without pretending the first order was wise.\n\n## Emergency command is not ownership\n\nSiege law lets Ilyra direct available reserves, order evacuation and exchange, and bind a temporary operational compact. Permanent joint control of the Lung requires civil process, public records, and recognized Lorn witnesses. Her current orders, allocations, disclosure decision, reserve movement, compact, and willingness to parley remain live adventure state.",
+      "tags": [
+        "Kest Mourne",
+        "Lantern Court",
+        "siege command",
+        "six-lantern commission"
+      ]
+    },
+    {
+      "id": "a3b7aaad-961e-49e0-b33e-a37815d2cffc",
+      "kind": "person",
+      "title": "Speaker Edda Marr",
+      "aliases": [
+        "Edda Marr",
+        "Edda",
+        "Speaker Marr"
+      ],
+      "summary": "The civil-council speaker who guards Kest Mourne's sealed blight minutes and embodies the difference between a private admission and a correction the whole city must obey.",
+      "content": "## Minutes beneath the council seal\n\nSpeaker Edda Marr leads Kest Mourne's civil council. She is the granddaughter of a magistrate who ordered the southern seal during the mold blight and knows that a secret public work was performed. She has protected the sealed minutes because she believes disclosure during a siege would fracture the city and vindicate the Host. Her fear about timing is serious; her defense of concealment is still wrong.\n\n## Six copies or rumor\n\nKest Mourne does not admit a civic fact through one officer's remorse. A correction becomes operative when it enters all six sector ledgers, travels down the command tubes, changes the wall map, and is allowed to alter an order already killing people. Edda's office can release council records and make that civil acknowledgment possible. It cannot make an unexecuted confession binding by itself.\n\n## Civil authority under bombardment\n\nEdda can speak for council procedure, custody of its records, and the public acts by which the city corrects its own account. She does not command the Host, the Gate line, or the Stone Lung's technical crews, and she cannot settle permanent joint control alone. Her current custody, release, reading, copying, publication, and use of the sealed minutes remain live adventure state.",
+      "tags": [
+        "Kest Mourne",
+        "civil council",
+        "sealed minutes",
+        "public record"
+      ]
+    },
+    {
+      "id": "b79f9499-c3d6-40c5-afe0-ec75c1982ec5",
+      "kind": "person",
+      "title": "Ventwright Tamar Ohn",
+      "aliases": [
+        "Tamar Ohn",
+        "Tamar",
+        "Ventwright Ohn"
+      ],
+      "summary": "Kest Mourne's senior ventwright, responsible for technically executable work on the Stone Lung and entitled to refuse commands that surviving crews and machinery cannot safely perform.",
+      "content": "## An engine known by repairs\n\nVentwright Tamar Ohn maintains the accessible parts of the Stone Lung and the civic systems coupled to its strokes. She knows the machine through replaced bearings, improvised braces, seasonal draft, crew habits, and failures absent from formal diagrams. Her authority comes from reproducible work rather than reverence for inherited plans.\n\n## Name the sequence and the crew\n\nTamar treats every remedy as an ordered operation: measure, isolate, brace, vent, move people, turn a control, and verify the next stroke. A military or civil command cannot make missing tools, labor, breathing protection, or pressure limits appear. The six-lantern writ expressly preserves a competent crew's right to reject a technically impossible order.\n\n## Competence is not sovereignty\n\nTamar can judge whether machinery can survive an intervention, organize qualified operators, and state the material conditions a plan requires. She does not own the Lung, decide Lorn's political claim, or command soldiers merely because engineers need a road held. Her current diagnosis, recommendation, measurements, keys, available crew, and chosen remedy remain live adventure state.",
+      "tags": [
+        "Kest Mourne",
+        "ventwrights",
+        "Stone Lung",
+        "technical authority"
+      ]
+    },
+    {
+      "id": "4727a70d-0368-4a88-b86a-b250cc04e3eb",
+      "kind": "person",
+      "title": "Gate Captain Brann Sile",
+      "aliases": [
+        "Brann Sile",
+        "Brann",
+        "Captain Brann"
+      ],
+      "summary": "The captain responsible for the Shattered Gate, whose practical military authority is measured in defensible ground, named reserves, and minutes bought for the rest of Kest Mourne.",
+      "content": "## Minutes held in stone and bodies\n\nGate Captain Brann Sile commands the defenders assigned to Kest Mourne's outer gate. He reads the siege in frontage, trapped crews, usable stairs, reserve movement, and how long a shortened line can still protect the inner roads. He has little patience for a claim that removes people from the wall without naming what their absence buys.\n\n## Proof that changes the line\n\nBrann will cooperate with investigation when it solves an immediate military problem: predicts an assault, rescues a crew, identifies a false withdrawal, or gives him defensible room to abandon stone before people. Clear orders and verified battlefield intelligence matter more to him than rank performed at a distance.\n\n## A gate command, not a city command\n\nBrann can command his assigned soldiers, receive and guard battlefield prisoners, report the condition of the outer line, and execute lawful reserve or withdrawal orders. He cannot allocate every city resource, overrule competent technical refusal, or decide the Lung's permanent control. His current line, withdrawal, prisoners, reserve, report, casualties, and gate condition remain live adventure state.",
+      "tags": [
+        "Kest Mourne",
+        "Shattered Gate",
+        "gate command",
+        "reserves"
+      ]
+    },
+    {
+      "id": "485df0e9-f855-4d58-8064-300109947e36",
+      "kind": "person",
+      "title": "Marshal Sera Venn",
+      "aliases": [
+        "Sera Venn",
+        "Venn",
+        "Marshal Venn"
+      ],
+      "summary": "Commander of the Host of the Lower Road, pursuing enforceable access to the Stone Lung while retaining strategic authority distinct from Korr Bas's narrower technical command.",
+      "content": "## The claim behind the siege\n\nMarshal Sera Venn commands the Host of the Lower Road. Lorn's last reliable auxiliary chimney failed after years of decline under a supposedly temporary southern seal. Venn sent Kest Mourne an original conduit plate and demanded joint inspection; the city rejected it under the authority of its own false map. She chose siege and controlled seizure rather than accept another refusal.\n\n## Access that cannot be withdrawn\n\nVenn's objective is enforceable access to the Stone Lung, not friendship with Kest Mourne and not indiscriminate extermination. She recognizes prisoner exchange and bounded local truces, but a promise made while one city retains every control does not answer Lorn's claim. Public records, divided custody, mixed crews, and physical access can create leverage that survives the emergency.\n\n## Strategic command and its limit\n\nVenn may direct Host units, negotiate ceasefire corridors, exchange prisoners, and authenticate strategic orders or revocations. The Host's wartime articles nevertheless give qualified engineers technical authority once their crews reach assigned work, creating a boundary Korr Bas can exploit. Her current assault, truce, revocation, negotiation, access demand, unit position, and operational cooperation remain live adventure state.",
+      "tags": [
+        "Lorn",
+        "Host of the Lower Road",
+        "siege command",
+        "enforceable access"
+      ]
+    },
+    {
+      "id": "02ddfa9a-79a7-42d8-b614-243664f38efd",
+      "kind": "person",
+      "title": "Engineer Korr Bas",
+      "aliases": [
+        "Korr Bas",
+        "Bas",
+        "Chief Resonance Engineer Bas"
+      ],
+      "summary": "The Host's chief resonance engineer, who converted bounded technical command into the valid-looking Heartstrike overreach he considers preferable to Lorn's continued suffocation.",
+      "content": "## Lorn measured in failed breaths\n\nEngineer Korr Bas designed the Host's resonance weapons and survived Lorn's worst air failures. He believes Kest Mourne will preserve its monopoly whenever uncertainty makes delay defensible. He is lucid about the danger behind the southern seal and still judges catastrophic force preferable to watching Lorn disappear by degrees.\n\n## A countermand shaped like necessity\n\nUnder the Host's wartime articles, Bas controls calibration and firing procedure after a qualified resonance crew reaches its assigned work. He has stretched that narrow authority into a valid-looking countermand, concealed a larger yield from strategic command, and named the resulting Heartstrike plan a technical necessity. His leverage depends on isolated communications and crews who can plausibly mistake overreach for lawful duty.\n\n## Technical command is not the war aim\n\nBas can direct assigned resonance crews and determine the calibration and firing sequence of their weapons. He cannot define Venn's strategic objective, bind a truce, settle control of the Lung, or make mutual destruction lawful by calling it engineering. His current location, command reach, firing authority, charge state, countermand, signal, and fate remain live adventure state.",
+      "tags": [
+        "Lorn",
+        "resonance corps",
+        "Heartstrike",
+        "technical command"
+      ]
+    },
+    {
+      "id": "dc7c0b7b-b1c4-4e72-8885-71fcd785a384",
+      "kind": "other",
+      "title": "The Six-Lantern Commission",
+      "aliases": [
+        "six-lantern writ",
+        "copied commission",
+        "commission writ"
+      ],
+      "summary": "Kest Mourne's bounded emergency writ, allowing one company to carry verified facts and finite resources across sector boundaries without inheriting surrender, punishment, permanent-control, or impossible technical powers.",
+      "content": "## Six flames on one copied writ\n\nOrdinary authority in Kest Mourne stops at sector boundaries. The six-lantern commission lets one proven company cross those boundaries while the city is under siege. Copies go to all six principal sectors so a field decision can be recognized without pretending the company has replaced the officers, crews, and civil bodies already there.\n\n## What crosses a sector line\n\nThe writ permits cross-sector movement, bounded requisitions, emergency reallocations, prisoner exchanges, evacuations, and temporary parleys. Sector leaders may demand reasons and remain answerable for execution. A verified fact can therefore release a reserve, redirect material, protect a witness, or make a local truce executable before ordinary council procedure catches up.\n\n## What ink cannot create\n\nThe commission does not permit surrender, punishment of civilians, permanent transfer of the Stone Lung, or technical work that competent crews judge impossible. Ink cannot summon soldiers, tools, breathing hoods, witnesses, roads, or cooperation. Who carries a copy, what it has already moved, which officer accepts it, and whether a compact survives are decided in play.",
+      "tags": [
+        "Kest Mourne",
+        "emergency authority",
+        "cross-sector command",
+        "bounded writ"
+      ]
+    },
+    {
+      "id": "d8d49895-57e8-4cef-a91a-5f899c590d54",
+      "kind": "place",
+      "title": "The Lantern Court",
+      "aliases": [
+        "Lantern Court",
+        "the Court",
+        "six-lantern command floor"
+      ],
+      "summary": "Kest Mourne's public command floor, where six sector lanterns, casualty boards, wall maps, runners, ledgers, and command tubes turn verified field facts into witnessed citywide orders.",
+      "content": "## A command floor that breathes\n\nThe Lantern Court stands beneath six iron lanterns, one for each principal defensive sector. Their flames narrow and brighten with the Stone Lung's cycle. Casualty boards, sector tokens, the wall map, material tallies, and arriving runners make the city's competing needs visible in one public room.\n\n## A fact becomes work\n\nThe Court is where evidence enters command. A damaged object needs judgment; a report contradicts the map under the officers' feet; a messenger spends a final sentence on one usable fact. Kest Mourne recognizes a civic correction when it reaches the sector ledgers, travels down the command tubes, alters the wall map, and changes an order already costing lives.\n\n## Six lanterns cannot summon hands\n\nThe Court can compare claims and send recognized orders through the city. It cannot make one crew serve two sectors, turn rumor into proof, or restore authority by holding another briefing. The boards, tokens, runners, ledgers, orders, and even the Court's remaining coherence change with the siege.",
+      "tags": [
+        "Kest Mourne",
+        "command floor",
+        "sector ledgers",
+        "command tubes"
+      ]
+    },
+    {
+      "id": "d7db595d-38cd-4c33-b557-13016ba8e619",
+      "kind": "place",
+      "title": "The Shattered Gate",
+      "aliases": [
+        "Shattered Gate",
+        "outer gate",
+        "Gate sector"
+      ],
+      "summary": "Kest Mourne's principal outer defense, joining towers, galleries, inner turns, signal positions, and the upper-city road through which military time and a movable reserve reach the rest of the siege.",
+      "content": "## The city measured in minutes\n\nThe Shattered Gate is Kest Mourne's principal outer approach. Its doors, paired towers, northern gallery, inner turns, stairs, signal positions, and upper-city road make one defensive system. Holding or yielding any part changes how long soldiers, engineers, wounded, and orders can still move through the city.\n\n## A wall that protects other work\n\nThe Gate matters beyond the stone it occupies. Braces and iron come from the Foundry. Assault timings can arrive from captured lower-road records. A reserve held here may instead escort a technical crew or contest the Stone Lung. The Gate's military value is therefore time, controlled withdrawal, and a road kept usable for another obligation.\n\n## The map cannot hold the breach\n\nThe record fixes doors, towers, galleries, turns, stairs, signals, and the upper road. It does not say which tower stands, where defenders have withdrawn, whether prisoners were taken, or how much reserve remains. Damage, crews, casualties, enemy access, signals, and the defensive outcome belong to the current siege.",
+      "tags": [
+        "Kest Mourne",
+        "outer defense",
+        "upper-city road",
+        "military time"
+      ]
+    },
+    {
+      "id": "81df1171-965f-48c4-9f43-da801acc0f02",
+      "kind": "place",
+      "title": "The Cinder Foundry",
+      "aliases": [
+        "Cinder Foundry",
+        "the Foundry",
+        "red-stone foundry"
+      ],
+      "summary": "Kest Mourne's three-hall forge and repair works, coupling gate braces, pumps, filters, counterweights, tuned tools, skilled labor, and the Foundry gantry into one finite production system.",
+      "content": "## Three halls around a red chimney\n\nThe Cinder Foundry descends through three working halls around a chimney of red stone. It casts gate braces, repairs pumps, shapes filter housings, maintains the Stone Lung's counterweights, and keeps the tuning benches used for precise resonance work. The east furnace and upper gantry connect production directly to the city's defense and breathing engine.\n\n## One shift cannot become four\n\nFoundry work is an allocation of skilled hands, heat, iron, benches, and safe cadence. Straight beams can reinforce the Gate, tuned wedges can reach Heartstrike, counterweights can support retuning, and frames can carry living filters. Each program has different tools and tolerances; dividing one shift produces diminished packages rather than additional labor.\n\n## Nothing leaves the floor by description\n\nThe Foundry's durable capacity is heat, iron, benches, skilled cadence, and its roads to other sectors. A sheet cannot say whether the furnace is safe, a shell remains buried, benches survived, iron is available, or a crew accepted an order. What is completed, diminished, abandoned, or actually delivered to the Stone Lung is settled in play.",
+      "tags": [
+        "Kest Mourne",
+        "forge",
+        "skilled labor",
+        "Stone Lung machinery"
+      ]
+    },
+    {
+      "id": "4c80a05c-1d71-41be-ab35-c931f7dee682",
+      "kind": "place",
+      "title": "The Pale Gardens",
+      "aliases": [
+        "Pale Gardens",
+        "the Gardens",
+        "fungus terraces"
+      ],
+      "summary": "Kest Mourne's food and living-filter terraces, where rootstock, spores, insects, service vents, and ward connections preserve a biological record of airflow that mechanical plans can miss.",
+      "content": "## Food that reads the air\n\nThe Pale Gardens descend beneath curtains of white fungus. Their terraces feed Kest Mourne and clean air returning from crowded wards. Rootstock, spore color, moisture, cave insects, and the timing of growth against the Stone Lung's stroke make the Gardens a living instrument as well as a food source.\n\n## Two failures can share one bed\n\nSabotage follows hands, carts, tools, and sheds. Structural airflow failure forms gradients across beds and vents. The Gardens' stable value lies in preserving enough living material to separate those causes, map ward-by-ward flow, and produce filters for other sectors. Their old southern stock also preserves relationships erased from later civic plans.\n\n## Biology does not choose the remedy\n\nThe Gardens can expose patterns and provide living material. They cannot name every saboteur, order a burn, allocate workers, authenticate a witness, or prove which vent is safe now. Contamination, harvest, surviving filters, readings, crews, quarantine, and loss must be discovered in the beds.",
+      "tags": [
+        "Kest Mourne",
+        "food",
+        "living filters",
+        "airflow evidence"
+      ]
+    },
+    {
+      "id": "61728d3c-7a1b-4838-9f0e-6076d8ba0cbf",
+      "kind": "place",
+      "title": "The Refuge Galleries",
+      "aliases": [
+        "Refuge Galleries",
+        "the Refuge",
+        "lower galleries"
+      ],
+      "summary": "Processional galleries converted to civic refuge, joining relief records, the memorial wall, family tablets, an old service door, and the memorial stair to the Stone Lung's southern controls.",
+      "content": "## Processional stone under ordinary need\n\nThe Refuge Galleries were built for civic processions. Their reliefs, broad stairs, lower halls, service doors, and water connections make them a natural shelter when the upper city fails. Relief stewards keep air, water, ration, illness, and movement records close to the people those numbers describe.\n\n## The memorial preserves a road\n\nThe public wall names citizens killed during the mold blight. Family tablets around an older service door preserve additional workers and arrange the first signs as a ventwright mark. Behind the memorial crypt, a narrow stair descends toward the Stone Lung's southern controls. Grief retained geography that official maps removed.\n\n## Shelter does not settle testimony\n\nThe Galleries can gather witnesses, records, evacuation labor, and a road below. They do not decide who has arrived, whose testimony holds, whether records are released, which families move, or whether the memorial stair remains usable. Crowd pressure, rations, air, custody, routes, and civic standing change with the emergency.",
+      "tags": [
+        "Kest Mourne",
+        "civil refuge",
+        "memorial stair",
+        "relief records"
+      ]
+    },
+    {
+      "id": "308b133e-a63a-4417-b61b-9d743637f728",
+      "kind": "place",
+      "title": "The Cisterns of Black Breath",
+      "aliases": [
+        "Black Cisterns",
+        "the Cisterns",
+        "lower cistern line"
+      ],
+      "summary": "Kest Mourne's oldest water works, combining public pools, lower valves, an inspection arch, overflow routes, and a maintenance channel whose stonework reaches the hidden southern exchange system.",
+      "content": "## Water above, old works below\n\nThe Cisterns of Black Breath lie beneath Kest Mourne's oldest wards. Upper pools feed public pumps; lower pools, sluices, numbered valves, inspection arches, drains, and overflow galleries control what reaches the city below. The fourth pool meets deliberate southern masonry where later maps claim natural stone.\n\n## One buried system carries air and water\n\nA maintenance channel behind the lower works opens toward the old lower road. Air and water move through it in opposite phases. The cistern geometry therefore joins public supply, the southern seal, the Stone Lung, and a route toward the Countermine. Breathing protection, measured hammer signals, and valve order matter because haste can move poison or dead air into occupied wards.\n\n## No plan shows today's water\n\nThe record preserves pools, sluices, valves, arches, drains, overflow, and the old southern masonry. It cannot certify today's water, gas pressure, trapped crew, breathing hoods, valve position, readings, overflow capacity, enemy access, or a safe vent. Those must be measured below the waterline.",
+      "tags": [
+        "Kest Mourne",
+        "water works",
+        "southern exchange",
+        "lower road"
+      ]
+    },
+    {
+      "id": "52fb318a-cbfe-4e77-a507-4c9a487073d0",
+      "kind": "place",
+      "title": "The Countermine",
+      "aliases": [
+        "Countermine",
+        "the lower road",
+        "sapper gallery"
+      ],
+      "summary": "The defensive excavation where Kest Mourne's miners meet an older lower road, Host sapper works, signal routes, and the most direct military approach to Heartstrike and the Stone Lung.",
+      "content": "## A road found by digging toward hammers\n\nThe Countermine begins as Kest Mourne's answer to enemy sappers and reaches an older lower road omitted from current maps. Its galleries connect mine faces, collapse chambers, signal routes, prisoner exchange points, and the direct approach to the Stone Lung's charge gallery.\n\n## Every command must cross the tunnel\n\nThe lower road carries more than troops. Assault schedules, firing instructions, revocations, relay pulses, wounded, prisoners, and technical crews all depend on a passage that can be blocked, deceived, collapsed, or held. The Countermine is where military, technical, and political command occupy the same narrow geometry.\n\n## Orders narrow inside the gallery\n\nThe record fixes the lower-road connections and the command routes that depend on them. It cannot settle the current collapse, cable, signals, prisoners, truce, sapper allegiance, access to Venn, charge readiness, or control of the approach. Every one of those questions is live in the tunnel.",
+      "tags": [
+        "Kest Mourne",
+        "lower road",
+        "sappers",
+        "charge approach"
+      ]
+    },
+    {
+      "id": "c4c8f3a7-9a58-4daa-ab12-7df774a22794",
+      "kind": "place",
+      "title": "The Stone Lung",
+      "aliases": [
+        "Stone Lung",
+        "the Lung",
+        "breathing engine"
+      ],
+      "summary": "The pre-imperial pressure engine beneath Kest Mourne, whose vanes, geothermal throat, counterweights, branches, southern controls, and three military approaches exchange air between Kest Mourne and Lorn.",
+      "content": "## Stone that takes a breath\n\nThe Stone Lung fills a pressure vault beneath Kest Mourne. Curved vanes of porous rock flex around a geothermal throat while counterweights climb and fall above them. Each stroke draws through one set of branches and releases through another, moving air, dust, flame, cloth, and pressure across both settlements.\n\n## Three roads enter one machine\n\nThe Foundry gantry reaches the crown, counterweights, and charge harmonics. The memorial stair reaches the old civic platform and southern manual controls. The Countermine gallery reaches the lower-road assault and charge works. Each is a military road capable of carrying crews, witnesses, orders, tools, wounded, and armed bodies—not merely an entrance.\n\n## Machinery is not sovereignty\n\nThe Lung was built to balance more than one branch, but its physical capacity does not determine who may command, inspect, repair, or control it. Current pressure, open branches, keys, approach control, crews, Heartstrike, damage, remedy, and the final transfer of the controls belong to the finale.",
+      "tags": [
+        "Kest Mourne",
+        "Lorn",
+        "pressure engine",
+        "shared air"
+      ]
+    },
+    {
+      "id": "7ed444b4-60d6-4e12-aff3-fbf17f3682d2",
+      "kind": "organization",
+      "title": "The Host of the Lower Road",
+      "aliases": [
+        "the Host",
+        "Lower Road Host",
+        "Lorn host"
+      ],
+      "summary": "Lorn's siege army, combining shield companies, sappers, scouts, signal crews, and resonance engineers under strategic command whose wartime articles preserve a narrower technical chain.",
+      "content": "## An army raised for access\n\nThe Host of the Lower Road is Lorn's siege force. Shield companies fix defenders at the wall; sappers and scouts work the buried approaches; signal crews connect dispersed commands; resonance engineers make stone itself part of the assault. Its strategic objective is enforceable access to the Stone Lung rather than possession of every street in Kest Mourne.\n\n## Two chains inside one command\n\nMarshal authority sets the war aim, unit movement, exchanges, and strategic limits. The Host's wartime articles give qualified engineers bounded control over calibration and firing procedure after their crews reach assigned work. That separation protects technical competence and also creates room for a valid-looking overreach when communications fail or necessity is falsely claimed.\n\n## Doctrine does not place a soldier\n\nThe record fixes the Host's formations and divided command, not the position of any company or the authority of any current message. Assaults, signals, prisoners, truces, revocations, crew loyalty, access, casualties, and Lorn's settlement posture change with play.",
+      "tags": [
+        "Lorn",
+        "siege army",
+        "sappers",
+        "resonance corps"
+      ]
+    },
+    {
+      "id": "9fafc73c-5456-42fb-bad4-6b10eb9cf550",
+      "kind": "object",
+      "title": "The Sealed Blight Minutes",
+      "aliases": [
+        "sealed minutes",
+        "blight minutes",
+        "council minutes"
+      ],
+      "summary": "Kest Mourne's sealed council record of the mold emergency, temporary southern closure, expected harm to Lorn, planned purge and filter works, and later decision to preserve the closure after the blight ended.",
+      "content": "## A lawful emergency written down\n\nThe sealed minutes record a real lethal mold blight and the council's decision to close the Stone Lung's southern branch as quarantine. They also record that the closure would cut Lorn's air exchange and that purge beds, filters, and later reopening were part of the emergency plan.\n\n## The later decision in the same hand\n\nSubsequent entries preserve the choice that changed quarantine into policy: the contaminated strain died, promised works were abandoned, workers were reassigned, and the southern closure was kept while the public map and civic account ceased to show the branch. The minutes distinguish an initially justified act from the concealed permanence that followed.\n\n## A record is not a public correction\n\nThe minutes preserve what a council wrote; they do not open their own seal. Who holds, reads, copies, publishes, believes, or acts on them is current state. Until witnesses and command procedure give the record effect, it remains evidence rather than correction.",
+      "tags": [
+        "Kest Mourne",
+        "civil council",
+        "mold blight",
+        "sealed record"
+      ]
+    },
+    {
+      "id": "d6d9ad8e-c9ff-439f-8d4b-75d1b379d60c",
+      "kind": "object",
+      "title": "The Original Lorn Conduit Plate",
+      "aliases": [
+        "Lorn conduit plate",
+        "original conduit plate",
+        "southern conduit plate"
+      ],
+      "summary": "An original technical plate from Lorn showing the shared southern exchange system and the old relationship among Lorn, Kest Mourne's lower works, and the Stone Lung.",
+      "content": "## Lines cut before the map was changed\n\nThe original Lorn conduit plate depicts a southern exchange joining Lorn, Kest Mourne's lower water and vent works, and the Stone Lung. Its measurements, maker's conventions, valve marks, and branch geometry predate the later civic map that shows natural stone where the southern works should be.\n\n## A demand for inspection, not surrender\n\nLorn preserved the plate after its auxiliary chimneys began to fail. It supports a demand that both settlements inspect the old controls together and explains why a promise of future air is weaker than physical access, divided custody, and records neither city can quietly erase. The plate does not itself settle permanent control.\n\n## Engraving must meet the stone\n\nThe plate can be tested against masonry, valve numbers, rootstock, pressure readings, and surviving score marks. It does not determine who possesses it, whether a copy is authentic, which audience accepts it, what inspection or publication follows, or what order and legal effect result. Its force comes from comparison and use in the current crisis.",
+      "tags": [
+        "Lorn",
+        "technical record",
+        "southern exchange",
+        "shared infrastructure"
+      ]
+    },
+    {
+      "id": "c66d1a1b-0e9e-4868-bdc3-d19740c8dd8a",
+      "kind": "object",
+      "title": "Heartstrike",
+      "aliases": [
+        "Heartstrike charge",
+        "resonance charge",
+        "Heartstrike line"
+      ],
+      "summary": "The Host's resonance operation for fracturing the Stone Lung's southern seal during release, built from tuned shells, ceramic ribs, cables, relays, governors, and a manual firing path.",
+      "content": "## A siege weapon tuned to a breath\n\nHeartstrike is a resonance operation rather than one loose explosive. Tuned shells and wedges establish the frequency; ceramic ribs store and return vibration; a braided cable and relay chain carry the firing pulse toward the southern seal; governors and a manual path control when the accumulated force is released.\n\n## Fracture is not controlled reopening\n\nThe operation is designed to break the southern masonry during the Stone Lung's release. A bounded version might expose the branch for seizure. A larger yield can mix pressure, heat, and methane-rich black breath into an ignition that travels through both settlements. Strategic authorization, technical calibration, and the physical ability to fire are distinct forms of control.\n\n## The weapon exists before the countdown\n\nThe record fixes Heartstrike's architecture and danger, not its readiness. Placement, charge, cable continuity, governor state, firing signal, manual access, crew obedience, Bas's location and command reach, Venn's knowledge, and whether the weapon survives belong to the current siege.",
+      "tags": [
+        "Host of the Lower Road",
+        "resonance weapon",
+        "southern seal",
+        "command split"
+      ]
+    }
+  ],
+  "encounters": [
+    {
+      "id": "the-lantern-court",
+      "title": "The Lantern Court",
+      "summary": "Six civic lanterns breathe above a command floor where every allocation saves one sector by exposing another.",
+      "opening_view": "Before Ilyra Dain finishes reading the six-lantern commission, a clerk scrapes three names from the Shattered Gate board and writes nine beneath them. The Gardens lantern gutters blue. A cistern runner sets an oily flask beside a ringing shell fragment and the city's last unassigned iron. Six officers reach for the same spears, beams, hoods, and demolition cart. Ilyra hands over the copied writ and turns every sector token to contested. The Stone Lung exhales; one token must turn toward help before the flames steady.",
+      "content": "## Arrival\n\nOn the nineteenth morning, the Pale Gardens lantern gutters blue just as a runner from the Shattered Gate asks for every uncommitted spear. Casualty clerks are still scraping yesterday's names from the boards. First Warden Ilyra Dain lays six copies of an emergency writ across the sector map and asks the company to carry decisions where ordinary command cannot.\n\n## The six-lantern commission\n\nChoose why this local, foreign, or mixed company can cross lines that stop ordinary officers: local defenders trusted in several wards, specialists trapped inside the encirclement, envoys whose road home has closed, mercenaries whose contract has become a civic obligation, or a mixed company already proven under pressure. The writ names no profession, company title, or prescribed route.\n\nIts copies authorize cross-sector movement, bounded requisitions, emergency reallocations, prisoner exchanges, evacuations, and temporary parleys. They do not authorize surrender, punishment of civilians, permanent transfer of the Lung, or technical work a competent crew judges impossible. A sector leader may demand reasons and remains answerable for carrying the order out. The commission lets a verified fact cross the city, but it works only when the company brings a workable allocation with it; parchment cannot supply missing crews, roads, or hours.\n\n## Command under pressure\n\nNothing here happens in private. Messengers shoulder past one another. Casualty boards are scraped and rewritten before the families of the dead. Every allocation has witnesses and losers. Speaker Edda Marr urges silence around the old wards. Gate officers demand reserves. Ventwright Tamar Ohn asks for machinery already promised to military repair. Refuge stewards ask how much air command can guarantee; no officer gives them a number.\n\nOn each return, bring two or three demands to the same table. A useful first collision is:\n\n- Captain Brann Sile asks for the iron reserve before the Lung's next exhalation.\n- The Cinder Foundry asks whether its last straight beams belong at the Gate or beneath a damaged ventilation frame.\n- The Refuge Galleries report that a former vent mason is telling the crowd Kest Mourne stole another settlement's air.\n\nAn allocation changes conditions; it does not close a location. Soldiers sent to the Gate reduce casualties there and leave the cistern crews exposed. The demolition cart can open the Countermine or remove a live shell from the Foundry, not both. Name the people who receive the order and the people who lose it.\n\n## The siege ledger\n\nMark each sector **contested**, **held**, or **breached**. A clean resolution holds the sector and preserves its full finale asset. A costly resolution holds it with a diminished asset. Abandonment or decisive failure breaches it and applies the encounter's **If neglected** result.\n\nWhenever the commission returns to the Court—or after two field sectors without a return—report one benefit from a held sector and one worsening elsewhere. The Gate releases a reserve. The Foundry sends braces. Refuge stewards form an evacuation crew. Elsewhere, a shell buries the tuning benches, a ration cut starts a crush, or the lower sluice gives way. While the commission works one front, the others keep moving.\n\nEarly reconnaissance at the Stone Lung does not by itself begin Heartstrike. Start the three-stroke finale when Bas detects an attempt to seize the charge gallery, sever the main firing cable, or move the southern valves; when his plan has been exposed and another major opportunity lets him act; or when three breached sectors complete his assault route. A peripheral relay cut, hidden watch, or study of the crown may delay or mislead him instead. Give a full-cycle warning. Do not begin before an approach to the Lung has been established, and never resolve Heartstrike offscreen. Table time spent on careful work is not siege time unless the fiction changes.\n\n## Ilyra at the table\n\nIlyra will reverse a field order when the company brings both evidence and a sequence people can execute. She will not trade Kest Mourne for absolution, and she will not let the siege excuse a lie that prevents a viable remedy. She can bind a temporary operational compact with Venn for this battle; permanent joint control still requires public records, civil process, and recognized Lorn witnesses. Name the reserve, crew, road, and hour a proposal requires; accusation by itself moves nothing.\n\n## Edda's sealed answer\n\nSix weeks ago Venn sent an original Lorn conduit plate and demanded joint inspection after Lorn's last reliable chimney failed. Edda called it enemy fabrication, sealed it beside the old minutes, and urged refusal. She does not know what has accumulated behind the southern wall. A private accusation makes her close ranks because it exposes an officer without changing any standing order.\n\n## How Kest Mourne admits a fact\n\nDo not resolve the city's culpability through remorse. Choose the witnesses. A finding becomes command when it is copied into all six sector ledgers, read down the command tubes, used to correct the wall map, and attached to an order that changes work already costing lives. A verified plate joined to a survivable command can force Edda to release the minutes and let six sectors act. Anything less can later be dismissed as rumor.\n\n## Using the Court\n\nBring evidence here as command work: a damaged object that needs judgment, a field report that contradicts the map, or a messenger spending a final sentence on one usable fact. Each verified fact should release troops, open records, order an evacuation, or make a temporary parley executable. The Court changes the city's direction; it is not a recurring briefing room.\n\n## If neglected\n\nThe Court remains standing and ceases to command. Rumor outruns the runners. Sector officers hoard crews and material. Edda moves the sealed minutes. A later return must restore trust or bring enough visible authority to make six defenses act as one city again.",
+      "required": true,
+      "start": true,
+      "end": false,
+      "tags": [
+        "command",
+        "social",
+        "siege"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "f4f7d2d8-d36a-4156-a898-981753326347",
+          "context": "Ilyra's six-lantern commission defines what the company may move, requisition, exchange, and negotiate without granting surrender or permanent control."
+        },
+        {
+          "reference_id": "a3b7aaad-961e-49e0-b33e-a37815d2cffc",
+          "context": "Edda's civil office explains why sealed minutes and a corrected public record must become citywide acts rather than a private confession."
+        },
+        {
+          "reference_id": "b79f9499-c3d6-40c5-afe0-ec75c1982ec5",
+          "context": "Tamar's technical authority preserves the difference between an urgent command and work that a competent crew can actually execute."
+        },
+        {
+          "reference_id": "4727a70d-0368-4a88-b86a-b250cc04e3eb",
+          "context": "Brann represents the Gate's demand for named reserves, defensible ground, and military time rather than an abstract claim on every city asset."
+        },
+        {
+          "reference_id": "485df0e9-f855-4d58-8064-300109947e36",
+          "context": "Venn's enforceable-access objective clarifies the strategic claim behind the Host without establishing any present negotiation or concession."
+        },
+        {
+          "reference_id": "02ddfa9a-79a7-42d8-b614-243664f38efd",
+          "context": "Bas's bounded engineering office and Heartstrike overreach explain why the enemy command can split without making its active orders known here."
+        },
+        {
+          "reference_id": "dc7c0b7b-b1c4-4e72-8885-71fcd785a384",
+          "context": "The commission is issued and copied here, while its current bearer, first allocations, and actual uses remain decisions of play."
+        },
+        {
+          "reference_id": "d8d49895-57e8-4cef-a91a-5f899c590d54",
+          "context": "The Court record owns the public command floor and recognition machinery without establishing the reports, tokens, records, or orders presently before it."
+        },
+        {
+          "reference_id": "c4c8f3a7-9a58-4daa-ab12-7df774a22794",
+          "context": "The Lung's cycle gives every allocation its urgency without fixing pressure, route control, or the terminal state."
+        },
+        {
+          "reference_id": "7ed444b4-60d6-4e12-aff3-fbf17f3682d2",
+          "context": "The Host's divided strategic and technical chains explain the competing reports without placing units, orders, or cooperation."
+        },
+        {
+          "reference_id": "9fafc73c-5456-42fb-bad4-6b10eb9cf550",
+          "context": "The sealed record explains the civic decision at issue without establishing its custody, release, reading, or effect on command."
+        },
+        {
+          "reference_id": "d6d9ad8e-c9ff-439f-8d4b-75d1b379d60c",
+          "context": "The original plate gives Lorn's inspection claim a stable technical basis without establishing authentication, possession, or acceptance."
+        },
+        {
+          "reference_id": "c66d1a1b-0e9e-4868-bdc3-d19740c8dd8a",
+          "context": "Heartstrike's architecture explains why shells, sappers, and the Lung belong to one operation without starting a countdown or fixing charge state."
+        }
+      ]
+    },
+    {
+      "id": "the-shattered-gate",
+      "title": "The Shattered Gate",
+      "summary": "A tower splits, six defenders signal through dust, and the Host refuses a breach it could take.",
+      "opening_view": "The city's last straight beam hangs halfway into the right tower when the crack widens and traps the brace crew above it. Six defenders flash a mirror through the dust. Beneath the stair, an unexploded resonator rises in pitch with the Stone Lung. Outside, Host soldiers plant two wedges, then withdraw from a breach wide enough to enter. Brann's reserve starts toward the trapped crew; his runner points instead toward the lost gallery. The tower answers both orders by dropping its first block.",
+      "content": "## The breach\n\nThe outer doors still stand. The right tower does not. A crack runs from parapet to foundation; the upper stair is blocked, and each stroke of the Stone Lung sifts dust from the widening seam. Captain Brann Sile has shortened the line twice. One more major assault breaks it unless the tower is stabilized, the northern gallery recovered, or the defenders given room to withdraw without rout.\n\nThe Host attacks with unnerving discipline. Shield companies advance during the Lung's exhalation, plant resonant wedges, and fall back before the defenders can trap them. Twice they have refused an open way into the city. The wall is holding an army's attention while work below proceeds on schedule.\n\n## Immediate problems\n\nChoose the pressure that best matches current play.\n\n- **The split tower:** A brace crew is trapped above the crack with an unexploded resonator lodged beneath it. Stabilization preserves the outer line. A fast rescue saves the crew and may cost Brann the tower.\n- **The lost gallery:** Six defenders and a signal mirror are stranded behind a collapsed stair. Reaching them reveals what the Host watches between assaults.\n- **The false withdrawal:** The Host leaves wounded soldiers and a broken signal slate within bowshot. The bait covers sapper work beneath the approach. Careful recovery gains prisoners and orders; pursuit spends the Gate's reserve.\n\nNo victory over the Host is required here. Save soldiers, steal minutes, and learn why the enemy will not take what the wall appears to offer.\n\n## Brann's test\n\nEvery proposal must name what leaves Brann's wall, what that absence buys, and whether the line survives until the next assault. He accepts rescue, prediction, and controlled withdrawal as military work. Bring the assault schedule and he will abandon stone before people.\n\n## Prisoners\n\nA captured lower-road scout, Nara Ves, carries Venn's standing order to spare public air shafts. Her sapper escort carries Bas's later instruction to ignore that limit after the third hammer signal. Both are tired, frightened, and incomplete witnesses. Keep them alive and compare their orders. Neither knows the whole operation; together they reveal a command beginning to split.\n\n## Defensive outcomes\n\nA clean success delays the final assault and frees a small reserve. A costly success keeps the Gate but fixes every survivor in place. On failure, the defense falls back through two inner turns, enemy skirmishers enter the sector ring, and the Stone Lung begins with less time.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "battle",
+        "fortification",
+        "siege"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "f4f7d2d8-d36a-4156-a898-981753326347",
+          "context": "Ilyra's writ lets verified battlefield facts cross sector boundaries and lets the Gate receive or release resources without making any allocation automatic."
+        },
+        {
+          "reference_id": "4727a70d-0368-4a88-b86a-b250cc04e3eb",
+          "context": "Brann's stable gate authority frames the choice among holding stone, rescuing crews, shortening the line, and preserving a movable reserve."
+        },
+        {
+          "reference_id": "485df0e9-f855-4d58-8064-300109947e36",
+          "context": "Venn's strategic limits distinguish Host orders that spare public air works from subordinate instructions that exceed the war aim."
+        },
+        {
+          "reference_id": "02ddfa9a-79a7-42d8-b614-243664f38efd",
+          "context": "Bas's technical-command overreach explains how later sapper instructions can look lawful while contradicting Venn's standing limits."
+        },
+        {
+          "reference_id": "d7db595d-38cd-4c33-b557-13016ba8e619",
+          "context": "The Gate record supplies the durable defensive geometry and upper-city road while current damage, reserve, prisoners, and outcome remain live."
+        },
+        {
+          "reference_id": "81df1171-965f-48c4-9f43-da801acc0f02",
+          "context": "The Foundry owns the stable source of braces and skilled work without granting any completed beam, crew, or production choice."
+        },
+        {
+          "reference_id": "52fb318a-cbfe-4e77-a507-4c9a487073d0",
+          "context": "The lower-road relationship explains why a refused breach can cover work below without establishing the current sapper route or assault schedule."
+        },
+        {
+          "reference_id": "c4c8f3a7-9a58-4daa-ab12-7df774a22794",
+          "context": "The Lung's stroke governs assault cadence, but the machine record cannot establish what the Gate currently holds or loses."
+        },
+        {
+          "reference_id": "7ed444b4-60d6-4e12-aff3-fbf17f3682d2",
+          "context": "The Host's organization distinguishes strategic restraint from technical overreach without authenticating either order carried by a prisoner."
+        }
+      ]
+    },
+    {
+      "id": "the-cinder-foundry",
+      "title": "The Cinder Foundry",
+      "summary": "A resonant shell waits in a cold furnace while the city's last skilled shift demands one named purpose.",
+      "opening_view": "Mera Coil stands between a gate officer and the east furnace's ignition lever. Inside the cold furnace, a buried shell sings deeper with every stroke of the Stone Lung; nine chalk circles mark the workers already killed obeying orders around it. The last shift has divided one stock of iron into straight beams, filter frames, counterweight blanks, and an unfinished cutting rig. Tamar Ohn lowers a tuning fork. It trembles before touching stone. ‘Name the work,’ Mera says, while the officer reaches again for the lever.",
+      "content": "## Heat and cadence\n\nEvery few minutes, the unexploded shell buried in the east furnace answers the Stone Lung with a low note. Foundry Master Mera Coil has killed the furnace and cleared half the hall. Gate officers arrive with an order to relight it.\n\nVentwright Tamar Ohn warns that heat or one careless hammer blow may tune the red chimney to the shell. Nine workers have already died obeying siege orders. Mera will not spend a tenth crew to save an officer from waiting.\n\n## The live shell\n\nThe shell remembers vibration. Ceramic ribs collect the Lung's cycle and return it through the surrounding stone. It can be cooled and extracted, detuned where it lies, or buried with the east furnace. Intact, it gives the cleanest frequency model. Broken, it still yields maker's marks, tolerances, and the higher setting Bas cut beyond Venn's limit.\n\n## Competing production\n\nAfter the shell is safe, one full shift of skilled labor remains before the next assault. The shift can complete one program or divide itself among reduced packages already begun:\n\n- radial braces for the Shattered Gate;\n- a cutting frame and tuned wedges for Heartstrike;\n- counterweights for retuning the Stone Lung; or\n- filter housings for the Pale Gardens and Refuge Galleries.\n\nRecord what is full, what is diminished, and what never leaves the floor. Imported labor, a preserved east furnace, or new iron can enlarge the shift. Without one of those, each additional order consumes another asset; it does not create more work from the same hands.\n\n## Tamar Ohn\n\nTamar knows the Lung as a machine sustained by repairs, substitutions, and habits absent from every diagram. It is drawing too hard through the northern branches, yet the public plans show no southern branch to reopen. Her first answer is defensive: brace the crown, choke the unknown leak, save Kest Mourne. Old diagrams joined to measured pressure can show her a wider balance still exists.\n\n## Mera Coil\n\nMera's loyalty belongs to the people who put their hands near the metal. Respect it, and she becomes the forewoman who can hold several lethal stations to one cadence. Override her, and equipment may arrive sooner, but no disciplined crew follows it below.\n\n## If neglected\n\nThe shell splits the east furnace. The Foundry survives, but the tuning benches disappear under stone and the workers scatter. Crude repair remains possible. Every precise task at the Stone Lung becomes slower, louder, and more dangerous.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "engineering",
+        "hazard",
+        "labor"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "f4f7d2d8-d36a-4156-a898-981753326347",
+          "context": "Ilyra's bounded requisition authority can arbitrate between wall production and ventilation repair only after the commission names the loss imposed elsewhere."
+        },
+        {
+          "reference_id": "b79f9499-c3d6-40c5-afe0-ec75c1982ec5",
+          "context": "Tamar's authority over executable machinery work clarifies why the live shell, braces, and tuning sequence cannot be settled by military urgency alone."
+        },
+        {
+          "reference_id": "4727a70d-0368-4a88-b86a-b250cc04e3eb",
+          "context": "Brann's gate responsibility makes the demand for straight beams and renewed production concrete without granting the Gate every foundry resource."
+        },
+        {
+          "reference_id": "485df0e9-f855-4d58-8064-300109947e36",
+          "context": "Venn's strategic command provides the limit against which the recovered shell's intended use and permitted yield can be judged."
+        },
+        {
+          "reference_id": "02ddfa9a-79a7-42d8-b614-243664f38efd",
+          "context": "Bas designed the resonance weapons and exploited technical command, making his stable authority relevant without establishing the shell's present condition or discovery."
+        },
+        {
+          "reference_id": "dc7c0b7b-b1c4-4e72-8885-71fcd785a384",
+          "context": "The writ can reallocate finite work while preserving the right of competent crews to refuse an impossible or needlessly lethal command."
+        },
+        {
+          "reference_id": "d7db595d-38cd-4c33-b557-13016ba8e619",
+          "context": "The Gate record explains the military use of radial braces without establishing that the tower, iron, or reserve still requires or receives them."
+        },
+        {
+          "reference_id": "81df1171-965f-48c4-9f43-da801acc0f02",
+          "context": "The Foundry record owns its durable production relationships while the shell, furnace, benches, labor, and completed program remain live."
+        },
+        {
+          "reference_id": "c4c8f3a7-9a58-4daa-ab12-7df774a22794",
+          "context": "The Lung record explains counterweights, crown work, and the Foundry gantry without selecting a remedy or crew."
+        },
+        {
+          "reference_id": "7ed444b4-60d6-4e12-aff3-fbf17f3682d2",
+          "context": "The Host record distinguishes Venn’s strategic limit from resonance technical command without proving the shell’s current condition or maker."
+        },
+        {
+          "reference_id": "c66d1a1b-0e9e-4868-bdc3-d19740c8dd8a",
+          "context": "Heartstrike provides the stable system to which the shell can belong without establishing extraction, detuning, yield evidence, or later use."
+        }
+      ]
+    },
+    {
+      "id": "the-pale-gardens",
+      "title": "The Pale Gardens",
+      "summary": "Poisoned tools and starving rootstock write two different disasters across the city's living filters.",
+      "opening_view": "Officials with torches enter the Pale Gardens to burn every bed marked by bitter orange mold. Growers drag translucent filter trays clear while cave moths batter vents the public map calls sealed. Beneath an overturned cart, a Refuge porter clutches a message for Deren Vask; children below faint whenever the Lung draws. Sen Tahl lays two cuttings before the fire: orange growth from a sabotaged tool, colorless root from an old southern bed. One is poisoned. The other is starving. The torch descends toward both.",
+      "content": "## Two failures in one bed\n\nSeveral beds have gone translucent. Black cave moths crowd vents the plans call dead. Bitter orange mold appears wherever Host infiltrators handled tools. Two frightened officials bring Sen Tahl opposite orders: burn every marked bed before the mold spreads, or keep harvesting and risk poisoning the city.\n\nThe orange mold is recent sabotage and does not match the preserved strain from the old blight. The translucent beds are starving for fresh air. One fire would consume the poison, the harvest, the living filters, and the clearest record of the Lung's failing draw.\n\n## Separating the failures\n\nCompare spore color, root moisture, insect behavior, and timing against the Lung's stroke. Sabotage follows hands, carts, and tool sheds. Airflow damage forms a gradient toward a sealed southern vent absent from the current plans.\n\nSaving the Gardens may require:\n\n- isolating and burning the poisoned beds;\n- opening narrow service vents without drawing black breath into the food caverns;\n- protecting growers from infiltrators and frightened soldiers; and\n- keeping command from feeding filter beds to emergency furnaces.\n\n## Sen Tahl\n\nSen is patient with ignorance and merciless with waste. She cares less about naming the liar of eighteen years ago than keeping enough living material to read the air tonight. Give her workers and room to act, and the Gardens become a ward-by-ward tracer. Burn the wrong beds, and she still defends the city, but brings neither filters nor reliable readings to the Lung.\n\n## The old rootstock\n\nSeveral beds descend from stock labeled for a southern exchange gallery. Their rings show that fresh flow stopped abruptly in the mold-blight year. Purge-bed labels and unfinished filter frames show that quarantine was meant to end after the contaminated flow cleared. Someone later scraped the labels and reassigned the beds. Rootstock cannot name the magistrate who made the closure permanent. It can refute the public story that Lorn's caverns failed by slow exhaustion.\n\n## Refuge ties\n\nRation porters from the Refuge Galleries are trapped when quarantine closes the terraces. One carries a plea from Deren Vask, an old vent mason who recognizes the southern marks. Another reports children fainting below during the same stroke that drives moths against the sealed vents. Gardens and Refuge are breathing one failure at different depths.\n\n## If neglected\n\nOfficials burn the suspect terraces. The sabotage dies with them. Kest Mourne loses weeks of food, its best filters, and the spores needed to judge a controlled reopening. Ration cuts begin in the Refuge before the smoke clears.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "ecology",
+        "food",
+        "investigation"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "f4f7d2d8-d36a-4156-a898-981753326347",
+          "context": "Ilyra can turn tested airflow evidence into evacuation or allocation orders, while what the Gardens currently prove remains live."
+        },
+        {
+          "reference_id": "a3b7aaad-961e-49e0-b33e-a37815d2cffc",
+          "context": "Edda's protection of the old civic account matters wherever living evidence contradicts the map the council has treated as authoritative."
+        },
+        {
+          "reference_id": "b79f9499-c3d6-40c5-afe0-ec75c1982ec5",
+          "context": "Tamar's machine knowledge helps distinguish a reproducible airflow pattern from a remedy, crew assignment, or final technical recommendation."
+        },
+        {
+          "reference_id": "485df0e9-f855-4d58-8064-300109947e36",
+          "context": "Venn's claim concerns the sealed exchange system, while the Gardens still determine what current air and sabotage evidence the table actually obtains."
+        },
+        {
+          "reference_id": "02ddfa9a-79a7-42d8-b614-243664f38efd",
+          "context": "Bas's resonance campaign makes deliberate contamination and pressure exploitation intelligible without assigning him every local failure."
+        },
+        {
+          "reference_id": "81df1171-965f-48c4-9f43-da801acc0f02",
+          "context": "The Foundry can supply filter housings only through actual allocation; the place record grants no current labor, iron, or finished frames."
+        },
+        {
+          "reference_id": "4c80a05c-1d71-41be-ab35-c931f7dee682",
+          "context": "The Gardens record owns their food, filter, and biological-measurement functions without deciding what is poisoned, starving, burned, or preserved."
+        },
+        {
+          "reference_id": "61728d3c-7a1b-4838-9f0e-6076d8ba0cbf",
+          "context": "The Refuge relationship explains shared air and ration pressure without placing porters, witnesses, children, or evacuation crews."
+        },
+        {
+          "reference_id": "c4c8f3a7-9a58-4daa-ab12-7df774a22794",
+          "context": "The Lung's branch cycle makes the living evidence legible without turning rootstock or insects into a completed diagnosis."
+        },
+        {
+          "reference_id": "7ed444b4-60d6-4e12-aff3-fbf17f3682d2",
+          "context": "The Host record makes deliberate sabotage plausible without assigning every failed bed to enemy action or fixing an infiltrator’s presence."
+        },
+        {
+          "reference_id": "9fafc73c-5456-42fb-bad4-6b10eb9cf550",
+          "context": "The minutes preserve the historical blight plan against which old rootstock can be compared without establishing discovery or publication."
+        }
+      ]
+    },
+    {
+      "id": "the-refuge-galleries",
+      "title": "The Refuge Galleries",
+      "summary": "Eleven missing ration sacks, a threatened witness, and forty-three omitted names turn bad air into public judgment.",
+      "opening_view": "The ration cart arrives eleven sacks short, and the Refuge Galleries move as one body. Families surge toward the council stair with yellow lamps, sleeping children, and memorial tablets absent from the public wall. A relief officer grips Deren Vask's wrist. A healer adds another collapse beneath the Lung's draw column. Above them, Edda Marr's clerk carries an order to close the crypt. The missing food is blamed on the Gate; the bad air on a branch the maps deny. Someone stumbles, and the whole accusation leans downhill.",
+      "content": "## The crowd beneath the council\n\nEleven ration sacks are missing when the lower-gallery lamps turn yellow. Families sleep beneath civic reliefs while chalk marks divide air, water, and floor space. Conversations shorten. Children wake gasping when the Stone Lung begins its draw.\n\nDeren Vask, a former vent mason, has accused the council of sealing Lorn's air during the mold blight. Relief officers move to arrest him for incitement as the short ration cart reaches the crowd. A quartermaster diverted the food to the Gate; the families see one policy in the missing sacks and the threatened witness.\n\nArrest restores silence by driving the old workers into hiding. A rush on the council stair may uncover records and destroy the command needed to use them. Protected testimony, a public accounting, or a hearing held while safer passages open can keep truth and order in the same room.\n\n## Deren Vask\n\nDeren laid masonry during the blight emergency. His crew was told the southern works were temporary quarantine. Afterward, supervisors reassigned Lorn's workers and ordered Kest Mourne's masons never to speak of the branch. Deren knows the service marks and the memorial stair. He does not know what now waits behind the seal.\n\nFor eighteen years he has heard his memory called age, drink, grief, or treason. Accept every claim without testing it and he becomes reckless. Test him in public, and he becomes exact.\n\n## The memorial wall\n\nThe public memorial names the citizens killed by mold. Private family tablets name forty-three more workers, recorded only as transferred or lost on the lower road. Their families placed the tablets around an older civic service door and arranged the first signs as a ventwright mark. Grief preserved a route the records erased. Behind the memorial crypt, a narrow stair descends to the Stone Lung's southern controls.\n\nSpeaker Edda Marr arrives when command hears of the gathering. Her response depends on prior dealings: she may bring the sealed minutes and Venn's rejected conduit plate, or order the crypt shut. The minutes record a real lethal blight, a deliberate temporary seal, the expected loss of Lorn's air, the planned purge and filter works, and the later decision to keep the emergency measure after the contaminated strain died. Venn's ultimatum records the collapse of Lorn's last reliable chimney and demands inspectors from both cities at the southern controls.\n\n## Water and gardens\n\nRefuge healers have kept better records than the council. Fainting follows the Lung's draw, not meals. The worst cases cluster around water from the lower cistern line. Their ledgers point toward the Pale Gardens and Black Cisterns. The stewards who kept those ledgers can become the city's evacuation corps.\n\n## If neglected\n\nThe ration dispute becomes a crush on the council stair. Deren vanishes into custody. Edda moves the minutes. Families scatter into disused passages with their lamps and records. The memorial stair remains discoverable, but no organized civilian force waits to empty the lower wards.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "civilians",
+        "history",
+        "social"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "f4f7d2d8-d36a-4156-a898-981753326347",
+          "context": "Ilyra's emergency command can protect witnesses and make a corrected account operational, but permanent settlement remains beyond the writ."
+        },
+        {
+          "reference_id": "a3b7aaad-961e-49e0-b33e-a37815d2cffc",
+          "context": "Edda's custody of the sealed minutes and civil authority are central to the difference between testimony, public acknowledgment, and a changed order."
+        },
+        {
+          "reference_id": "b79f9499-c3d6-40c5-afe0-ec75c1982ec5",
+          "context": "Tamar's technical boundary keeps witness memory and memorial marks from becoming an executable ventilation plan without measurement and qualified crews."
+        },
+        {
+          "reference_id": "485df0e9-f855-4d58-8064-300109947e36",
+          "context": "Venn's rejected conduit claim explains why recognized Lorn evidence matters to any compact without establishing whether the Host accepts a particular account."
+        },
+        {
+          "reference_id": "dc7c0b7b-b1c4-4e72-8885-71fcd785a384",
+          "context": "The commission can protect testimony and organize evacuation only through current orders, people, routes, and resources actually secured."
+        },
+        {
+          "reference_id": "d8d49895-57e8-4cef-a91a-5f899c590d54",
+          "context": "The Court record explains how public evidence can become a citywide correction without establishing that the command floor still functions."
+        },
+        {
+          "reference_id": "4c80a05c-1d71-41be-ab35-c931f7dee682",
+          "context": "The Gardens own the stable food-and-filter relationship while current harvest, tracers, quarantine, and relief remain unresolved."
+        },
+        {
+          "reference_id": "61728d3c-7a1b-4838-9f0e-6076d8ba0cbf",
+          "context": "The Galleries record owns the memorial stair, relief architecture, and civic use without granting testimony, records, custody, or an evacuation corps."
+        },
+        {
+          "reference_id": "308b133e-a63a-4417-b61b-9d743637f728",
+          "context": "The cistern relationship explains why water and fainting records converge without establishing current contamination, readings, or a safe route."
+        },
+        {
+          "reference_id": "c4c8f3a7-9a58-4daa-ab12-7df774a22794",
+          "context": "The Lung record identifies the southern controls reached by the memorial stair without deciding access, key custody, or remedy."
+        },
+        {
+          "reference_id": "9fafc73c-5456-42fb-bad4-6b10eb9cf550",
+          "context": "The sealed minutes preserve the stable historical record while Edda’s current custody, release, copies, and their public effect remain live."
+        },
+        {
+          "reference_id": "d6d9ad8e-c9ff-439f-8d4b-75d1b379d60c",
+          "context": "The Lorn plate explains the rejected inspection claim without establishing whether Edda brings it, whether it is accepted, or what order follows."
+        }
+      ]
+    },
+    {
+      "id": "the-black-cisterns",
+      "title": "The Cisterns of Black Breath",
+      "summary": "Three workers hammer beneath an oily waterline where old valves expose the lie in the city's maps.",
+      "opening_view": "Three breathing hoods lie beside the Black Cisterns' inspection arch. Four people are needed below. The rescue rope has gone slack, but a trapped worker still hammers from behind the barred sluice: pressure, pause, pressure, silence. Oily water washes over valve numbers hidden beneath fresh lime. Cala Orm points from the nearest bypass to the channel feeding the Refuge Galleries. Opening it may save the crew. The Stone Lung draws, a sweet mineral breath crosses the pool, and the worker misses the next beat.",
+      "content": "## Below the waterline\n\nThree workers are missing beyond a barred inspection arch, and an oily skin has appeared in water still feeding Kest Mourne's public pumps. Officials call it enemy poison. The smell says otherwise: mineral water, wet stone, and the faint sweetness of trapped gas.\n\nMethane-rich black breath seeps through fractures around the southern seal. Flame can ignite it. Heavy armor and haste can carry a rescuer into air too thin for consciousness. Warn before killing: lamps extinguish in sequence, insects lie dead along a sharp boundary, and a breathing hood rests where someone understood the danger too late.\n\n## The trapped crew\n\nThe workers closed a sluice to keep the upper supply clean. One remains conscious behind the gate and reports pressure through measured hammer taps. Reaching them preserves the city's water and a full cycle of readings. Opening the wrong bypass saves them quickly and sends black water toward the Refuge.\n\n## The false map\n\nCurrent plans show natural stone south of the fourth pool. Beneath the limewash lie old valve numbers and the chisel lines of deliberate masonry. A brass inspection plate survives in the drain. Its reverse shows one exchange system joining the Cisterns, Stone Lung, and Lorn.\n\nThe wall also explains why demolition means fire. Pressure has packed black breath behind the seal. Heartstrike will mix it with the Lung's hot release and carry ignition through both branches.\n\n## Water Reeve Cala Orm\n\nCala has been accused of poisoning the city through neglect. Restoring the supply matters more to her than clearing her name. She knows the lower valves, owns several working breathing hoods, and can turn a disused overflow into a gas vent with labor and an empty gallery above. Save her crew, and she reaches the Lung as an operator. Take the map and leave them, and no one who trusts the readings remains at the controls.\n\n## The lower-road grate\n\nA maintenance channel behind the fourth pool opens onto an old road occupied by Host sappers. Air and water move through it in opposite phases. Follow the draft to enter the Countermine from below and hear enemy digging aimed at the Stone Lung rather than the wall.\n\n## If neglected\n\nThe lower sluice fails. Kest Mourne keeps part of its water and loses the breathing hoods, the pressure record, and the safest vent for black breath. Refuge illness worsens. Heartstrike arms against a machine no one has measured.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "exploration",
+        "hazard",
+        "utilities"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "f4f7d2d8-d36a-4156-a898-981753326347",
+          "context": "Ilyra's commission can move labor, breathing equipment, or evacuation authority across sectors only after the company identifies the cost and available source."
+        },
+        {
+          "reference_id": "a3b7aaad-961e-49e0-b33e-a37815d2cffc",
+          "context": "Edda's civil record boundary matters when valve numbers and masonry contradict the city's public map, without authenticating any discovered plate in advance."
+        },
+        {
+          "reference_id": "b79f9499-c3d6-40c5-afe0-ec75c1982ec5",
+          "context": "Tamar's technical practice distinguishes measured pressure, a safe sequence, and competent operation from a command to open or destroy the southern works."
+        },
+        {
+          "reference_id": "485df0e9-f855-4d58-8064-300109947e36",
+          "context": "Venn's demand for inspection gives the hidden exchange system political significance without establishing any current access, truce, or custody."
+        },
+        {
+          "reference_id": "02ddfa9a-79a7-42d8-b614-243664f38efd",
+          "context": "Bas's accepted ignition risk explains why black breath and resonance must be treated together without fixing the charge's current state or his location."
+        },
+        {
+          "reference_id": "61728d3c-7a1b-4838-9f0e-6076d8ba0cbf",
+          "context": "The Refuge relationship explains the inhabited wards at risk without fixing current illness, evacuation, labor, or water use."
+        },
+        {
+          "reference_id": "308b133e-a63a-4417-b61b-9d743637f728",
+          "context": "The Cisterns record owns their valves, pools, overflow, and lower-road geometry while current water, gas, crew, hoods, and pressure remain live."
+        },
+        {
+          "reference_id": "52fb318a-cbfe-4e77-a507-4c9a487073d0",
+          "context": "The lower-road connection explains a route toward the sapper works without establishing enemy occupation, access, or successful passage."
+        },
+        {
+          "reference_id": "c4c8f3a7-9a58-4daa-ab12-7df774a22794",
+          "context": "The Lung record explains the shared pressure system without selecting a valve sequence, vent, or reopening plan."
+        },
+        {
+          "reference_id": "d6d9ad8e-c9ff-439f-8d4b-75d1b379d60c",
+          "context": "The original plate supplies a stable comparison for surviving valve marks without establishing discovery, custody, or authentication."
+        },
+        {
+          "reference_id": "c66d1a1b-0e9e-4868-bdc3-d19740c8dd8a",
+          "context": "Heartstrike explains why trapped gas and resonance interact without fixing the charge, ignition path, signal, or outcome."
+        }
+      ]
+    },
+    {
+      "id": "the-countermine",
+      "title": "The Countermine",
+      "summary": "A collapsed lower road traps enemies together around the live cable and divided orders behind Heartstrike.",
+      "opening_view": "The breakthrough drops defenders, Host sappers, and half the Countermine roof into one dust cloud. Badges vanish. Kest Mourne's miners hold a trapped sapper at blade point while enemy hands lift stone from a buried defender. Between them, a braided cable pulses toward the Stone Lung; a field tablet flashes the next hammer signal. Mael Rusk calls for a roof truce. Farther down the Host line, someone orders the cable kept live. The next pulse travels under every raised weapon.",
+      "content": "## Breakthrough\n\nKest Mourne's miners dig toward enemy hammers and break into an older lower road omitted from every current map. The first collapse traps defenders and Host sappers on opposite sides of a resonance cable running toward the Stone Lung. Dust erases uniforms. The next hammer signal will bring the ceiling down on everyone left in the chamber.\n\nBegin with rescue, violence, or a shouted roof truce. Enemies who have spent nineteen days killing one another must clear the same fall, cut the same cable, exchange prisoners, or obey orders neither side fully trusts.\n\n## The Heartstrike line\n\nCeramic insulators carry a braided cable deeper into the city. Its pulse matches the shells at the wall. A field tablet reduces the operation to three movements:\n\n1. surface assaults fix Kest Mourne's reserves at the Gate and inner turns;\n2. sappers expose the southern seal and place the charge; and\n3. Heartstrike fractures the seal during the Lung's release.\n\nThe yield table predicts an ignition large enough to burn Kest Mourne and Lorn. Bas has marked it acceptable.\n\n## Venn's sappers\n\nSap Captain Mael Rusk carries Venn's sealed order: seize the Lung and open the southern branch under control, but do not fracture it while black breath remains unvented. Bas's later valid-looking countermand cites the Host's technical articles, conceals the true yield, and tells the charge crews that delay condemns the families waiting in Lorn. Rusk holds two orders from different chains, both valid-looking, not a simple invitation to betray his marshal.\n\nKind words do not move him. He needs proof that Venn's controlled objective remains possible, a protected way for his crews to obey her over Bas, and assurance that Kest Mourne will not use the pause to reseal the branch. Rescue beneath the collapse, a prisoner exchange, an authenticated revocation, or a measured retuning sequence can become duty he is able to defend.\n\n## Ways through\n\nThe commission may:\n\n- cut the exposed cable, delaying Heartstrike and warning Bas;\n- follow it covertly to the charge gallery;\n- use Rusk's slate to reach Venn;\n- collapse the surface branch and force a direct battle; or\n- send a false completion signal while defenders reposition.\n\nEach road gains access by spending something. Here the siege's military, technical, and political lines occupy the same narrow tunnel.\n\n## Gate intelligence\n\nA second tablet gives the Host's complete assault schedule, including feints and reserve timings at the Shattered Gate. Brann can save the outer line with it even if no truce survives below.\n\n## If neglected\n\nBas's crews complete the charge uncontested. Venn learns its true yield only after Heartstrike begins and must oppose her own engineer under fire. The Foundry and memorial routes remain open, but prepared sappers hold the charge gallery.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "infiltration",
+        "military",
+        "negotiation"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "f4f7d2d8-d36a-4156-a898-981753326347",
+          "context": "Ilyra's writ can support prisoner exchange and a temporary local parley while leaving surrender, permanent control, and the actual terms unresolved."
+        },
+        {
+          "reference_id": "b79f9499-c3d6-40c5-afe0-ec75c1982ec5",
+          "context": "Tamar's technical authority provides the lawful boundary against which Bas's firing countermand can be tested without resolving the crew's response."
+        },
+        {
+          "reference_id": "4727a70d-0368-4a88-b86a-b250cc04e3eb",
+          "context": "Brann's gate command makes captured assault timing immediately useful while leaving his current line, reserve, and withdrawal decision live."
+        },
+        {
+          "reference_id": "485df0e9-f855-4d58-8064-300109947e36",
+          "context": "Venn's strategic office distinguishes controlled seizure from catastrophic fracture and explains who can authenticate a revocation without granting contact."
+        },
+        {
+          "reference_id": "02ddfa9a-79a7-42d8-b614-243664f38efd",
+          "context": "Bas's valid-looking overreach explains the divided sapper command without fixing the charge, firing signal, crew loyalty, or outcome."
+        },
+        {
+          "reference_id": "dc7c0b7b-b1c4-4e72-8885-71fcd785a384",
+          "context": "The commission can authorize exchange or bounded parley while current prisoners, rescue, truce, access, and obligations remain live."
+        },
+        {
+          "reference_id": "d7db595d-38cd-4c33-b557-13016ba8e619",
+          "context": "The Gate record explains why the recovered assault schedule matters without establishing Brann’s current line, reserve, or response."
+        },
+        {
+          "reference_id": "308b133e-a63a-4417-b61b-9d743637f728",
+          "context": "The Cisterns record owns the maintenance-channel relationship without granting a route, readings, breathing equipment, or safe approach."
+        },
+        {
+          "reference_id": "52fb318a-cbfe-4e77-a507-4c9a487073d0",
+          "context": "The Countermine record owns the lower-road command geometry while the collapse, cable, signals, prisoners, and sapper allegiance remain live."
+        },
+        {
+          "reference_id": "c4c8f3a7-9a58-4daa-ab12-7df774a22794",
+          "context": "The Lung record explains what the direct gallery approaches without establishing who controls or reaches the chamber."
+        },
+        {
+          "reference_id": "7ed444b4-60d6-4e12-aff3-fbf17f3682d2",
+          "context": "The Host’s two command chains make Rusk’s conflict intelligible without deciding obedience, revocation, truce, or unit position."
+        },
+        {
+          "reference_id": "c66d1a1b-0e9e-4868-bdc3-d19740c8dd8a",
+          "context": "Heartstrike gives the cable and field tablet a stable technical context without establishing completion, interruption, yield proof, or firing state."
+        }
+      ]
+    },
+    {
+      "id": "the-stone-lung",
+      "title": "The Stone Lung",
+      "summary": "Heartstrike turns the breathing engine into a battle for three approaches, five threatened sectors, and one military interval in which Kest Mourne and Lorn may both survive.",
+      "opening_view": "The war reaches the Stone Lung before anyone does. Dust pours from the Foundry gantry; memorial ribbons snap toward Lorn's sealed branch; the Countermine tubes carry Bas's order to arm Heartstrike. Above, the Gate drum calls Brann's last reserve while Host boots answer from the lower road. Every approach delivers the soldiers, crews, witnesses, and wounds the siege left there. The first counterweight strikes its stop, and a firing signal begins moving down the ceramic ribs.",
+      "content": "## The chamber\n\nEach stroke makes the pressure vault declare itself: loose cloth points toward the southern seal, counterweights climb into darkness, and porous vanes close around the geothermal throat. Behind a later service wall, Heartstrike ribs and cables web the southern seal; whether they are silent, charging, or under fire depends on when the company arrives. The chamber answers every intervention with pressure, heat, and movement; no one can treat it as a room between battles.\n\nThree approaches enter the chamber.\n\n- **The Foundry gantry** reaches the crown, counterweights, and charge harmonics. It favors bracing, disarmament, and retuning, but the Host can shell its upper supports from the Gate works.\n- **The memorial stair** reaches the old civic platform and the southern branch's manual controls. It favors witnesses, evacuation, and public authority, but any mixed crew descending it is exposed to both cities' suspicion.\n- **The Countermine gallery** reaches the charge and the Host assault force. It favors sabotage, parley, and direct confrontation, and it is the road Bas can reinforce fastest.\n\nAn approach is a military road, not merely an entrance. Whoever controls it can move orders, wounded, tools, and armed bodies into the Lung. Allies and enemies arrive by the roads the siege kept open, lost, or exposed.\n\n## Arriving before Heartstrike\n\nAn early visit finds Bas still deploying the weapon. Reconnaissance can measure the Lung, reveal the southern controls, signal Venn, or cut a peripheral relay so that its silence resembles a fault. It also gives the enemy information. A missing patrol brings Host scouts. A moved valve warns Bas that the old controls have been found. A captured tube lets either command imitate the other's order.\n\nEntering the defended charge gallery, severing the main firing cable, broadcasting a seizure, or moving the southern valves turns reconnaissance into battle. Bas then arms early and orders the Host to take whichever approach is least protected.\n\nBefore the first stroke, name the military deficit rather than an empty station: the Gate reserve committed elsewhere, a crew without an escort, civilians still in a gas path, Venn beyond signal range, or Bas holding the manual trigger. The deficit tells the GM where the enemy can force the next decision.\n\n## Heartstrike under fire\n\nBegin when Bas arms the charge or an intervention forces his hand. The Lung still moves on three strokes, but each stroke is also an exchange of orders and violence. Announce Bas's initiative, Venn's answer if she can give one, and the sector about to fail before the company acts. Then let the battlefield answer what they do.\n\n### Compression: commit the reserves\n\nThe stone vanes close. Pressure rises behind the southern seal. Heartstrike charges its ceramic ribs. Bas sends assault troops through the Countermine while the Host launches its heaviest attack at the Gate. Brann must choose whether his last reserve holds the breach, escorts a technical crew, or descends to contest the charge gallery. A reserve cannot do all three.\n\n### Draw: break the command chain\n\nThe Lung pulls through every open branch. Black breath enters cracks around the seal and moves toward occupied wards. Bas orders the southern valves pinned and the firing relays guarded. Venn may revoke him if proof and a protected signal reach her; otherwise her army continues pressing the Gate while Bas claims the chamber in Lorn's name. This stroke is won by severing, deceiving, or replacing a command chain while the gas path is turned.\n\n### Release: survive the decision\n\nThe Lung vents through the branches still open. Heartstrike fires unless disabled, delayed, deceived, or seized. Bas reaches for the manual trigger if his crews abandon him. At the same moment the Host tries to convert any weakness at the Gate, Foundry, or Countermine into possession of the city. The chosen remedy must survive both the pressure release and an enemy attempt to take it.\n\nThe Lung may take another breath only if the defenders still hold enough ground to permit one. Each repetition costs a named sector, formation, or route: the Gate tower, the Foundry gantry, the Countermine mouth, a refuge stair, or the escort around the southern controls. Do not spend an abstract grace cycle. Show which soldiers withdraw, which road closes, and which civilians lose protection.\n\n## Battlefronts and commands\n\nThe chamber concentrates the siege; it does not suspend it. Track the fronts that can still affect the Lung.\n\n- **The Gate:** Brann's line buys minutes and controls the upper city road. If it falls, Host troops can descend behind the Foundry crew and Venn gains leverage at every negotiation.\n- **The Foundry gantry:** Mera's workers and Tamar Ohn can brace or retune the crown, but only while an escort holds the shelling galleries and counterweight stairs.\n- **The southern corridor:** Deren Vask, refuge crews, and witnesses can clear the gas path and operate the old valves. Their work decides who is warned and whether reopening is seen rather than merely promised.\n- **The Countermine:** Bas's sappers, defectors, and any force sent to stop them fight over the charge, relay drums, and lower-road exit.\n- **The command link:** Ilyra, Venn, Brann, and captured signal equipment determine whether troops receive one order, two contradictory orders, or none.\n\nAsk who commands each surviving force, what road carries that command, and what enemy unit can interrupt it. Technical competence without a held road arrives too late. Military control without the right crew preserves only the weapon or the blockade.\n\n## Korr Bas\n\nBas stands in the charge gallery or speaks through its tubes. He knows the ignition risk and accepts it because he believes Kest Mourne will keep Lorn dying for as long as caution remains an available excuse. Appeals to patience confirm him. A visible reopening sequence attacks the premise beneath Heartstrike; a promise made while the southern seal stays closed does not.\n\nVenn's authenticated revocation can split his crews only when they have a protected route to obey it. If soldiers lower their weapons, Bas calls them deserters and tries to fire manually. If Kest Mourne seizes him without opening the branch, other Host officers may continue the assault under a cleaner command.\n\n## Sera Venn\n\nVenn continues the attack until Lorn has enforceable access to the Lung. Proof of Bas's plan stops the detonation while the claim that brought her army remains. She can order a ceasefire corridor, withdraw units from the Gate, or send trusted soldiers to hold Bas's crews apart, but each concession risks her authority while Lorn still waits for air.\n\nShe accepts a temporary truce only when reopening has begun or the company offers leverage that survives the emergency: public admission, custody divided across control keys and machinery, mixed crews physically occupying the controls, or records neither city can quietly erase. Ilyra can bind that compact for the present battle. Permanent control, reparations, prisoners, and withdrawal remain unsettled.\n\n## Complete outcomes\n\n### Shared retuning under truce\n\nVenn opens a ceasefire corridor. Brann yields room for a mixed escort. Foundry and Lorn crews brace the crown, vent black breath into abandoned high galleries, fit living filters, and open the southern branch by stages while both armies watch the readings. The operation succeeds only if the truce survives Bas, a frightened defender, and the pressure release. Both settlements keep their air; neither army can claim sole possession of the controls when the stroke ends.\n\n### Defensive reseal\n\nKest Mourne's forces take the charge gallery, disarm Heartstrike, collapse the lower road, and choke the southern branch permanently. The Gate can then be held or relieved. Lorn's air continues to fail. This is a military victory for Kest Mourne and the beginning of a larger war, not a repaired machine.\n\n### Sacrificial venting\n\nA fighting withdrawal clears an upper sector while engineers rupture its chimney and open the southern branch through the falling pressure. Lorn regains exchange. Kest Mourne loses homes, fortifications, and the population the damaged Lung can no longer sustain. The sector survives only if soldiers hold its evacuation road instead of the wall they were ordered to defend.\n\nOther outcomes answer to the same battlefield. Destroying Heartstrike prevents one catastrophe. Killing Bas may break or harden the Host command. Silencing the Lung buys hours in which armies can still take ground. None of these acts settles who controls the next breath.\n\n## Resolution\n\nEnd when the pressure crisis and the battle reach a position no commander can immediately overturn. Name the held and lost sectors, the units that withdrew or surrendered, the road by which civilians escaped, the fate of Bas, and the order Venn gives her army.\n\nThe aftermath should look like a siege after a decision: six lanterns burning evenly with a seventh lit for Lorn while mixed sentries face outward; an upper ward dark and empty behind a new defensive line; Host prisoners carrying filters through the opened branch; or the southern controls buried while both armies prepare for another campaign.\n\nAt settlement, Ilyra reads the operational compact over the open command tubes. Edda releases duplicate minutes to the sector runners. The false southern map comes off the Court floor, a corrected plate is mounted where six commands can see it, and the southern keys pass to mixed crews who cannot turn them alone. That is Kest Mourne's admission: records, roads, and machinery no longer permit the city to restore the lie quietly. Later law can judge the blockade and the attack. The finale first decides who is alive, who holds the roads, and whether either city can still breathe.",
+      "required": true,
+      "start": false,
+      "end": true,
+      "tags": [
+        "finale",
+        "engineering",
+        "siege"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "f4f7d2d8-d36a-4156-a898-981753326347",
+          "context": "Ilyra can bind emergency operations and city forces, but the chamber still requires roads, crews, evidence, and civil acts that her office cannot manufacture."
+        },
+        {
+          "reference_id": "a3b7aaad-961e-49e0-b33e-a37815d2cffc",
+          "context": "Edda can make the corrected record a public civic act, while the finale must still determine whether the minutes are released and what orders they change."
+        },
+        {
+          "reference_id": "b79f9499-c3d6-40c5-afe0-ec75c1982ec5",
+          "context": "Tamar owns competent operation and technical refusal, not the political choice among resealing, sacrifice, and shared air."
+        },
+        {
+          "reference_id": "4727a70d-0368-4a88-b86a-b250cc04e3eb",
+          "context": "Brann's line controls military time and an upper-city road, but his presence, reserve, withdrawal, and cooperation depend on the siege state actually preserved."
+        },
+        {
+          "reference_id": "485df0e9-f855-4d58-8064-300109947e36",
+          "context": "Venn can bind Host strategy and an enforceable battlefield pause, but access, cooperation, unit position, and permanent terms remain outcomes of play."
+        },
+        {
+          "reference_id": "02ddfa9a-79a7-42d8-b614-243664f38efd",
+          "context": "Bas's authority and motive explain Heartstrike's command problem while leaving his location, manual control, crew obedience, signal state, and fate unresolved."
+        },
+        {
+          "reference_id": "dc7c0b7b-b1c4-4e72-8885-71fcd785a384",
+          "context": "The commission can bind emergency movement and a temporary compact while permanent control and technically possible work remain outside its authority."
+        },
+        {
+          "reference_id": "d7db595d-38cd-4c33-b557-13016ba8e619",
+          "context": "The Gate record identifies the upper-city road and military time that can reach the chamber without granting a reserve or held line."
+        },
+        {
+          "reference_id": "81df1171-965f-48c4-9f43-da801acc0f02",
+          "context": "The Foundry record identifies the gantry, tools, and skilled work without placing a crew, escort, braces, or completed equipment."
+        },
+        {
+          "reference_id": "61728d3c-7a1b-4838-9f0e-6076d8ba0cbf",
+          "context": "The Galleries record identifies the memorial stair, witnesses, and evacuation relationship without establishing access, attendance, or public legitimacy."
+        },
+        {
+          "reference_id": "52fb318a-cbfe-4e77-a507-4c9a487073d0",
+          "context": "The Countermine record identifies the direct lower-road approach without fixing control, truce, sapper position, or charge access."
+        },
+        {
+          "reference_id": "c4c8f3a7-9a58-4daa-ab12-7df774a22794",
+          "context": "The Lung record owns the durable machine and three approaches while pressure, keys, roads, crews, damage, remedy, and custody remain live."
+        },
+        {
+          "reference_id": "7ed444b4-60d6-4e12-aff3-fbf17f3682d2",
+          "context": "The Host record separates strategic command from technical procedure without deciding Venn’s reach, Bas’s control, or any unit’s obedience."
+        },
+        {
+          "reference_id": "c66d1a1b-0e9e-4868-bdc3-d19740c8dd8a",
+          "context": "Heartstrike supplies the weapon architecture while its charge, cable, governor, trigger, signal, crew, and fate remain unresolved."
+        }
+      ]
+    }
+  ],
+  "revelations": [
+    {
+      "id": "the-shattered-gate-can-still-buy-the-city-time",
+      "title": "The Shattered Gate can still buy the city time",
+      "description": "The tower can be braced or abandoned in order. Its outcome decides how much time and how many soldiers reach the Stone Lung.",
+      "unlocks_encounter_id": "the-shattered-gate",
+      "required": true
+    },
+    {
+      "id": "the-cinder-foundry-can-counter-the-resonance-weapons",
+      "title": "The Cinder Foundry can counter the resonance weapons",
+      "description": "The Foundry holds the live shell, tuned tools, and skilled crews needed to understand Heartstrike and work safely on the Lung.",
+      "unlocks_encounter_id": "the-cinder-foundry",
+      "required": true
+    },
+    {
+      "id": "the-pale-gardens-can-map-and-clean-the-failing-air",
+      "title": "The Pale Gardens can map and clean the failing air",
+      "description": "The Gardens are recording airflow failure and can supply filters, living tracers, and a ward-by-ward map of the city's breath.",
+      "unlocks_encounter_id": "the-pale-gardens",
+      "required": true
+    },
+    {
+      "id": "the-refuge-galleries-hold-witnesses-and-an-old-service-route",
+      "title": "The Refuge Galleries hold witnesses and an old service route",
+      "description": "Surviving vent masons, sealed minutes, and the memorial stair can expose the southern branch's history and reach its controls.",
+      "unlocks_encounter_id": "the-refuge-galleries",
+      "required": true
+    },
+    {
+      "id": "the-black-cisterns-expose-the-false-conduit-map-and-black-breath",
+      "title": "The Cisterns of Black Breath expose the false conduit map and black breath",
+      "description": "Old valve marks, trapped gas, and pressure readings reveal the false map and the danger packed behind the southern seal.",
+      "unlocks_encounter_id": "the-black-cisterns",
+      "required": true
+    },
+    {
+      "id": "the-countermine-reaches-the-enemys-true-line-of-effort",
+      "title": "The Countermine reaches the enemy’s true line of effort",
+      "description": "The old lower road contains the Heartstrike cable, the Host's operational orders, and the fracture in its command.",
+      "unlocks_encounter_id": "the-countermine",
+      "required": true
+    },
+    {
+      "id": "three-routes-converge-on-the-stone-lung-and-heartstrike-charge",
+      "title": "A secured approach reaches the Stone Lung",
+      "description": "The Foundry gantry, memorial stair, and Countermine gallery each provide an independent route to a different station. Discovering any one approach makes the chamber actionable; securing more approaches changes which crews, witnesses, and enemies can arrive.",
+      "unlocks_encounter_id": "the-stone-lung",
+      "required": true
+    },
+    {
+      "id": "the-siege-is-shaping-access-to-the-stone-lung",
+      "title": "The siege is shaping access to the Stone Lung",
+      "description": "The Host's surface assaults fix Kest Mourne's defenders while sappers expose the southern seal and prepare Heartstrike below.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "kest-mourne-sealed-lorns-air-branch-and-concealed-it",
+      "title": "Kest Mourne sealed Lorn’s air branch and concealed it",
+      "description": "Kest Mourne sealed the shared branch during the blight, knew Lorn would lose air, and falsified the public record afterward.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "the-enemy-command-is-divided-over-heartstrike",
+      "title": "The enemy command is divided over Heartstrike",
+      "description": "Venn intends controlled seizure and reopening; Bas has misused technical command to prepare a larger fracture charge despite the risk to both cities.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "the-stone-lung-can-be-retuned-for-shared-air",
+      "title": "The Stone Lung can be retuned for shared air",
+      "description": "The crown can be braced and the southern branch reopened if black breath is vented first, living filters are placed, and the valves move by measured stages.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "field-evidence-can-change-citywide-orders-at-the-lantern-court",
+      "title": "Field evidence can change citywide orders at the Lantern Court",
+      "description": "Military reports joined to physical proof give Ilyra grounds to move reserves, expose records, evacuate wards, and bind a temporary operational parley.",
+      "unlocks_encounter_id": "the-lantern-court",
+      "required": false
+    }
+  ],
+  "clues": [
+    {
+      "id": "the-gates-double-red-flare",
+      "title": "The gate’s double red flare",
+      "source_encounter_id": "the-lantern-court",
+      "revelation_id": "the-shattered-gate-can-still-buy-the-city-time",
+      "description": "Brann Sile’s runner reports a split tower, an isolated gallery, and a double red flare meaning the outer line can hold only if independent help arrives before the next exhalation.",
+      "discovery": "Receive the gate runner while allocating the city’s remaining reserve."
+    },
+    {
+      "id": "the-ringing-shell-fragment",
+      "title": "The ringing shell fragment",
+      "source_encounter_id": "the-lantern-court",
+      "revelation_id": "the-cinder-foundry-can-counter-the-resonance-weapons",
+      "description": "A fragment brought from the wall rings in answer to the civic lanterns. Tamar Ohn identifies the Cinder Foundry as the only place able to reproduce and counter its frequency.",
+      "discovery": "Examine the fragment or ask why the command staff has ordered it kept away from the walls."
+    },
+    {
+      "id": "the-blue-garden-lantern",
+      "title": "The blue garden lantern",
+      "source_encounter_id": "the-lantern-court",
+      "revelation_id": "the-pale-gardens-can-map-and-clean-the-failing-air",
+      "description": "The sector lantern linked to the Pale Gardens burns blue before any other public flame changes. Growers report translucent beds and insects clustering on sealed vents.",
+      "discovery": "Compare the lantern cycle with the incoming garden report."
+    },
+    {
+      "id": "the-impossible-refuge-air-tally",
+      "title": "The impossible refuge air tally",
+      "source_encounter_id": "the-lantern-court",
+      "revelation_id": "the-refuge-galleries-hold-witnesses-and-an-old-service-route",
+      "description": "The lower Refuge Galleries go stale despite holding fewer people than their documented capacity. A detained former vent mason says the command map omits the branch that once ventilated them.",
+      "discovery": "Reconcile the refuge steward’s tally with the command map."
+    },
+    {
+      "id": "the-sealed-black-water-flask",
+      "title": "The sealed black-water flask",
+      "source_encounter_id": "the-lantern-court",
+      "revelation_id": "the-black-cisterns-expose-the-false-conduit-map-and-black-breath",
+      "description": "A cistern runner brings water with an oily skin and reports three missing crew members beyond an inspection arch where lamps will not burn.",
+      "discovery": "Question the runner or inspect the flask without bringing flame near it."
+    },
+    {
+      "id": "hammer-signals-beneath-the-court",
+      "title": "Hammer signals beneath the Court",
+      "source_encounter_id": "the-lantern-court",
+      "revelation_id": "the-countermine-reaches-the-enemys-true-line-of-effort",
+      "description": "Three sector reports place the loudest enemy hammer strokes deep inside the wall line rather than at its foundations. Kest Mourne’s Countermine is close to breaking into the same gallery.",
+      "discovery": "Plot the messenger reports on the command floor or listen through the old sounding bowl."
+    },
+    {
+      "id": "the-rejected-joint-inspection-packet",
+      "title": "The rejected joint-inspection packet",
+      "source_encounter_id": "the-lantern-court",
+      "revelation_id": "kest-mourne-sealed-lorns-air-branch-and-concealed-it",
+      "description": "Venn's original Lorn conduit plate is filed behind Edda's refusal with the old minutes. The docket dates Lorn's last auxiliary-chimney collapse six weeks earlier and shows Kest Mourne rejected inspection under the very map the plate contradicts.",
+      "discovery": "Press Edda to produce the sealed demand, obtain Ilyra's order to open the packet, or catch the records clerk moving it."
+    },
+    {
+      "id": "venns-authenticated-revocation",
+      "title": "Venn's authenticated revocation",
+      "source_encounter_id": "the-lantern-court",
+      "revelation_id": "the-enemy-command-is-divided-over-heartstrike",
+      "description": "A reply through the lower-road signal chain confirms that Venn authorized controlled seizure and forbids ignition while black breath remains trapped. It specifically revokes Bas's higher-yield countermand, proving his technical order no longer represents strategic command.",
+      "discovery": "Open a temporary parley or route Rusk's slate and the captured orders through Ilyra's signal officers."
+    },
+    {
+      "id": "the-unexploded-tower-resonator",
+      "title": "The unexploded tower resonator",
+      "source_encounter_id": "the-shattered-gate",
+      "revelation_id": "the-cinder-foundry-can-counter-the-resonance-weapons",
+      "description": "The shell beneath the trapped brace crew cannot be safely struck or removed with field tools. Its maker’s geometry points to the Cinder Foundry’s tuning benches.",
+      "discovery": "Reach the split tower and inspect the live shell."
+    },
+    {
+      "id": "the-scouts-lower-road-route",
+      "title": "The scout’s lower-road route",
+      "source_encounter_id": "the-shattered-gate",
+      "revelation_id": "the-countermine-reaches-the-enemys-true-line-of-effort",
+      "description": "Nara Ves entered through an old lower-road shaft and knows that the Host’s sapper line passes beneath the western wall toward Kest Mourne’s Countermine.",
+      "discovery": "Capture and question Nara, or recover her route slate from the false withdrawal."
+    },
+    {
+      "id": "branns-consolidated-defense-report",
+      "title": "Brann’s consolidated defense report",
+      "source_encounter_id": "the-shattered-gate",
+      "revelation_id": "field-evidence-can-change-citywide-orders-at-the-lantern-court",
+      "description": "The assault timings, casualty count, and unexploded shell together justify changing the citywide reserve plan, but only Ilyra Dain can issue the necessary orders.",
+      "discovery": "Help Brann stabilize the line well enough to produce a reliable report."
+    },
+    {
+      "id": "the-assaults-refuse-the-open-breach",
+      "title": "The assaults refuse the open breach",
+      "source_encounter_id": "the-shattered-gate",
+      "revelation_id": "the-siege-is-shaping-access-to-the-stone-lung",
+      "description": "Enemy companies withdraw after planting resonant wedges even when the split tower offers a momentary path inside. Their objective is timing and fixation, not immediate entry.",
+      "discovery": "Observe two assault cycles from the isolated gallery or compare Brann’s logs."
+    },
+    {
+      "id": "conflicting-orders-on-the-prisoners",
+      "title": "Conflicting orders on the prisoners",
+      "source_encounter_id": "the-shattered-gate",
+      "revelation_id": "the-enemy-command-is-divided-over-heartstrike",
+      "description": "Venn's standing order forbids damage to public air shafts. Bas's later hammer instruction tells the sappers to ignore that limit after the third signal.",
+      "discovery": "Keep the captured scout and sapper alive long enough to compare their written orders."
+    },
+    {
+      "id": "the-split-tower-brace-calculation",
+      "title": "The split-tower brace calculation",
+      "source_encounter_id": "the-cinder-foundry",
+      "revelation_id": "the-shattered-gate-can-still-buy-the-city-time",
+      "description": "Mera Coil’s load model shows that three radial braces can preserve the gate’s right tower through another assault if fitted before the next compression stroke.",
+      "discovery": "Ask the foundry to model the cracked tower or compare its measurements with the recovered shell damage."
+    },
+    {
+      "id": "the-unfinished-filter-frame-requisition",
+      "title": "The unfinished filter-frame requisition",
+      "source_encounter_id": "the-cinder-foundry",
+      "revelation_id": "the-pale-gardens-can-map-and-clean-the-failing-air",
+      "description": "Tamar’s abandoned work order calls for living filter mats and spore tracers from the Pale Gardens to test the ventilation frame before it is installed.",
+      "discovery": "Review Tamar’s competing production orders or inspect the half-built frame."
+    },
+    {
+      "id": "the-counterweight-service-gantry",
+      "title": "The counterweight service gantry",
+      "source_encounter_id": "the-cinder-foundry",
+      "revelation_id": "three-routes-converge-on-the-stone-lung-and-heartstrike-charge",
+      "description": "A sealed hoistway behind the counterweight stores descends directly to the Stone Lung's crown. Its service plate marks it as one independent approach among the crown, civic-control, and lower-road routes.",
+      "discovery": "Trace the old counterweight chains or obtain Tamar Ohn’s maintenance key."
+    },
+    {
+      "id": "the-shell-frequency-model",
+      "title": "The shell frequency model",
+      "source_encounter_id": "the-cinder-foundry",
+      "revelation_id": "the-siege-is-shaping-access-to-the-stone-lung",
+      "description": "The recovered resonator is inefficient against ordinary walls but precisely tuned to the Stone Lung’s release frequency. The surface bombardment is calibration for a deeper target.",
+      "discovery": "Extract or detune the live shell and reproduce its cadence on the tuning bench."
+    },
+    {
+      "id": "the-erased-safety-tolerance",
+      "title": "The erased safety tolerance",
+      "source_encounter_id": "the-cinder-foundry",
+      "revelation_id": "the-enemy-command-is-divided-over-heartstrike",
+      "description": "The shell's original maker marks include a maximum safe charge bearing Venn's seal. Bas's later technical countermand cuts away that limit and substitutes a larger setting never approved by strategic command.",
+      "discovery": "Clean the ceramic ribs intact enough to compare the two sets of marks."
+    },
+    {
+      "id": "the-variable-vane-model",
+      "title": "The variable-vane model",
+      "source_encounter_id": "the-cinder-foundry",
+      "revelation_id": "the-stone-lung-can-be-retuned-for-shared-air",
+      "description": "A scale reconstruction shows the crown accepting a new balance when the southern branch opens by stages, the trapped gas is vented first, and living filters protect the restored exchange.",
+      "discovery": "Combine the shell frequency with Tamar’s surviving counterweight specifications."
+    },
+    {
+      "id": "meras-signed-production-board",
+      "title": "Mera's signed production board",
+      "source_encounter_id": "the-cinder-foundry",
+      "revelation_id": "field-evidence-can-change-citywide-orders-at-the-lantern-court",
+      "description": "The foundry board names exactly what one remaining shift can finish and which sector loses each diverted beam, filter housing, or counterweight. With Mera's signature, Ilyra can reissue the reserve plan without pretending the city has materials it does not.",
+      "discovery": "Settle the production allocation with Mera and preserve enough of the benches to certify the remaining capacity."
+    },
+    {
+      "id": "the-cracked-foundry-exhaust",
+      "title": "The cracked foundry exhaust",
+      "source_encounter_id": "the-pale-gardens",
+      "revelation_id": "the-cinder-foundry-can-counter-the-resonance-weapons",
+      "description": "Each draw stroke pulls soot backward through a cracked foundry exhaust and across the translucent beds. Growers report a deep ringing there that began with the latest bombardment.",
+      "discovery": "Follow the soot gradient instead of assuming every damaged bed was poisoned."
+    },
+    {
+      "id": "deren-vasks-ration-cart-message",
+      "title": "Deren Vask’s ration-cart message",
+      "source_encounter_id": "the-pale-gardens",
+      "revelation_id": "the-refuge-galleries-hold-witnesses-and-an-old-service-route",
+      "description": "A trapped ration porter carries Deren’s request that someone compare the southern rootstock marks with the memorial records in the Refuge Galleries.",
+      "discovery": "Release the quarantined porters or inspect the message hidden in the cart tally."
+    },
+    {
+      "id": "the-growers-living-air-map",
+      "title": "The growers’ living air map",
+      "source_encounter_id": "the-pale-gardens",
+      "revelation_id": "field-evidence-can-change-citywide-orders-at-the-lantern-court",
+      "description": "Sen Tahl's full-cycle map shows which wards fail on each stroke and where evacuation crews and filters must stand when the Lung changes.",
+      "discovery": "Preserve enough beds and insect observations to complete one full-cycle map."
+    },
+    {
+      "id": "the-southern-rootstock-gradient",
+      "title": "The southern rootstock gradient",
+      "source_encounter_id": "the-pale-gardens",
+      "revelation_id": "kest-mourne-sealed-lorns-air-branch-and-concealed-it",
+      "description": "Old filter beds labeled for the southern exchange stopped receiving fresh flow abruptly in the mold-blight year. Purge-bed marks show the quarantine was designed to end, not become a permanent diversion.",
+      "discovery": "Compare surviving rootstock rings and scraped bed labels across the terraces."
+    },
+    {
+      "id": "the-spore-tracer-sequence",
+      "title": "The spore-tracer sequence",
+      "source_encounter_id": "the-pale-gardens",
+      "revelation_id": "the-stone-lung-can-be-retuned-for-shared-air",
+      "description": "Different spores move on compression, draw, and release. Garden crews can mark the black-breath front and confirm when the southern valves may advance safely.",
+      "discovery": "Separate sabotage from suffocation and run controlled tracers through the service vents."
+    },
+    {
+      "id": "the-refuge-healers-breathing-ledger",
+      "title": "The refuge healers’ breathing ledger",
+      "source_encounter_id": "the-refuge-galleries",
+      "revelation_id": "the-pale-gardens-can-map-and-clean-the-failing-air",
+      "description": "Fainting follows the Lung’s draw and worsens when the Pale Gardens’ filter beds are offline. The healers’ timing can be tested against the gardens’ insects and spores.",
+      "discovery": "Review the symptom ledger rather than treating the illness as hunger or panic."
+    },
+    {
+      "id": "the-oily-water-sickness-cluster",
+      "title": "The oily-water sickness cluster",
+      "source_encounter_id": "the-refuge-galleries",
+      "revelation_id": "the-black-cisterns-expose-the-false-conduit-map-and-black-breath",
+      "description": "The worst headaches and lamp failures occur among families drawing from the lower cistern line. Their water develops an oily skin minutes before the air turns bad.",
+      "discovery": "Compare family water sources with the healers’ ward map."
+    },
+    {
+      "id": "the-memorial-maintenance-stair",
+      "title": "The memorial maintenance stair",
+      "source_encounter_id": "the-refuge-galleries",
+      "revelation_id": "three-routes-converge-on-the-stone-lung-and-heartstrike-charge",
+      "description": "The family tablets preserve a ventwright mark around an older service door. The stair behind it descends independently to the Stone Lung's southern controls, separate from the crown and lower-road approaches.",
+      "discovery": "Reconcile the public memorial with the private family tablets and follow Deren’s service symbols."
+    },
+    {
+      "id": "the-sealed-minutes-and-derens-testimony",
+      "title": "The sealed minutes and Deren’s testimony",
+      "source_encounter_id": "the-refuge-galleries",
+      "revelation_id": "kest-mourne-sealed-lorns-air-branch-and-concealed-it",
+      "description": "The minutes and Deren's account agree: Kest Mourne sealed the shared branch temporarily, knew Lorn would lose air, abandoned the planned purge and filter works, and hid the permanent closure after the blight died out.",
+      "discovery": "Protect Deren’s testimony and obtain or publicly compel the sealed council minutes."
+    },
+    {
+      "id": "the-ventwrights-three-stage-litany",
+      "title": "The ventwrights' three-stage litany",
+      "source_encounter_id": "the-refuge-galleries",
+      "revelation_id": "the-stone-lung-can-be-retuned-for-shared-air",
+      "description": "The family tablets preserve a maintenance litany: clear the dead air, steady the crown, then wake the southern leaves one mark at a time. Deren recognizes it as the old safe sequence for reopening a quarantined exchange.",
+      "discovery": "Read the memorial arrangement with Deren or compare its repeated marks to the sealed minutes."
+    },
+    {
+      "id": "the-public-refuge-hearing-record",
+      "title": "The public refuge hearing record",
+      "source_encounter_id": "the-refuge-galleries",
+      "revelation_id": "field-evidence-can-change-citywide-orders-at-the-lantern-court",
+      "description": "A named transcript joins Deren's testimony, the healers' timing ledger, the sealed minutes, and Venn's rejected plate before families and relief officers. Once copied, Ilyra can order disclosure, evacuation, and a parley without resting the decision on one hidden witness.",
+      "discovery": "Hold a public accounting that protects Deren and keeps the ration dispute from becoming a crush."
+    },
+    {
+      "id": "the-old-refuge-evacuation-marks",
+      "title": "The old refuge evacuation marks",
+      "source_encounter_id": "the-black-cisterns",
+      "revelation_id": "the-refuge-galleries-hold-witnesses-and-an-old-service-route",
+      "description": "Valve numbers beneath the limewash match service symbols used in the Refuge memorial crypt, where surviving blight workers and the sealed record can interpret them.",
+      "discovery": "Expose the older markings around the false southern dead end."
+    },
+    {
+      "id": "the-lower-road-maintenance-grate",
+      "title": "The lower-road maintenance grate",
+      "source_encounter_id": "the-black-cisterns",
+      "revelation_id": "the-countermine-reaches-the-enemys-true-line-of-effort",
+      "description": "A drainage channel opens into the old lower road. Enemy hammer strokes and resonance cable pulses carry through it toward Kest Mourne’s Countermine.",
+      "discovery": "Follow the opposing movement of air and water behind the fourth pool."
+    },
+    {
+      "id": "the-original-conduit-plate",
+      "title": "The original conduit plate",
+      "source_encounter_id": "the-black-cisterns",
+      "revelation_id": "field-evidence-can-change-citywide-orders-at-the-lantern-court",
+      "description": "The brass plate, gas readings, and deliberate masonry give Ilyra proof strong enough to overrule the public map and issue citywide orders.",
+      "discovery": "Recover the plate and one complete pressure cycle without igniting the chamber."
+    },
+    {
+      "id": "the-hidden-masonry-and-original-map",
+      "title": "The hidden masonry and original map",
+      "source_encounter_id": "the-black-cisterns",
+      "revelation_id": "kest-mourne-sealed-lorns-air-branch-and-concealed-it",
+      "description": "Chisel marks show a built closure where the current map claims natural stone. The original inspection diagram names Lorn as the southern exchange branch.",
+      "discovery": "Strip the limewash and inspect the reverse of the surviving conduit plate."
+    },
+    {
+      "id": "the-pressure-and-valve-readings",
+      "title": "The pressure and valve readings",
+      "source_encounter_id": "the-black-cisterns",
+      "revelation_id": "the-stone-lung-can-be-retuned-for-shared-air",
+      "description": "Cala Orm’s measurements identify a disused overflow that can vent the black breath and give the pressure limits for opening the southern valves in stages.",
+      "discovery": "Rescue the trapped crew or reproduce their hammer readings across a full Lung cycle."
+    },
+    {
+      "id": "the-full-gate-assault-tablet",
+      "title": "The full gate assault tablet",
+      "source_encounter_id": "the-countermine",
+      "revelation_id": "the-shattered-gate-can-still-buy-the-city-time",
+      "description": "The sapper tablet lists the Host’s feints, reserve commitments, and the exact release stroke chosen for the next major attack on the Shattered Gate.",
+      "discovery": "Capture the field tablet or obtain it from Mael Rusk during a local truce."
+    },
+    {
+      "id": "the-black-breath-drainage-draft",
+      "title": "The black-breath drainage draft",
+      "source_encounter_id": "the-countermine",
+      "revelation_id": "the-black-cisterns-expose-the-false-conduit-map-and-black-breath",
+      "description": "A sweet, dead draft enters the old road through a submerged maintenance grate. Enemy sappers avoid it and mark the connection to Kest Mourne’s lower cisterns.",
+      "discovery": "Trace the draft or read the hazard marks on the sapper plan."
+    },
+    {
+      "id": "the-heartstrike-cable",
+      "title": "The Heartstrike cable",
+      "source_encounter_id": "the-countermine",
+      "revelation_id": "three-routes-converge-on-the-stone-lung-and-heartstrike-charge",
+      "description": "The resonance cable runs directly from the sapper line to a charge gallery behind the Stone Lung's southern seal. It provides an independent lower-road approach to the chamber's armed station.",
+      "discovery": "Follow, tap, or map the cable after the breakthrough."
+    },
+    {
+      "id": "the-heartstrike-operational-plan",
+      "title": "The Heartstrike operational plan",
+      "source_encounter_id": "the-countermine",
+      "revelation_id": "the-siege-is-shaping-access-to-the-stone-lung",
+      "description": "The written plan states that surface assaults exist to fix reserves while the lower-road crews expose and fracture the southern seal during the Lung’s release.",
+      "discovery": "Recover Bas’s field tablet from the trapped sapper chamber."
+    },
+    {
+      "id": "venns-limits-and-bass-countermand",
+      "title": "Venn’s limits and Bas’s countermand",
+      "source_encounter_id": "the-countermine",
+      "revelation_id": "the-enemy-command-is-divided-over-heartstrike",
+      "description": "Rusk carries Venn's order for controlled seizure beside Bas's valid-looking technical countermand to arm Heartstrike at a concealed higher yield. The orders come from different chains and cannot both be obeyed safely.",
+      "discovery": "Compare the sap captain’s sealed orders or establish a direct signal to Venn."
+    },
+    {
+      "id": "rusks-protected-truce-slate",
+      "title": "Rusk's protected truce slate",
+      "source_encounter_id": "the-countermine",
+      "revelation_id": "field-evidence-can-change-citywide-orders-at-the-lantern-court",
+      "description": "Rusk's slate names the crews willing to obey Venn, the route by which they can withdraw from Bas, and the conditions under which they will protect controlled reopening. It gives Ilyra something operational to order, not merely an enemy promise.",
+      "discovery": "Rescue the trapped sappers, authenticate Venn's limits, and negotiate a protected route for Rusk's crews."
+    },
+    {
+      "id": "the-assault-relay-drum",
+      "title": "The assault relay drum",
+      "source_encounter_id": "the-stone-lung",
+      "revelation_id": "the-siege-is-shaping-access-to-the-stone-lung",
+      "description": "A relay drum beside Heartstrike carries three surface signals into the charge gallery: Gate fixation, reserve displacement, and southern-seal readiness. Its teeth advance only when the outer assault has drawn defenders away from the lower road.",
+      "discovery": "Inspect the charge-gallery relays before arming, intercept a signal cycle, or compare the drum to the Countermine operation table."
+    },
+    {
+      "id": "the-buried-lorn-control-ring",
+      "title": "The buried Lorn control ring",
+      "source_encounter_id": "the-stone-lung",
+      "revelation_id": "kest-mourne-sealed-lorns-air-branch-and-concealed-it",
+      "description": "Behind the later service wall, the original southern-control ring bears both Kest Mourne and Lorn custody marks. Newer masonry covers Lorn's half, while replacement index plates reroute the branch into a blank stone sector.",
+      "discovery": "Open the false wall carefully enough to preserve the original controls and compare their marks with the current map."
+    },
+    {
+      "id": "the-bypassed-command-governor",
+      "title": "The bypassed command governor",
+      "source_encounter_id": "the-stone-lung",
+      "revelation_id": "the-enemy-command-is-divided-over-heartstrike",
+      "description": "Heartstrike's firing assembly includes Venn's sealed safety governor, designed to block fracture at the measured gas pressure. Bas has bridged it with a hand-cut ceramic shunt and wired the manual trigger outside the strategic command lock.",
+      "discovery": "Reach the charge gallery intact, inspect the firing assembly, or force Bas's crew to explain why the governor no longer controls the charge."
+    },
+    {
+      "id": "the-surviving-balance-marks",
+      "title": "The surviving balance marks",
+      "source_encounter_id": "the-stone-lung",
+      "revelation_id": "the-stone-lung-can-be-retuned-for-shared-air",
+      "description": "Original score marks on the crown and southern valves record stable paired settings that include flow toward Lorn. They confirm the Lung was built to balance both branches and can accept staged reopening once pressure and gas are controlled.",
+      "discovery": "Study a full cycle from the crown and southern controls, or align the old marks with Tamar's model and Cala's readings."
+    }
+  ]
+}

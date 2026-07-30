@@ -1,0 +1,1113 @@
+{
+  "schema_version": 6,
+  "adventure_id": "a-wedding-for-the-river",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "session_started",
+      "session_number": 1,
+      "title": "The Same Words, Two Marriages",
+      "played_on": "2026-07-16",
+      "participants": [
+        "Adel Berren",
+        "Kest Larch",
+        "Sella Broth",
+        "Oren Chalk"
+      ],
+      "attendance_note": "All four free witnesses present.",
+      "opening_note": "Mera Quill opens two identical compact copies and asks the principals to explain the same household sentence separately."
+    },
+    {
+      "sequence": 2,
+      "operation_number": 2,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "house-of-open-measure",
+      "party_label": "The Four Open Hands with Mera, Tomas, and Neris"
+    },
+    {
+      "sequence": 3,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "house-of-open-measure-marriage-does-not-transfer-the-mill-or-river-lease-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "house-of-open-measure-river-adoption-adds-duties-without-erasing-mortal-kinship-2",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "house-of-open-measure-the-feast-must-name-sources-rather-than-guess-appetites-3",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "house-of-open-measure-stable-records-can-preserve-changing-river-names-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "house-of-open-measure-the-ceremonial-boat-is-a-threshold-not-a-departure-2",
+      "visit_number": 1
+    },
+    {
+      "sequence": 8,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "house-of-open-measure-grievances-name-obligations-rather-than-invite-insults-3",
+      "visit_number": 1
+    },
+    {
+      "sequence": 9,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "house-of-open-measure-care-follows-named-duties-not-household-claims-2",
+      "visit_number": 1
+    },
+    {
+      "sequence": 10,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "house-of-open-measure-hospitality-follows-named-capacities-not-representative-customs-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 11,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Tomas and Neris each choose marriage now, state separate conditions, and accurately paraphrase the other without adopting one household description."
+    },
+    {
+      "sequence": 12,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "The House separates property, adoption, names, care, hospitality, grievances, and threshold meaning into distinct scopes."
+    },
+    {
+      "sequence": 13,
+      "operation_number": 3,
+      "type": "revelation_established",
+      "revelation_id": "marriage-does-not-transfer-the-mill-or-river-lease",
+      "supporting_clue_ids": [
+        "house-of-open-measure-marriage-does-not-transfer-the-mill-or-river-lease-1"
+      ],
+      "note": "The deed and lease books separate marriage from mill ownership, debt, and water authority."
+    },
+    {
+      "sequence": 14,
+      "operation_number": 3,
+      "type": "encounter_unlocked",
+      "encounter_id": "vale-mill-and-hearth",
+      "source_revelation_id": "marriage-does-not-transfer-the-mill-or-river-lease",
+      "reason": ""
+    },
+    {
+      "sequence": 15,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "river-adoption-adds-duties-without-erasing-mortal-kinship",
+      "supporting_clue_ids": [
+        "house-of-open-measure-river-adoption-adds-duties-without-erasing-mortal-kinship-2"
+      ],
+      "note": "A prior compact shows bounded adoption beside continuing mortal kinship."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "house-beneath-the-willows",
+      "source_revelation_id": "river-adoption-adds-duties-without-erasing-mortal-kinship",
+      "reason": ""
+    },
+    {
+      "sequence": 17,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "the-feast-must-name-sources-rather-than-guess-appetites",
+      "supporting_clue_ids": [
+        "house-of-open-measure-the-feast-must-name-sources-rather-than-guess-appetites-3"
+      ],
+      "note": "The source form requires food and labor to be named rather than inferred from household identity."
+    },
+    {
+      "sequence": 18,
+      "operation_number": 5,
+      "type": "encounter_unlocked",
+      "encounter_id": "market-of-seven-baskets",
+      "source_revelation_id": "the-feast-must-name-sources-rather-than-guess-appetites",
+      "reason": ""
+    },
+    {
+      "sequence": 19,
+      "operation_number": 6,
+      "type": "revelation_established",
+      "revelation_id": "stable-records-can-preserve-changing-river-names",
+      "supporting_clue_ids": [
+        "house-of-open-measure-stable-records-can-preserve-changing-river-names-1"
+      ],
+      "note": "The alias chain preserves stable identity without forcing one permanent byname."
+    },
+    {
+      "sequence": 20,
+      "operation_number": 6,
+      "type": "encounter_unlocked",
+      "encounter_id": "shrine-of-the-open-door",
+      "source_revelation_id": "stable-records-can-preserve-changing-river-names",
+      "reason": ""
+    },
+    {
+      "sequence": 21,
+      "operation_number": 7,
+      "type": "revelation_established",
+      "revelation_id": "the-ceremonial-boat-is-a-threshold-not-a-departure",
+      "supporting_clue_ids": [
+        "house-of-open-measure-the-ceremonial-boat-is-a-threshold-not-a-departure-2"
+      ],
+      "note": "The adoption diagram includes entry, correction, and return; the boat need not carry Tomas away."
+    },
+    {
+      "sequence": 22,
+      "operation_number": 7,
+      "type": "encounter_unlocked",
+      "encounter_id": "reedwrights-yard",
+      "source_revelation_id": "the-ceremonial-boat-is-a-threshold-not-a-departure",
+      "reason": ""
+    },
+    {
+      "sequence": 23,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "grievances-name-obligations-rather-than-invite-insults",
+      "supporting_clue_ids": [
+        "house-of-open-measure-grievances-name-obligations-rather-than-invite-insults-3"
+      ],
+      "note": "The grievance ledger records one obligation and one requested answer rather than open accusation."
+    },
+    {
+      "sequence": 24,
+      "operation_number": 8,
+      "type": "encounter_unlocked",
+      "encounter_id": "bridge-of-three-tunes",
+      "source_revelation_id": "grievances-name-obligations-rather-than-invite-insults",
+      "reason": ""
+    },
+    {
+      "sequence": 25,
+      "operation_number": 9,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "vale-mill-and-hearth",
+      "party_label": "Adel and Sella with Tomas and the Vale household"
+    },
+    {
+      "sequence": 26,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "vale-mill-and-hearth-river-adoption-adds-duties-without-erasing-mortal-kinship-1",
+      "visit_number": 2
+    },
+    {
+      "sequence": 27,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "vale-mill-and-hearth-the-feast-must-name-sources-rather-than-guess-appetites-2",
+      "visit_number": 2
+    },
+    {
+      "sequence": 28,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "vale-mill-and-hearth-vows-must-describe-endurance-through-change-3",
+      "visit_number": 2
+    },
+    {
+      "sequence": 29,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "vale-mill-and-hearth-the-ceremonial-boat-is-a-threshold-not-a-departure-1",
+      "visit_number": 2
+    },
+    {
+      "sequence": 30,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "vale-mill-and-hearth-grievances-name-obligations-rather-than-invite-insults-2",
+      "visit_number": 2
+    },
+    {
+      "sequence": 31,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "vale-mill-and-hearth-the-old-flood-was-a-failed-handoff-not-a-single-betrayal-3",
+      "visit_number": 2
+    },
+    {
+      "sequence": 32,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "vale-mill-and-hearth-care-follows-named-duties-not-household-claims-1",
+      "visit_number": 2
+    },
+    {
+      "sequence": 33,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "vale-mill-and-hearth-hospitality-follows-named-capacities-not-representative-customs-2",
+      "visit_number": 2
+    },
+    {
+      "sequence": 34,
+      "operation_number": 9,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Mara separates deed, operations, domestic authority, and water compliance; Elsin remains an apprentice and named participant rather than a succession token."
+    },
+    {
+      "sequence": 35,
+      "operation_number": 9,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "The handstone-as-bowl-support and several transformed veil uses remain proposals."
+    },
+    {
+      "sequence": 36,
+      "operation_number": 10,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Adel records that Agnes accepted the veil as a canopy."
+    },
+    {
+      "sequence": 37,
+      "operation_number": 11,
+      "type": "operation_voided",
+      "target_operation_number": 10,
+      "reason": "Sella confirms that Agnes offered several possible transformations but accepted no final use without Neris naming the Vale dead."
+    },
+    {
+      "sequence": 38,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Corrected record: Agnes conditionally offers canopy, compact wrapping, threshold cloth, or another use that recognizes the Vale dead; final acceptance remains open."
+    },
+    {
+      "sequence": 39,
+      "operation_number": 13,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "vale-mill-and-hearth",
+      "text": "Neris may receive domestic access and water-correspondent authority without mill ownership, debt, wage control, or succession; Elsin’s apprenticeship remains protected."
+    },
+    {
+      "sequence": 40,
+      "operation_number": 14,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "house-beneath-the-willows",
+      "party_label": "Kest and Oren with Neris and the river household"
+    },
+    {
+      "sequence": 41,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "house-beneath-the-willows-the-feast-must-name-sources-rather-than-guess-appetites-1",
+      "visit_number": 3
+    },
+    {
+      "sequence": 42,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "house-beneath-the-willows-vows-must-describe-endurance-through-change-2",
+      "visit_number": 3
+    },
+    {
+      "sequence": 43,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "house-beneath-the-willows-flowing-rills-and-raised-mats-can-form-one-shared-site-3",
+      "visit_number": 3
+    },
+    {
+      "sequence": 44,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "house-beneath-the-willows-grievances-name-obligations-rather-than-invite-insults-1",
+      "visit_number": 3
+    },
+    {
+      "sequence": 45,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "house-beneath-the-willows-the-old-flood-was-a-failed-handoff-not-a-single-betrayal-2",
+      "visit_number": 3
+    },
+    {
+      "sequence": 46,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "house-beneath-the-willows-an-honest-boundary-is-stronger-than-false-unanimity-3",
+      "visit_number": 3
+    },
+    {
+      "sequence": 47,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "house-beneath-the-willows-hospitality-follows-named-capacities-not-representative-customs-3",
+      "visit_number": 3
+    },
+    {
+      "sequence": 48,
+      "operation_number": 14,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Serein defines six bounded adoption duties and six reciprocal river obligations."
+    },
+    {
+      "sequence": 49,
+      "operation_number": 14,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Orren agrees to offer an open iron spiral; Neris retains her current name, parentage, witness mark, and two-home standing."
+    },
+    {
+      "sequence": 50,
+      "operation_number": 15,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "house-beneath-the-willows",
+      "text": "The household accepts exact warning, rescue, evidence, bodily-limit, and hearing duties; no unrestricted command, custody, surname, or property transfer is proposed."
+    },
+    {
+      "sequence": 51,
+      "operation_number": 16,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "house-of-open-measure",
+      "party_label": "The reunited Four Open Hands with both principals"
+    },
+    {
+      "sequence": 52,
+      "operation_number": 16,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The split-party records are compared in the presence of Tomas and Neris; the voided veil overstatement remains visible beside the corrected conditional note."
+    },
+    {
+      "sequence": 53,
+      "operation_number": 16,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The principals accept separated mill authorities, stable names, bounded adoption, reciprocal river duties, named care, and the continued disagreement over household description."
+    },
+    {
+      "sequence": 54,
+      "operation_number": 17,
+      "type": "revelation_established",
+      "revelation_id": "care-follows-named-duties-not-household-claims",
+      "supporting_clue_ids": [
+        "house-of-open-measure-care-follows-named-duties-not-household-claims-2",
+        "vale-mill-and-hearth-care-follows-named-duties-not-household-claims-1"
+      ],
+      "note": "The House precedent and Mara’s instructions assign care to named people without default custody."
+    },
+    {
+      "sequence": 55,
+      "operation_number": 18,
+      "type": "revelation_established",
+      "revelation_id": "hospitality-follows-named-capacities-not-representative-customs",
+      "supporting_clue_ids": [
+        "house-of-open-measure-hospitality-follows-named-capacities-not-representative-customs-1",
+        "vale-mill-and-hearth-hospitality-follows-named-capacities-not-representative-customs-2",
+        "house-beneath-the-willows-hospitality-follows-named-capacities-not-representative-customs-3"
+      ],
+      "note": "Guest needs differ within each household and must be recorded person by person."
+    },
+    {
+      "sequence": 56,
+      "operation_number": 19,
+      "type": "revelation_established",
+      "revelation_id": "vows-must-describe-endurance-through-change",
+      "supporting_clue_ids": [
+        "vale-mill-and-hearth-vows-must-describe-endurance-through-change-3",
+        "house-beneath-the-willows-vows-must-describe-endurance-through-change-2"
+      ],
+      "note": "Both principals require promises that explain changed course, interruption, and correction in ordinary language."
+    },
+    {
+      "sequence": 57,
+      "operation_number": 20,
+      "type": "revelation_established",
+      "revelation_id": "the-old-flood-was-a-failed-handoff-not-a-single-betrayal",
+      "supporting_clue_ids": [
+        "vale-mill-and-hearth-the-old-flood-was-a-failed-handoff-not-a-single-betrayal-3",
+        "house-beneath-the-willows-the-old-flood-was-a-failed-handoff-not-a-single-betrayal-2"
+      ],
+      "note": "High-water cuts and the broken borrowed bell show warning without a complete receiving handoff."
+    },
+    {
+      "sequence": 58,
+      "operation_number": 20,
+      "type": "encounter_unlocked",
+      "encounter_id": "flood-meadow-and-old-ford",
+      "source_revelation_id": "the-old-flood-was-a-failed-handoff-not-a-single-betrayal",
+      "reason": ""
+    },
+    {
+      "sequence": 59,
+      "operation_number": 21,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "house-of-open-measure",
+      "text": "One shared operational schedule is drafted beside two still-open household descriptions; all gifts and ceremony forms remain proposed until their principals accept them."
+    },
+    {
+      "sequence": 60,
+      "operation_number": 22,
+      "type": "session_ended",
+      "session_number": 1,
+      "closing_note": "The couple continue to choose marriage. Household powers are separated; household description remains dual; ceremony objects and public forms remain open."
+    },
+    {
+      "sequence": 61,
+      "operation_number": 23,
+      "type": "session_started",
+      "session_number": 2,
+      "title": "Seven Baskets, Six Functions",
+      "played_on": "2026-07-16",
+      "participants": [
+        "Adel Berren",
+        "Kest Larch",
+        "Sella Broth",
+        "Oren Chalk"
+      ],
+      "attendance_note": "All four witnesses present; work proceeds in divided teams.",
+      "opening_note": "The party turns household findings into named hospitality, observable ceremony functions, a movable site, and a score with two genuine leaders."
+    },
+    {
+      "sequence": 62,
+      "operation_number": 24,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "market-of-seven-baskets",
+      "party_label": "Adel and Sella with Pella and the market workers"
+    },
+    {
+      "sequence": 63,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "market-of-seven-baskets-postponement-costs-a-year-not-a-life-3",
+      "visit_number": 5
+    },
+    {
+      "sequence": 64,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "market-of-seven-baskets-vows-must-describe-endurance-through-change-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 65,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "market-of-seven-baskets-flowing-rills-and-raised-mats-can-form-one-shared-site-2",
+      "visit_number": 5
+    },
+    {
+      "sequence": 66,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "market-of-seven-baskets-two-rhythms-can-meet-without-one-becoming-background-3",
+      "visit_number": 5
+    },
+    {
+      "sequence": 67,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "market-of-seven-baskets-an-honest-boundary-is-stronger-than-false-unanimity-2",
+      "visit_number": 5
+    },
+    {
+      "sequence": 68,
+      "operation_number": 24,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Protected trout are returned; food, labor, access, lodging, gifts, grievances, and abstentions are assigned by named person and source."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 24,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Pella limits the public grievance interval to four one-breath obligations after guests have eaten."
+    },
+    {
+      "sequence": 70,
+      "operation_number": 25,
+      "type": "clue_missed",
+      "clue_id": "market-of-seven-baskets-the-old-flood-was-a-failed-handoff-not-a-single-betrayal-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 71,
+      "operation_number": 26,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "market-of-seven-baskets",
+      "text": "The feast uses a broken-ring table with two openings, exact lodging, a widened route for Deep-Reed, declared gifts, and a visible abstention token."
+    },
+    {
+      "sequence": 72,
+      "operation_number": 27,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "shrine-of-the-open-door",
+      "party_label": "Kest and Oren with Keeper Ansel"
+    },
+    {
+      "sequence": 73,
+      "operation_number": 27,
+      "type": "clue_spotted",
+      "clue_id": "shrine-of-the-open-door-postponement-costs-a-year-not-a-life-2",
+      "visit_number": 6
+    },
+    {
+      "sequence": 74,
+      "operation_number": 27,
+      "type": "clue_spotted",
+      "clue_id": "shrine-of-the-open-door-the-veil-can-honor-the-dead-without-covering-the-bride-3",
+      "visit_number": 6
+    },
+    {
+      "sequence": 75,
+      "operation_number": 27,
+      "type": "clue_spotted",
+      "clue_id": "shrine-of-the-open-door-flowing-rills-and-raised-mats-can-form-one-shared-site-1",
+      "visit_number": 6
+    },
+    {
+      "sequence": 76,
+      "operation_number": 27,
+      "type": "clue_spotted",
+      "clue_id": "shrine-of-the-open-door-two-rhythms-can-meet-without-one-becoming-background-2",
+      "visit_number": 6
+    },
+    {
+      "sequence": 77,
+      "operation_number": 27,
+      "type": "clue_spotted",
+      "clue_id": "shrine-of-the-open-door-the-ceremony-must-adapt-to-water-not-depend-on-one-waterline-3",
+      "visit_number": 6
+    },
+    {
+      "sequence": 78,
+      "operation_number": 27,
+      "type": "clue_spotted",
+      "clue_id": "shrine-of-the-open-door-an-honest-boundary-is-stronger-than-false-unanimity-1",
+      "visit_number": 6
+    },
+    {
+      "sequence": 79,
+      "operation_number": 27,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Ansel reduces the public rite to consent, household standing, names, exchange, promises, and departure."
+    },
+    {
+      "sequence": 80,
+      "operation_number": 27,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Tomas and Neris select image followed by plain speech and permit two household descriptions followed by one duty schedule."
+    },
+    {
+      "sequence": 81,
+      "operation_number": 28,
+      "type": "revelation_established",
+      "revelation_id": "flowing-rills-and-raised-mats-can-form-one-shared-site",
+      "supporting_clue_ids": [
+        "house-beneath-the-willows-flowing-rills-and-raised-mats-can-form-one-shared-site-3",
+        "market-of-seven-baskets-flowing-rills-and-raised-mats-can-form-one-shared-site-2",
+        "shrine-of-the-open-door-flowing-rills-and-raised-mats-can-form-one-shared-site-1"
+      ],
+      "note": "Willow platforms, market fountain boards, and the shrine runnel show wet and dry participation without separate ceremonies."
+    },
+    {
+      "sequence": 82,
+      "operation_number": 29,
+      "type": "revelation_established",
+      "revelation_id": "an-honest-boundary-is-stronger-than-false-unanimity",
+      "supporting_clue_ids": [
+        "house-beneath-the-willows-an-honest-boundary-is-stronger-than-false-unanimity-3",
+        "market-of-seven-baskets-an-honest-boundary-is-stronger-than-false-unanimity-2",
+        "shrine-of-the-open-door-an-honest-boundary-is-stronger-than-false-unanimity-1"
+      ],
+      "note": "Separate duties, abstention tokens, and open clauses preserve disagreement without turning it into a veto."
+    },
+    {
+      "sequence": 83,
+      "operation_number": 29,
+      "type": "encounter_unlocked",
+      "encounter_id": "wedding-between-the-banks",
+      "source_revelation_id": "an-honest-boundary-is-stronger-than-false-unanimity",
+      "reason": ""
+    },
+    {
+      "sequence": 84,
+      "operation_number": 30,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "shrine-of-the-open-door",
+      "text": "The rehearsal will test six observable functions, image-plus-plain vows, two equal household descriptions, and a threshold order with a neutral departure."
+    },
+    {
+      "sequence": 85,
+      "operation_number": 31,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "reedwrights-yard",
+      "party_label": "Kest and Sella with Dessa Reedwright"
+    },
+    {
+      "sequence": 86,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "reedwrights-yard-postponement-costs-a-year-not-a-life-1",
+      "visit_number": 7
+    },
+    {
+      "sequence": 87,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "reedwrights-yard-the-veil-can-honor-the-dead-without-covering-the-bride-2",
+      "visit_number": 7
+    },
+    {
+      "sequence": 88,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "reedwrights-yard-open-worked-iron-can-carry-the-ring-gift-without-binding-3",
+      "visit_number": 7
+    },
+    {
+      "sequence": 89,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "reedwrights-yard-two-rhythms-can-meet-without-one-becoming-background-1",
+      "visit_number": 7
+    },
+    {
+      "sequence": 90,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "reedwrights-yard-the-ceremony-must-adapt-to-water-not-depend-on-one-waterline-2",
+      "visit_number": 7
+    },
+    {
+      "sequence": 91,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "reedwrights-yard-six-clear-functions-matter-more-than-copying-every-custom-3",
+      "visit_number": 7
+    },
+    {
+      "sequence": 92,
+      "operation_number": 31,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Dessa and Kest choose raised dry mats around a visible rill, widen Deep-Reed’s route, and preserve shrine rise as the exact fallback."
+    },
+    {
+      "sequence": 93,
+      "operation_number": 31,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The threshold boat is stationary, shallow, four-point lashed, and paired with a dry bypass."
+    },
+    {
+      "sequence": 94,
+      "operation_number": 32,
+      "type": "revelation_established",
+      "revelation_id": "postponement-costs-a-year-not-a-life",
+      "supporting_clue_ids": [
+        "market-of-seven-baskets-postponement-costs-a-year-not-a-life-3",
+        "shrine-of-the-open-door-postponement-costs-a-year-not-a-life-2",
+        "reedwrights-yard-postponement-costs-a-year-not-a-life-1"
+      ],
+      "note": "Food, forms, and reusable platforms show that postponement is costly and painful but recoverable."
+    },
+    {
+      "sequence": 95,
+      "operation_number": 33,
+      "type": "revelation_established",
+      "revelation_id": "two-rhythms-can-meet-without-one-becoming-background",
+      "supporting_clue_ids": [
+        "market-of-seven-baskets-two-rhythms-can-meet-without-one-becoming-background-3",
+        "shrine-of-the-open-door-two-rhythms-can-meet-without-one-becoming-background-2",
+        "reedwrights-yard-two-rhythms-can-meet-without-one-becoming-background-1"
+      ],
+      "note": "Rounds, response, and pegging rhythm all preserve alternating leadership before a shared measure."
+    },
+    {
+      "sequence": 96,
+      "operation_number": 34,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "reedwrights-yard",
+      "text": "Flood meadow remains the provisional site; veil canopy, open iron, handstone support, accessible side route, threshold safety, and relocation marks are ready for rehearsal."
+    },
+    {
+      "sequence": 97,
+      "operation_number": 35,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "bridge-of-three-tunes",
+      "party_label": "Adel and Oren with Iven Crossbow and Moss-in-Evening"
+    },
+    {
+      "sequence": 98,
+      "operation_number": 35,
+      "type": "clue_spotted",
+      "clue_id": "bridge-of-three-tunes-free-witnesses-clarify-and-record-but-do-not-command-3",
+      "visit_number": 8
+    },
+    {
+      "sequence": 99,
+      "operation_number": 35,
+      "type": "clue_spotted",
+      "clue_id": "bridge-of-three-tunes-the-veil-can-honor-the-dead-without-covering-the-bride-1",
+      "visit_number": 8
+    },
+    {
+      "sequence": 100,
+      "operation_number": 35,
+      "type": "clue_spotted",
+      "clue_id": "bridge-of-three-tunes-open-worked-iron-can-carry-the-ring-gift-without-binding-2",
+      "visit_number": 8
+    },
+    {
+      "sequence": 101,
+      "operation_number": 35,
+      "type": "clue_spotted",
+      "clue_id": "bridge-of-three-tunes-gifts-need-declared-intentions-not-assumed-symbols-3",
+      "visit_number": 8
+    },
+    {
+      "sequence": 102,
+      "operation_number": 35,
+      "type": "clue_spotted",
+      "clue_id": "bridge-of-three-tunes-the-ceremony-must-adapt-to-water-not-depend-on-one-waterline-1",
+      "visit_number": 8
+    },
+    {
+      "sequence": 103,
+      "operation_number": 35,
+      "type": "clue_spotted",
+      "clue_id": "bridge-of-three-tunes-six-clear-functions-matter-more-than-copying-every-custom-2",
+      "visit_number": 8
+    },
+    {
+      "sequence": 104,
+      "operation_number": 35,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "The Mill Road and Reed Turn each lead and meet after twelve pulses; six silence cues protect duty-bearing speech."
+    },
+    {
+      "sequence": 105,
+      "operation_number": 35,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Participation remains optional, the score can move, and the old-flood statements remain unscored and separate."
+    },
+    {
+      "sequence": 106,
+      "operation_number": 36,
+      "type": "revelation_established",
+      "revelation_id": "the-veil-can-honor-the-dead-without-covering-the-bride",
+      "supporting_clue_ids": [
+        "shrine-of-the-open-door-the-veil-can-honor-the-dead-without-covering-the-bride-3",
+        "reedwrights-yard-the-veil-can-honor-the-dead-without-covering-the-bride-2",
+        "bridge-of-three-tunes-the-veil-can-honor-the-dead-without-covering-the-bride-1"
+      ],
+      "note": "Carving, canopy loops, and shelter music preserve mourning and lineage without covering Neris."
+    },
+    {
+      "sequence": 107,
+      "operation_number": 37,
+      "type": "revelation_established",
+      "revelation_id": "open-worked-iron-can-carry-the-ring-gift-without-binding",
+      "supporting_clue_ids": [
+        "reedwrights-yard-open-worked-iron-can-carry-the-ring-gift-without-binding-3",
+        "bridge-of-three-tunes-open-worked-iron-can-carry-the-ring-gift-without-binding-2"
+      ],
+      "note": "The rush-bound spiral and open clasp preserve Orren’s labor while leaving the opening visible."
+    },
+    {
+      "sequence": 108,
+      "operation_number": 38,
+      "type": "revelation_established",
+      "revelation_id": "the-ceremony-must-adapt-to-water-not-depend-on-one-waterline",
+      "supporting_clue_ids": [
+        "shrine-of-the-open-door-the-ceremony-must-adapt-to-water-not-depend-on-one-waterline-3",
+        "reedwrights-yard-the-ceremony-must-adapt-to-water-not-depend-on-one-waterline-2",
+        "bridge-of-three-tunes-the-ceremony-must-adapt-to-water-not-depend-on-one-waterline-1"
+      ],
+      "note": "Function rubric, modular joints, and movable joining points preserve the rite across relocation."
+    },
+    {
+      "sequence": 109,
+      "operation_number": 39,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "bridge-of-three-tunes",
+      "text": "The final score grants both traditions genuine leadership, protects six silent functions, and begins the Joining Measure only after the couple chooses the shared step."
+    },
+    {
+      "sequence": 110,
+      "operation_number": 40,
+      "type": "session_ended",
+      "session_number": 2,
+      "closing_note": "All six functions have testable forms. Gifts remain subject to final declaration and acceptance; household description remains openly dual; rehearsal must test bodies, weather, and the old handoff."
+    },
+    {
+      "sequence": 111,
+      "operation_number": 41,
+      "type": "session_started",
+      "session_number": 3,
+      "title": "The Joining Light",
+      "played_on": "2026-07-16",
+      "participants": [
+        "Adel Berren",
+        "Kest Larch",
+        "Sella Broth",
+        "Oren Chalk"
+      ],
+      "attendance_note": "All four witnesses present for rehearsal, final consent, and certification.",
+      "opening_note": "The pressure board begins at water one, work one, guests one, and open obligations two."
+    },
+    {
+      "sequence": 112,
+      "operation_number": 42,
+      "type": "encounter_visited",
+      "visit_number": 9,
+      "encounter_id": "flood-meadow-and-old-ford",
+      "party_label": "The Four Open Hands with both households and ceremony workers"
+    },
+    {
+      "sequence": 113,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "flood-meadow-and-old-ford-free-witnesses-clarify-and-record-but-do-not-command-2",
+      "visit_number": 9
+    },
+    {
+      "sequence": 114,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "flood-meadow-and-old-ford-marriage-does-not-transfer-the-mill-or-river-lease-3",
+      "visit_number": 9
+    },
+    {
+      "sequence": 115,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "flood-meadow-and-old-ford-open-worked-iron-can-carry-the-ring-gift-without-binding-1",
+      "visit_number": 9
+    },
+    {
+      "sequence": 116,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "flood-meadow-and-old-ford-gifts-need-declared-intentions-not-assumed-symbols-2",
+      "visit_number": 9
+    },
+    {
+      "sequence": 117,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "flood-meadow-and-old-ford-stable-records-can-preserve-changing-river-names-3",
+      "visit_number": 9
+    },
+    {
+      "sequence": 118,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "flood-meadow-and-old-ford-six-clear-functions-matter-more-than-copying-every-custom-1",
+      "visit_number": 9
+    },
+    {
+      "sequence": 119,
+      "operation_number": 42,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Four rehearsal passes test bare functions, principals and corrections, bodies and weather, and the old flood handoff."
+    },
+    {
+      "sequence": 120,
+      "operation_number": 42,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Agnes accepts the veil above the compact table after Neris names Perrin and the Vale dead; the iron spiral and handstone uses are also accepted."
+    },
+    {
+      "sequence": 121,
+      "operation_number": 42,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Daylight flags, paired bells, and a night runner chain receive named hands and work when both elders are absent."
+    },
+    {
+      "sequence": 122,
+      "operation_number": 43,
+      "type": "revelation_established",
+      "revelation_id": "free-witnesses-clarify-and-record-but-do-not-command",
+      "supporting_clue_ids": [
+        "bridge-of-three-tunes-free-witnesses-clarify-and-record-but-do-not-command-3",
+        "flood-meadow-and-old-ford-free-witnesses-clarify-and-record-but-do-not-command-2"
+      ],
+      "note": "Musicians and principals require answers the witnesses may protect and record but may not supply."
+    },
+    {
+      "sequence": 123,
+      "operation_number": 44,
+      "type": "revelation_established",
+      "revelation_id": "gifts-need-declared-intentions-not-assumed-symbols",
+      "supporting_clue_ids": [
+        "bridge-of-three-tunes-gifts-need-declared-intentions-not-assumed-symbols-3",
+        "flood-meadow-and-old-ford-gifts-need-declared-intentions-not-assumed-symbols-2"
+      ],
+      "note": "Paired objects and the memorial bowl show that intention and received use must be spoken before acceptance."
+    },
+    {
+      "sequence": 124,
+      "operation_number": 45,
+      "type": "revelation_established",
+      "revelation_id": "six-clear-functions-matter-more-than-copying-every-custom",
+      "supporting_clue_ids": [
+        "reedwrights-yard-six-clear-functions-matter-more-than-copying-every-custom-3",
+        "bridge-of-three-tunes-six-clear-functions-matter-more-than-copying-every-custom-2",
+        "flood-meadow-and-old-ford-six-clear-functions-matter-more-than-copying-every-custom-1"
+      ],
+      "note": "The yard plan, six silence cues, and rehearsal markers preserve consent, standing, names, exchange, promises, and departure."
+    },
+    {
+      "sequence": 125,
+      "operation_number": 46,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "flood-meadow-and-old-ford",
+      "text": "The meadow and shrine fallback both work; pressure closes at water one and open obligations one. The old flood yields a three-signal warning protocol and separate true statements, not compulsory reconciliation."
+    },
+    {
+      "sequence": 126,
+      "operation_number": 47,
+      "type": "encounter_visited",
+      "visit_number": 10,
+      "encounter_id": "wedding-between-the-banks",
+      "party_label": "The Four Open Hands at the wedding between the banks"
+    },
+    {
+      "sequence": 127,
+      "operation_number": 47,
+      "type": "clue_spotted",
+      "clue_id": "wedding-between-the-banks-free-witnesses-clarify-and-record-but-do-not-command-1",
+      "visit_number": 10
+    },
+    {
+      "sequence": 128,
+      "operation_number": 47,
+      "type": "clue_spotted",
+      "clue_id": "wedding-between-the-banks-marriage-does-not-transfer-the-mill-or-river-lease-2",
+      "visit_number": 10
+    },
+    {
+      "sequence": 129,
+      "operation_number": 47,
+      "type": "clue_spotted",
+      "clue_id": "wedding-between-the-banks-river-adoption-adds-duties-without-erasing-mortal-kinship-3",
+      "visit_number": 10
+    },
+    {
+      "sequence": 130,
+      "operation_number": 47,
+      "type": "clue_spotted",
+      "clue_id": "wedding-between-the-banks-gifts-need-declared-intentions-not-assumed-symbols-1",
+      "visit_number": 10
+    },
+    {
+      "sequence": 131,
+      "operation_number": 47,
+      "type": "clue_spotted",
+      "clue_id": "wedding-between-the-banks-stable-records-can-preserve-changing-river-names-2",
+      "visit_number": 10
+    },
+    {
+      "sequence": 132,
+      "operation_number": 47,
+      "type": "clue_spotted",
+      "clue_id": "wedding-between-the-banks-the-ceremonial-boat-is-a-threshold-not-a-departure-3",
+      "visit_number": 10
+    },
+    {
+      "sequence": 133,
+      "operation_number": 47,
+      "type": "clue_spotted",
+      "clue_id": "wedding-between-the-banks-care-follows-named-duties-not-household-claims-3",
+      "visit_number": 10
+    },
+    {
+      "sequence": 134,
+      "operation_number": 47,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Tomas and Neris repeat consent privately, then complete all six public functions with corrections protected by silence."
+    },
+    {
+      "sequence": 135,
+      "operation_number": 47,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The record reads two equal household descriptions followed by one operational schedule; bounded river adoption and reciprocal duties are accepted."
+    },
+    {
+      "sequence": 136,
+      "operation_number": 47,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Agnes abstains from the river-adoption response; Serein abstains from the Vale one-household recognition. Both abstentions remain particular and non-vetoing."
+    },
+    {
+      "sequence": 137,
+      "operation_number": 48,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "wedding-between-the-banks",
+      "text": "Marriage is certified with stated boundaries. Tomas and Neris retain one operational schedule under two household descriptions; future-child standing and any later river byname remain open."
+    },
+    {
+      "sequence": 138,
+      "operation_number": 49,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "market-of-seven-baskets",
+      "text": "The feast follows the bounded grievance interval; protected trout remain in the spawning channel, named accommodations work, and the empty abstention token stays visible."
+    },
+    {
+      "sequence": 139,
+      "operation_number": 50,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "house-of-open-measure",
+      "text": "Mera preserves separate witness scopes and household signatures. The veil wraps the folio, the open spiral clasps its cord, and no narrower signature is rewritten as unanimity."
+    },
+    {
+      "sequence": 140,
+      "operation_number": 51,
+      "type": "session_ended",
+      "session_number": 3,
+      "closing_note": "The wedding is certified with stated boundaries. Bounded river adoption proceeds; the household-description difference, future-child standing, and any later river byname remain open."
+    }
+  ]
+}

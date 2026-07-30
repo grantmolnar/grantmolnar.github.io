@@ -1,0 +1,602 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-march-on-vossgard",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "the-ashen-gate",
+      "party_label": ""
+    },
+    {
+      "sequence": 2,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "merrow-s-two-team-assault-table",
+      "visit_number": 1
+    },
+    {
+      "sequence": 3,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-three-village-removal-window",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "vale-s-central-gap-order",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-heavy-column-manifest",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-occupation-board",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 1,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Lucan sent full support to the Iron Causeway and Tithe Villages, left Vale a reconnaissance screen in the Thorn Barrows, and kept one mobile reserve. Maelin issued witnessed requisition and surrender terms before the columns moved. Tala held the heavy train off every unsecured road. Sorin entered the unsupported eastern flank on the campaign board as Morcant's first free action."
+    },
+    {
+      "sequence": 8,
+      "operation_number": 2,
+      "type": "revelation_established",
+      "revelation_id": "the-iron-causeway-can-carry-the-heavy-column-intact",
+      "supporting_clue_ids": [
+        "merrow-s-two-team-assault-table"
+      ],
+      "note": "Merrow's two-team plan can take the span if the gallery force and parapet force move together. The Warrant gives him both and marches elsewhere."
+    },
+    {
+      "sequence": 9,
+      "operation_number": 2,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-iron-causeway",
+      "source_revelation_id": "the-iron-causeway-can-carry-the-heavy-column-intact",
+      "reason": ""
+    },
+    {
+      "sequence": 10,
+      "operation_number": 3,
+      "type": "revelation_established",
+      "revelation_id": "the-tithe-villages-can-be-secured-before-voss-empties-them",
+      "supporting_clue_ids": [
+        "the-three-village-removal-window"
+      ],
+      "note": "The three removal columns cannot join before the central crossroads. A fast protected column can reach the junction before the hostages and grain move south."
+    },
+    {
+      "sequence": 11,
+      "operation_number": 3,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-tithe-villages",
+      "source_revelation_id": "the-tithe-villages-can-be-secured-before-voss-empties-them",
+      "reason": ""
+    },
+    {
+      "sequence": 12,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "the-thorn-barrows-can-carry-a-fast-eastern-advance",
+      "supporting_clue_ids": [
+        "vale-s-central-gap-order"
+      ],
+      "note": "Vale's central screen opens one viable crossing and forces Morcant to declare which remount station she means to defend."
+    },
+    {
+      "sequence": 13,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-thorn-barrows",
+      "source_revelation_id": "the-thorn-barrows-can-carry-a-fast-eastern-advance",
+      "reason": ""
+    },
+    {
+      "sequence": 14,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "a-high-capacity-route-can-bring-the-siege-train-to-vossgard",
+      "supporting_clue_ids": [
+        "the-heavy-column-manifest"
+      ],
+      "note": "The consecrated ram, sunlight mirrors, and bulk ammunition require an intact causeway or a controlled canal. Pack transport cannot replace either route."
+    },
+    {
+      "sequence": 15,
+      "operation_number": 6,
+      "type": "revelation_established",
+      "revelation_id": "the-compact-can-hold-the-march-after-it-wins",
+      "supporting_clue_ids": [
+        "the-occupation-board"
+      ],
+      "note": "Holding the March requires a stable Gate, civil officers assigned before the fighting consumes them, and a reserve left alive after the advance."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 7,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-ashen-gate",
+      "text": "The Ashen Gate remains stable. Rusk keeps one mobile reserve, Dane receives authority over requisition and surrender enforcement, and the army begins ready with two well-supported axes."
+    },
+    {
+      "sequence": 17,
+      "operation_number": 8,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-iron-causeway",
+      "text": "Merrow begins the Causeway attack with Gatewrights and Grey Banner infantry. He will fix the garrison and stop the demolition if he can, but the siege train waits east of the span until the galleries are held."
+    },
+    {
+      "sequence": 18,
+      "operation_number": 9,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "the-tithe-villages",
+      "party_label": ""
+    },
+    {
+      "sequence": 19,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "the-shepherds-remount-lanes",
+      "visit_number": 2
+    },
+    {
+      "sequence": 20,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "the-abbey-tithe-road",
+      "visit_number": 2
+    },
+    {
+      "sequence": 21,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "sila-marr-s-dry-canal-route",
+      "visit_number": 2
+    },
+    {
+      "sequence": 22,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "the-reeves-protection-terms",
+      "visit_number": 2
+    },
+    {
+      "sequence": 23,
+      "operation_number": 9,
+      "type": "clue_spotted",
+      "clue_id": "the-blood-tithe-register",
+      "visit_number": 2
+    },
+    {
+      "sequence": 24,
+      "operation_number": 9,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "The Warrant seized the crossroads, posted named companies against looting and reprisals, and struck Vosca's hostage convoy while Dane read the protection terms in all three villages. Tala saved the Garren and Orra granaries. Sorin pursued the convoy instead of scattered officials. Maelin received the first levy surrender under witnessed protection."
+    },
+    {
+      "sequence": 25,
+      "operation_number": 10,
+      "type": "revelation_established",
+      "revelation_id": "the-red-abbey-can-be-cut-off-before-it-empties",
+      "supporting_clue_ids": [
+        "the-abbey-tithe-road"
+      ],
+      "note": "Stopped tithe carts and willing teamsters give the Compact the lower abbey road and its withdrawal schedule. The ridge can be cut before the depot empties."
+    },
+    {
+      "sequence": 26,
+      "operation_number": 10,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-red-abbey",
+      "source_revelation_id": "the-red-abbey-can-be-cut-off-before-it-empties",
+      "reason": ""
+    },
+    {
+      "sequence": 27,
+      "operation_number": 11,
+      "type": "revelation_established",
+      "revelation_id": "the-drowned-sluice-can-be-openedor-closed-on-voss",
+      "supporting_clue_ids": [
+        "sila-marr-s-dry-canal-route"
+      ],
+      "note": "Sila Marr and the canal rolls provide a dry approach and crews who know the locks. Taking the route still costs time and engineers."
+    },
+    {
+      "sequence": 28,
+      "operation_number": 11,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-drowned-sluice",
+      "source_revelation_id": "the-drowned-sluice-can-be-openedor-closed-on-voss",
+      "reason": ""
+    },
+    {
+      "sequence": 29,
+      "operation_number": 12,
+      "type": "revelation_established",
+      "revelation_id": "enforceable-terms-can-split-the-living-levies-from-the-dead",
+      "supporting_clue_ids": [
+        "the-reeves-protection-terms"
+      ],
+      "note": "The witnessed village compact names protection for surrendered troops, their families, requisitioned stores, and later hearings. Copies can travel with every advancing command."
+    },
+    {
+      "sequence": 30,
+      "operation_number": 13,
+      "type": "revelation_established",
+      "revelation_id": "breaking-the-blood-network-weakens-every-vampire-formation",
+      "supporting_clue_ids": [
+        "the-blood-tithe-register"
+      ],
+      "note": "The blood network depends on named carts, certifying officials, and handling crews. Take those away and Voss loses replenishment before the fortress assault."
+    },
+    {
+      "sequence": 31,
+      "operation_number": 14,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-tithe-villages",
+      "text": "Vosca's command is broken, the hostage convoy recovered, and all three principal granaries reported intact. The reeves accept Compact protection and the population becomes cooperative."
+    },
+    {
+      "sequence": 32,
+      "operation_number": 15,
+      "type": "operation_voided",
+      "target_operation_number": 14,
+      "reason": "The first runner counted Lume's east granary through smoke. A later company report confirmed that Vosca's rear guard burned it before withdrawing."
+    },
+    {
+      "sequence": 33,
+      "operation_number": 16,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-tithe-villages",
+      "text": "Vosca's command is broken and the hostage convoy recovered. The Garren and Orra granaries survive; Lume's east granary burns, but most campaign grain remains. The reeves accept Compact protection, local reprisals are stopped, and the population becomes cooperative."
+    },
+    {
+      "sequence": 34,
+      "operation_number": 17,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-iron-causeway",
+      "text": "Morcant strikes Merrow's supply effort before the gallery attack closes. Merrow saves the demolition fight, loses wagons, and abandons the immediate breach. One Grey Banner battalion contains the Causeway; the heavy train is fixed east of the span, and the army becomes strained."
+    },
+    {
+      "sequence": 35,
+      "operation_number": 18,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "the-thorn-barrows",
+      "party_label": ""
+    },
+    {
+      "sequence": 36,
+      "operation_number": 18,
+      "type": "clue_spotted",
+      "clue_id": "the-covered-western-descent",
+      "visit_number": 3
+    },
+    {
+      "sequence": 37,
+      "operation_number": 18,
+      "type": "clue_spotted",
+      "clue_id": "morcant-s-bell-warning-route",
+      "visit_number": 3
+    },
+    {
+      "sequence": 38,
+      "operation_number": 18,
+      "type": "clue_spotted",
+      "clue_id": "the-eastern-towpath-descent",
+      "visit_number": 3
+    },
+    {
+      "sequence": 39,
+      "operation_number": 18,
+      "type": "clue_spotted",
+      "clue_id": "morcant-s-three-exit-map",
+      "visit_number": 3
+    },
+    {
+      "sequence": 40,
+      "operation_number": 18,
+      "type": "clue_spotted",
+      "clue_id": "control-of-the-march-lanes",
+      "visit_number": 3
+    },
+    {
+      "sequence": 41,
+      "operation_number": 18,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Village shepherds led the Warrant behind the western remount station while Vale fixed Morcant at the central gap. Tala collapsed the fodder galleries without opening the oldest graves. Maelin took handlers and dismounted riders under the village terms. Sorin broke the remount system, then reported Morcant escaping through the southern thorns with a small dismounted cadre."
+    },
+    {
+      "sequence": 42,
+      "operation_number": 19,
+      "type": "revelation_established",
+      "revelation_id": "the-black-bell-can-be-struck-before-the-field-reserve-withdraws",
+      "supporting_clue_ids": [
+        "morcant-s-bell-warning-route"
+      ],
+      "note": "The riders' dispatch lane reaches the Redoubt before its warning screen can reform. A mobile Compact force can strike while Ren still expects Morcant to carry the alarm."
+    },
+    {
+      "sequence": 43,
+      "operation_number": 19,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-black-bell-redoubt",
+      "source_revelation_id": "the-black-bell-can-be-struck-before-the-field-reserve-withdraws",
+      "reason": ""
+    },
+    {
+      "sequence": 44,
+      "operation_number": 20,
+      "type": "revelation_established",
+      "revelation_id": "closing-three-exits-denies-voss-an-organized-breakout",
+      "supporting_clue_ids": [
+        "morcant-s-three-exit-map"
+      ],
+      "note": "Vossgard has three military exits: the ridge, the Bell road, and the canal. The barrow lanes can shift troops between them, but every closure must still be held in fact."
+    },
+    {
+      "sequence": 45,
+      "operation_number": 21,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-thorn-barrows",
+      "text": "The Thorn Barrows are reduced. Two remount stations burn, the third is captured, the Dawn Lancers regain freedom of movement, and the lateral lanes remain open. Morcant survives with scattered riders but no coherent campaign force."
+    },
+    {
+      "sequence": 46,
+      "operation_number": 22,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-iron-causeway",
+      "text": "Merrow confirms containment, not reduction. Taal's engineers and Krail's grave cohort remain inside the bridge complex. One Compact battalion is tied down, and the heavy train cannot reach Vossgard."
+    },
+    {
+      "sequence": 47,
+      "operation_number": 23,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "the-black-bell-redoubt",
+      "party_label": ""
+    },
+    {
+      "sequence": 48,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "the-village-stand-fast-order",
+      "visit_number": 4
+    },
+    {
+      "sequence": 49,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "rane-s-withdrawal-sequence",
+      "visit_number": 4
+    },
+    {
+      "sequence": 50,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "the-bell-road-gate-packet",
+      "visit_number": 4
+    },
+    {
+      "sequence": 51,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "ren-s-breakout-contingency",
+      "visit_number": 4
+    },
+    {
+      "sequence": 52,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "the-march-command-network",
+      "visit_number": 4
+    },
+    {
+      "sequence": 53,
+      "operation_number": 23,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The Warrant used Morcant's warning road and a false rider signal to draw part of Ren's reserve south. Vale struck the exposed cohorts while Tala climbed the tower. Vark and the bound signal dead were destroyed. Maelin protected the living couriers. Lucan accepted Ossa Ren's surrender after the Bell road closed behind her."
+    },
+    {
+      "sequence": 54,
+      "operation_number": 24,
+      "type": "revelation_established",
+      "revelation_id": "three-known-roads-can-carry-an-assault-into-vossgard",
+      "supporting_clue_ids": [
+        "the-bell-road-gate-packet"
+      ],
+      "note": "Ren's fortress packet maps the central gate watches, fallback lines, and relief assignments. With the reserve broken, the Bell road gives the Compact an immediate approach to Vossgard—and no support on either flank."
+    },
+    {
+      "sequence": 55,
+      "operation_number": 24,
+      "type": "encounter_unlocked",
+      "encounter_id": "vossgard",
+      "source_revelation_id": "three-known-roads-can-carry-an-assault-into-vossgard",
+      "reason": ""
+    },
+    {
+      "sequence": 56,
+      "operation_number": 25,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-black-bell-redoubt",
+      "text": "The Black Bell Redoubt is reduced. Vark and the dead relay are destroyed; Ossa Ren and the living order staff are in custody; the Bell road is closed to an organized breakout; and the captured network still works. The fighting leaves the army strained."
+    },
+    {
+      "sequence": 57,
+      "operation_number": 26,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "vossgard",
+      "party_label": ""
+    },
+    {
+      "sequence": 58,
+      "operation_number": 26,
+      "type": "clue_spotted",
+      "clue_id": "drenn-s-fortress-levy-rolls",
+      "visit_number": 5
+    },
+    {
+      "sequence": 59,
+      "operation_number": 26,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Holt advanced through the Bell road and took the outer signal works. The Warrant delivered the village terms to Castellan Drenn, held the breach long enough to recover prisoners and a surrendering levy company, and fixed Voss's concentrated garrison without entering the inner keep."
+    },
+    {
+      "sequence": 60,
+      "operation_number": 27,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "vossgard",
+      "text": "The first investment holds the outer Bell works. Drenn has enforceable terms and knows which families the Compact has protected. Voss keeps the ridge and canal exits; the heavy train is absent; and Holt can maintain pressure but cannot support a full breach without spending the army."
+    },
+    {
+      "sequence": 61,
+      "operation_number": 28,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-drowned-sluice",
+      "text": "The Drowned Sluice is deliberately bypassed. Scouts report Keln moving selected prisoners and dry-basin barges toward the Underkeep Gate. The canal remains an enemy supply line and the only open exit without an assigned Compact command."
+    },
+    {
+      "sequence": 62,
+      "operation_number": 29,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "the-red-abbey",
+      "party_label": ""
+    },
+    {
+      "sequence": 63,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "the-repair-convoy-seal",
+      "visit_number": 6
+    },
+    {
+      "sequence": 64,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "the-canal-depot-records",
+      "visit_number": 6
+    },
+    {
+      "sequence": 65,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "the-ridge-postern-assault-plan",
+      "visit_number": 6
+    },
+    {
+      "sequence": 66,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "the-prisoners-garrison-testimony",
+      "visit_number": 6
+    },
+    {
+      "sequence": 67,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "the-vault-distribution-board",
+      "visit_number": 6
+    },
+    {
+      "sequence": 68,
+      "operation_number": 29,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Captured Bell staff sent a false withdrawal sequence while village guides brought the Warrant up the tithe road. Rane sortied onto the ridge and died with most of her knights. Voln surrendered the outer abbey for formal custody. Maelin and Sol cleared the prison yards, Tala spoiled the blood vault, and Sorin closed the ridge before the last mounted retainers reached Vossgard."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 30,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-red-abbey",
+      "text": "The Red Abbey is reduced. Rane's command is broken, the blood reserve is spoiled, the prisoners are under Compact protection, Voln awaits formal hearing, and the ridge road closes from a consecrated staging ground."
+    },
+    {
+      "sequence": 70,
+      "operation_number": 31,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-drowned-sluice",
+      "text": "Keln opens the Underkeep Gate, crews the escape barges, and lowers the canal for a turn-six breakout. Drowned infantry probe Holt's lower screen while Voss transfers selected prisoners and his surviving vampire cadre to the dry basin."
+    },
+    {
+      "sequence": 71,
+      "operation_number": 32,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "vossgard",
+      "party_label": ""
+    },
+    {
+      "sequence": 72,
+      "operation_number": 32,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The Warrant returned through the Bell works and Abbey ridge. Maelin and Ren carried the surrender record into the garrison court; Drenn stood down the living companies and set them to guard the prisoners. Voss answered with an inner-keep feint and a canal breakout. Vale's freed Lancers crossed the barrow lanes to the lower terraces, Tala broke the launch sequence, Sorin tracked Voss to the lead barge, and Lucan held Holt's strained army to two major tasks until the garrison stand-down supplied the third."
+    },
+    {
+      "sequence": 73,
+      "operation_number": 33,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "vossgard",
+      "text": "Vossgard falls. Drenn's living garrison stands down under witnessed terms, secures the prisoner yards, and opens the garrison court. The canal breakout dies on the lower terraces. Without the Abbey blood, Voss cannot recover between engagements and is destroyed before the lead barge reaches the outer channel. Holt commands the fortress overnight under the Ash Warrant's settlement orders."
+    },
+    {
+      "sequence": 74,
+      "operation_number": 34,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-drowned-sluice",
+      "text": "The bypassed Sluice exacts its cost. The breakout reaches the fortress battle and cuts deeply into Vale's screen. Keln and much of the drowned force are destroyed at the lower terraces, but the Outer Chain and Sunken Turn remain uncontrolled. The Compact blocks immediate traffic and posts a watch; the canal is not reduced."
+    },
+    {
+      "sequence": 75,
+      "operation_number": 35,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-black-bell-redoubt",
+      "text": "The captured Bell and its living courier staff pass to joint Compact and local control. They move casualties, announce the garrison stand-down, and become the provisional council's communication network instead of an occupation trophy."
+    },
+    {
+      "sequence": 76,
+      "operation_number": 36,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-tithe-villages",
+      "text": "Senior Reeve Maela Orr convenes a provisional Gloam March council at Garren with delegates from all three villages. The surviving granaries supply the fortress and field hospitals under recorded requisition. Levy families receive lists of the surrendered and dead."
+    },
+    {
+      "sequence": 77,
+      "operation_number": 37,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-iron-causeway",
+      "text": "The causeway remains contained at the moment of victory. Merrow holds the east gate while Maelin's terms are carried to Taal. The heavy train never reaches Vossgard, and the battalion fixed there misses both the final battle and the first night of occupation."
+    },
+    {
+      "sequence": 78,
+      "operation_number": 38,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-ashen-gate",
+      "text": "The stable Ashen Gate receives the wounded, protected prisoners, and civilians who choose evacuation without interrupting supply. Rusk can rotate part of the army home while Holt, Dane, and a bounded occupation force remain in the Gloam March."
+    }
+  ]
+}

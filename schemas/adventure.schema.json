@@ -1,0 +1,407 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/adventure-graph/adventure.schema.json",
+  "title": "Adventure Graph adventure",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "adventure",
+    "encounters",
+    "revelations",
+    "clues"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 3
+    },
+    "adventure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "synopsis": {
+          "type": "string",
+          "default": ""
+        },
+        "premise": {
+          "type": "string",
+          "default": ""
+        },
+        "explanation": {
+          "type": "string",
+          "default": ""
+        },
+        "validation": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "minimum_clues_per_revelation": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 3
+            },
+            "minimum_source_encounters_per_revelation": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 3
+            },
+            "minimum_incoming_clues_per_encounter": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 3
+            },
+            "minimum_incoming_source_encounters_per_encounter": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 3
+            },
+            "minimum_outgoing_clues_per_encounter": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 3
+            },
+            "minimum_distinct_encounter_targets_per_encounter": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 3
+            },
+            "minimum_edge_connectivity": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 3
+            },
+            "require_directed_reachability": {
+              "type": "boolean",
+              "default": true
+            }
+          }
+        },
+        "tags": {
+          "type": "object",
+          "additionalProperties": false,
+          "default": {},
+          "properties": {
+            "genres": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true,
+              "default": []
+            },
+            "game_systems": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true,
+              "default": []
+            },
+            "settings": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true,
+              "default": []
+            },
+            "party_size": {
+              "$ref": "#/$defs/optional_positive_range"
+            },
+            "level": {
+              "$ref": "#/$defs/optional_positive_range"
+            },
+            "combat_intensity": {
+              "enum": [
+                "none",
+                "light",
+                "moderate",
+                "heavy",
+                null
+              ],
+              "default": null
+            },
+            "keywords": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true,
+              "default": []
+            }
+          }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/reference"
+      },
+      "default": []
+    },
+    "encounters": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/encounter"
+      }
+    },
+    "revelations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/revelation"
+      }
+    },
+    "clues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/clue"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "uuid4": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/uuid4"
+        },
+        "kind": {
+          "enum": [
+            "person",
+            "place",
+            "organization",
+            "object",
+            "other"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?:\\S|\\S.*\\S)$"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?:\\S|\\S.*\\S)$"
+          },
+          "uniqueItems": true,
+          "default": []
+        },
+        "summary": {
+          "type": "string",
+          "default": ""
+        },
+        "content": {
+          "type": "string",
+          "default": ""
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?:\\S|\\S.*\\S)$"
+          },
+          "uniqueItems": true,
+          "default": []
+        }
+      }
+    },
+    "reference_link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference_id"
+      ],
+      "properties": {
+        "reference_id": {
+          "$ref": "#/$defs/uuid4"
+        },
+        "context": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "encounter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "default": ""
+        },
+        "opening_view": {
+          "type": "string",
+          "default": ""
+        },
+        "content": {
+          "type": "string",
+          "default": ""
+        },
+        "required": {
+          "type": "boolean",
+          "default": true
+        },
+        "start": {
+          "type": "boolean",
+          "default": false
+        },
+        "end": {
+          "type": "boolean",
+          "default": false
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "reference_links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/reference_link"
+          },
+          "default": []
+        }
+      }
+    },
+    "revelation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "default": ""
+        },
+        "unlocks_encounter_id": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "required": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "clue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "source_encounter_id",
+        "revelation_id"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_encounter_id": {
+          "$ref": "#/$defs/id"
+        },
+        "revelation_id": {
+          "$ref": "#/$defs/id"
+        },
+        "description": {
+          "type": "string",
+          "default": ""
+        },
+        "discovery": {
+          "type": "string",
+          "default": "search"
+        }
+      }
+    },
+    "optional_positive_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "default": {},
+      "properties": {
+        "minimum": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "default": null
+        },
+        "maximum": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "default": null
+        }
+      }
+    }
+  }
+}

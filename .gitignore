@@ -1,0 +1,46 @@
+# Python bytecode and package artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+node_modules/
+venv/
+
+# Non-canonical package-manager state
+uv.lock
+
+# Test, coverage, type-checking, linting, and mutation caches
+.cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+.import_linter_cache/
+.pytest_cache/
+.pyre/
+.ruff_cache/
+.tox/
+.nox/
+.mutmut-cache/
+mutants/
+
+# IDEs/editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example

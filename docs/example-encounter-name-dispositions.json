@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "detector": {
+    "sequence_threshold": 0.72,
+    "combined_sequence_threshold": 0.6,
+    "combined_token_overlap_threshold": 0.33,
+    "normalization": "Unicode-fold, lowercase, replace punctuation with spaces, collapse whitespace; token overlap excludes function words."
+  },
+  "accepted_title_changes": [
+    {
+      "adventure": "A Wedding for the River",
+      "encounter_id": "shrine-of-the-open-door",
+      "previous_title": "The Shrine of the Open Door",
+      "current_title": "The Doorless Shrine",
+      "reason": "The former title was practically interchangeable with Bramblewick's Chapel of the Open Door. The new title preserves the shrine's defining architecture and open-clause theme without changing its stable identity."
+    },
+    {
+      "adventure": "The Siege of the Stone Lung",
+      "encounter_id": "the-black-cisterns",
+      "previous_title": "The Black Cisterns",
+      "current_title": "The Cisterns of Black Breath",
+      "reason": "The former title was easily confused with Harrowgate's Black Rain Cistern. The new title names the trapped gas that governs entry, rescue, and diagnosis."
+    },
+    {
+      "adventure": "When the Swine Kneel",
+      "encounter_id": "the-hall-of-petitions",
+      "previous_title": "The Hall of Petitions",
+      "current_title": "The Hall of Condemnations",
+      "reason": "The former title was easily confused with the Glass Saint's House of Petitions. The new title identifies the livestock condemnation docket that creates the encounter's immediate public crisis."
+    },
+    {
+      "adventure": "The Concord of Aurelune",
+      "encounter_id": "the-white-hart-gallery",
+      "previous_title": "The White Hart Gallery",
+      "current_title": "The Gallery of Silver Kin",
+      "reason": "The former title shared the distinctive White Hart phrase with Cauldron's White Hart Court. The new title names the gallery's silver relation plaques and House Maelith's kinship politics."
+    }
+  ],
+  "retained_candidates": [
+    {
+      "encounter_a": ["A Wedding for the River", "house-of-open-measure"],
+      "encounter_b": ["The Glass Saint", "the-house-of-petitions"],
+      "category": "harmless generic overlap",
+      "reason": "House is generic; Open Measure and Petitions identify different institutions and table procedures."
+    },
+    {
+      "encounter_a": ["The Bell Beneath Harrowgate", "hall-of-bent-knees"],
+      "encounter_b": ["When the Swine Kneel", "the-hall-of-petitions"],
+      "category": "harmless generic overlap",
+      "reason": "Hall is generic; Bent Knees and Condemnations are distinct in speech and search."
+    },
+    {
+      "encounter_a": ["The Bell Beneath Harrowgate", "lantern-cistern"],
+      "encounter_b": ["The Forest That Carries Dawn", "lantern-canopy"],
+      "category": "deliberate motif",
+      "reason": "Lantern describes stored or routed light in both adventures, while cistern and canopy make the locations unambiguous."
+    },
+    {
+      "encounter_a": ["The Bell Beneath Harrowgate", "lantern-cistern"],
+      "encounter_b": ["The Siege of the Stone Lung", "the-lantern-court"],
+      "category": "harmless generic overlap",
+      "reason": "Lantern is a functional object in both titles; cistern and court separate hydraulic routing from civic command."
+    },
+    {
+      "encounter_a": ["The Bell Beneath Harrowgate", "inverted-chapel"],
+      "encounter_b": ["The Glass Saint", "the-bell-chapel"],
+      "category": "harmless generic overlap",
+      "reason": "Chapel is generic; the distinctive modifiers describe different ritual spaces."
+    },
+    {
+      "encounter_a": ["The Cauldron of Nine Silences", "chapel-last-word"],
+      "encounter_b": ["When the Swine Kneel", "the-chapel-of-the-first-survey"],
+      "category": "harmless generic overlap",
+      "reason": "The opposed Last Word and First Survey epithets are memorable and point to unrelated institutions."
+    },
+    {
+      "encounter_a": ["The Cauldron of Nine Silences", "cauldron-vault"],
+      "encounter_b": ["The Glass Saint", "the-archive-vault"],
+      "category": "harmless generic overlap",
+      "reason": "Vault is generic; Cauldron and Archive identify different objects and functions."
+    },
+    {
+      "encounter_a": ["The Cauldron of Nine Silences", "reed-weir"],
+      "encounter_b": ["The Princess on the Salt Road", "reed-villages"],
+      "category": "deliberate motif",
+      "reason": "Reed is ordinary wetland material; weir and villages are distinct locations with different play functions."
+    },
+    {
+      "encounter_a": ["The Concord of Aurelune", "the-argent-canopy"],
+      "encounter_b": ["The Forest That Carries Dawn", "lantern-canopy"],
+      "category": "harmless generic overlap",
+      "reason": "Canopy is a spatial form; Argent and Lantern remain clear adventure-native identifiers."
+    },
+    {
+      "encounter_a": ["The Forest That Carries Dawn", "lantern-canopy"],
+      "encounter_b": ["The Siege of the Stone Lung", "the-lantern-court"],
+      "category": "deliberate motif",
+      "reason": "Lantern marks light-bearing structures, while canopy and court distinguish ecological transmission from military allocation."
+    },
+    {
+      "encounter_a": ["The Glass Saint", "the-shattered-gallery"],
+      "encounter_b": ["The Siege of the Stone Lung", "the-shattered-gate"],
+      "category": "harmless generic overlap",
+      "reason": "Shattered is a condition; gallery and gate identify a museum crime scene and a siege breach."
+    },
+    {
+      "encounter_a": ["The Glass Saint", "the-procession-court"],
+      "encounter_b": ["The Siege of the Stone Lung", "the-lantern-court"],
+      "category": "harmless generic overlap",
+      "reason": "Court is generic; Procession and Lantern identify different civic functions."
+    },
+    {
+      "encounter_a": ["The March on Vossgard", "the-ashen-gate"],
+      "encounter_b": ["The Princess on the Salt Road", "cypress-gate"],
+      "category": "harmless generic overlap",
+      "reason": "Gate is generic; Ashen and Cypress are distinct and remain easy to retrieve with their adventures."
+    },
+    {
+      "encounter_a": ["The March on Vossgard", "the-ashen-gate"],
+      "encounter_b": ["The Siege of the Stone Lung", "the-shattered-gate"],
+      "category": "harmless generic overlap",
+      "reason": "Gate is generic; Ashen and Shattered identify different military problems."
+    },
+    {
+      "encounter_a": ["The March on Vossgard", "the-tithe-villages"],
+      "encounter_b": ["The Princess on the Salt Road", "reed-villages"],
+      "category": "harmless generic overlap",
+      "reason": "Villages is generic; Tithe and Reed clearly separate requisition politics from channel transport."
+    },
+    {
+      "encounter_a": ["The March on Vossgard", "the-red-abbey"],
+      "encounter_b": ["The Princess on the Salt Road", "red-bridge"],
+      "category": "harmless generic overlap",
+      "reason": "Red is a common modifier; abbey and bridge are unmistakably different locations."
+    },
+    {
+      "encounter_a": ["The Princess on the Salt Road", "cypress-gate"],
+      "encounter_b": ["The Siege of the Stone Lung", "the-shattered-gate"],
+      "category": "harmless generic overlap",
+      "reason": "Gate is generic; Cypress and Shattered remain distinct in ordinary use."
+    },
+    {
+      "encounter_a": ["The Bell Beneath Harrowgate", "deep-bell"],
+      "encounter_b": ["When the Swine Kneel", "the-deep-bell"],
+      "category": "compatibility distinction",
+      "reason": "The public titles The Deep Bell and The Six-Line Bell are distinct. Their historically similar stable IDs are compatibility boundaries, not a user-facing naming collision."
+    }
+  ]
+}

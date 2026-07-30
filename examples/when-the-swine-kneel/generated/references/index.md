@@ -1,0 +1,34 @@
+# Reference Index: When the Swine Kneel
+
+## People
+
+- [**First Deputy Clerk Alda Mere**](5b4c72ce-32c7-44fd-b37b-4f91b49d0266.md) — Veyr's First Deputy Clerk of Petitions, who turns witnessed facts into bounded public orders and widens emergency authority only when the record names its reasons, costs, and limits. Aliases: Alda Mere, Alda, First Deputy Mere.
+- [**Master of Waters Corven Dast**](bcaa6c5b-213d-4196-92c6-e9b9ed91dd2b.md) — Veyr's Master of Waters, a formidable drought administrator who ordered Nine-Mile's uninterrupted load, suppressed the resulting evidence, and answers every remedy with the services it will cut. Aliases: Corven Dast, Dast, Master Dast.
+- [**Under-surveyor Tamar Vey**](d2d941dd-db72-447d-8c53-0ece9de800be.md) — An Office of Waters under-surveyor who matched the buried pulse to Nine-Mile, preserved the clearest recent measurements, and understands the hydraulic doors without claiming the authority to choose who loses water. Aliases: Tamar Vey, Tamar, Under-surveyor Vey.
+- [**Chief Engineer Oren Salk**](7bdf27b6-3ac1-482b-80d3-1276dfe3611e.md) — Nine-Mile's chief engineer, responsible for an exhausted crew and a dangerous intake, who distinguishes a staged reduction from an uncontrolled stop and requires lawful protection before spending workers on a civic remedy. Aliases: Oren Salk, Oren, Chief Engineer Salk.
+- [**Harl Rill**](ac969ee5-c1d9-4bb5-b0c6-256744413b40.md) — A respected Rillcross breeder and careful public witness whose losses forced the first petition, and whose authority comes from saying no more than the herds and ditches actually showed. Aliases: Harl, Master Rill.
+- [**Ina Rill**](d41a4f2a-dfd4-4672-8360-b317020551e4.md) — A Rillcross handler who knows the affected pigs individually, detects changes before officials do, and can turn scattered herd behavior into a disciplined surface observation network. Aliases: Ina, Harl's daughter.
+- [**Lecturer Selya Quill**](021c5c85-633d-49d8-8004-dad626283a0c.md) — A low-ranking College acoustician who built the surviving smoked-glass trace, treats the pigs as living indicators rather than causes, and can distinguish true system change from a silenced or broken instrument. Aliases: Selya Quill, Quill, Lecturer Quill.
+- [**Keeper Anja Veil**](cd71ccee-a344-408a-b4c9-83fb963c5390.md) — The elected keeper of the First Survey chapel, custodian of its memorial plates and six-line doctrine, who insists that every buried line be named by the inhabited surface passage placed at risk. Aliases: Anja Veil, Anja, Keeper Veil.
+- [**Deputy Warden Jalen Orr**](0506346e-15b0-4109-9f66-d9d7fadcecb5.md) — A deputy warden of the Office of Waters who speaks for Dast, turns public-safety language into evidence custody, and records which questions threaten the office before choosing what to seize or close. Aliases: Jalen Orr, Orr, Deputy Warden Orr.
+- [**Rector Olyra Sen**](6f322cc5-f45f-418b-8dba-a265b1b3b3c5.md) — Rector of the College of Civic Measure, an institutional certifier who will not falsify a conclusion but requires a defensible method, named witnesses, and custody strong enough for the College to survive signing it. Aliases: Olyra Sen, Rector Sen, Sen.
+
+## Places
+
+- [**The Hall of Condemnations**](94df4e5e-13e1-449c-ae42-64c6840df10a.md) — Veyr's public petition house, where spoken complaints, copied testimony, named custody, and signed reasons give a disputed fact enough civic life to support bounded provisional orders. Aliases: Hall of Petitions, the Hall, Veyr council house.
+- [**Southgate Stockyards**](de09340e-8754-4ca8-af35-c5f8a609a2ee.md) — Veyr's crowded livestock gate and old weighing station, built across the third sounding line and able to turn one buried pressure change into a public crisis of bodies, trade, and civic response. Aliases: Southgate, the stockyards, the yards.
+- [**The College of Civic Measure**](5e1874c7-837e-4666-8563-2a4032b5b78b.md) — Veyr's chartered measuring institution, where archives, calibrated apparatus, repeatable tests, and reluctant certification can turn an alarming trace into a finding other offices must answer. Aliases: College of Civic Measure, the College, Veyr College.
+- [**Rillcross Farm Belt**](99208e47-eff8-473d-a2db-f62fcdd806fd.md) — A belt of holdings, lanes, ditches, and low ridges where separate herds cross all six sounding lines and household observations can become a map without ceasing to be local testimony. Aliases: Rillcross, the farm belt, Rillcross farms.
+- [**The Chapel of the First Survey**](5ac2ecc1-1f2e-413f-b3da-d6cc8463fea9.md) — A roadside chapel and flooded crypt where the dissolved Surveyors' families keep their dead, the six-line operating doctrine, and a record of the sacrifice Veyr preferred to remember incompletely. Aliases: Chapel of the First Survey, the chapel, surveyors' chapel.
+- [**The Nine-Mile Pump House**](9622f400-e8c6-4c9c-a660-1eeb6300913e.md) — Veyr's major drought station, where modern piston halls surround an older auxiliary branch whose separate load, phase, and pressure controls can relieve or worsen the buried Bell only through trained work. Aliases: Nine-Mile, Nine-Mile Pump House, the pump house.
+- [**The Six-Line Bell**](138a7daf-e2f7-4640-a59c-3833ba4fc5f0.md) — An ancient bronze resonator and pressure-control chamber above the buried river, joined to six inhabited surface corridors and reachable through farm, surveyor, and pump-house approaches. Aliases: The Deep Bell, Deep Bell, Six-Line Bell, the Bell.
+
+## Organizations
+
+- [**The Office of Waters**](1aeac0e3-80de-4749-ae76-1b3c1a4668e4.md) — Veyr's water authority, responsible for pumps, cisterns, mains, drought allocation, technical records, and the guarded operating chain through which a civic water decision becomes work. Aliases: Office of Waters, Water Office, Waters.
+- [**The Slaughterers' Compact**](8c3fbd04-1098-423b-bbbe-27b0f6dc4bdb.md) — Veyr's organized slaughtering and livestock-trade interest, able to mobilize factors, crews, contracts, and compensation claims while lacking unilateral authority to make commercial loss a public-health finding. Aliases: Slaughterers' Compact, the Compact.
+- [**The First Survey**](9a4f61cc-cdbc-41b2-8946-f385b2d44eb5.md) — Veyr's dissolved surveyors' office, which mapped the six sounding lines, maintained the Deep Bell, named surface corridors, and was abolished after a life-saving collapse killed sixty-three people. Aliases: First Survey, Surveyors' Office, Veyr Surveyors' Office.
+
+## Objects
+
+- [**Bronze Sounding Pins**](cab148c1-a14a-495d-9caf-da41884d028e.md) — Passive First Survey markers set along the six sounding lines, able to ring out of phase and make the buried network mappable when location, timing, water, and animal behavior are compared. Aliases: sounding pins, field pins, bronze markers, survey pins.

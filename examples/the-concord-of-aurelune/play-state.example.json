@@ -1,0 +1,1193 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-concord-of-aurelune",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "the-argent-canopy",
+      "party_label": ""
+    },
+    {
+      "sequence": 2,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "ilyrions-partner-clause",
+      "visit_number": 1
+    },
+    {
+      "sequence": 3,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "maeliths-named-person-requirement",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "serathiels-two-part-objection",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-red-rose-objection-to-maelith-leadership",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-chamberlains-compulsory-duty",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "seven-is-not-the-whole-count",
+      "visit_number": 1
+    },
+    {
+      "sequence": 8,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "declarations-bind-reputation-not-the-seal",
+      "visit_number": 1
+    },
+    {
+      "sequence": 9,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-concord-compels-custody-rather-than-alienation",
+      "visit_number": 1
+    },
+    {
+      "sequence": 10,
+      "operation_number": 1,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "The delegation accepted Caelir’s evacuation gates and entered the acceptance as temporary relief rather than settlement. Theron recorded Orison as a petitioning polity and the purpose as restoration of natural day without transfer of civil government. The Ashen Bough Hearing was left off the emergency calendar; the Grey Lanterns committed themselves to seven seasonal seals."
+    },
+    {
+      "sequence": 11,
+      "operation_number": 2,
+      "type": "revelation_established",
+      "revelation_id": "house-ilyrion-can-seal-for-sovereign-partnership",
+      "supporting_clue_ids": [
+        "ilyrions-partner-clause"
+      ],
+      "note": "Ilyrion offers Spring through treaty standing, mortal authority, and a right against redirection."
+    },
+    {
+      "sequence": 12,
+      "operation_number": 2,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-unfurling-branch",
+      "source_revelation_id": "house-ilyrion-can-seal-for-sovereign-partnership",
+      "reason": ""
+    },
+    {
+      "sequence": 13,
+      "operation_number": 3,
+      "type": "revelation_established",
+      "revelation_id": "house-maelith-can-seal-for-answerable-personal-surety",
+      "supporting_clue_ids": [
+        "maeliths-named-person-requirement"
+      ],
+      "note": "Maelith requires an answerable person or estate; fosterage is only the house’s preferred form."
+    },
+    {
+      "sequence": 14,
+      "operation_number": 3,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-white-hart-gallery",
+      "source_revelation_id": "house-maelith-can-seal-for-answerable-personal-surety",
+      "reason": ""
+    },
+    {
+      "sequence": 15,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "house-serathiel-can-seal-for-coherent-command-and-defense",
+      "supporting_clue_ids": [
+        "serathiels-two-part-objection"
+      ],
+      "note": "Serathiel’s two demands are independent: someone must command the expedition, and someone must defend Aurelune while the Sunseed is gone."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-noon-spear-court",
+      "source_revelation_id": "house-serathiel-can-seal-for-coherent-command-and-defense",
+      "reason": ""
+    },
+    {
+      "sequence": 17,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "house-vaudren-can-seal-after-public-satisfaction-or-neutral-credit",
+      "supporting_clue_ids": [
+        "the-red-rose-objection-to-maelith-leadership"
+      ],
+      "note": "Vaudren can seal after witnessed satisfaction, neutral authorship, or an office that creates independent public honor."
+    },
+    {
+      "sequence": 18,
+      "operation_number": 5,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-red-rose-pavilion",
+      "source_revelation_id": "house-vaudren-can-seal-after-public-satisfaction-or-neutral-credit",
+      "reason": ""
+    },
+    {
+      "sequence": 19,
+      "operation_number": 6,
+      "type": "revelation_established",
+      "revelation_id": "a-complete-petition-can-compel-certification",
+      "supporting_clue_ids": [
+        "the-chamberlains-compulsory-duty"
+      ],
+      "note": "The Chamberlain must certify a valid exact text and must expose contradictions rather than cure them by interpretation."
+    },
+    {
+      "sequence": 20,
+      "operation_number": 6,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-chamber-of-the-fourfold-petition",
+      "source_revelation_id": "a-complete-petition-can-compel-certification",
+      "reason": ""
+    },
+    {
+      "sequence": 21,
+      "operation_number": 7,
+      "type": "revelation_established",
+      "revelation_id": "seasonal-balance-is-separate-from-the-seven-seal-count",
+      "supporting_clue_ids": [
+        "seven-is-not-the-whole-count"
+      ],
+      "note": "Seven seals do not suffice unless Spring, Summer, Autumn, and Winter all stand among them."
+    },
+    {
+      "sequence": 22,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "public-declarations-can-bind-politically-without-becoming-seals",
+      "supporting_clue_ids": [
+        "declarations-bind-reputation-not-the-seal"
+      ],
+      "note": "A witnessed declaration is not a seal. Its withdrawal remains lawful and enters the same public record under its author’s name."
+    },
+    {
+      "sequence": 23,
+      "operation_number": 8,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-masque-of-plain-faces",
+      "source_revelation_id": "public-declarations-can-bind-politically-without-becoming-seals",
+      "reason": ""
+    },
+    {
+      "sequence": 24,
+      "operation_number": 9,
+      "type": "revelation_established",
+      "revelation_id": "the-concord-can-compel-joint-custody-without-transferring-ownership",
+      "supporting_clue_ids": [
+        "the-concord-compels-custody-rather-than-alienation"
+      ],
+      "note": "Crown title may remain intact while named custodians receive enough possession and authority to complete the undertaking."
+    },
+    {
+      "sequence": 25,
+      "operation_number": 10,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-ashen-bough-hearing",
+      "text": "The delegation deliberately leaves the Ashen Bough Hearing off the emergency calendar. Blood, adoption, and regency will not be turned into doctrine merely because the coalition wants an easier seventh seal."
+    },
+    {
+      "sequence": 26,
+      "operation_number": 11,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "the-unfurling-branch",
+      "party_label": ""
+    },
+    {
+      "sequence": 27,
+      "operation_number": 11,
+      "type": "clue_spotted",
+      "clue_id": "reciprocal-surety-without-wardship",
+      "visit_number": 2
+    },
+    {
+      "sequence": 28,
+      "operation_number": 11,
+      "type": "clue_spotted",
+      "clue_id": "people-saved-city-surrendered",
+      "visit_number": 2
+    },
+    {
+      "sequence": 29,
+      "operation_number": 11,
+      "type": "clue_spotted",
+      "clue_id": "the-recognition-compact-can-run-beside-the-petition",
+      "visit_number": 2
+    },
+    {
+      "sequence": 30,
+      "operation_number": 11,
+      "type": "clue_spotted",
+      "clue_id": "a-mortal-co-custodian-with-a-defined-refusal-right",
+      "visit_number": 2
+    },
+    {
+      "sequence": 31,
+      "operation_number": 11,
+      "type": "clue_spotted",
+      "clue_id": "a-non-exploitative-guarantee-for-orelle",
+      "visit_number": 2
+    },
+    {
+      "sequence": 32,
+      "operation_number": 11,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Tamsin asked Ilyrion to make Orison’s equality the coalition’s first principle. Saelira offered a recognition compact and real mortal authority, but no declaration until security and liability showed whether that authority would survive the rest of the bargain."
+    },
+    {
+      "sequence": 33,
+      "operation_number": 12,
+      "type": "revelation_established",
+      "revelation_id": "the-kings-counteroffer-can-be-defeated-without-persuading-him",
+      "supporting_clue_ids": [
+        "people-saved-city-surrendered"
+      ],
+      "note": "Evacuation may save people while abandoning Orison. The delegation can refuse the royal instrument without pretending it has no value."
+    },
+    {
+      "sequence": 34,
+      "operation_number": 12,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-crown-conclave",
+      "source_revelation_id": "the-kings-counteroffer-can-be-defeated-without-persuading-him",
+      "reason": ""
+    },
+    {
+      "sequence": 35,
+      "operation_number": 13,
+      "type": "revelation_established",
+      "revelation_id": "side-covenants-can-carry-compatible-house-bargains",
+      "supporting_clue_ids": [
+        "the-recognition-compact-can-run-beside-the-petition"
+      ],
+      "note": "Recognition and other compatible bargains may sit beside the Crown instrument if they are indexed and do not contradict it."
+    },
+    {
+      "sequence": 36,
+      "operation_number": 14,
+      "type": "revelation_established",
+      "revelation_id": "orisons-agency-can-survive-custody-and-command-safeguards",
+      "supporting_clue_ids": [
+        "a-mortal-co-custodian-with-a-defined-refusal-right"
+      ],
+      "note": "Orison can retain authority over redirection and civil government without acquiring a veto over ordinary expedition command."
+    },
+    {
+      "sequence": 37,
+      "operation_number": 15,
+      "type": "revelation_established",
+      "revelation_id": "house-orelle-can-seal-for-bounded-and-assigned-liability",
+      "supporting_clue_ids": [
+        "a-non-exploitative-guarantee-for-orelle"
+      ],
+      "note": "Orelle can accept divided guarantees and ordinary contracts instead of permanent sovereign privilege over Orison."
+    },
+    {
+      "sequence": 38,
+      "operation_number": 15,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-golden-sheaf-exchange",
+      "source_revelation_id": "house-orelle-can-seal-for-bounded-and-assigned-liability",
+      "reason": ""
+    },
+    {
+      "sequence": 39,
+      "operation_number": 16,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "the-white-hart-gallery",
+      "party_label": ""
+    },
+    {
+      "sequence": 40,
+      "operation_number": 16,
+      "type": "clue_spotted",
+      "clue_id": "equal-standing-through-reciprocal-hostages",
+      "visit_number": 3
+    },
+    {
+      "sequence": 41,
+      "operation_number": 16,
+      "type": "clue_spotted",
+      "clue_id": "the-apology-vaudren-could-accept",
+      "visit_number": 3
+    },
+    {
+      "sequence": 42,
+      "operation_number": 16,
+      "type": "clue_spotted",
+      "clue_id": "a-bond-against-named-estates",
+      "visit_number": 3
+    },
+    {
+      "sequence": 43,
+      "operation_number": 16,
+      "type": "clue_spotted",
+      "clue_id": "maeliths-bounded-regency-settlement",
+      "visit_number": 3
+    },
+    {
+      "sequence": 44,
+      "operation_number": 16,
+      "type": "clue_spotted",
+      "clue_id": "the-powers-inside-a-gracious-noun",
+      "visit_number": 3
+    },
+    {
+      "sequence": 45,
+      "operation_number": 16,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Othalan admitted that Mara could not leave his proposed fosterage freely. The delegation refused the warm noun and began a reciprocal bond between Tamsin and Lady Senra instead. Othalan also agreed to acknowledge what the Vaudren slight did in public without confessing a motive he denied."
+    },
+    {
+      "sequence": 46,
+      "operation_number": 17,
+      "type": "revelation_established",
+      "revelation_id": "house-namaris-can-seal-for-exact-and-reviewable-language",
+      "supporting_clue_ids": [
+        "a-bond-against-named-estates"
+      ],
+      "note": "A personal bond with exact audit and return can satisfy Namaris without putting fosterage inside the relic petition."
+    },
+    {
+      "sequence": 47,
+      "operation_number": 17,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-amber-quill-archive",
+      "source_revelation_id": "house-namaris-can-seal-for-exact-and-reviewable-language",
+      "reason": ""
+    },
+    {
+      "sequence": 48,
+      "operation_number": 18,
+      "type": "revelation_established",
+      "revelation_id": "the-ashen-bough-can-be-seated-before-the-conclave",
+      "supporting_clue_ids": [
+        "maeliths-bounded-regency-settlement"
+      ],
+      "note": "A claimant or bounded regent could still be seated before filing; the delegation chooses not to purchase a vote with succession doctrine."
+    },
+    {
+      "sequence": 49,
+      "operation_number": 18,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-ashen-bough-hearing",
+      "source_revelation_id": "the-ashen-bough-can-be-seated-before-the-conclave",
+      "reason": ""
+    },
+    {
+      "sequence": 50,
+      "operation_number": 19,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-white-hart-gallery",
+      "text": "Maelith gives a private conditional declaration: reciprocal personal surety, preserved royal custody, and no emergency judgment on the general legitimacy of wardship."
+    },
+    {
+      "sequence": 51,
+      "operation_number": 20,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "the-red-rose-pavilion",
+      "party_label": ""
+    },
+    {
+      "sequence": 52,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "the-acknowledgment-beneath-witnesses",
+      "visit_number": 4
+    },
+    {
+      "sequence": 53,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "the-two-kinds-of-precedence",
+      "visit_number": 4
+    },
+    {
+      "sequence": 54,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "the-masque-can-convert-satisfaction-into-commitment",
+      "visit_number": 4
+    },
+    {
+      "sequence": 55,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "the-crown-can-purchase-vaudren-with-visible-honor",
+      "visit_number": 4
+    },
+    {
+      "sequence": 56,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "credit-can-be-fixed-outside-custody-law",
+      "visit_number": 4
+    },
+    {
+      "sequence": 57,
+      "operation_number": 20,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Lethiel treated precedence as exercised authority rather than ornament. Vaudren accepted Maelith’s acknowledgment of public diminution, neutral authorship, and an office over proclamation and return, provided the settlement was repeated beneath the oath-mirrors."
+    },
+    {
+      "sequence": 58,
+      "operation_number": 21,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-red-rose-pavilion",
+      "text": "Vaudren gives a conditional declaration for public acknowledgment, neutral or shared authorship, and a proclamation office that gives the Rose a voice without giving it power to alter the undertaking."
+    },
+    {
+      "sequence": 59,
+      "operation_number": 22,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "the-amber-quill-archive",
+      "party_label": ""
+    },
+    {
+      "sequence": 60,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-personal-bond-precedent",
+      "visit_number": 5
+    },
+    {
+      "sequence": 61,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "a-limited-ceremonial-ruling",
+      "visit_number": 5
+    },
+    {
+      "sequence": 62,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-narrow-necessity-finding",
+      "visit_number": 5
+    },
+    {
+      "sequence": 63,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "a-defective-petition-may-be-corrected-without-restarting",
+      "visit_number": 5
+    },
+    {
+      "sequence": 64,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "parallel-instruments-are-lawful-but-subordinate",
+      "visit_number": 5
+    },
+    {
+      "sequence": 65,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "recognition-can-be-operative-without-becoming-general-doctrine",
+      "visit_number": 5
+    },
+    {
+      "sequence": 66,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "a-mortal-custodian-can-block-redirection-without-blocking-tactics",
+      "visit_number": 5
+    },
+    {
+      "sequence": 67,
+      "operation_number": 22,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Pelion found undefined completion, custody, refusal, and return beneath language everyone had praised. The delegation ordered an adverse index and accepted the harder rule: a material amendment releases the seals that depended on the changed article, not whichever seals are politically convenient."
+    },
+    {
+      "sequence": 68,
+      "operation_number": 23,
+      "type": "revelation_established",
+      "revelation_id": "house-thalan-can-seal-for-restrained-emergency-precedent",
+      "supporting_clue_ids": [
+        "the-narrow-necessity-finding"
+      ],
+      "note": "A necessity finding, relic-specific sunset, preserved Crown interest, and later review can make Thalan’s precedent narrow enough to bear."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 23,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-hall-of-first-frost",
+      "source_revelation_id": "house-thalan-can-seal-for-restrained-emergency-precedent",
+      "reason": ""
+    },
+    {
+      "sequence": 70,
+      "operation_number": 24,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-amber-quill-archive",
+      "text": "Namaris gives a private conditional declaration for exact custody, audit, return, adverse authority, and an indexed docket in which side bargains cannot contradict the Crown instrument."
+    },
+    {
+      "sequence": 71,
+      "operation_number": 25,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "the-hall-of-first-frost",
+      "party_label": ""
+    },
+    {
+      "sequence": 72,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "recognition-can-be-calendared-without-broadening-the-emergency-rule",
+      "visit_number": 6
+    },
+    {
+      "sequence": 73,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "sunset-and-review-satisfy-both-conservative-houses",
+      "visit_number": 6
+    },
+    {
+      "sequence": 74,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "recall-may-turn-on-a-defined-breach",
+      "visit_number": 6
+    },
+    {
+      "sequence": 75,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "royal-joinder-can-replace-some-precedent-anxiety",
+      "visit_number": 6
+    },
+    {
+      "sequence": 76,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-crown-can-retain-title-throughout",
+      "visit_number": 6
+    },
+    {
+      "sequence": 77,
+      "operation_number": 25,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Thalan accepted that permanent planar alteration could satisfy the old necessity standard. The proposed answer preserved Crown title, fixed an outside term, barred broad citation, required later review, and promised to distinguish compulsion from any later royal joinder."
+    },
+    {
+      "sequence": 78,
+      "operation_number": 26,
+      "type": "revelation_established",
+      "revelation_id": "house-serevin-can-seal-for-a-defended-eastern-border",
+      "supporting_clue_ids": [
+        "recall-may-turn-on-a-defined-breach"
+      ],
+      "note": "Serevin can accept a measured breach and independent confirmation instead of unilateral recall."
+    },
+    {
+      "sequence": 79,
+      "operation_number": 26,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-silent-fir-lodge",
+      "source_revelation_id": "house-serevin-can-seal-for-a-defended-eastern-border",
+      "reason": ""
+    },
+    {
+      "sequence": 80,
+      "operation_number": 27,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-hall-of-first-frost",
+      "text": "Thalan withholds declaration until term and defense are concrete. The house accepts the narrow necessity, sunset, review, and a record that will call royal opposition opposition rather than retrospective generosity."
+    },
+    {
+      "sequence": 81,
+      "operation_number": 28,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "the-silent-fir-lodge",
+      "party_label": ""
+    },
+    {
+      "sequence": 82,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "serevin-can-command-the-reserve-while-serathiel-yields-the-expedition",
+      "visit_number": 7
+    },
+    {
+      "sequence": 83,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "a-bounded-ward-contract",
+      "visit_number": 7
+    },
+    {
+      "sequence": 84,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "the-border-risk-strengthens-the-necessity-finding",
+      "visit_number": 7
+    },
+    {
+      "sequence": 85,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "the-six-day-offer-shifts-risk-onto-orison",
+      "visit_number": 7
+    },
+    {
+      "sequence": 86,
+      "operation_number": 28,
+      "type": "clue_spotted",
+      "clue_id": "ordinary-movement-is-not-a-border-breach",
+      "visit_number": 7
+    },
+    {
+      "sequence": 87,
+      "operation_number": 28,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Nara forced the border case into measurements: loss at two named crossings, independent confirmation, and hostile movement beyond the seasonal norm. Serevin accepted command of the eastern reserve and abandoned any claim to command the expedition."
+    },
+    {
+      "sequence": 88,
+      "operation_number": 29,
+      "type": "revelation_established",
+      "revelation_id": "a-combined-security-package-can-protect-aurelune-during-the-loan",
+      "supporting_clue_ids": [
+        "ordinary-movement-is-not-a-border-breach"
+      ],
+      "note": "Substitute wards, reserve forces, a bounded term, and objective recall can reduce Dawnward risk without making the rescue revocable on alarm."
+    },
+    {
+      "sequence": 89,
+      "operation_number": 30,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-silent-fir-lodge",
+      "text": "Serevin gives a conditional declaration for a funded reserve, an eight- to ten-day term, objective recall, and a baseline ordinary seasonal movement cannot satisfy."
+    },
+    {
+      "sequence": 90,
+      "operation_number": 31,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "the-noon-spear-court",
+      "party_label": ""
+    },
+    {
+      "sequence": 91,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "the-priced-reserve-package",
+      "visit_number": 8
+    },
+    {
+      "sequence": 92,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "border-command-is-distinct-from-expedition-command",
+      "visit_number": 8
+    },
+    {
+      "sequence": 93,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "a-divided-command-that-can-still-move",
+      "visit_number": 8
+    },
+    {
+      "sequence": 94,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "the-exclusive-command-counter-petition",
+      "visit_number": 8
+    },
+    {
+      "sequence": 95,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "the-combined-dawnward-replacement",
+      "visit_number": 8
+    },
+    {
+      "sequence": 96,
+      "operation_number": 31,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "The war table produced a scheme in which everyone could stop the expedition and no one could move it. Garran yielded supreme command to Ysandre only after custody, guard, field command, civil refusal, and protective authority were separated into powers that could be obeyed together."
+    },
+    {
+      "sequence": 97,
+      "operation_number": 32,
+      "type": "revelation_established",
+      "revelation_id": "house-eiral-can-seal-for-a-governable-concord",
+      "supporting_clue_ids": [
+        "a-divided-command-that-can-still-move"
+      ],
+      "note": "Separated custody, command, consent, and conflict procedure can make a seven-banner coalition governable even when Eiral declines to own it."
+    },
+    {
+      "sequence": 98,
+      "operation_number": 32,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-twilight-laurel-apartments",
+      "source_revelation_id": "house-eiral-can-seal-for-a-governable-concord",
+      "reason": ""
+    },
+    {
+      "sequence": 99,
+      "operation_number": 33,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-noon-spear-court",
+      "text": "Serathiel gives a conditional declaration for an eight-day campaign order, funded eastern reserve, substitute wards, and royal protection limited to damage or use beyond the undertaking."
+    },
+    {
+      "sequence": 100,
+      "operation_number": 34,
+      "type": "encounter_visited",
+      "visit_number": 9,
+      "encounter_id": "the-golden-sheaf-exchange",
+      "party_label": ""
+    },
+    {
+      "sequence": 101,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "a-guarantee-ilyrion-can-defend",
+      "visit_number": 9
+    },
+    {
+      "sequence": 102,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "the-reserve-can-be-financed-without-expedition-command",
+      "visit_number": 9
+    },
+    {
+      "sequence": 103,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "only-unrecoverable-losses-need-indemnity",
+      "visit_number": 9
+    },
+    {
+      "sequence": 104,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "border-ward-bonds",
+      "visit_number": 9
+    },
+    {
+      "sequence": 105,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "joint-custody-is-cheaper-than-transferred-ownership",
+      "visit_number": 9
+    },
+    {
+      "sequence": 106,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "the-complete-security-package-has-a-price",
+      "visit_number": 9
+    },
+    {
+      "sequence": 107,
+      "operation_number": 34,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Nara reduced Orelle’s three-million-crown figure to verified unrecoverable exposure. The delegation accepted divided guarantees, ordinary reconstruction contracts, and funded wards and reserve pay, while refusing exclusive customs rights and an indemnity with no ceiling."
+    },
+    {
+      "sequence": 108,
+      "operation_number": 35,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-golden-sheaf-exchange",
+      "text": "Orelle gives a conditional declaration and begins spending under bounded contracts before the vote. Wardstones and reserve pay become enacted preparation rather than promises that spring into existence after victory."
+    },
+    {
+      "sequence": 109,
+      "operation_number": 36,
+      "type": "encounter_visited",
+      "visit_number": 10,
+      "encounter_id": "the-masque-of-plain-faces",
+      "party_label": ""
+    },
+    {
+      "sequence": 110,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "the-apology-can-become-an-irreversible-public-fact",
+      "visit_number": 10
+    },
+    {
+      "sequence": 111,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "several-houses-can-share-the-indemnity",
+      "visit_number": 10
+    },
+    {
+      "sequence": 112,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "the-border-package-can-be-made-politically-durable",
+      "visit_number": 10
+    },
+    {
+      "sequence": 113,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "the-king-offers-each-house-its-own-reason",
+      "visit_number": 10
+    },
+    {
+      "sequence": 114,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "side-covenants-can-be-adopted-before-the-petition",
+      "visit_number": 10
+    },
+    {
+      "sequence": 115,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "maelith-can-substitute-a-witnessed-bond-for-personal-detention",
+      "visit_number": 10
+    },
+    {
+      "sequence": 116,
+      "operation_number": 36,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Beneath the oath-mirrors, Maelith owned the public effect of the equinox slight and Vaudren accepted without demanding a false confession of motive. The personal bond, guarantor shares, reserve pledge, and associated instruments acquired witnesses. Caelir then offered every house a true partial victory that required it to leave the others."
+    },
+    {
+      "sequence": 117,
+      "operation_number": 37,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-white-hart-gallery",
+      "text": "Maelith publicly declares for reciprocal personal surety and preserved royal custody. Mara Venn is named expressly as neither hostage, ward, nor surety."
+    },
+    {
+      "sequence": 118,
+      "operation_number": 38,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-red-rose-pavilion",
+      "text": "Vaudren publicly declares after Maelith owns the public diminution. The Rose accepts neutral authorship and the proclamation office without winning a general ruling on precedence."
+    },
+    {
+      "sequence": 119,
+      "operation_number": 39,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-twilight-laurel-apartments",
+      "text": "House Eiral withholds the Twilight Laurel from the narrow seven-seasonal-banner coalition. Theron separately confirms that the Chamberlain’s official certification duty has not moved with the house."
+    },
+    {
+      "sequence": 120,
+      "operation_number": 40,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-unfurling-branch",
+      "text": "Ilyrion supports the rescue and withholds declaration because protection against redirection is not equal co-custody. Saelira refuses to let departure be counted as assent to the status bargain."
+    },
+    {
+      "sequence": 121,
+      "operation_number": 41,
+      "type": "encounter_visited",
+      "visit_number": 11,
+      "encounter_id": "the-amber-quill-archive",
+      "party_label": ""
+    },
+    {
+      "sequence": 122,
+      "operation_number": 41,
+      "type": "clue_spotted",
+      "clue_id": "certification-and-support-are-separate-acts",
+      "visit_number": 11
+    },
+    {
+      "sequence": 123,
+      "operation_number": 41,
+      "type": "visit_note_recorded",
+      "visit_number": 11,
+      "text": "After the Masque, Pelion separated the Crown petition from the surety bond, public credit, reserve and ward contracts, liability schedule, audit, and Orison’s civil-refusal instrument. Ilyrion’s unsigned recognition compact remained a possible later act and was not allowed to masquerade as a present concession."
+    },
+    {
+      "sequence": 124,
+      "operation_number": 42,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-amber-quill-archive",
+      "text": "Namaris declares on the finished architecture: exact definitions, adverse authority, indexed associated instruments, and a correction procedure showing which seals depend on each article."
+    },
+    {
+      "sequence": 125,
+      "operation_number": 43,
+      "type": "encounter_visited",
+      "visit_number": 12,
+      "encounter_id": "the-chamber-of-the-fourfold-petition",
+      "party_label": ""
+    },
+    {
+      "sequence": 126,
+      "operation_number": 43,
+      "type": "clue_spotted",
+      "clue_id": "a-royal-veto-can-be-limited-to-damage-and-redirection",
+      "visit_number": 12
+    },
+    {
+      "sequence": 127,
+      "operation_number": 43,
+      "type": "clue_spotted",
+      "clue_id": "audit-can-stabilize-liability-and-return",
+      "visit_number": 12
+    },
+    {
+      "sequence": 128,
+      "operation_number": 43,
+      "type": "clue_spotted",
+      "clue_id": "a-relic-specific-sunset-closes-the-precedent",
+      "visit_number": 12
+    },
+    {
+      "sequence": 129,
+      "operation_number": 43,
+      "type": "clue_spotted",
+      "clue_id": "joint-custody-can-preserve-title-and-grant-usable-authority",
+      "visit_number": 12
+    },
+    {
+      "sequence": 130,
+      "operation_number": 43,
+      "type": "clue_spotted",
+      "clue_id": "orison-can-resist-a-change-of-undertaking-without-vetoing-ordinary-command",
+      "visit_number": 12
+    },
+    {
+      "sequence": 131,
+      "operation_number": 43,
+      "type": "clue_spotted",
+      "clue_id": "released-seals-may-return-to-corrected-words",
+      "visit_number": 12
+    },
+    {
+      "sequence": 132,
+      "operation_number": 43,
+      "type": "clue_spotted",
+      "clue_id": "the-chamber-tests-side-covenants-for-contradiction",
+      "visit_number": 12
+    },
+    {
+      "sequence": 133,
+      "operation_number": 43,
+      "type": "visit_note_recorded",
+      "visit_number": 12,
+      "text": "Seven banners provisionally sealed the first complete text. The royal advocate found a collision between Serathiel’s command and Naevra’s power to stop anything threatening the “safe execution” of the undertaking. Theron ruled the phrase material and released Maelith, Serathiel, Vaudren, and Serevin."
+    },
+    {
+      "sequence": 134,
+      "operation_number": 44,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-chamber-of-the-fourfold-petition",
+      "text": "The phrase “safe execution of the undertaking” is struck. Naevra may stop a defined risk of damage to the Sunseed or a use beyond the undertaking; she may not command route, tactics, Orison’s government, or ordinary expedition safety."
+    },
+    {
+      "sequence": 135,
+      "operation_number": 45,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-red-rose-pavilion",
+      "text": "The journal initially records that Vaudren’s seal remains attached because the public-credit article did not change."
+    },
+    {
+      "sequence": 136,
+      "operation_number": 46,
+      "type": "operation_voided",
+      "target_operation_number": 45,
+      "reason": "The journal treated Vaudren’s seal as independent of functional authorship. A broad royal safety veto would have converted the undertaking into a royal act, so Vaudren’s seal released with the other dependent seals."
+    },
+    {
+      "sequence": 137,
+      "operation_number": 47,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-red-rose-pavilion",
+      "text": "Vaudren’s seal is released by the broad royal safety veto: neutral authorship would have become a title over a functionally royal act. The Rose will reaffirm only after authority and the shared title are exact."
+    },
+    {
+      "sequence": 138,
+      "operation_number": 48,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-chamber-of-the-fourfold-petition",
+      "text": "Maelith and Serevin reaffirm the corrected authority article. Serathiel waits for the eight-day campaign schedule; Vaudren waits for the shared title. Orelle, Namaris, and Thalan remain sealed."
+    },
+    {
+      "sequence": 139,
+      "operation_number": 49,
+      "type": "encounter_visited",
+      "visit_number": 13,
+      "encounter_id": "the-hall-of-first-frost",
+      "party_label": ""
+    },
+    {
+      "sequence": 140,
+      "operation_number": 49,
+      "type": "clue_spotted",
+      "clue_id": "necessity-does-not-waive-seasonal-balance",
+      "visit_number": 13
+    },
+    {
+      "sequence": 141,
+      "operation_number": 49,
+      "type": "visit_note_recorded",
+      "visit_number": 13,
+      "text": "On Conclave morning, Thalan reviewed the corrected veto, eight-day term, sunset, and shared title. Tamsin agreed to accept royal joinder after certification, never as the price of certification, and only within powers the seven-banner text already allowed."
+    },
+    {
+      "sequence": 142,
+      "operation_number": 50,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-hall-of-first-frost",
+      "text": "Thalan keeps its seal and will present the narrow necessity finding. Voluntary royal joinder may strengthen the undertaking, but it cannot be allowed to supply validity the seven banners already possess."
+    },
+    {
+      "sequence": 143,
+      "operation_number": 51,
+      "type": "encounter_visited",
+      "visit_number": 14,
+      "encounter_id": "the-crown-conclave",
+      "party_label": ""
+    },
+    {
+      "sequence": 144,
+      "operation_number": 51,
+      "type": "clue_spotted",
+      "clue_id": "recognition-can-survive-a-narrow-relic-petition",
+      "visit_number": 14
+    },
+    {
+      "sequence": 145,
+      "operation_number": 51,
+      "type": "clue_spotted",
+      "clue_id": "shared-liability-can-hold-through-the-final-vote",
+      "visit_number": 14
+    },
+    {
+      "sequence": 146,
+      "operation_number": 51,
+      "type": "clue_spotted",
+      "clue_id": "the-recall-article-can-answer-a-real-breach-without-becoming-unilateral",
+      "visit_number": 14
+    },
+    {
+      "sequence": 147,
+      "operation_number": 51,
+      "type": "clue_spotted",
+      "clue_id": "a-withdrawal-keeps-its-author",
+      "visit_number": 14
+    },
+    {
+      "sequence": 148,
+      "operation_number": 51,
+      "type": "clue_spotted",
+      "clue_id": "a-narrow-defect-need-not-destroy-the-whole-petition",
+      "visit_number": 14
+    },
+    {
+      "sequence": 149,
+      "operation_number": 51,
+      "type": "clue_spotted",
+      "clue_id": "security-commitments-can-answer-the-kings-strongest-objection",
+      "visit_number": 14
+    },
+    {
+      "sequence": 150,
+      "operation_number": 51,
+      "type": "clue_spotted",
+      "clue_id": "royal-joinder-strengthens-but-does-not-validate-the-petition",
+      "visit_number": 14
+    },
+    {
+      "sequence": 151,
+      "operation_number": 51,
+      "type": "clue_spotted",
+      "clue_id": "orison-can-accept-the-final-undertaking-without-controlling-every-order",
+      "visit_number": 14
+    },
+    {
+      "sequence": 152,
+      "operation_number": 51,
+      "type": "visit_note_recorded",
+      "visit_number": 14,
+      "text": "Maelith and Serevin reaffirmed the corrected text. Serathiel received the eight-day schedule. Vaudren received the title “The Crown and Concord of Aurelune for the Restoration of Orison.” Theron certified seven seasonal seals without adding Eiral’s banner. Only then did Caelir join for the term, shared credit, and bounded protective authority."
+    },
+    {
+      "sequence": 153,
+      "operation_number": 52,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-crown-conclave",
+      "text": "The final seven seals are Maelith, Serathiel, Vaudren, Orelle, Namaris, Thalan, and Serevin. Spring, Summer, Autumn, and Winter stand together without Eiral or the Ashen Bough."
+    },
+    {
+      "sequence": 154,
+      "operation_number": 53,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-twilight-laurel-apartments",
+      "text": "Theron Eiral certifies the valid petition in office. House Eiral remains unsealed and gains no claim to have furnished the majority."
+    },
+    {
+      "sequence": 155,
+      "operation_number": 54,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-crown-conclave",
+      "text": "Certification precedes royal joinder. Caelir joins for an eight-day term, shared Crown-and-Concord credit, and explicit protective authority confined to damage and use beyond the undertaking."
+    },
+    {
+      "sequence": 156,
+      "operation_number": 55,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-unfurling-branch",
+      "text": "Ilyrion supports the Sunseed’s departure and publicly opposes the refusal to recognize Orison as an equal co-custodian. The recognition campaign leaves the hall unfinished rather than defeated."
+    },
+    {
+      "sequence": 157,
+      "operation_number": 56,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-ashen-bough-hearing",
+      "text": "The Ashen Bough remains vacant at departure. Neither Mirath’s blood claim, Aven’s adoption claim, nor a temporary regency is made constitutional doctrine under emergency pressure."
+    },
+    {
+      "sequence": 158,
+      "operation_number": 57,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-crown-conclave",
+      "text": "Tamsin Rook and Captain Naevra Sol take joint physical custody. Mara Venn accepts the undertaking while retaining Orison’s civil refusal right. The Sunseed leaves Aurelune before the last safe departure."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adventure-graph.local/schemas/desktop-artifact-manifest.schema.json",
+  "title": "Adventure Graph desktop artifact manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "application",
+    "version",
+    "platform",
+    "architecture",
+    "python",
+    "pyinstaller",
+    "source_revision",
+    "build_dependencies",
+    "build_requirements_sha256",
+    "build_operating_system",
+    "runner_image",
+    "runner_image_version",
+    "artifact",
+    "artifact_bytes",
+    "artifact_sha256",
+    "bundle_regular_file_count",
+    "bundle_symlink_count",
+    "bundle_bytes",
+    "bundle_inventory_sha256",
+    "bundle_entry_limit",
+    "bundle_unpacked_limit_bytes",
+    "compressed_limit_bytes"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 3
+    },
+    "application": {
+      "const": "Adventure Graph"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+    },
+    "platform": {
+      "enum": [
+        "linux",
+        "windows",
+        "macos"
+      ]
+    },
+    "architecture": {
+      "type": "string",
+      "minLength": 1
+    },
+    "python": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pyinstaller": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_revision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "build_dependencies": {
+      "type": "object",
+      "minProperties": 5,
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "propertyNames": {
+        "pattern": "^[a-z0-9][a-z0-9.-]*$"
+      }
+    },
+    "build_requirements_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "build_operating_system": {
+      "type": "string",
+      "minLength": 1
+    },
+    "runner_image": {
+      "type": "string",
+      "minLength": 1
+    },
+    "runner_image_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifact": {
+      "type": "string",
+      "pattern": "^Adventure-Graph-.+\\.(zip|tar\\.gz)$"
+    },
+    "artifact_bytes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "artifact_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "bundle_regular_file_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "bundle_symlink_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "bundle_bytes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "bundle_inventory_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "compressed_limit_bytes": {
+      "const": 104857600
+    },
+    "bundle_entry_limit": {
+      "const": 20000
+    },
+    "bundle_unpacked_limit_bytes": {
+      "const": 536870912
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

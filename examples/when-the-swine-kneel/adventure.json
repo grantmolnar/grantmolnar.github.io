@@ -1,0 +1,1370 @@
+{
+  "schema_version": 3,
+  "adventure": {
+    "id": "when-the-swine-kneel",
+    "title": "When the Swine Kneel",
+    "synopsis": "Three days into Veyr's uninterrupted drought pumping, pigs across Rillcross refuse particular channels, root bronze survey pins from the soil, and kneel toward the city at the sixth evening bell. The same pulse reaches thousands of animals inside Southgate as condemnation, quarantine, and evidence-seizure orders move toward execution. The Hall of Condemnations grants an independent company a resonance cycle to preserve the witnesses, trace the buried warning, and return with a choice the city can lawfully carry out.",
+    "premise": "Veyr has mistaken a living warning for livestock disorder. The final drought schedule drives an old civic resonator beneath the city beyond tolerance; frightened pigs reveal its six buried lines more clearly than any surviving instrument. Water officers, slaughterers, quarantine officials, farmers, and the College each hold part of the evidence and a reason to control it. A bonded company receives a narrow inspection writ: keep the case intact, identify the danger before the next sixth-bell alignment, and bring the Hall an executable remedy with its costs named.",
+    "explanation": "The Deep Bell is an ancient bronze resonator suspended above an unstable hollow and the buried river. Six sounding lines run from its chamber beneath Veyr's edge and outward through Rillcross; Southgate's old weighing works stand above the urban station on the third line. The pigs were never bred or trained as instruments. Their low bodies and sensitivity to ground-borne pressure make them the best surviving indicators: kneeling marks the Bell's central phase, water refusal marks a pulse traveling through a channel, and rooting exposes a sounding pin ringing out of time.\n\nNine-Mile is a modern pump station built onto an auxiliary hydraulic branch of that forgotten system. Its intermittent drought schedule strained the hollow for weeks without forcing failure. Three days before the Hall hearing, Master of Waters Corven Dast ordered uninterrupted high-load operation through the Convocation of Grain. The first full evening cycle produced the farm warnings, a dangerous College trace, and injuries among the lower pump crews. Under-surveyor Tamar Vey matched the pulse to Nine-Mile and urged a staged reduction. Dast knew that rationing would begin before the reservoirs held a full day of ordinary supply; he also knew that the load was striking buried civic works beyond tolerance. He did not possess the surveyors' lost six-line doctrine.\n\nOnce the warning became measurable, Dast treated custody as indemnity. He impounded the trace, confined Tamar, ordered field pins removed before farmers and College staff could map the network, fitted damped faces to the gauges, and raised the quota again. A reduced schedule would require a signature beneath the wards and cisterns it deprived; he preferred altered instruments and unwarned farms to an order bearing his name. He will concede a reading that survives scrutiny, then require the challenger to name the hospital, fire main, tenement, or lower crew placed at risk by acting on it. The next full-load sixth-bell alignment will drive the Bell into cascading failure unless load, phase, or pressure is changed. The investigation can reunite the divided technical record, keep live readings and trained crews in place, and return four severe choices to public authority: ration and brace, retune the six lines, vent a controlled collapse, or break the warning for a few deceptive hours of silence.",
+    "validation": {
+      "minimum_clues_per_revelation": 3,
+      "minimum_source_encounters_per_revelation": 3,
+      "minimum_incoming_clues_per_encounter": 3,
+      "minimum_incoming_source_encounters_per_encounter": 3,
+      "minimum_outgoing_clues_per_encounter": 3,
+      "minimum_distinct_encounter_targets_per_encounter": 3,
+      "minimum_edge_connectivity": 3,
+      "require_directed_reachability": true
+    },
+    "tags": {
+      "genres": [
+        "Investigation",
+        "Civic mystery"
+      ],
+      "game_systems": [
+        "System-agnostic"
+      ],
+      "settings": [
+        "Original fantasy"
+      ],
+      "party_size": {
+        "minimum": 3,
+        "maximum": 5
+      },
+      "level": {
+        "minimum": null,
+        "maximum": null
+      },
+      "combat_intensity": "light",
+      "keywords": [
+        "Ecological mystery",
+        "Animals",
+        "Infrastructure",
+        "Public panic"
+      ]
+    }
+  },
+  "references": [
+    {
+      "id": "5b4c72ce-32c7-44fd-b37b-4f91b49d0266",
+      "kind": "person",
+      "title": "First Deputy Clerk Alda Mere",
+      "aliases": [
+        "Alda Mere",
+        "Alda",
+        "First Deputy Mere"
+      ],
+      "summary": "Veyr's First Deputy Clerk of Petitions, who turns witnessed facts into bounded public orders and widens emergency authority only when the record names its reasons, costs, and limits.",
+      "content": "## A commission written for one cycle\n\nAlda Mere serves in the Hall of Petitions, where a complaint becomes civic fact only when witnesses, custody, and reasons can survive copying into the public record. She can commission a bonded local, foreign, or mixed company when ordinary offices are implicated in the same dispute. Method and accountable sponsorship matter more to her than prestige.\n\nHer ordinary inspection writ permits witness interviews, inspection of affected livestock and public records, entry to nonrestricted civic works, preservation of listed evidence, requests for watch assistance, and short administrative stays. It does not itself interrupt water service, transfer property, authorize arrest or accusation, or place trained crews under unqualified outside command.\n\n## Authority grows through named evidence\n\nAlda can widen a commission when the docket supports each added power. A preserved chain of custody may justify longer stays, compulsory preservation or testimony, protection for named witnesses, temporary ration or evacuation priorities, or removal of a named official from custody of the case. She insists that a widened order identify the fact, the threatened harm, the person responsible for carrying it out, and the point at which the order expires.\n\n## Public law cannot perform an engineering act\n\nA Hall seal can protect messengers, records, observers, and crews; it cannot certify a measurement, make a dangerous shutdown safe, settle permanent ownership, or decide guilt without later process. The commission's bearer, recognition, exercised scope, stays, orders, custody decisions, and legal effect remain part of the play state actually reached.",
+      "tags": [
+        "Veyr",
+        "Hall of Petitions",
+        "civic commission",
+        "public record"
+      ]
+    },
+    {
+      "id": "bcaa6c5b-213d-4196-92c6-e9b9ed91dd2b",
+      "kind": "person",
+      "title": "Master of Waters Corven Dast",
+      "aliases": [
+        "Corven Dast",
+        "Dast",
+        "Master Dast"
+      ],
+      "summary": "Veyr's Master of Waters, a formidable drought administrator who ordered Nine-Mile's uninterrupted load, suppressed the resulting evidence, and answers every remedy with the services it will cut.",
+      "content": "## Water counted as public survival\n\nCorven Dast rose through the Office of Waters by keeping pumps, wards, cisterns, fire mains, and lower crews functioning through scarcity. He treats the system as one table of finite service rather than a collection of independent machines. When another authority demands a reduction, he asks which hospital, tenement, market, fire main, or district will lose water and whose name will stand beneath that choice.\n\nThree days before the Hall hearing, Dast ordered Nine-Mile to run uninterrupted at high load through the Convocation of Grain. The first complete cycle produced resonance injuries, Rillcross warnings, and a dangerous College trace. Under-surveyor Tamar Vey connected the pulse to the station and urged staged reduction. Dast impounded the trace, confined Tamar, ordered field pins removed, damped gauge faces, and raised the quota rather than sign an early ration order.\n\n## Knowledge enough to conceal, not enough to repair\n\nRestricted plans and the seized measurements told Dast that Nine-Mile was striking older civic works beyond tolerance. They did not give him the First Survey's six-line doctrine or a complete safe remedy. He can recognize a reading that survives scrutiny and will not dispute the same reading twice; instead, he shifts the argument to allocation, signatures, and immediate service loss.\n\n## Office is not innocence or omnipotence\n\nDast's technical and administrative competence does not make altered instruments, unlawful confinement, evidence suppression, or unwarned farms necessary acts. His continued office, command, whereabouts, custody, cooperation, adviser status, orders, confession, suspension, and control of operators and records remain live state.",
+      "tags": [
+        "Veyr",
+        "Office of Waters",
+        "Nine-Mile",
+        "drought command"
+      ]
+    },
+    {
+      "id": "d2d941dd-db72-447d-8c53-0ece9de800be",
+      "kind": "person",
+      "title": "Under-surveyor Tamar Vey",
+      "aliases": [
+        "Tamar Vey",
+        "Tamar",
+        "Under-surveyor Vey"
+      ],
+      "summary": "An Office of Waters under-surveyor who matched the buried pulse to Nine-Mile, preserved the clearest recent measurements, and understands the hydraulic doors without claiming the authority to choose who loses water.",
+      "content": "## The measurement Dast could not absorb\n\nTamar Vey is an under-surveyor in the Office of Waters, trained to compare pump phases, pressure changes, buried works, and surface effects. After Nine-Mile's first uninterrupted evening cycle, she matched the College's dangerous trace and the farm reports to the station load. She urged a staged reduction with immediate rationing and directed later readers toward the restricted plans and First Survey material.\n\nDast's office possessed fragments rather than the whole doctrine. Tamar knows the modern pump phases, the auxiliary branch, the separate controls for load, phase, and pressure, and the sequence by which a reduction reaches the buried system. She does not know every six-line relation without College, chapel, farm, and chamber evidence.\n\n## A surveyor can operate without allocating the city\n\nTamar can test a reading, name a hydraulic consequence, coordinate with trained operators, and work the pressure doors. She cannot by technical expertise alone decide which district is rationed, authorize a deliberate collapse beneath inhabited ground, or transfer public custody. Her confinement, rescue, authority recognized, measurements in hand, route, cooperation, control of doors, and willingness to execute a particular remedy remain unresolved until play establishes them.",
+      "tags": [
+        "Office of Waters",
+        "under-surveyor",
+        "Nine-Mile",
+        "hydraulics"
+      ]
+    },
+    {
+      "id": "7bdf27b6-3ac1-482b-80d3-1276dfe3611e",
+      "kind": "person",
+      "title": "Chief Engineer Oren Salk",
+      "aliases": [
+        "Oren Salk",
+        "Oren",
+        "Chief Engineer Salk"
+      ],
+      "summary": "Nine-Mile's chief engineer, responsible for an exhausted crew and a dangerous intake, who distinguishes a staged reduction from an uncontrolled stop and requires lawful protection before spending workers on a civic remedy.",
+      "content": "## The station must survive the order\n\nOren Salk is chief engineer at Nine-Mile Pump House. He knows which pumps can be unloaded, which valves will hammer, how long the intake can hold against a phase change, and which exhausted workers can still perform a dangerous sequence. He kept the station running because an uncontrolled stop could burst the intake, flood the lower hall, and kill the crew before it relieved the buried strain.\n\nOren distinguishes refusal from procedure. A staged reduction can be engineered when load order, crew positions, gauges, and downstream effects are named. A shouted shutdown by someone who does not understand the machinery is another form of sabotage. With recognized authority and protection from retaliation, he can turn a civic decision into executable station work.\n\n## Engineering authority ends at allocation\n\nOren may judge a sequence technically impossible, assign trained hands, stop an immediately lethal operation, and explain what each reduction costs. He cannot choose the city's ration priorities, excuse falsified gauges, decide Dast's custody, or declare an inhabited corridor expendable. His station control, crew assignment, load order, cooperation, injury, and willingness to execute any proposed remedy remain live.",
+      "tags": [
+        "Nine-Mile",
+        "pump engineer",
+        "crew safety",
+        "staged reduction"
+      ]
+    },
+    {
+      "id": "ac969ee5-c1d9-4bb5-b0c6-256744413b40",
+      "kind": "person",
+      "title": "Harl Rill",
+      "aliases": [
+        "Harl",
+        "Master Rill"
+      ],
+      "summary": "A respected Rillcross breeder and careful public witness whose losses forced the first petition, and whose authority comes from saying no more than the herds and ditches actually showed.",
+      "content": "## A breeder before a spokesman\n\nHarl Rill is a respected breeder in Rillcross. He lost two litters after sows refused one ditch, brought the dead piglets and a rooted bronze pin to the Hall, and became the reluctant spokesman for families whose testimony powerful offices called panic. He knows breeding, water habits, ordinary herd fear, and the difference between a repeated pattern and one frightened animal.\n\nHarl's credibility rests on restraint. He reports the sequence the farms observed—water refusal, rooting at buried metal, turning toward Veyr, and kneeling at the bell—without claiming that the pigs know its cause. He will accept hard measures when their necessity is demonstrated and their burden is not silently assigned to the farms alone.\n\n## Witness authority is neither custody nor command\n\nHarl can organize farm observers, identify holdings and herds, compare family accounts, and speak for shared practical needs. He does not automatically control every household, quarantine order, animal, road, or technical interpretation. His location, testimony, public standing, protection, cooperation, herd access, and response to any proposed sacrifice remain live.",
+      "tags": [
+        "Rillcross",
+        "breeder",
+        "farm witness",
+        "herd observations"
+      ]
+    },
+    {
+      "id": "d41a4f2a-dfd4-4672-8360-b317020551e4",
+      "kind": "person",
+      "title": "Ina Rill",
+      "aliases": [
+        "Ina",
+        "Harl's daughter"
+      ],
+      "summary": "A Rillcross handler who knows the affected pigs individually, detects changes before officials do, and can turn scattered herd behavior into a disciplined surface observation network.",
+      "content": "## Animals read before instruments answer\n\nIna Rill is Harl's daughter and an expert handler who moves among Rillcross holdings. She knows individual pigs well enough to separate sickness, crowding, scent, ordinary fear, and trained response from the strange anticipatory behavior at buried lines. At Southgate she can show that calm animals stop several breaths before paving and metal begin to beat.\n\nIna notices when the pattern changes. Separate herds answer separate corridors; water refusal, rooting, turning, kneeling, and sudden lying down do not mean the same thing. With agreed clocks, assigned lines, signals, and protected messengers, she can help farmers maintain a live surface relay while investigators work elsewhere.\n\n## Observation depends on bodies and roads\n\nIna's expertise does not make the pigs prophetic or place every herd under one command. Readings fail when animals are dispersed, seized, panicked, killed, or cut off from trusted handlers; reports fail when roads or messengers fail. Her location, custody, access to herds, current readings, cooperation, protection, and survival remain state to be recorded in play.",
+      "tags": [
+        "Rillcross",
+        "animal handler",
+        "surface relay",
+        "herd readings"
+      ]
+    },
+    {
+      "id": "021c5c85-633d-49d8-8004-dad626283a0c",
+      "kind": "person",
+      "title": "Lecturer Selya Quill",
+      "aliases": [
+        "Selya Quill",
+        "Quill",
+        "Lecturer Quill"
+      ],
+      "summary": "A low-ranking College acoustician who built the surviving smoked-glass trace, treats the pigs as living indicators rather than causes, and can distinguish true system change from a silenced or broken instrument.",
+      "content": "## A recorder beneath institutional rank\n\nSelya Quill lectures in acoustics at the College of Civic Measure. Her rank is low, but her apparatus recorded the dangerous buried pulse after Nine-Mile's first uninterrupted evening. She correlates pendulums, smoked glass, bronze pins, pump phases, and animal response through repeatable tests rather than intuition.\n\nQuill's central claim is narrow: the pigs are sensitive indicators of a ground-borne disturbance, not its cause and not messengers carrying an intention. A controlled crossing, reliable Southgate observation, or sounding pin can align animal response with the laboratory trace. Her instruments can later distinguish a genuine reduction or retuning from silence caused by a damaged gauge, broken line, or destroyed witness.\n\n## A measurement needs custody and certification\n\nQuill can design and explain a test, preserve calibration, and name what a trace does and does not establish. She cannot alone bind the College, protect an archive, command a pump crew, or authorize a civic remedy. Her apparatus, trace, access, witnesses, institutional backing, route, custody, and participation in later readings remain live.",
+      "tags": [
+        "College of Civic Measure",
+        "acoustics",
+        "smoked-glass recorder",
+        "calibration"
+      ]
+    },
+    {
+      "id": "cd71ccee-a344-408a-b4c9-83fb963c5390",
+      "kind": "person",
+      "title": "Keeper Anja Veil",
+      "aliases": [
+        "Anja Veil",
+        "Anja",
+        "Keeper Veil"
+      ],
+      "summary": "The elected keeper of the First Survey chapel, custodian of its memorial plates and six-line doctrine, who insists that every buried line be named by the inhabited surface passage placed at risk.",
+      "content": "## Custody held for erased families\n\nAnja Veil is elected keeper of the Chapel of the First Survey by the surviving surveyor families. She guards memorial plates, bronze rods, funeral records, and technical fragments because Veyr dissolved the old Surveyors' Office, divided its instruments, and removed much of its work from public memory. She wants the city to name that history rather than borrow the surviving doctrine as anonymous emergency equipment.\n\nAnja knows the surveyors' tuning sequence and the rule lost from modern plans: a line is identified by its surface passage and the people above it, not merely by a number on a buried rod. Correct tones can wake recorded answers from the memorial bronze. Force may open stone faster while destroying context, custody, and the sequence needed to interpret what remains.\n\n## Custody cannot choose the remedy\n\nAnja can authorize access to chapel holdings, interpret the old sequence, and refuse the unacknowledged sacrifice of another district. She does not control the Hall, College, farms, pumps, or every later claim to the First Survey. Her access terms, records available, route, cooperation, custody, protection, and judgment of a proposed operation remain live.",
+      "tags": [
+        "First Survey",
+        "chapel keeper",
+        "six-line doctrine",
+        "custody"
+      ]
+    },
+    {
+      "id": "0506346e-15b0-4109-9f66-d9d7fadcecb5",
+      "kind": "person",
+      "title": "Deputy Warden Jalen Orr",
+      "aliases": [
+        "Jalen Orr",
+        "Orr",
+        "Deputy Warden Orr"
+      ],
+      "summary": "A deputy warden of the Office of Waters who speaks for Dast, turns public-safety language into evidence custody, and records which questions threaten the office before choosing what to seize or close.",
+      "content": "## The office arrives before its master\n\nJalen Orr is a deputy warden in the Office of Waters and a regular representative of Corven Dast. He minimizes early reports as drought, crowding, imitation, theft, or panic while recording every question that may expose the office. He claims rooted pins as civic property and can arrive as the named proctor for impoundment of College records or closure of experiments.\n\nOrr's method is procedural rather than theatrical. A soft seal, transport cart, property classification, safety order, or watch escort can remove evidence without publicly denying that it existed. Junior inspectors and guards may obey because the paper appears regular even when its purpose is concealment.\n\n## Delegated custody has a chain\n\nOrr can issue or carry orders within the authority actually delegated to him, document objections, and maintain a chain of possession. He cannot make an irregular seizure lawful by naming public safety, transfer permanent ownership through a temporary hold, or prove Dast's innocence by obeying him. Orr's office, allegiance, location, cooperation, custody claims, orders, access to agents and records, and eventual responsibility remain live.",
+      "tags": [
+        "Office of Waters",
+        "deputy warden",
+        "evidence custody",
+        "seizure orders"
+      ]
+    },
+    {
+      "id": "6f322cc5-f45f-418b-8dba-a265b1b3b3c5",
+      "kind": "person",
+      "title": "Rector Olyra Sen",
+      "aliases": [
+        "Olyra Sen",
+        "Rector Sen",
+        "Sen"
+      ],
+      "summary": "Rector of the College of Civic Measure, an institutional certifier who will not falsify a conclusion but requires a defensible method, named witnesses, and custody strong enough for the College to survive signing it.",
+      "content": "## The cost of an institutional signature\n\nOlyra Sen is rector of the College of Civic Measure, which certifies Veyr's weights, foundations, bells, bridges, and public instruments. The College's authority depends on visible disinterest even though powerful offices fund much of its work. Sen fears the loss of charter, staff, instruments, and public trust; she will not falsify a conclusion, but she prefers conclusions the institution can still defend after the crisis.\n\nA result becomes certifiable when the procedure is repeatable, calibration is preserved, witnesses remain named, and custody can be explained. Sen can convene a faculty hearing, commit College instruments and witnesses, and sign a finding that contradicts an office on which the College depends. Private work by one lecturer may preserve knowledge without giving it institutional force.\n\n## Certification does not choose the city\n\nSen can decide what the College will test, certify, preserve, and state publicly. She cannot allocate water, order a cull, command guards, transfer chapel custody, or choose a corridor for collapse. Her present commitment, access to instruments, custody terms, certification, witnesses, route, and willingness to stand behind a later remedy remain live.",
+      "tags": [
+        "College of Civic Measure",
+        "rector",
+        "certification",
+        "institutional authority"
+      ]
+    },
+    {
+      "id": "94df4e5e-13e1-449c-ae42-64c6840df10a",
+      "kind": "place",
+      "title": "The Hall of Condemnations",
+      "aliases": [
+        "Hall of Petitions",
+        "the Hall",
+        "Veyr council house"
+      ],
+      "summary": "Veyr's public petition house, where spoken complaints, copied testimony, named custody, and signed reasons give a disputed fact enough civic life to support bounded provisional orders.",
+      "content": "## A grievance must survive copying\n\nThe Hall of Condemnations occupies the ground floor of Veyr's old council house. Complaints are spoken before clerks and witnesses, copied into a docket, and either admitted to the civic record or allowed to die as rumor. Its hearing chamber, signing table, evidence courtyard, seal, and copying desks make authority visible: a witness can hear what was claimed, a clerk can name who took custody, and an official must place a name beneath an order.\n\nThe Hall is built for disputes among offices as well as private grievances. It can commission bonded investigators, preserve listed evidence, stay an administrative act for a short period, protect named witnesses, and widen provisional authority when later facts justify each added power. Those acts remain separable. Admitting a fact does not certify a measurement, transfer permanent property, decide guilt, or make a hazardous engineering sequence executable.\n\n## Paper crosses the city through named hands\n\nA Hall order matters because another office can recognize its seal, read its reasons, and identify the person charged with carrying it out. The same procedure exposes gaps: unsigned condemnation, indefinite seizure, and authority that cannot name its endpoint become part of the record rather than disappearing inside institutional custom.\n\nThe Hall does not carry its own case. The open docket, commission bearer, sealed evidence, temporary orders, and later findings belong to the encounter and journal.",
+      "tags": [
+        "Veyr",
+        "public record",
+        "civic authority",
+        "petitions"
+      ]
+    },
+    {
+      "id": "de09340e-8754-4ca8-af35-c5f8a609a2ee",
+      "kind": "place",
+      "title": "Southgate Stockyards",
+      "aliases": [
+        "Southgate",
+        "the stockyards",
+        "the yards"
+      ],
+      "summary": "Veyr's crowded livestock gate and old weighing station, built across the third sounding line and able to turn one buried pressure change into a public crisis of bodies, trade, and civic response.",
+      "content": "## The third line enters the city in a herd\n\nSouthgate Stockyards receive the animals, drovers, factors, inspectors, and slaughter crews drawn to Veyr for the Convocation of Grain. Pens, troughs, scales, sorting lanes, retaining walls, cull gates, and an old dry passage let handlers move thousands of animals only while weight and fear remain distributed. The yards are commercial infrastructure before they are evidence.\n\nThe old weighing works stand above the urban station on the Deep Bell's third sounding line. A response seen at Southgate can be compared with the same line farther out in Rillcross. The concentrated herd makes changes legible at city scale: refusal at one trough follows a water channel, a turn toward a gate shows pressure moving beyond the old station, and mass kneeling marks the central phase. These patterns require comparison and handling knowledge; they do not make every frightened animal a reliable instrument.\n\n## Market remedies spend living evidence\n\nThe stockyards join several kinds of power without making them interchangeable. Yard staff can prevent a stampede. Commercial factors can count delay and loss. Veterinary and quarantine officers can make bounded findings. Hall orders can protect evidence or postpone an act. None of those powers alone decides what the buried system is doing.\n\nThe yards do not preserve a herd in the abstract. Animals, gates, injuries, water, cull orders, quarantine, custody, and market loss belong to the visit played.",
+      "tags": [
+        "Veyr",
+        "Southgate",
+        "livestock",
+        "third sounding line"
+      ]
+    },
+    {
+      "id": "5e1874c7-837e-4666-8563-2a4032b5b78b",
+      "kind": "place",
+      "title": "The College of Civic Measure",
+      "aliases": [
+        "College of Civic Measure",
+        "the College",
+        "Veyr College"
+      ],
+      "summary": "Veyr's chartered measuring institution, where archives, calibrated apparatus, repeatable tests, and reluctant certification can turn an alarming trace into a finding other offices must answer.",
+      "content": "## Measurement needs an institution willing to sign\n\nThe College of Civic Measure maintains laboratories, archives, calibrated pendulums, smoked-glass recorders, civic standards, and the faculty procedures by which a result becomes certifiable. Its lower acoustics laboratory can separate traffic, bells, machinery, water movement, and buried resonance through repeatable comparison rather than intuition.\n\nThe College also preserves an incomplete historical record. Public catalogues contain gaps around the dissolved First Survey; restricted volumes, foundation maps, appropriations, and maintenance references can show that records were removed or that Nine-Mile occupies an older branch without supplying the lost six-line operating doctrine. Archive provenance and a reproducible trace can establish that a warning was measured and suppressed even when no single surviving volume explains the whole machine.\n\n## Certification is narrower than command\n\nA College finding can identify a repeatable observation, state the apparatus and uncertainty, preserve witness, and survive copying into public process. It cannot allocate water, authorize seizure, choose a district for collapse, settle archive ownership, or turn an incomplete model into a safe operating sequence. Charter dependence makes institutional courage costly without making a compromised result true.\n\nA result survives through particular apparatus, traces, witnesses, and signatures. Sealed rooms, remaining volumes, certification, copies, and custody stay with play.",
+      "tags": [
+        "Veyr",
+        "measurement",
+        "archives",
+        "certification"
+      ]
+    },
+    {
+      "id": "99208e47-eff8-473d-a2db-f62fcdd806fd",
+      "kind": "place",
+      "title": "Rillcross Farm Belt",
+      "aliases": [
+        "Rillcross",
+        "the farm belt",
+        "Rillcross farms"
+      ],
+      "summary": "A belt of holdings, lanes, ditches, and low ridges where separate herds cross all six sounding lines and household observations can become a map without ceasing to be local testimony.",
+      "content": "## Six lines cross property one holding at a time\n\nRillcross lies south of Veyr in a belt of farms, lanes, wells, ditches, low ridges, and shared water. The Deep Bell's six sounding lines pass beneath different holdings before converging on the city. Southgate provides a dense urban reading on the third line; Rillcross exposes all six farther outward.\n\nNo household sees the full figure. One family observes pigs refusing a ditch while drinking from a nearby well. Another sees rooting around a bronze pin. A third records animals turning toward Veyr or lying down along a subsiding arc. Compared by time, location, water source, and individual animal, those bounded reports can distinguish contagion, imitation, and ordinary herd fear from a pressure pattern.\n\n## The map depends on people who still live above it\n\nFarm families own animals, land, paths, wells, carts, lamps, and local knowledge rather than existing as replaceable stations. A useful relay must respect separate households, quarantine boundaries, road conditions, and the fact that a technical choice below may spend a named surface corridor. Rillcross can provide observers and a distributed warning network only through continued cooperation and communication.\n\nThe lines do not turn households into fixed stations. Herds, wells, roads, consent, quarantine, runners, signals, and sacrifice must be read from the current farms.",
+      "tags": [
+        "Rillcross",
+        "farms",
+        "living survey",
+        "six sounding lines"
+      ]
+    },
+    {
+      "id": "5ac2ecc1-1f2e-413f-b3da-d6cc8463fea9",
+      "kind": "place",
+      "title": "The Chapel of the First Survey",
+      "aliases": [
+        "Chapel of the First Survey",
+        "the chapel",
+        "surveyors' chapel"
+      ],
+      "summary": "A roadside chapel and flooded crypt where the dissolved Surveyors' families keep their dead, the six-line operating doctrine, and a record of the sacrifice Veyr preferred to remember incompletely.",
+      "content": "## The archive is also a burial place\n\nThe Chapel of the First Survey stands on a low rise beyond Veyr's old boundary road. Its plain nave serves families descended from the dissolved Surveyors' Office. Beneath it, six tomb aisles correspond to the six sounding lines. Surveyors were buried with instruments and records they had been ordered to surrender, so opening the archive also means entering family custody and handling human remains.\n\nBronze rods in the memorial floor can be tuned against a current pulse. Correct tones open archive niches and wake recorded statements stored in resonant plates. The surviving doctrine names lines by the inhabited surface passages above them and preserves the sequence for resting, retuning, or deliberately venting one. It complements the Office of Waters' hydraulic controls and partial service diagrams; neither body of knowledge can safely operate the system alone.\n\n## Memory is part of the safety procedure\n\nThe chapel preserves the Night of Broken Foundations, when surveyors vented a collapse beneath the Tanneries to save central Veyr and sixty-three people died. The city condemned the judgment, dissolved the office, and retained the machinery. The families insist that later users name custody, copies, attribution, the dead, and the surface cost of any comparable act.\n\nThe crypt keeps doctrine, not present permission. Water, damage, keys, warrants, consent, records, copies, custody, and any opened route are decided at the table.",
+      "tags": [
+        "First Survey",
+        "chapel",
+        "archive",
+        "six-line doctrine"
+      ]
+    },
+    {
+      "id": "9622f400-e8c6-4c9c-a660-1eeb6300913e",
+      "kind": "place",
+      "title": "The Nine-Mile Pump House",
+      "aliases": [
+        "Nine-Mile",
+        "Nine-Mile Pump House",
+        "the pump house"
+      ],
+      "summary": "Veyr's major drought station, where modern piston halls surround an older auxiliary branch whose separate load, phase, and pressure controls can relieve or worsen the buried Bell only through trained work.",
+      "content": "## A modern station built around an older branch\n\nThe Nine-Mile Pump House straddles the buried river southeast of Veyr. Modern piston halls, intake works, galleries, sumps, service bridges, gauges, speaking pipes, and crew spaces surround an older auxiliary intake and pressure branch. The station feeds wards, cisterns, fire mains, markets, and lower districts whose needs become immediate when drought service is reduced.\n\nNine-Mile can alter three related but distinct quantities: hydraulic load, phase, and pressure. A staged reduction is therefore different from an uncontrolled stop. Pump order, valve timing, intake stability, downstream service, trained hands, and communication with the surface determine whether an intervention buys time, floods the lower hall, bursts the intake, or transfers strain into another line.\n\n## Controls do not choose their own public cost\n\nThe older branch connects the station to the Deep Bell and provides one route into its chamber. Partial plans and undocumented bypasses can expose the relation without supplying the complete six-line map or safe counter-ring sequence. Mechanical traces can outlast falsified gauge faces, but a reading still requires competent interpretation and a lawful or emergency decision about what service will be lost.\n\nA station diagram cannot say what a machine can bear now. Load, phase, pressure, gauges, pumps, crews, injuries, keys, orders, rationing, and conduit access belong to the live station.",
+      "tags": [
+        "Nine-Mile",
+        "waterworks",
+        "pump station",
+        "hydraulic controls"
+      ]
+    },
+    {
+      "id": "138a7daf-e2f7-4640-a59c-3833ba4fc5f0",
+      "kind": "place",
+      "title": "The Six-Line Bell",
+      "aliases": [
+        "The Deep Bell",
+        "Deep Bell",
+        "Six-Line Bell",
+        "the Bell"
+      ],
+      "summary": "An ancient bronze resonator and pressure-control chamber above the buried river, joined to six inhabited surface corridors and reachable through farm, surveyor, and pump-house approaches.",
+      "content": "## A warning instrument beneath inhabited ground\n\nThe Six-Line Bell, traditionally called the Deep Bell, is a bronze resonator wider than the Hall of Petitions and suspended above the black course of the buried river. Six sounding galleries leave its chamber, pass beneath Veyr's edge, and continue through Southgate and Rillcross. Counterweights, sluice gates, pressure vanes, diaphragms, a tuning crown, and hydraulic doors let the system distribute strain as well as announce it.\n\nThe Bell has no will and offers no terms. Its tones follow load, phase, moving water, structural contact, and changes made elsewhere in the network. Pigs reveal those ground-borne effects more clearly than the surviving central instruments: kneeling marks the central phase, water refusal follows pressure through a channel, and rooting exposes a sounding pin ringing out of time.\n\n## Three approaches reach different controls\n\nThe Rillcross pressure vent reaches an outer diaphragm and can remain connected to farm reports. The surveyors' stair reaches the tuning crown and its six-line sequence. The Nine-Mile conduit reaches hydraulic load, phase, and pressure doors. Each approach can be entered without the knowledge, allies, or surface communication that would make it safe.\n\nThe sheet names the chamber and three approaches; it opens none. Air, water, damage, reports, tools, crews, keys, readings, and remedy follow the route and play state. The stable encounter identifier remains `the-deep-bell`.",
+      "tags": [
+        "Deep Bell",
+        "buried river",
+        "resonator",
+        "finale"
+      ]
+    },
+    {
+      "id": "1aeac0e3-80de-4749-ae76-1b3c1a4668e4",
+      "kind": "organization",
+      "title": "The Office of Waters",
+      "aliases": [
+        "Office of Waters",
+        "Water Office",
+        "Waters"
+      ],
+      "summary": "Veyr's water authority, responsible for pumps, cisterns, mains, drought allocation, technical records, and the guarded operating chain through which a civic water decision becomes work.",
+      "content": "## Water is administered as one finite service\n\nThe Office of Waters operates Veyr's pumps, cisterns, intakes, mains, lower galleries, and drought schedules. It treats the system as a connected allocation problem: more service to one ward may mean less water for a hospital, fire main, tenement, market, or work crew elsewhere. Masters, surveyors, engineers, guards, inspectors, record clerks, and operators hold different parts of that responsibility.\n\nThe office inherited modern hydraulic works and partial diagrams from the dissolved First Survey. It retained auxiliary load controls and service knowledge but not the complete six-line doctrine, historical account, or independent surface map. Its ordinary powers over maintenance, safe access, operating records, trained crews, and water allocation do not erase the need for public authority when an intervention evacuates, rations, seizes, confines, or deliberately sacrifices an inhabited place.\n\n## Command is divided even inside one office\n\nA master may set policy, a surveyor certify a reading, an engineer reject an impossible sequence, a guard recognize custody, and an operator turn a control. Treating those roles as one transferable key hides both competence and accountability. The office can remain technically necessary even when particular orders or records are unlawful.\n\nAn office chart cannot make today's order executable. Officers, quotas, guards, records, custody, confinement, station control, service priorities, and settlement require named people and acts.",
+      "tags": [
+        "Veyr",
+        "water authority",
+        "drought",
+        "public works"
+      ]
+    },
+    {
+      "id": "8c3fbd04-1098-423b-bbbe-27b0f6dc4bdb",
+      "kind": "organization",
+      "title": "The Slaughterers' Compact",
+      "aliases": [
+        "Slaughterers' Compact",
+        "the Compact"
+      ],
+      "summary": "Veyr's organized slaughtering and livestock-trade interest, able to mobilize factors, crews, contracts, and compensation claims while lacking unilateral authority to make commercial loss a public-health finding.",
+      "content": "## The market can act faster than the record\n\nThe Slaughterers' Compact coordinates factors, slaughter crews, contracts, processing capacity, and claims arising from livestock brought into Veyr. The Convocation of Grain magnifies its concern: delay, rumor, dehydration, injury, and unsold animals can ruin drovers, farms, yards, and processors before a technical inquiry reaches a conclusion.\n\nThe Compact therefore prefers remedies that make the market legible quickly. Condemnation and cull convert frightened animals into counted loss, clear crowded pens, and stop a rumor from following living evidence through the city. Its counsel and factors can negotiate payment, mobilize crews, contest a stay, and press veterinary or civic authorities to act. Commercial coordination is not by itself quarantine authority, proof of disease, title to seized evidence, or permission to destroy an independent indicator.\n\n## Loss does not become neutral because it is priced\n\nCompact officers can state real costs that investigators and public officials should not dismiss. They also represent one interested institution among farmers, handlers, water officers, inspectors, and the city. A lawful response must distinguish the Compact's contracts and crews from the public authority needed to condemn, confiscate, quarantine, or compel compensation.\n\nThe Compact can mobilize commerce, but present crews, contracts, culls, payments, herd custody, closures, losses, and obligations belong to the encounter and journal.",
+      "tags": [
+        "Veyr",
+        "livestock trade",
+        "slaughterers",
+        "market authority"
+      ]
+    },
+    {
+      "id": "9a4f61cc-cdbc-41b2-8946-f385b2d44eb5",
+      "kind": "organization",
+      "title": "The First Survey",
+      "aliases": [
+        "First Survey",
+        "Surveyors' Office",
+        "Veyr Surveyors' Office"
+      ],
+      "summary": "Veyr's dissolved surveyors' office, which mapped the six sounding lines, maintained the Deep Bell, named surface corridors, and was abolished after a life-saving collapse killed sixty-three people.",
+      "content": "## The office joined ground, water, and habitation\n\nThe First Survey mapped Veyr's foundations, buried river, sounding lines, pressure works, and the inhabited places above them. Its surveyors installed bronze pins at surface stations, maintained the Deep Bell's tuning system, recorded routes through the hollow, and named each line by the district, road, yard, or farm passage that would bear its consequences.\n\nDuring the Night of Broken Foundations, surveyors vented a collapse beneath the Tanneries to save central Veyr. Sixty-three people died. The council condemned the judgment, dissolved the office, and quietly divided its useful remains. The Office of Waters kept auxiliary controls and partial service diagrams. The College retained censored catalogues, maps, and measurement traditions. Surveyor families kept memorial records, route keys, and the six-line doctrine at their chapel.\n\n## Dissolution divided knowledge without ending responsibility\n\nNo successor possesses the whole operating system. Modern hydraulic competence cannot replace the surface map or historical sequence; chapel doctrine cannot allocate water or operate a pump station; College measurement cannot authorize a sacrifice. The office's history explains why Veyr must reunite knowledge without pretending that old authority survives intact.\n\nThe dissolved office leaves methods, not command. Surviving records, pins, plates, keys, copies, permissions, interpretations, and custody must be established in play.",
+      "tags": [
+        "Veyr",
+        "surveyors",
+        "Deep Bell",
+        "Night of Broken Foundations"
+      ]
+    },
+    {
+      "id": "cab148c1-a14a-495d-9caf-da41884d028e",
+      "kind": "object",
+      "title": "Bronze Sounding Pins",
+      "aliases": [
+        "sounding pins",
+        "field pins",
+        "bronze markers",
+        "survey pins"
+      ],
+      "summary": "Passive First Survey markers set along the six sounding lines, able to ring out of phase and make the buried network mappable when location, timing, water, and animal behavior are compared.",
+      "content": "## A marker, not a control\n\nThe First Survey set bronze sounding pins at surface stations along the Deep Bell's six lines. A pin couples buried vibration to soil, paving, scales, memorial work, or another known point above. Under strain it may tremble, hum, or ring out of phase. Pigs often expose a bad station by rooting at the metal before people can feel the pulse.\n\nA single pin proves little without provenance and comparison. Its mark can identify the Survey, its socket can show recent removal, and its response can be compared with water refusal, herd movement, College traces, pump phases, and reports from other lines. Several timed stations reveal geometry that no one farm or central gauge can show.\n\n## Removing the pin hides the figure\n\nThe pins are passive. Pulling one does not relieve pressure, close a line, stop the Bell, or make the animals safe. It removes an independent surface marker and can break the chain by which outsiders compare the buried system with inhabited ground. Their evidentiary value therefore depends on location, custody, condition, and a record of who handled them.\n\nA pin matters where it is found and through witnessed handling. Its socket, condition, ringing, location, custody, comparison, damage, and legal effect remain current evidence.",
+      "tags": [
+        "First Survey",
+        "bronze",
+        "surface markers",
+        "evidence"
+      ]
+    }
+  ],
+  "encounters": [
+    {
+      "id": "the-hall-of-petitions",
+      "title": "The Hall of Condemnations",
+      "summary": "A condemnation docket asks whether frightened animals, farm testimony, and buried bronze deserve an official life.",
+      "opening_view": "The veterinary condemnation order has reached the signing table. Harl Rill sets two dead piglets beside a rooted bronze pin; Veyra Doss names the cull’s cost; Jalen Orr claims the pin as Water Office property. In the courtyard, a gilt tears at the paving above the same buried line. Alda Mere turns a blank one-cycle commission toward the assembled witnesses. The clerk with the order waits for a name beneath the finding while bronze scrapes stone outside.",
+      "content": "## Situation\n\nTwo dead piglets and a rooted bronze pin reach the signing table before the condemnation order. Harl's farmers can still be heard together; drovers demand another gate; the Compact demands a cull before rumor ruins the Convocation; Waters calls the pattern drought, crowding, and imitation. In the courtyard, a gilt tears at paving above the same buried line.\n\nNine-Mile entered uninterrupted Convocation service three days ago. Farm families have witnessed two evening cycles; the first city herd reaches the same phase at Southgate today. Veterinary condemnation, provincial quarantine, and Water Office seizures take effect at different hours the following morning. The next full-load sixth-bell cycle follows that evening. Once the orders scatter animals, witnesses, and records among separate offices, no docket will contain the whole case.\n\nFirst Deputy Clerk Alda Mere needs observers outside Waters, the Slaughterers' Compact, the provincial reeve, and the College. She may commission a local, foreign, or mixed company able to post a civic bond or name a recognized sponsor. Prior service helps; the bond and a witnessed method matter more.\n\nAlda's first writ lasts one resonance cycle. It permits inspection of affected livestock and public records, entry to nonrestricted civic works, witness interviews, preservation of listed evidence, requests for watch assistance, and short administrative stays. It does not interrupt water service, transfer property, authorize arrest or public accusation, or place another office's trained crews under unqualified command.\n\n## Cast\n\n- **Alda Mere**, First Deputy Clerk of Petitions, is exact, exhausted, and willing to widen a commission when the record can bear the reasons.\n- **Harl Rill**, a respected breeder, lost two litters after his sows refused one ditch. He is angry and careful; he never claims more than he saw.\n- **Veyra Doss**, counsel for the Slaughterers' Compact, fears market panic more than the animals. She presses for a swift cull paid for by the farms.\n- **Jalen Orr**, deputy warden of the Office of Waters, speaks for Corven Dast. He minimizes the reports, reaches for the bronze pin, and records every question that interests the company.\n\n## Immediate pressures\n\nThe hearing is one insult from a brawl. Doss has arranged for the condemnation order to be signed at dusk. Orr wants the pin classified as stolen civic property. Harl and the other farmers will leave if treated as fools, taking testimony and cooperation with them. In the evidence courtyard, a gilt has begun scraping at the paving directly beneath the council house.\n\nEvery alignment spends trust. Supporting the farmers opens Rillcross and hardens Waters. Accepting an official escort grants access while letting Orr choose what is shown. A general emergency stays more orders and also summons panic, supervision, and officials eager to inherit command.\n\n## Running the encounter\n\nThe hearing should produce a record, not one persuasion check. Witnesses can be separated; dates and accounts compared; the pin and gilt examined; the condemnation order traced; the writ negotiated word by word; Orr's claims entered under his own name. The farmers disagree about cause and timing. They agree on the sequence: water refusal, rooting at buried metal, turning toward Veyr, and kneeling.\n\nAt the sixth bell, the gilt stops digging, faces the inner city, and lowers itself onto the stones. The pin trembles on the evidence table. Few people feel the pulse. Everyone sees the animal. Cause, jurisdiction, and remedy remain disputed; the docket can no longer honestly record that nothing happened.\n\n## Developments\n\nA hearing kept intact gives Alda a durable basis for later orders. Evidence gathered elsewhere may support stays on culls, quarantines, and executive seizures; compulsory preservation and testimony; protection for named witnesses; suspension of a named official from custody of the case; and temporary ration or evacuation priorities through the council's emergency minute. These powers remain provisional. They do not decide guilt, transfer permanent ownership, choose a district for collapse, or let untrained investigators dictate what machinery can safely do.\n\nDisorder brings a hostile overseer and a narrower writ. A pin carried away by Orr reappears among seized materials at Nine-Mile; a pin kept under the Hall seal can be matched against marks elsewhere.\n\nOn departure, place three urgent entries beside the commission: Southgate's public crisis, the College's threatened instruments, and Rillcross's wider pattern. None is the prescribed first route.\n\nThe two-day clock does not require one company to perform every later task. Once a method, responsible witnesses, tools, and authority are named, yard crews, farm observers, College staff, chapel custodians, or pump workers may continue bounded work. Record who holds each task and what can sever it. Delegation creates vulnerable parallel action, not automatic success beyond the table.",
+      "required": true,
+      "start": true,
+      "end": false,
+      "tags": [
+        "urban",
+        "civic",
+        "social",
+        "entry"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "5b4c72ce-32c7-44fd-b37b-4f91b49d0266",
+          "context": "Alda's one-cycle commission defines how witnessed facts can become bounded authority without deciding guilt, ownership, or engineering action."
+        },
+        {
+          "reference_id": "bcaa6c5b-213d-4196-92c6-e9b9ed91dd2b",
+          "context": "Dast's drought mandate and service-allocation method explain the Water Office position without establishing his present order or custody of the case."
+        },
+        {
+          "reference_id": "ac969ee5-c1d9-4bb5-b0c6-256744413b40",
+          "context": "Harl's careful witness practice grounds the farm petition without deciding whether he remains, testifies, or accepts the commission's terms."
+        },
+        {
+          "reference_id": "0506346e-15b0-4109-9f66-d9d7fadcecb5",
+          "context": "Orr's delegated seizure practice explains the claim over the rooted pin without granting lawful custody or fixing his response to the hearing."
+        },
+        {
+          "reference_id": "94df4e5e-13e1-449c-ae42-64c6840df10a",
+          "context": "The Hall's public docket, evidence courtyard, and named-signature method explain how the petition can acquire bounded civic force without deciding the finding or order reached."
+        },
+        {
+          "reference_id": "de09340e-8754-4ca8-af35-c5f8a609a2ee",
+          "context": "Southgate's crowded third-line station explains why a city-scale herd crisis will outrun the hearing without establishing the current cull, animals, or gate state."
+        },
+        {
+          "reference_id": "99208e47-eff8-473d-a2db-f62fcdd806fd",
+          "context": "Rillcross's separate holdings and six-line observations give the farm affidavits a durable geography without deciding which witnesses, herds, or routes remain available."
+        },
+        {
+          "reference_id": "1aeac0e3-80de-4749-ae76-1b3c1a4668e4",
+          "context": "The Office of Waters' divided operating authority explains the institutional opposition without fixing Dast's present command, orders, records, or agents."
+        },
+        {
+          "reference_id": "8c3fbd04-1098-423b-bbbe-27b0f6dc4bdb",
+          "context": "The Compact's commercial crews and loss-accounting explain the pressure for rapid condemnation without granting public-health authority or fixing the cull."
+        },
+        {
+          "reference_id": "9a4f61cc-cdbc-41b2-8946-f385b2d44eb5",
+          "context": "The dissolved First Survey explains the rooted marker's institutional provenance without establishing which history, records, or doctrine the hearing can recover."
+        },
+        {
+          "reference_id": "cab148c1-a14a-495d-9caf-da41884d028e",
+          "context": "Sounding pins explain why one rooted bronze object can connect testimony to buried geography without deciding its custody, condition, or evidentiary effect."
+        }
+      ]
+    },
+    {
+      "id": "southgate-stockyards",
+      "title": "Southgate Stockyards",
+      "summary": "Thousands of thirsty pigs hold one buried line while cullers, drovers, and a failing wall spend the same minutes.",
+      "opening_view": "The eastern wall bows under thousands of thirsty pigs while handlers clear an injured drover from the rails. The herd refuses one invisible line through pen, trough, and paving; outside, the cull crew passes out poleaxes. Ina Rill spills flour across the boundary and calls for the old dry passage opened. Inspector Rusk Tal stands over an empty marker socket with one hand inside his coat. The first rank kneels toward Veyr. Behind it, the whole yard lowers faster than the gates can be moved.",
+      "content": "## Situation\n\nSeveral thousand Convocation pigs refuse one line through the eastern pens. Forced across it, they scream, wheel, and crush back against the rails; at dusk they turn toward Veyr and kneel pen after pen. The retaining wall bows, handlers pull injured drovers clear, and the cull crew waits outside the gate.\n\nBuyers call it disease. Drovers cannot move their stock, and the watch must keep the gates open without allowing a riot. The Compact wants condemnation before the next pulse; Ina wants room to read what the herd refuses. Delay spends water, wall strength, and control of the yard.\n\n## Cast\n\n- **Seln Marr**, yardmaster, puts stampede prevention before every theory and cooperates with whoever lowers the immediate danger.\n- **Ina Rill**, Harl's daughter and an expert handler, has recognized a buried boundary rather than a smell or visible obstacle.\n- **Factor Osric Pell**, speaking for the Slaughterers' Compact, believes killing the eastern herd is the only way to save the market. Every delayed hour enlarges the loss he expects the city to pay.\n- **Inspector Rusk Tal**, a junior water inspector, removed a bronze marker from beneath the eastern scale on Orr's orders. He now knows the order was irregular and fears both exposure and Dast.\n\n## Immediate pressures\n\nPoleaxes are being issued. The packed animals dehydrate beside a trough fed by the channel they refuse. A retaining wall has cracked and bows under the herd's weight. If rails or masonry fail, people die before the warning can be read.\n\nObservation requires space made by work: suspend or delay the cull, reorganize pens with Ina, open the older dry passage, move gates, extract injured drovers, or place the animals under the commission's temporary responsibility. Handle the pigs as frightened livestock. Their weight, thirst, and panic are the danger.\n\n## Running the encounter\n\nThe invisible boundary crosses masonry laid centuries after the original paving. A disused brass weighing frame vibrates as pigs approach. The removed marker left a socket stamped with an obsolete civic emblem. Drainage plans disagree with the water moving below the pens. Drovers and watch officers can reconstruct Tal's arrival, what he removed, and whose seal he carried.\n\nAt the sixth bell, thousands of bodies settle. Iron rails stop rattling. A low beat rises through boots, stone, and teeth. Instruments or magic confirm a vibration traveling through the ground rather than the air. After dark the animals rise into ordinary thirst and distress.\n\n## Developments\n\nKeeping the cull from beginning wins drovers who range across Rillcross and can carry later warnings. Saving workers while losing hundreds of animals leaves the evidence bloodied and the demand for blame sharper. If killing begins before the pulse, wounded pigs still struggle to kneel when it arrives. Keep the sight grave rather than lurid.\n\nTal may be protected, pressured, or surrendered. Under protection he describes the missing marker and admits that similar pieces were ordered removed near a roadside chapel. Careless exposure lets Orr recall him and turns Water Office obstruction public. Southgate should leave behind control or loss of the gates, a living urban reading on the third line, and a named chain of custody for the first removed instrument.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "urban",
+        "livestock",
+        "crisis"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "5b4c72ce-32c7-44fd-b37b-4f91b49d0266",
+          "context": "Alda's bounded stays and evidence protections matter to the threatened cull without establishing that any order has been widened or obeyed."
+        },
+        {
+          "reference_id": "bcaa6c5b-213d-4196-92c6-e9b9ed91dd2b",
+          "context": "Dast's suppression of independent mapping explains the pressure on markers and inspectors without placing him or his command at Southgate."
+        },
+        {
+          "reference_id": "ac969ee5-c1d9-4bb5-b0c6-256744413b40",
+          "context": "Harl's farm chronology gives the urban herd a tested comparison without deciding his presence, testimony, or control of the animals."
+        },
+        {
+          "reference_id": "d41a4f2a-dfd4-4672-8360-b317020551e4",
+          "context": "Ina's handling expertise can distinguish a buried boundary from ordinary herd fear without fixing the live reading or the eastern herd's fate."
+        },
+        {
+          "reference_id": "0506346e-15b0-4109-9f66-d9d7fadcecb5",
+          "context": "Orr's chain of delegated custody explains the removed marker and junior inspector's fear without establishing the marker's current possessor."
+        },
+        {
+          "reference_id": "94df4e5e-13e1-449c-ae42-64c6840df10a",
+          "context": "The Hall's bounded stays and evidence process matter to the threatened destruction without establishing that any order remains valid, widened, or obeyed."
+        },
+        {
+          "reference_id": "de09340e-8754-4ca8-af35-c5f8a609a2ee",
+          "context": "The yards' pens, troughs, scales, dry passage, and third-line position define the handling problem without fixing the herd, water, walls, gates, or cull crews now present."
+        },
+        {
+          "reference_id": "99208e47-eff8-473d-a2db-f62fcdd806fd",
+          "context": "Rillcross supplies the outward comparison for Southgate's urban third-line reading without granting live farm reports, observers, or open roads."
+        },
+        {
+          "reference_id": "138a7daf-e2f7-4640-a59c-3833ba4fc5f0",
+          "context": "The Bell's six-line geometry explains why one invisible boundary crosses pen, trough, and paving without deciding the current phase or the herd's response."
+        },
+        {
+          "reference_id": "1aeac0e3-80de-4749-ae76-1b3c1a4668e4",
+          "context": "Waters' inspectors and delegated custody practices explain the removed marker without establishing the acting order, inspector allegiance, or present possessor."
+        },
+        {
+          "reference_id": "8c3fbd04-1098-423b-bbbe-27b0f6dc4bdb",
+          "context": "The Compact's market logic and crews explain why cull appears immediately executable without making commercial urgency a valid diagnosis or public order."
+        },
+        {
+          "reference_id": "9a4f61cc-cdbc-41b2-8946-f385b2d44eb5",
+          "context": "The First Survey's urban stations and surface markers give the empty socket historical meaning without revealing the whole network or current evidence chain."
+        },
+        {
+          "reference_id": "cab148c1-a14a-495d-9caf-da41884d028e",
+          "context": "Sounding-pin construction explains what the empty socket and recovered marker can show without establishing condition, custody, testimony, or comparison results."
+        }
+      ]
+    },
+    {
+      "id": "the-college-of-civic-measure",
+      "title": "The College of Civic Measure",
+      "summary": "A threatened laboratory can certify the buried pulse only if its instruments, archive, and witnesses survive the test.",
+      "opening_view": "Archivists are loading the First Survey volumes onto a Water Office cart when the pendulums turn south. A soft seal closes the lower laboratory; inside it, Selya Quill’s smoked-glass recorder writes the buried pulse again. Rector Sen needs a test the College can certify. Meren Vos will not surrender the catalogue that proves what has vanished. A proctor reaches for the final trace while its edge blackens beneath Quill’s hand.",
+      "content": "## Situation\n\nQuill's pendulums have turned south inside the sealed laboratory, and smoked glass records a pulse matching neither traffic nor city bells. Archivists load First Survey volumes onto a cart for Corven Dast. The result becomes usable only if the apparatus, trace, witnesses, and a College signature survive the seizure.\n\nSen needs a procedure she can defend; Vos needs the catalogue gaps and volumes preserved; the Water Office needs the experiment stopped before registration. The contest is who may witness, certify, copy, and carry what has already moved.\n\nThe seizure follows a measured warning. After Nine-Mile's first full-load evening, Lecturer Quill recorded a dangerous pulse and Under-surveyor Tamar Vey asked the College to compare it with the pump phases. Dast impounded that trace before it entered the public register. The surviving recorder can reproduce the result and establish when he knew. The College does not hold the surveyors' complete operating doctrine.\n\n## Cast\n\n- **Rector Olyra Sen** is a capable administrator who fears losing the College's charter and instruments. She will not falsify a conclusion, but she prefers conclusions powerful offices can survive.\n- **Lecturer Selya Quill**, an acoustician of little rank, believes the pigs are living indicators of a buried resonator.\n- **Archivist Meren Vos** knows references to the First Survey were cut from the public catalogue. He protects the archive, not merely pages useful to the present crisis.\n- **Jalen Orr**, or another Water Office proctor, arrives with authority to impound records and close experiments in the name of public safety.\n\n## Immediate pressures\n\nCalibration must finish before the sixth bell, when the pulse is strongest. The archive cart leaves sooner. Quill needs a pig, a reliable Southgate observation, or a bronze survey pin to correlate animal response with the laboratory trace. Sen needs a procedure she can defend before the council and witnesses who will remain named after Waters objects.\n\nThis is an institutional contest before it is a burglary. Alda's writ can be invoked; a faculty hearing forced; Quill's apparatus completed; records hidden from seizure; or Sen given public allies and custody terms strong enough to sign the result.\n\n## Running the encounter\n\nKeep the experiment visible and interruptible. A suspended brass mass, a basin of water, smoked glass, and an animal or survey pin answer different phases of the same pulse. Together they establish a cyclic subterranean source tied to buried civic works. A rushed procedure may break instruments, tear a frame loose, or produce a trace too poorly witnessed to move officials. Information already made observable remains available to those who saw it.\n\nThe censored archive supplies another line. Catalogue gaps, altered foundation maps, and old appropriations place Nine-Mile on an auxiliary branch of a larger survey system. Restricted maintenance references sent Tamar toward the chapel; they do not contain the six-line sequence or the Tanneries record. Dast knew enough to recognize a dangerous connection and suppress independent mapping. He did not know enough to retune the Bell alone.\n\nAt the height of the test, a pulse cracks a foundation tile. Damp air rises from an older service conduit beneath the laboratory. The passage does not reach the Deep Bell, but it proves that the College itself stands over the works its charter has forgotten.\n\n## Developments\n\nSen's public commitment provides calibrated instruments, phase calculations, structural models, and witnesses. Quill and a relay team can continue readings while the company moves. Humiliating or bypassing Sen may preserve Quill's private help while the College disowns its own result. Saving the archive leaves a defensible chain of custody; letting the cart depart moves that evidence to Nine-Mile rather than deleting it.\n\nThe College is an interval of exact work under administrative threat. Its surviving record should make four facts usable: the pulse can be measured, civic memory was edited, Nine-Mile is implicated by phase, and the safe operating doctrine must be recovered from another custodian.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "urban",
+        "institution",
+        "research"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "5b4c72ce-32c7-44fd-b37b-4f91b49d0266",
+          "context": "Alda's writ can support a hearing, witnesses, and preservation terms without guaranteeing College access, custody, or certification."
+        },
+        {
+          "reference_id": "bcaa6c5b-213d-4196-92c6-e9b9ed91dd2b",
+          "context": "Dast knew enough to impound a dangerous trace but not enough to reconstruct the six-line doctrine; his present control remains unresolved."
+        },
+        {
+          "reference_id": "d2d941dd-db72-447d-8c53-0ece9de800be",
+          "context": "Tamar's comparison of pump phases and the College trace explains the suppressed inquiry without establishing her location or measurements now available."
+        },
+        {
+          "reference_id": "021c5c85-633d-49d8-8004-dad626283a0c",
+          "context": "Quill's repeatable acoustics method explains what the surviving recorder can prove without declaring the apparatus complete or the trace preserved."
+        },
+        {
+          "reference_id": "0506346e-15b0-4109-9f66-d9d7fadcecb5",
+          "context": "Orr's office mechanics explain how records and experiments may be sealed without deciding who arrives, what is seized, or whether the order stands."
+        },
+        {
+          "reference_id": "6f322cc5-f45f-418b-8dba-a265b1b3b3c5",
+          "context": "Sen's certification threshold defines the institutional contest without establishing that the College signs, resists, or retains its instruments."
+        },
+        {
+          "reference_id": "94df4e5e-13e1-449c-ae42-64c6840df10a",
+          "context": "The Hall can protect witnesses, evidence, and a hearing without compelling certification or deciding who controls the laboratory and archive."
+        },
+        {
+          "reference_id": "5e1874c7-837e-4666-8563-2a4032b5b78b",
+          "context": "The College's laboratories, archives, and certification procedure explain the institutional contest without establishing access, apparatus, records, or a signed result."
+        },
+        {
+          "reference_id": "5ac2ecc1-1f2e-413f-b3da-d6cc8463fea9",
+          "context": "The chapel holds the historical operating doctrine that the College catalogue can point toward without establishing chapel access, consent, or surviving materials."
+        },
+        {
+          "reference_id": "9622f400-e8c6-4c9c-a660-1eeb6300913e",
+          "context": "Nine-Mile's separate load, phase, and pressure controls give the trace a modern comparison without fixing station readings, records, or cooperation."
+        },
+        {
+          "reference_id": "138a7daf-e2f7-4640-a59c-3833ba4fc5f0",
+          "context": "The Bell's resonant architecture explains what the acoustics experiment is testing without making an incomplete trace a safe operating plan."
+        },
+        {
+          "reference_id": "1aeac0e3-80de-4749-ae76-1b3c1a4668e4",
+          "context": "Waters' partial inheritance and custody machinery explain both the seizure and the archive gaps without deciding the present order or materials taken."
+        },
+        {
+          "reference_id": "9a4f61cc-cdbc-41b2-8946-f385b2d44eb5",
+          "context": "The First Survey's divided legacy explains why censored volumes and missing catalogue entries matter without reconstructing the doctrine automatically."
+        },
+        {
+          "reference_id": "cab148c1-a14a-495d-9caf-da41884d028e",
+          "context": "The pins provide distributed surface stations against which a College trace can be compared without establishing that any marker or field record survives."
+        }
+      ]
+    },
+    {
+      "id": "rillcross-farm-belt",
+      "title": "Rillcross Farm Belt",
+      "summary": "Six farms turn separate animal warnings, water refusals, and rooted pins into one buried map.",
+      "opening_view": "Quarantine boards rise at six farm lanes while a child remains somewhere below Seva Hane’s collapsed orchard. One family hides its herd, another offers theirs for confiscation, and the pigs at the refused ditch nose dry buckets beside running water. Ina Rill’s flags mark separate kneelings, rootings, and panics, but no holding can see the whole pattern. The ground shudders. Farmers who would not share a boundary rope begin passing it hand to hand toward the hole.",
+      "content": "## Situation\n\nQuarantine boards rise at six lanes while six households report warnings that do not behave like one disease. One herd rejects a running ditch but drinks from a well; another roots at bronze; another turns toward Veyr; another lies down along subsiding ground. Ina's flags place the reports on six lines converging on the city, Southgate on the third. No holding sees the whole pattern, and a child is missing beside the clearest break.\n\nThe first coordinated warning followed Nine-Mile's uninterrupted schedule. Buyers have stopped coming. The provincial reeve has drafted quarantine and confiscation orders. Drought makes every ditch and field indispensable; even a temporary closure threatens the autumn planting. Neighbors argue over hiding the animals, driving them into Veyr as protest, or submitting before the watch arrives.\n\n## Cast\n\n- **Harl Rill** is a careful witness and reluctant spokesman. He wants the farms preserved but accepts hard measures once their necessity is shown.\n- **Ina Rill** moves between holdings, knows the pigs individually, and notices a changed pattern before anyone else.\n- **Reeve Calven Brost** holds lawful quarantine authority. Dast has not taken him into confidence. Evidence can move him; fear of carrying disease into Veyr can move him faster.\n- **Seva Hane**, an elderly farmer whose land holds the clearest pin, remembers a forbidden children's rhyme about \"the bell below the boar.\"\n\n## Immediate pressures\n\nA useful reading requires several herds tracked through late afternoon and fixed at the sixth bell. Brost intends to post quarantine first. One refused ditch is the only practical water source for a crowded holding. A shallow collapse has opened beside Seva's orchard, and a child who followed a loose pig is missing below the lip.\n\nStanding places and trusted witnesses matter. The rescue can expose an old sounding chamber. Delaying confiscation may stake Alda's writ on a pattern not yet proven. Mapping the arcs requires families who blame one another for official attention to share boundaries, clocks, and signals.\n\n## Running the encounter\n\nTreat Rillcross as three linked sites within a compact landscape: the refused ditch, Seva's survey field, and the fresh subsidence. Movement among them shows the warning changing with distance and water flow. The pigs do not point toward Veyr at every moment. Separate herds answer separate lines; one erupts whenever distant machinery changes load.\n\nSurvey the arcs, excavate a pin, compare waters, question ditch crews, follow a loose boar to a hidden vent, or enter the collapse. Below waits no dungeon: loose soil, stale air, a child in darkness, and a bronze diaphragm shuddering under pressure. Damaging it quiets one local sign and drives another herd into panic. The animals carry no contagion or message. They register strain.\n\nAt the sixth bell, the farms answer in sequence. One herd kneels; another refuses its trough; a third tears open the earth above a pin. From a ridge or on a shared map, the movements draw six lines inward through the city edge.\n\n## Developments\n\nA method, assigned line, agreed signal, and protection from immediate seizure turn Rillcross into a live relay. Ina and the farm observers can continue reporting while the company visits the College, chapel, Hall, or Nine-Mile. Confiscation, panic, broken roads, or a worsening line can still silence them.\n\nDispersed or seized herds end the live readings and harden the families' anger. A severe failure widens the subsidence and consumes part of a holding before Veyr admits danger. What survives this encounter is practical rather than merely explanatory: a six-line map, the third line through Southgate, named surface observers, and an outer pressure vent descending toward the Bell.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "rural",
+        "livestock",
+        "pattern"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "5b4c72ce-32c7-44fd-b37b-4f91b49d0266",
+          "context": "Alda's authority can protect named observers and delay seizure without establishing the writ's current scope or any farm's compliance."
+        },
+        {
+          "reference_id": "bcaa6c5b-213d-4196-92c6-e9b9ed91dd2b",
+          "context": "Dast's order to remove sounding pins explains the threat to a regional map without fixing which markers, records, or agents remain in the fields."
+        },
+        {
+          "reference_id": "d2d941dd-db72-447d-8c53-0ece9de800be",
+          "context": "Tamar's survey discipline connects pump phase to surface geography without granting access to her measurements or deciding the active route."
+        },
+        {
+          "reference_id": "ac969ee5-c1d9-4bb5-b0c6-256744413b40",
+          "context": "Harl's standing among the farms supports coordinated testimony without deciding quarantine, cooperation, or acceptance of a proposed sacrifice."
+        },
+        {
+          "reference_id": "d41a4f2a-dfd4-4672-8360-b317020551e4",
+          "context": "Ina's knowledge of separate herds makes a disciplined six-line relay possible without freezing any current animal reading or messenger route."
+        },
+        {
+          "reference_id": "cd71ccee-a344-408a-b4c9-83fb963c5390",
+          "context": "Anja's rule that a line is named by its inhabited surface passage gives meaning to the map without establishing chapel access or her consent."
+        },
+        {
+          "reference_id": "94df4e5e-13e1-449c-ae42-64c6840df10a",
+          "context": "The Hall's public-record method can protect a distributed observation without establishing the current commission scope, witnesses, or quarantine orders."
+        },
+        {
+          "reference_id": "de09340e-8754-4ca8-af35-c5f8a609a2ee",
+          "context": "Southgate's old third-line station provides an urban comparison for one Rillcross corridor without fixing the city herd or its current report."
+        },
+        {
+          "reference_id": "5e1874c7-837e-4666-8563-2a4032b5b78b",
+          "context": "The College's calibrated comparisons can test a farm relay without granting apparatus, certification, or institutional participation."
+        },
+        {
+          "reference_id": "99208e47-eff8-473d-a2db-f62fcdd806fd",
+          "context": "Rillcross's holdings, ditches, ridges, and separate households make the living survey legible without fixing herds, roads, observers, or consent."
+        },
+        {
+          "reference_id": "5ac2ecc1-1f2e-413f-b3da-d6cc8463fea9",
+          "context": "The chapel's inhabited-name doctrine explains why each buried line must be tied to a surface passage without establishing access to the sequence."
+        },
+        {
+          "reference_id": "9622f400-e8c6-4c9c-a660-1eeb6300913e",
+          "context": "Nine-Mile's phase changes provide the technical clock for field comparison without fixing the station load, records, or communication."
+        },
+        {
+          "reference_id": "138a7daf-e2f7-4640-a59c-3833ba4fc5f0",
+          "context": "The Bell's six radial lines explain how separate local reports can form one figure without determining the current failure state or remedy."
+        },
+        {
+          "reference_id": "1aeac0e3-80de-4749-ae76-1b3c1a4668e4",
+          "context": "Waters' attempt to control external mapping explains the threat to field evidence without placing agents, orders, or custody in any holding."
+        },
+        {
+          "reference_id": "9a4f61cc-cdbc-41b2-8946-f385b2d44eb5",
+          "context": "The First Survey's surface method gives old pins, ridges, and corridor names a common provenance without supplying current measurements."
+        },
+        {
+          "reference_id": "cab148c1-a14a-495d-9caf-da41884d028e",
+          "context": "Sounding pins turn local rooting into a comparable station only when timing and location are preserved; no current pin or reading is granted."
+        }
+      ]
+    },
+    {
+      "id": "the-chapel-of-the-first-survey",
+      "title": "The Chapel of the First Survey",
+      "summary": "Surveyor families guard the doctrine, route keys, and dead that Veyr wants to use without remembering.",
+      "opening_view": "Water climbs the chapel floor while the surveyor families carry mortar, lamp oil, and name boards into the crypt. Anja Veil means to seal the founder’s tomb before Sergeant Venn’s warrant arrives; Tomas cuts the wet mortar out as quickly as she lays it. Six lamps pull in different directions. A coffin knocks below. Anja sets the crypt key beside a blank custody agreement. The approaching riders can already see that no one has signed it.",
+      "content": "## Situation\n\nWater lifts through the crypt joints while surveyor families carry mortar, lamp oil, and name boards below. The crypt is both archive and burial place. Anja means to seal the founder's tomb before agents arrive with a warrant for \"obsolete civic instruments\"; Tomas cuts out the wet mortar as fast as she lays it. Six lamps pull apart, and another pulse may drop a burial aisle before custody is settled.\n\nDast's plans name the chapel as the last First Survey repository, not what survives there. The warrant seeks the missing doctrine before outside readers find it; it does not show that Dast knows the safe sequence. The families know official interest usually takes more than it returns.\n\n## Cast\n\n- **Keeper Anja Veil**, elected by the surveyor families, is stern and exact about custody. She wants Veyr to name what it did to the Surveyors' Office.\n- **Tomas Veil**, her nephew, wants the records used now and regards Anja's caution as another surrender.\n- **Sergeant Korr Venn**, leading the seizure detail, has orders to take bronze instruments and burn contaminated papers. He believes he is containing panic.\n- The **recorded voices of the first surveyors** survive in resonant memorial plates. They are not ghosts; correct tones wake stored answers from bronze.\n\n## Immediate pressures\n\nThe lower crypt floods from below. Another strong pulse will bring down one burial aisle and crush its archive niches. Korr arrives before nightfall. Anja will not open the founder's tomb without terms for custody, attribution, copies, and the handling of human remains.\n\nDesecration is the quickest entrance and the quickest way to destroy context, allies, and interpretation. Durable access comes through consent, service to the chapel, or discovery of the surveyors' non-funerary sequence.\n\n## Running the encounter\n\nThe crypt is a compact problem of tone, water, masonry, and custody. Six tomb aisles correspond to the six sounding lines. Bronze rods in the memorial floor can be tuned against the current pulse. Correct alignment opens archive niches and releases brief recorded statements. Force amplifies the vibration, cracks the masonry, and sends coffins from their shelves.\n\nThe records name the Bell as both warning instrument and pressure-control device. They also preserve the division of knowledge. After the Surveyors' Office was dissolved, Waters retained auxiliary load controls and partial service diagrams; the chapel families kept the six-line sequence, route keys, and doctrine for resting, retuning, or sacrificing a line. Neither archive can operate the system alone.\n\nThe bronze remembers why the office ended. During the Night of Broken Foundations, surveyors vented a collapse beneath the Tanneries to save central Veyr. Sixty-three people died. The council condemned the judgment, dissolved the office, and quietly kept the machinery. The descendants do not call the decision clean. They refuse to let the city remember only enough history to repeat it.\n\nKorr's warrant forces custody into the open. Law may delay him; evidence may change his understanding; deception, disarmament, or proof that destruction imperils Veyr may stop the seizure. He can change sides without pretending his orders never existed.\n\n## Developments\n\nTrust may bring Anja to the Deep Bell to direct the tuning crown. Otherwise she provides copies, keeps the originals, and demands public accounting after the crisis. Named chapel teams can copy, dry, and interpret records while the company moves if custody and protection are settled. Damaged archives leave fragments in the memorial plates but make the safe counter-ring harder to reconstruct.\n\nThe chapel contributes more than instructions: the city's previous sacrifice, the concealment that followed, the missing half of the operating system, and a custodian who will not permit another district to vanish inside an engineering euphemism.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "rural",
+        "historic",
+        "exploration"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "5b4c72ce-32c7-44fd-b37b-4f91b49d0266",
+          "context": "Alda's commission can protect testimony and preserved materials without overriding the keeper's custody or proving a seizure unlawful by itself."
+        },
+        {
+          "reference_id": "bcaa6c5b-213d-4196-92c6-e9b9ed91dd2b",
+          "context": "Dast's search for missing First Survey material explains the warrant's urgency without claiming he knows the safe sequence or controls the chapel."
+        },
+        {
+          "reference_id": "d2d941dd-db72-447d-8c53-0ece9de800be",
+          "context": "Tamar's restricted-plan trail explains why the chapel matters to the modern crisis without establishing her presence or the records recovered."
+        },
+        {
+          "reference_id": "021c5c85-633d-49d8-8004-dad626283a0c",
+          "context": "Quill's calibration work gives the memorial tones a modern comparison without deciding which instruments or witnesses reach the crypt."
+        },
+        {
+          "reference_id": "cd71ccee-a344-408a-b4c9-83fb963c5390",
+          "context": "Anja's elected custody and six-line doctrine define lawful access without establishing her cooperation, route, or judgment of the proposed remedy."
+        },
+        {
+          "reference_id": "0506346e-15b0-4109-9f66-d9d7fadcecb5",
+          "context": "Orr's delegated seizure practice explains how obsolete-instrument language can conceal evidence removal without establishing the acting detail or outcome."
+        },
+        {
+          "reference_id": "6f322cc5-f45f-418b-8dba-a265b1b3b3c5",
+          "context": "Sen's institutional authority matters to certification and witness support without transferring the chapel archive to the College."
+        },
+        {
+          "reference_id": "94df4e5e-13e1-449c-ae42-64c6840df10a",
+          "context": "The Hall's custody and witness protections can support negotiated access without overriding family authority or establishing the warrant's outcome."
+        },
+        {
+          "reference_id": "5e1874c7-837e-4666-8563-2a4032b5b78b",
+          "context": "The College can calibrate surviving tones and attest copies without acquiring the chapel archive or deciding what remains recoverable."
+        },
+        {
+          "reference_id": "99208e47-eff8-473d-a2db-f62fcdd806fd",
+          "context": "Rillcross's inhabited surface corridors give the memorial sequence its human meaning without establishing live reports or consent to sacrifice."
+        },
+        {
+          "reference_id": "5ac2ecc1-1f2e-413f-b3da-d6cc8463fea9",
+          "context": "The chapel's crypt, six aisles, memorial bronze, and family custody define the archive problem without fixing flooding, access, records, or agreement."
+        },
+        {
+          "reference_id": "9622f400-e8c6-4c9c-a660-1eeb6300913e",
+          "context": "Nine-Mile owns the modern hydraulic half of the system without establishing that plans, operators, keys, or communication reach the chapel."
+        },
+        {
+          "reference_id": "138a7daf-e2f7-4640-a59c-3833ba4fc5f0",
+          "context": "The Bell's tuning crown and six-line architecture explain what the old doctrine governs without making any present operation safe or chosen."
+        },
+        {
+          "reference_id": "1aeac0e3-80de-4749-ae76-1b3c1a4668e4",
+          "context": "Waters' partial inheritance and seizure practices explain the warrant without establishing the acting detail, current authority, or materials removed."
+        },
+        {
+          "reference_id": "9a4f61cc-cdbc-41b2-8946-f385b2d44eb5",
+          "context": "The First Survey's dissolution, divided knowledge, and Tanneries history are the chapel's durable burden without deciding how its descendants respond now."
+        },
+        {
+          "reference_id": "cab148c1-a14a-495d-9caf-da41884d028e",
+          "context": "The pins connect memorial calibration to surface stations without establishing that any marker, socket, or comparison remains available."
+        }
+      ]
+    },
+    {
+      "id": "the-nine-mile-pump-house",
+      "title": "The Nine-Mile Pump House",
+      "summary": "A falsified control hall keeps Veyr watered while its master decides whose danger counts as an acceptable reading.",
+      "opening_view": "A pump cavitates hard enough to shake rust from the roof. Workers drag a burned engineer from a falsified gauge while Corven Dast’s uninterrupted-load order lies open at the control rail. Oren Salk orders one line unloaded before the intake fails; guards wait for lawful command. From the locked instrument room, Tamar Vey answers the machinery with six measured blows. Captain Thane opens the company’s writ as the river lifts beneath the floor.",
+      "content": "## Situation\n\nNine-Mile is under uninterrupted high load. One pump cavitates, workers sleep beside machines, guards hold the bridge, and Tamar answers from a locked room. After weeks of intermittent pumping, Dast's order has run three days with less than one ordinary day in the reservoirs and the Convocation crowding Veyr.\n\nThe first full cycle produced farm warnings, the College trace, and injuries below. Tamar urged staged reduction and rationing; Dast impounded the trace and raised the quota. Paint blisters in the halls, damped gauges read ordinary, and the station must keep water moving while its instruments, crew, and command are disputed.\n\nDast is present unless earlier events call him to the council or remove him from free command. When an instrument reading survives scrutiny, he marks it on the station board and demands a named service cut beside it. He does not dispute the same reading twice; he changes the dispute from whether danger exists to whose hand will sign the ration order. He will not sign first. The first emergency load may have been defensible. Concealment, increased load, unlawful confinement, and silence toward the farms followed measurable warning.\n\n## Cast\n\n- **Corven Dast**, Master of Waters, is controlled and formidable. He will accept disgrace if Veyr survives and assign mortal risk to people never asked to bear it.\n- **Tamar Vey**, the missing under-surveyor, is locked in an instrument room after trying to trip the emergency gates. She holds the clearest recent measurements and no patience for Dast's paternalism.\n- **Chief Engineer Oren Salk** keeps the station running because an uncontrolled stop could burst the intake and kill his crew. With recognized authority and protection, he supports staged reduction.\n- **Captain Maris Thane** commands the water guard. Her loyalty is to preventing sabotage, not to illegal confinement or falsified records.\n\n## What Dast knows\n\nRestricted plans identify Nine-Mile as an auxiliary branch of an older resonant system and show separate controls for load, phase, and pressure. They omit the six-line network, the safe counter-ring sequence, and the Tanneries history. Tamar and the College trace proved that the present load was striking something larger. Dast ordered field pins removed before farmers and College staff could map that system. Removing passive markers hid the figure; it relieved no pressure.\n\nDast can operate Nine-Mile, identify undocumented bypasses, reduce or shift load, and reach the hydraulic conduit. At a control change, he names the key before he names the person who should turn it. If Tamar stands beside him, he gives her a reading without acknowledging why she was locked away. He cannot safely retune the Deep Bell alone.\n\n## Immediate pressures\n\nOne pump cavitates. Each resonance cycle brings the intake closer to rupture. A sudden shutdown may flood the lower station; continued service drives the Bell toward failure. Dast intends to hold the schedule through the Convocation and reduce it quietly afterward. Tamar's figures place the next full-load alignment first.\n\nThe Hall's initial writ does not command a running water station. Open entry, worker channels, preserved records, a widened order, exposure of unlawful confinement, or sabotage each create a different chain of custody. A lawful transfer still requires Thane to recognize the order and Salk or another competent engineer to accept an executable sequence. Public accusation lets Dast call the company reckless before people who know what dry wards mean. Covert action may preserve evidence while leaving the crew unprepared for the next load change.\n\n## Running the encounter\n\nAlternate argument with industrial failure. Altered gauges hang beside older mechanical traces that resist falsification. Workers know when readings changed and fear prosecution for saying so. Tamar may be freed by law, stealth, persuasion, or force. Pistons, hot galleries, flooded sumps, and pressure doors provide danger without requiring a fight.\n\nA surge should interrupt the dispute. One team must unload a line, vent a chamber, or keep a failing pump turning while another reaches the manual gate. Success buys hours and demonstrates that load can change without abandoning Veyr. Failure injures workers, raises the subterranean pulse, and makes Dast's claim to sole command easier to defend.\n\nDast hears evidence as a proposed service order. He writes the reading on the slate, then asks which ward loses water, which cistern empties, and whose hand signs below his. If no one signs, he cites the blank line as proof that only he is willing to govern. If someone does, he follows an executable reduction exactly while recording each cost against that name. He supplies no next concealed fact unless a gauge, worker, or seized book forces it into the room.\n\n## Developments\n\nCommand can remain with Dast only by narrowing it in front of witnesses: Thane holds custody keys, Tamar holds the unaltered readings, Salk executes station orders, and Dast names bypasses under countersignature. Removing him transfers those four functions separately rather than pretending one replacement inherits his whole office.\n\nStaged reduction slows the crisis and begins rationing; it does not restore the Bell. Destroyed pumps flood the station and remove a crucial control surface. A competent team left behind can hold a reduced schedule or prepare shutdown while the company descends, subject to injury, lost contact, or renewed orders. Nine-Mile keeps the first emergency decision and the later cover-up separate: practical necessity can explain load, not falsification and confinement.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "rural",
+        "industrial",
+        "confrontation"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "5b4c72ce-32c7-44fd-b37b-4f91b49d0266",
+          "context": "Alda can recognize protection, stays, and temporary public priorities without turning a civic writ into a technically executable shutdown."
+        },
+        {
+          "reference_id": "bcaa6c5b-213d-4196-92c6-e9b9ed91dd2b",
+          "context": "Dast's load order, concealment history, and service-allocation method frame the station dispute without fixing his command, custody, or cooperation."
+        },
+        {
+          "reference_id": "d2d941dd-db72-447d-8c53-0ece9de800be",
+          "context": "Tamar knows the pump phases and hydraulic doors without establishing her rescue, authority recognized, measurements available, or chosen remedy."
+        },
+        {
+          "reference_id": "7bdf27b6-3ac1-482b-80d3-1276dfe3611e",
+          "context": "Oren can translate a lawful reduction into crew-safe work without deciding his current station control, assignments, injuries, or willingness."
+        },
+        {
+          "reference_id": "ac969ee5-c1d9-4bb5-b0c6-256744413b40",
+          "context": "Harl's verified farm chronology gives station changes a surface comparison without establishing his presence or the farms' current reports."
+        },
+        {
+          "reference_id": "d41a4f2a-dfd4-4672-8360-b317020551e4",
+          "context": "Ina's observer network can report whether a load change reaches separate corridors without guaranteeing live herds, roads, or messengers."
+        },
+        {
+          "reference_id": "021c5c85-633d-49d8-8004-dad626283a0c",
+          "context": "Quill's calibrated trace can distinguish real relief from a falsified or silenced gauge without establishing custody of the instruments."
+        },
+        {
+          "reference_id": "cd71ccee-a344-408a-b4c9-83fb963c5390",
+          "context": "Anja's sequence and inhabited-line rule constrain any pressure or phase operation without granting chapel consent or naming an expendable corridor."
+        },
+        {
+          "reference_id": "0506346e-15b0-4109-9f66-d9d7fadcecb5",
+          "context": "Orr's custody chain explains altered records and subordinate orders without fixing his allegiance, access, or control of guards and evidence."
+        },
+        {
+          "reference_id": "6f322cc5-f45f-418b-8dba-a265b1b3b3c5",
+          "context": "Sen can support a defensible certified reading without deciding the College's current commitment, witnesses, or instruments at the station."
+        },
+        {
+          "reference_id": "94df4e5e-13e1-449c-ae42-64c6840df10a",
+          "context": "The Hall can protect people, records, and a bounded emergency order without turning civic authority into a crew-safe control sequence."
+        },
+        {
+          "reference_id": "de09340e-8754-4ca8-af35-c5f8a609a2ee",
+          "context": "Southgate's third-line herd can reveal whether a station change reaches the city without guaranteeing animals, handlers, water, or communication."
+        },
+        {
+          "reference_id": "5e1874c7-837e-4666-8563-2a4032b5b78b",
+          "context": "The College's repeatable trace can expose false silence without establishing that apparatus, witnesses, or certified readings reach Nine-Mile."
+        },
+        {
+          "reference_id": "99208e47-eff8-473d-a2db-f62fcdd806fd",
+          "context": "Rillcross's distributed herds can show where a changed load travels without granting a functioning relay, open lanes, or household cooperation."
+        },
+        {
+          "reference_id": "5ac2ecc1-1f2e-413f-b3da-d6cc8463fea9",
+          "context": "The chapel holds the missing sequence and inhabited-name doctrine without establishing access, copies, keeper consent, or a chosen intervention."
+        },
+        {
+          "reference_id": "9622f400-e8c6-4c9c-a660-1eeb6300913e",
+          "context": "The station's intake, pumps, separate controls, and trained-work boundary define the engineering problem without fixing load, command, crews, or damage."
+        },
+        {
+          "reference_id": "138a7daf-e2f7-4640-a59c-3833ba4fc5f0",
+          "context": "The Bell's hydraulic connection explains why station choices affect six surface corridors without determining the current failure or acceptable remedy."
+        },
+        {
+          "reference_id": "1aeac0e3-80de-4749-ae76-1b3c1a4668e4",
+          "context": "Waters' divided chain of master, surveyor, engineer, guard, and operator explains why command cannot transfer as one key without fixing current allegiance."
+        },
+        {
+          "reference_id": "9a4f61cc-cdbc-41b2-8946-f385b2d44eb5",
+          "context": "The First Survey explains the older branch and missing doctrine without granting complete plans, authority, or safe counter-ring knowledge."
+        },
+        {
+          "reference_id": "cab148c1-a14a-495d-9caf-da41884d028e",
+          "context": "Sounding pins provide an external check on gauges and phase changes without establishing any live marker, signal board, or custody chain."
+        }
+      ]
+    },
+    {
+      "id": "the-deep-bell",
+      "title": "The Six-Line Bell",
+      "summary": "Six surface corridors let Veyr read a buried failure through living herds before officials can hide which district will pay.",
+      "opening_view": "The first message reaches the chamber before the inspection company does: third-line pigs have left water and pressed their flanks against the western rail. Then the Deep Bell sounds below Veyr, and dust lifts from six galleries at six different moments. A second runner reports rooting in Rillcross; a College needle scratches backward; the pump-house speaking pipe fills with river water. The Bell has not begun a neat countdown. It is asking the surface the same question through thousands of frightened bodies, and the answers are already diverging.",
+      "content": "## Situation\n\nThe bronze Bell hangs above the buried river, wider than the Hall, with six galleries running toward Veyr and Rillcross. The company reaches only the controls its route exposes. The Bell may be silent between strokes, ringing under full load, or shuddering after an earlier intervention. Dust lifts from different galleries; the river hesitates, then surges; surface reports disagree.\n\nThe system is beyond tolerance. Its lowest tone travels through teeth and joints. Above, pigs may kneel, refuse water, root at pins, or panic as pressure moves. Do not assume all six lines still report, every route remains open, or a known control has a crew able to use it.\n\n## Ways into the hollow\n\nEach route enters a different part of the buried system and remains answerable to the surface above it.\n\n- **The Rillcross pressure vent** descends through unstable earth beside an outer diaphragm. Farm messengers can still reach it with live herd reports while the lanes remain organized. Cave-ins, bad air, and sudden releases threaten anyone below.\n- **The surveyors' stair** descends from the chapel to the swaying tuning crown. Its scratched sequence can align a report with the rod that produced it. The stair sheds stone whenever the crown changes phase.\n- **The pump-house conduit** enters beside the hydraulic controls. It exposes load, phase, and pressure doors to direct intervention. Unless Nine-Mile was balanced, river water fills the conduit whenever the pumps unload.\n\nA missed encounter does not erase a route. It removes the people, warning, or interpretation that would make the route intelligible. A company can descend through ignorance; the surface still bears the result.\n\n## Cast and forces\n\nFailing structure, public fear, and incompatible duties supply the opposition. Armed resistance arises only from officials or crews protecting incompatible orders.\n\n- **Corven Dast** may arrive free, guarded, absent, or represented by loyal officers. He cooperates with plans that protect immediate water needs and, while he retains command, directs risk toward farms and poor districts before central service fails.\n- **Tamar Vey** calls for staged shutdown unless a credible live reading supports retuning. She knows the pump phases and will operate the hydraulic doors herself.\n- **Anja Veil** will not permit another district to be sacrificed from a buried room. She knows the surveyors' sequence and refuses any collapse whose surface corridor has not been named and warned.\n- **Alda Mere, Olyra Sen, Harl and Ina Rill, Selya Quill, Oren Salk**, and other preserved allies carry writs, measurements, animal reports, labor, and public trust between the chamber and the people above.\n\nThe Bell has no will and offers no terms. Echoes can answer like speech, but every reply follows phase, load, moving water, a struck surface, or an animal reacting somewhere along a line.\n\n## The living survey\n\nNo instrument below can show what all six lines are doing. Run the finale through reports arriving from the surface and changes made in the chamber.\n\n- **Southgate** supplies the third-line herd: mass kneeling marks the Bell's central phase; refusal at one trough marks pressure passing through its channel; a turn toward a gate shows the pulse moving beyond the old weighing station.\n- **Rillcross** supplies separate herds along all six corridors. Rooting finds ringing pins. A line of animals lying down can mark subsidence before masonry opens. Conflicting movement reveals that the network is separating rather than failing as one body.\n- **The College** supplies calibrated needles and phase models. Its readings can distinguish a true reduction from a silence caused by a broken instrument.\n- **The chapel** supplies the old sequence and the doctrine that a line is named by its surface passage, not by a number on a buried rod.\n- **Nine-Mile** supplies pump load, reservoir consequence, and the moment a hydraulic change reaches the Bell.\n- **The Hall** supplies temporary protection for messengers, evacuations, ration orders, and removal of an official who tries to suppress an unwelcome report.\n\nKeep at least one means of communication visible: runners, drovers changing lanterns at shafts, speaking pipes, College wire, bells at the chapel, or magic. When a route is cut, the information becomes late, partial, or dangerous to obtain. Do not replace it with an omniscient diagram.\n\n## Reading the failure\n\nBegin with the latest animal behavior and ask what changed just before it. Every major intervention below produces a new report above. Every delay lets pressure choose another surface expression.\n\nUse four kinds of development, in any order demanded by the fiction:\n\n### A line changes its answer\n\nPigs that were kneeling rise and refuse water. A herd that rooted at one pin turns toward the next holding. Southgate and Rillcross disagree. The change may reveal a pulse moving, a line splitting, a pump phase arriving, or a false improvement caused by a broken corridor.\n\n### A surface corridor becomes inhabited danger\n\nA ditch swells, a warehouse floor heaves, a lane cracks, a ward main bursts, or a holding begins to settle. Name the people and animals there. Warning and evacuation can clear the corridor; secrecy converts it into an unwilling sacrifice.\n\n### Veyr denies the reading\n\nDast's officers seize a runner, a ward refuses rationing, merchants call the farm reports fraud, or a clerk announces that quiet animals prove success. Evidence must travel through frightened institutions as well as through soil.\n\n### The hollow answers an intervention\n\nA pressure door opens, the Bell shifts phase, the buried river enters a gallery, or the tuning crown throws one rod out of sequence. The response may improve one corridor while worsening another. Report the corresponding herd before declaring the operation successful.\n\nThere is no fixed allotment of three cycles and no abstract grace extension. The failure continues until a remedy changes the pattern, the surface network is lost, or uncontrolled collapse makes the remaining choices immediate. Use the pigs to show whether Veyr has actually changed the system or merely stopped listening.\n\n## Remedies\n\n### Rest the load\n\nStop Nine-Mile in the sequence Tamar gives, damp the Bell, and let the buried river move toward its old course. The first proof is not quiet in the chamber. It is water refusal ending corridor by corridor while reservoir gauges fall above.\n\nHospitals, fire cisterns, and crowded wards can retain service if the Hall prepared priorities. Manufactories and upper districts go dry. Without public preparation, the safest structural remedy produces preventable fires, deaths, and unrest.\n\n### Retune by living reports\n\nRephase the pumps and drive a controlled counter-ring while handlers, farmers, and College observers report each line's answer. The crown operator follows not a preset station schedule but the sequence made by current herds: which corridor kneels, which roots, which drinks again, and which must be isolated.\n\nEvery line must be heard; every line need not survive. A damaged corridor can be cleared and cut away while the other five return to phase. This preserves most water service and avoids deliberate destruction of an inhabited district, but places operators and surface observers in danger each time the network changes. Magic or instruments may replace one reading. They do not make absent households empty.\n\n### Open a named corridor\n\nVent the hollow beneath one district or tract. Maps identify candidates; live reports show which corridor can take the release. The people above must be warned, moved, or knowingly abandoned before the vanes open.\n\nOuter Rillcross fields, Southgate warehouses and pens, an industrial water yard, or a dense ward can each save the rest of Veyr at a different human cost. Anja demands the place be spoken aloud. Dast may try to call it only “the third line.” The operation becomes a civic crime when the buried number replaces the inhabited name.\n\n### Break the warning\n\nShatter the tuning crown, wedge the resonator, or drop it into the buried river. The pigs may quiet because the signal has stopped reaching them. The pumps remain loaded, the river remains displaced, and the hollow remains unstable.\n\nThis choice buys a few hours in which officials can proclaim success. The last honest evidence may be a Rillcross herd still refusing water after every city gauge has gone still.\n\n## Resolution\n\nDo not end on the chamber alone. Call for reports from every surface corridor still reachable. Name where pigs drink, where they continue rooting, where a herd was moved, where water has stopped, and where people were warned before the ground opened.\n\nA five-line retuning, a rationed shutdown, or an evacuated collapse is a complete outcome with a visible loss. If Dast works the controls, require him to speak every affected corridor by its inhabited name while Thane repeats the order and seals the changed gauge. He may turn the correct key and leave the chamber without it. A broken Bell may spare the company and leave the city blind. Total failure is the moment the reports cease because the messengers, animals, or surface passages are gone—not a single unsuccessful operation below.\n\nThe Hall can preserve evidence, protect witnesses, continue temporary ration and evacuation orders, and hold immediate offenders for review. Permanent water governance and criminal judgment come later. The finale ends when Veyr can state, in public and by inhabited names, which lines still carry water and who paid for the ones that do not.",
+      "required": true,
+      "start": false,
+      "end": true,
+      "tags": [
+        "subterranean",
+        "finale",
+        "hazard"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "5b4c72ce-32c7-44fd-b37b-4f91b49d0266",
+          "context": "Alda's bounded emergency authority can protect surface action and assign public responsibility without choosing the engineering remedy or permanent settlement."
+        },
+        {
+          "reference_id": "bcaa6c5b-213d-4196-92c6-e9b9ed91dd2b",
+          "context": "Dast brings water-system knowledge and an allocation doctrine without establishing whether he arrives, commands, cooperates, or retains any key."
+        },
+        {
+          "reference_id": "d2d941dd-db72-447d-8c53-0ece9de800be",
+          "context": "Tamar can align pump phases with hydraulic doors without establishing her presence, authority, measurements, or willingness to operate them."
+        },
+        {
+          "reference_id": "7bdf27b6-3ac1-482b-80d3-1276dfe3611e",
+          "context": "Oren's station competence explains which pump operations crews can execute without fixing crew availability, load order, or survival."
+        },
+        {
+          "reference_id": "ac969ee5-c1d9-4bb5-b0c6-256744413b40",
+          "context": "Harl's farm standing can sustain trusted surface reports without establishing his location, the herds available, or consent to a corridor's loss."
+        },
+        {
+          "reference_id": "d41a4f2a-dfd4-4672-8360-b317020551e4",
+          "context": "Ina's differentiated herd-reading method can test whether the system changed without guaranteeing any current animal, line, or messenger report."
+        },
+        {
+          "reference_id": "021c5c85-633d-49d8-8004-dad626283a0c",
+          "context": "Quill's calibrated models can distinguish retuning from broken silence without establishing that the College trace or apparatus reaches the chamber."
+        },
+        {
+          "reference_id": "cd71ccee-a344-408a-b4c9-83fb963c5390",
+          "context": "Anja's six-line sequence and inhabited-name doctrine constrain every remedy without fixing her route, consent, or judgment of the final operation."
+        },
+        {
+          "reference_id": "0506346e-15b0-4109-9f66-d9d7fadcecb5",
+          "context": "Orr's knowledge of Water Office custody and orders may expose the suppression chain without establishing his arrival, allegiance, evidence, or fate."
+        },
+        {
+          "reference_id": "6f322cc5-f45f-418b-8dba-a265b1b3b3c5",
+          "context": "Sen's certification authority can give a measured operation public credibility without deciding her presence, institutional commitment, or final finding."
+        },
+        {
+          "reference_id": "94df4e5e-13e1-449c-ae42-64c6840df10a",
+          "context": "The Hall can protect surface relays, rationing, evacuation, and responsibility without selecting the engineering remedy or settling permanent consequence."
+        },
+        {
+          "reference_id": "de09340e-8754-4ca8-af35-c5f8a609a2ee",
+          "context": "Southgate provides a dense third-line surface station without guaranteeing the herd, gates, water, handlers, or report that survives to the chamber."
+        },
+        {
+          "reference_id": "5e1874c7-837e-4666-8563-2a4032b5b78b",
+          "context": "The College can distinguish true relief from broken silence without establishing that calibrated instruments, witnesses, or certification remain available."
+        },
+        {
+          "reference_id": "99208e47-eff8-473d-a2db-f62fcdd806fd",
+          "context": "Rillcross can supply separate observations across all six corridors without guaranteeing herds, roads, runners, consent, or timely communication."
+        },
+        {
+          "reference_id": "5ac2ecc1-1f2e-413f-b3da-d6cc8463fea9",
+          "context": "The chapel's sequence and inhabited-name doctrine constrain every remedy without fixing access, keeper judgment, records, route, or consent."
+        },
+        {
+          "reference_id": "9622f400-e8c6-4c9c-a660-1eeb6300913e",
+          "context": "Nine-Mile provides hydraulic load, phase, and pressure control without establishing station command, crews, keys, service margin, or conduit access."
+        },
+        {
+          "reference_id": "138a7daf-e2f7-4640-a59c-3833ba4fc5f0",
+          "context": "The Bell's chamber, six galleries, and three approaches define the terminal system without fixing its condition, reports, tools, operation, or aftermath."
+        },
+        {
+          "reference_id": "1aeac0e3-80de-4749-ae76-1b3c1a4668e4",
+          "context": "Waters brings service knowledge and operating roles without establishing who arrives, who commands, what orders stand, or which districts receive water."
+        },
+        {
+          "reference_id": "8c3fbd04-1098-423b-bbbe-27b0f6dc4bdb",
+          "context": "The Compact identifies real livestock and market consequences above without granting authority in the chamber or fixing the herds, cull, or compensation."
+        },
+        {
+          "reference_id": "9a4f61cc-cdbc-41b2-8946-f385b2d44eb5",
+          "context": "The First Survey joins the six-line map, historical sacrifice, and divided doctrine without reviving the dissolved office as present command."
+        },
+        {
+          "reference_id": "cab148c1-a14a-495d-9caf-da41884d028e",
+          "context": "Sounding pins make line-by-line surface comparison possible without guaranteeing any marker, reading, observer, custody chain, or surviving warning."
+        }
+      ]
+    }
+  ],
+  "revelations": [
+    {
+      "id": "the-southgate-stockyards-carry-the-warning-inside-veyr",
+      "title": "The Southgate Stockyards carry the warning inside Veyr",
+      "description": "The eastern pens hold the largest urban concentration of affected pigs and the clearest public manifestation of the buried pulse.",
+      "unlocks_encounter_id": "southgate-stockyards",
+      "required": true
+    },
+    {
+      "id": "the-college-of-civic-measure-can-test-the-buried-pulse",
+      "title": "The College of Civic Measure can test the buried pulse",
+      "description": "The College has the instruments, jurisdiction, and censored records needed to distinguish resonance from disease or possession.",
+      "unlocks_encounter_id": "the-college-of-civic-measure",
+      "required": true
+    },
+    {
+      "id": "rillcross-reveals-the-warnings-full-geography",
+      "title": "Rillcross reveals the warning’s full geography",
+      "description": "Six farm holdings provide enough separate observations to resolve the animals’ behavior into a city-centered network.",
+      "unlocks_encounter_id": "rillcross-farm-belt",
+      "required": true
+    },
+    {
+      "id": "the-chapel-of-the-first-survey-keeps-the-lost-doctrine",
+      "title": "The Chapel of the First Survey keeps the lost doctrine",
+      "description": "The dissolved surveyors hid operating records and route keys among their dead after the city stripped their office of authority.",
+      "unlocks_encounter_id": "the-chapel-of-the-first-survey",
+      "required": true
+    },
+    {
+      "id": "the-nine-mile-pump-house-is-driving-the-crisis",
+      "title": "The Nine-Mile Pump House is driving the crisis",
+      "description": "The active diversion works are phase-locked to the buried pulse and are operating beyond the tolerances shown in public records.",
+      "unlocks_encounter_id": "the-nine-mile-pump-house",
+      "required": true
+    },
+    {
+      "id": "the-deep-bell-lies-beneath-veyr",
+      "title": "The Deep Bell lies beneath Veyr",
+      "description": "Surviving service routes from the outer works reach the ancient resonator beneath the city.",
+      "unlocks_encounter_id": "the-deep-bell",
+      "required": true
+    },
+    {
+      "id": "the-pigs-are-reading-the-danger-not-causing-it",
+      "title": "The pigs are reading the danger, not causing it",
+      "description": "Their kneeling, water refusal, rooting, and agitation report failures moving through the Deep Bell’s six sounding lines.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "corven-dast-knowingly-drove-the-pumps-beyond-tolerance",
+      "title": "Corven Dast knowingly drove the pumps beyond tolerance",
+      "description": "Dast's first drought overdrive preceded the full warning, but he suppressed measurements and increased the Nine-Mile load after the danger had become measurable.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "the-deep-bell-admits-several-costly-remedies",
+      "title": "The Deep Bell admits several costly remedies",
+      "description": "Staged shutdown, hazardous network retuning with possible line isolation, and controlled collapse can each stabilize the system, but each places the burden on different people.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "the-hall-can-restrain-the-offices-destroying-the-evidence",
+      "title": "The Hall can restrain the offices destroying the evidence",
+      "description": "Evidence gathered elsewhere gives Alda Mere grounds to stay culls, seizures, and quarantines and to widen the inspection commission.",
+      "unlocks_encounter_id": "the-hall-of-petitions",
+      "required": false
+    }
+  ],
+  "clues": [
+    {
+      "id": "southgate-condemnation-docket",
+      "title": "Southgate condemnation docket",
+      "source_encounter_id": "the-hall-of-petitions",
+      "revelation_id": "the-southgate-stockyards-carry-the-warning-inside-veyr",
+      "description": "Doss’s emergency order names Southgate’s eastern pens as the first city site marked for culling. It also records that the pigs refuse a line beneath the paving.",
+      "discovery": "Read the public docket or hear Doss cite it during the hearing."
+    },
+    {
+      "id": "college-jurisdiction-over-civic-resonance",
+      "title": "College jurisdiction over civic resonance",
+      "source_encounter_id": "the-hall-of-petitions",
+      "revelation_id": "the-college-of-civic-measure-can-test-the-buried-pulse",
+      "description": "Alda’s commission and the clerk’s manual assign unexplained vibration in bells, foundations, and public works to the College of Civic Measure.",
+      "discovery": "Ask which office has the instruments and authority to test the phenomenon."
+    },
+    {
+      "id": "the-rillcross-petition-bundle",
+      "title": "The Rillcross petition bundle",
+      "source_encounter_id": "the-hall-of-petitions",
+      "revelation_id": "rillcross-reveals-the-warnings-full-geography",
+      "description": "Harl’s affidavits name six affected farms and record kneeling, water refusal, and marker-rooting as one repeated sequence.",
+      "discovery": "Interview the Rillcross witnesses or read their petitions."
+    },
+    {
+      "id": "the-vibrating-weigh-frame",
+      "title": "The vibrating weigh frame",
+      "source_encounter_id": "southgate-stockyards",
+      "revelation_id": "the-college-of-civic-measure-can-test-the-buried-pulse",
+      "description": "The disused brass frame answers the buried pulse at repeatable intervals. Its certification plate sends anomalous resonance work to the College of Civic Measure.",
+      "discovery": "Inspect the old scale while the herd presses against the eastern pens."
+    },
+    {
+      "id": "the-obsolete-survey-marker-socket",
+      "title": "The obsolete survey-marker socket",
+      "source_encounter_id": "southgate-stockyards",
+      "revelation_id": "the-chapel-of-the-first-survey-keeps-the-lost-doctrine",
+      "description": "The socket beneath the eastern scale bears the funerary compass of the dissolved First Survey. Tal admits that matching markers were removed near the surveyors’ roadside chapel.",
+      "discovery": "Inspect the scale and obtain a candid account from Inspector Tal."
+    },
+    {
+      "id": "the-irregular-condemnation-authority",
+      "title": "The irregular condemnation authority",
+      "source_encounter_id": "southgate-stockyards",
+      "revelation_id": "the-hall-can-restrain-the-offices-destroying-the-evidence",
+      "description": "Pell’s order cites a Hall docket that does not authorize immediate slaughter. Alda can stay the cull and require the Compact to preserve the herd and its records.",
+      "discovery": "Compare Pell’s order with Alda’s commission."
+    },
+    {
+      "id": "the-pigs-stop-before-the-pulse-arrives",
+      "title": "The pigs stop before the pulse arrives",
+      "source_encounter_id": "southgate-stockyards",
+      "revelation_id": "the-pigs-are-reading-the-danger-not-causing-it",
+      "description": "Under Ina’s handling test, calm pigs halt at the buried line several breaths before the frame and paving begin to beat. They sense the disturbance before it reaches the yard.",
+      "discovery": "Observe a controlled crossing with Ina before dusk."
+    },
+    {
+      "id": "southgate-amplitude-map",
+      "title": "Southgate amplitude map",
+      "source_encounter_id": "the-college-of-civic-measure",
+      "revelation_id": "the-southgate-stockyards-carry-the-warning-inside-veyr",
+      "description": "Overlaying the recorder traces on Veyr’s foundation grid places the strongest accessible urban signal beneath Southgate’s eastern pens and old weighing works.",
+      "discovery": "Complete Quill’s triangulation experiment."
+    },
+    {
+      "id": "pulse-to-pump-phase-correlation",
+      "title": "Pulse-to-pump phase correlation",
+      "source_encounter_id": "the-college-of-civic-measure",
+      "revelation_id": "the-nine-mile-pump-house-is-driving-the-crisis",
+      "description": "The pulse recurs with the Nine-Mile station’s published phases, but its amplitude requires a pump load well above the public figures.",
+      "discovery": "Compare the smoked-glass trace with water-service schedules."
+    },
+    {
+      "id": "the-college-charters-stay-provision",
+      "title": "The College charter’s stay provision",
+      "source_encounter_id": "the-college-of-civic-measure",
+      "revelation_id": "the-hall-can-restrain-the-offices-destroying-the-evidence",
+      "description": "Vos finds a clause allowing the Hall to stay an executive seizure when civic evidence is endangered. With the citation, Alda can stop the archive cart and protect the experiment.",
+      "discovery": "Research the charter or win Archivist Vos’s cooperation."
+    },
+    {
+      "id": "controlled-porcine-resonance-test",
+      "title": "Controlled porcine resonance test",
+      "source_encounter_id": "the-college-of-civic-measure",
+      "revelation_id": "the-pigs-are-reading-the-danger-not-causing-it",
+      "description": "A borrowed pig turns, kneels, and refuses water only when Quill reproduces the buried frequency. Masking the frequency ends the response without otherwise calming or harming the animal.",
+      "discovery": "Conduct Quill’s controlled acoustics experiment."
+    },
+    {
+      "id": "dasts-dated-impound-order",
+      "title": "Dast’s dated impound order",
+      "source_encounter_id": "the-college-of-civic-measure",
+      "revelation_id": "corven-dast-knowingly-drove-the-pumps-beyond-tolerance",
+      "description": "Dast impounded the College’s first dangerous trace, then authorized a higher water quota the next morning. The dates place knowledge before escalation.",
+      "discovery": "Recover the order from the archive cart or proctor’s case."
+    },
+    {
+      "id": "three-viable-response-curves",
+      "title": "Three viable response curves",
+      "source_encounter_id": "the-college-of-civic-measure",
+      "revelation_id": "the-deep-bell-admits-several-costly-remedies",
+      "description": "Quill’s models show that unloading the pumps, applying a counter-phase, or venting one sounding line can each reduce the strain. The mathematics cannot choose who bears the cost.",
+      "discovery": "Complete the resonance model with intact instruments and records."
+    },
+    {
+      "id": "the-forbidden-survey-rhyme",
+      "title": "The forbidden survey rhyme",
+      "source_encounter_id": "rillcross-farm-belt",
+      "revelation_id": "the-chapel-of-the-first-survey-keeps-the-lost-doctrine",
+      "description": "Several families preserve a children’s rhyme naming the First Survey chapel as the place where “six roads are heard below.” Anja Veil will recognize it as a censored mnemonic.",
+      "discovery": "Earn the families’ trust and compare their versions of the rhyme."
+    },
+    {
+      "id": "nine-mile-maintenance-traffic",
+      "title": "Nine-Mile maintenance traffic",
+      "source_encounter_id": "rillcross-farm-belt",
+      "revelation_id": "the-nine-mile-pump-house-is-driving-the-crisis",
+      "description": "Fresh heavy-wagon tracks follow a refused irrigation ditch toward Nine-Mile. Farmhands report night crews replacing pressure fittings under armed escort.",
+      "discovery": "Follow the maintenance wagons or question the ditch crews."
+    },
+    {
+      "id": "the-outer-pressure-vent",
+      "title": "The outer pressure vent",
+      "source_encounter_id": "rillcross-farm-belt",
+      "revelation_id": "the-deep-bell-lies-beneath-veyr",
+      "description": "A fresh sinkhole exposes bronze-lined steps beside a sounding pipe. Old marks identify the shaft as a pressure vent leading inward toward the central resonator.",
+      "discovery": "Map the kneeling lines and investigate the newest subsidence."
+    },
+    {
+      "id": "the-farm-belts-quarantine-appeal",
+      "title": "The farm belt’s quarantine appeal",
+      "source_encounter_id": "rillcross-farm-belt",
+      "revelation_id": "the-hall-can-restrain-the-offices-destroying-the-evidence",
+      "description": "The quarantine order exceeds the original commission and permits seizure of animals and survey markers. With affidavits, Alda can suspend it and appoint the farmers as official observers.",
+      "discovery": "Read the posted order and organize consistent witness statements."
+    },
+    {
+      "id": "the-six-herd-warning-map",
+      "title": "The six-herd warning map",
+      "source_encounter_id": "rillcross-farm-belt",
+      "revelation_id": "the-pigs-are-reading-the-danger-not-causing-it",
+      "description": "Six independent herds trace six buried lines converging on Veyr. Their different responses mark where strain is rising; they do not resemble a common contagion.",
+      "discovery": "Coordinate observations across the farms through one resonance cycle."
+    },
+    {
+      "id": "the-water-offices-received-warning",
+      "title": "The water office’s received warning",
+      "source_encounter_id": "rillcross-farm-belt",
+      "revelation_id": "corven-dast-knowingly-drove-the-pumps-beyond-tolerance",
+      "description": "Harl kept a stamped copy of the farms’ first warning. It predates the latest pumping increase, and a margin note forwards the report directly to Dast.",
+      "discovery": "Review Harl’s correspondence after earning his confidence."
+    },
+    {
+      "id": "plan-of-the-southgate-sounding-station",
+      "title": "Plan of the Southgate sounding station",
+      "source_encounter_id": "the-chapel-of-the-first-survey",
+      "revelation_id": "the-southgate-stockyards-carry-the-warning-inside-veyr",
+      "description": "A crypt-wall plan names the old weighing yard as the Third Urban Sounding Station and marks the line now refused by the pigs.",
+      "discovery": "Clean and read the surveyors’ wall plan."
+    },
+    {
+      "id": "map-of-the-six-rillcross-lines",
+      "title": "Map of the six Rillcross lines",
+      "source_encounter_id": "the-chapel-of-the-first-survey",
+      "revelation_id": "rillcross-reveals-the-warnings-full-geography",
+      "description": "The regional folio shows six sounding lines surfacing through Rillcross, with observation marks at fields still held by the present families.",
+      "discovery": "Recover the intact folio from the flooding crypt."
+    },
+    {
+      "id": "the-nine-mile-auxiliary-works",
+      "title": "The Nine-Mile auxiliary works",
+      "source_encounter_id": "the-chapel-of-the-first-survey",
+      "revelation_id": "the-nine-mile-pump-house-is-driving-the-crisis",
+      "description": "An operating diagram identifies Nine-Mile as a rebuilt auxiliary station whose pumps can drive the Deep Bell far beyond its original drought setting.",
+      "discovery": "Compare the old hydraulic plan with a current water-service map."
+    },
+    {
+      "id": "the-surveyors-stair-to-the-tuning-crown",
+      "title": "The surveyors’ stair to the tuning crown",
+      "source_encounter_id": "the-chapel-of-the-first-survey",
+      "revelation_id": "the-deep-bell-lies-beneath-veyr",
+      "description": "The funerary register doubles as a route key for a sealed stair descending from the chapel crypt to the Bell’s tuning crown.",
+      "discovery": "Decode the register against the crypt’s numbered niches."
+    },
+    {
+      "id": "the-surveyors-table-of-remedies",
+      "title": "The surveyors’ table of remedies",
+      "source_encounter_id": "the-chapel-of-the-first-survey",
+      "revelation_id": "the-deep-bell-admits-several-costly-remedies",
+      "description": "A bronze doctrine tablet gives three emergency responses: rest the hydraulic load, counter-ring the six lines, or vent the strain beneath a chosen surface district.",
+      "discovery": "Restore the displaced bronze leaves to their original order."
+    },
+    {
+      "id": "the-seized-college-recorder",
+      "title": "The seized College recorder",
+      "source_encounter_id": "the-nine-mile-pump-house",
+      "revelation_id": "the-college-of-civic-measure-can-test-the-buried-pulse",
+      "description": "An impounded smoked-glass recorder bears Quill’s calibration marks and a return tag for the College. Its trace is the cleanest surviving record of the dangerous pulse.",
+      "discovery": "Search Dast’s evidence cabinet or gain Salk’s cooperation."
+    },
+    {
+      "id": "rillcross-pressure-ledger",
+      "title": "Rillcross pressure ledger",
+      "source_encounter_id": "the-nine-mile-pump-house",
+      "revelation_id": "rillcross-reveals-the-warnings-full-geography",
+      "description": "The true maintenance ledger records abnormal returns from six Rillcross feeder lines and orders crews to suppress farm complaints rather than reduce load.",
+      "discovery": "Inspect the operators’ ledger instead of the public gauge book."
+    },
+    {
+      "id": "the-chapel-seizure-warrant",
+      "title": "The chapel seizure warrant",
+      "source_encounter_id": "the-nine-mile-pump-house",
+      "revelation_id": "the-chapel-of-the-first-survey-keeps-the-lost-doctrine",
+      "description": "A prepared warrant orders water officers to seize “obsolete resonant instruments” from the Chapel of the First Survey before the next evening cycle.",
+      "discovery": "Search Orr’s dispatch case or Dast’s outgoing orders."
+    },
+    {
+      "id": "the-hydraulic-service-conduit",
+      "title": "The hydraulic service conduit",
+      "source_encounter_id": "the-nine-mile-pump-house",
+      "revelation_id": "the-deep-bell-lies-beneath-veyr",
+      "description": "Tamar identifies a pressure-door route from the flooded sump to the Deep Bell’s hydraulic controls. It remains passable if the station is balanced first.",
+      "discovery": "Free Tamar or reconstruct the route from maintenance plates."
+    },
+    {
+      "id": "dasts-signed-overdrive-directive",
+      "title": "Dast’s signed overdrive directive",
+      "source_encounter_id": "the-nine-mile-pump-house",
+      "revelation_id": "corven-dast-knowingly-drove-the-pumps-beyond-tolerance",
+      "description": "The true phase book contains Dast’s order to exceed the old tolerance and replace the public gauges with damped instruments after the first resonance injuries.",
+      "discovery": "Recover the phase book or corroborate it with Tamar and Salk."
+    },
+    {
+      "id": "independent-controls-for-load-phase-and-venting",
+      "title": "Independent controls for load, phase, and venting",
+      "source_encounter_id": "the-nine-mile-pump-house",
+      "revelation_id": "the-deep-bell-admits-several-costly-remedies",
+      "description": "The station retains separate mechanisms for unloading the pumps, shifting phase, and opening selected pressure vanes. Each can affect the Deep Bell without the other two.",
+      "discovery": "Inspect the old controls while stabilizing the surge."
+    },
+    {
+      "id": "dasts-filed-convocation-load-schedule",
+      "title": "Dast’s filed Convocation load schedule",
+      "source_encounter_id": "the-hall-of-petitions",
+      "revelation_id": "corven-dast-knowingly-drove-the-pumps-beyond-tolerance",
+      "description": "The Water Office copy filed with the Hall carries Dast’s seal and a morning amendment increasing Nine-Mile’s quota after the first farm warning and College injury notice had both been received. A clerk’s receipt fixes the order after measurable danger.",
+      "discovery": "Compare the Water Office schedule, its quota amendment, and the receipt stamps in the petition file."
+    },
+    {
+      "id": "dasts-preemptive-cull-circular",
+      "title": "Dast’s preemptive cull circular",
+      "source_encounter_id": "southgate-stockyards",
+      "revelation_id": "corven-dast-knowingly-drove-the-pumps-beyond-tolerance",
+      "description": "Tal carries a Water Office circular issued after the College trace was impounded but before any veterinary finding. Under Dast’s seal, it directs inspectors to remove sounding pins and recommend destruction of pigs that persistently root above them.",
+      "discovery": "Protect or search Tal, then compare the circular’s date with the condemnation docket and College trace."
+    },
+    {
+      "id": "the-six-line-isolation-drill",
+      "title": "The six-line isolation drill",
+      "source_encounter_id": "rillcross-farm-belt",
+      "revelation_id": "the-deep-bell-admits-several-costly-remedies",
+      "description": "Farm observers can damp one outer diaphragm while the other five herds continue their separate responses. The test proves that a damaged sounding line can be isolated without silencing the whole network, although its surface corridor must first be cleared.",
+      "discovery": "Coordinate observers across the six holdings and test one vent under controlled conditions."
+    },
+    {
+      "id": "the-surveyors-livestock-observation-table",
+      "title": "The surveyors’ livestock observation table",
+      "source_encounter_id": "the-chapel-of-the-first-survey",
+      "revelation_id": "the-pigs-are-reading-the-danger-not-causing-it",
+      "description": "A memorial plate records ordinary livestock reactions used by the First Survey: kneeling at central phase, refusing pressure-bearing water, and rooting above a line that rings out of time. The animals are listed as field indicators, never causes or components of the works.",
+      "discovery": "Tune the memorial plates to the field-observation sequence or read the engraved marginal table."
+    },
+    {
+      "id": "the-confiscated-farm-signal-board",
+      "title": "The confiscated farm signal board",
+      "source_encounter_id": "the-nine-mile-pump-house",
+      "revelation_id": "the-pigs-are-reading-the-danger-not-causing-it",
+      "description": "A seized board aligns reports from six farms and Southgate against Nine-Mile’s load changes. The pigs react before station gauges peak and change behavior when operators alter phase, showing that they report pressure moving through the system.",
+      "discovery": "Recover the impounded farm reports and align their times with Tamar’s phase book."
+    },
+    {
+      "id": "the-surface-reports-answer-the-bell",
+      "title": "The surface reports answer the Bell",
+      "source_encounter_id": "the-deep-bell",
+      "revelation_id": "the-pigs-are-reading-the-danger-not-causing-it",
+      "description": "During a controlled adjustment, reports from Southgate and Rillcross change line by line before the chamber’s instruments settle. The animals’ responses track the wave moving outward from the Bell; nothing in the herds drives the bronze.",
+      "discovery": "Coordinate a limited phase change with surviving surface observers or compare their reports through one severe cycle."
+    },
+    {
+      "id": "the-fresh-overdrive-scars",
+      "title": "The fresh overdrive scars",
+      "source_encounter_id": "the-deep-bell",
+      "revelation_id": "corven-dast-knowingly-drove-the-pumps-beyond-tolerance",
+      "description": "Fresh hammering and heat bloom mark the hydraulic branch where Nine-Mile’s recent quota forced the Bell beyond its older wear line. The damage matches Dast’s signed phase figures and begins only after the first warning cycle.",
+      "discovery": "Compare the hydraulic input collar, its old wear boundary, and the current Nine-Mile phase figures."
+    },
+    {
+      "id": "the-three-independent-control-paths",
+      "title": "The three independent control paths",
+      "source_encounter_id": "the-deep-bell",
+      "revelation_id": "the-deep-bell-admits-several-costly-remedies",
+      "description": "The chamber separates hydraulic unloading, six-line tuning, and pressure venting into mechanisms that can be operated independently. Surviving calibration marks preserve stable states reached by shutdown, counter-ring, or controlled release; breaking the crown only removes the reading.",
+      "discovery": "Inspect the load linkage, tuning crown, pressure vanes, and their surviving calibration marks."
+    }
+  ]
+}

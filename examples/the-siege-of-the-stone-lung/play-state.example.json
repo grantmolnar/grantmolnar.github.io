@@ -1,0 +1,657 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-siege-of-the-stone-lung",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "the-lantern-court",
+      "party_label": ""
+    },
+    {
+      "sequence": 2,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-gates-double-red-flare",
+      "visit_number": 1
+    },
+    {
+      "sequence": 3,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-ringing-shell-fragment",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-blue-garden-lantern",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-impossible-refuge-air-tally",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 1,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Maela made every officer name the loss hidden inside the request. Siva kept the original refuge tally; Orren took the ringing shell fragment; Hadrik compared the gate flare with the Host's refusal to exploit an open air shaft."
+    },
+    {
+      "sequence": 7,
+      "operation_number": 2,
+      "type": "revelation_established",
+      "revelation_id": "the-shattered-gate-can-still-buy-the-city-time",
+      "supporting_clue_ids": [
+        "the-gates-double-red-flare"
+      ],
+      "note": "The double red flare means the outer Gate still has an organized line. Technical help now can buy time that reinforcements alone cannot."
+    },
+    {
+      "sequence": 8,
+      "operation_number": 2,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-shattered-gate",
+      "source_revelation_id": "the-shattered-gate-can-still-buy-the-city-time",
+      "reason": ""
+    },
+    {
+      "sequence": 9,
+      "operation_number": 3,
+      "type": "revelation_established",
+      "revelation_id": "the-cinder-foundry-can-counter-the-resonance-weapons",
+      "supporting_clue_ids": [
+        "the-ringing-shell-fragment"
+      ],
+      "note": "The fragment is still answering the Lung's stroke. The Foundry can identify the weapon and keep the city's precision work alive."
+    },
+    {
+      "sequence": 10,
+      "operation_number": 3,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-cinder-foundry",
+      "source_revelation_id": "the-cinder-foundry-can-counter-the-resonance-weapons",
+      "reason": ""
+    },
+    {
+      "sequence": 11,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "the-pale-gardens-can-map-and-clean-the-failing-air",
+      "supporting_clue_ids": [
+        "the-blue-garden-lantern"
+      ],
+      "note": "The blue lantern is following an airflow failure. The Gardens are both a live crisis and the city's best living instrument."
+    },
+    {
+      "sequence": 12,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-pale-gardens",
+      "source_revelation_id": "the-pale-gardens-can-map-and-clean-the-failing-air",
+      "reason": ""
+    },
+    {
+      "sequence": 13,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "the-refuge-galleries-hold-witnesses-and-an-old-service-route",
+      "supporting_clue_ids": [
+        "the-impossible-refuge-air-tally"
+      ],
+      "note": "The Refuge should have air to spare. Its deficit and Deren Vask's accusation both point to a branch missing from the public map."
+    },
+    {
+      "sequence": 14,
+      "operation_number": 5,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-refuge-galleries",
+      "source_revelation_id": "the-refuge-galleries-hold-witnesses-and-an-old-service-route",
+      "reason": ""
+    },
+    {
+      "sequence": 15,
+      "operation_number": 6,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-lantern-court",
+      "text": "Ilyra Dain commissioned the Basalt Hand to cross sector boundaries, requisition scarce material, settle commands that cannot wait for council, and return with evidence worth changing the city's orders."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 7,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "the-shattered-gate",
+      "party_label": ""
+    },
+    {
+      "sequence": 17,
+      "operation_number": 7,
+      "type": "clue_spotted",
+      "clue_id": "the-unexploded-tower-resonator",
+      "visit_number": 2
+    },
+    {
+      "sequence": 18,
+      "operation_number": 7,
+      "type": "clue_spotted",
+      "clue_id": "branns-consolidated-defense-report",
+      "visit_number": 2
+    },
+    {
+      "sequence": 19,
+      "operation_number": 7,
+      "type": "clue_spotted",
+      "clue_id": "the-assaults-refuse-the-open-breach",
+      "visit_number": 2
+    },
+    {
+      "sequence": 20,
+      "operation_number": 7,
+      "type": "clue_spotted",
+      "clue_id": "conflicting-orders-on-the-prisoners",
+      "visit_number": 2
+    },
+    {
+      "sequence": 21,
+      "operation_number": 7,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Maela refused the false withdrawal. The Hand reopened the northern gallery, brought Nara Ves and her escort inside alive, and lowered the brace crew while Orren kept the lodged resonator from taking the tower with it."
+    },
+    {
+      "sequence": 22,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "field-evidence-can-change-citywide-orders-at-the-lantern-court",
+      "supporting_clue_ids": [
+        "branns-consolidated-defense-report"
+      ],
+      "note": "Brann's report can release reserves only if the Court understands that the wall assault is timed, limited, and serving an operation below."
+    },
+    {
+      "sequence": 23,
+      "operation_number": 9,
+      "type": "revelation_established",
+      "revelation_id": "the-siege-is-shaping-access-to-the-stone-lung",
+      "supporting_clue_ids": [
+        "the-assaults-refuse-the-open-breach"
+      ],
+      "note": "The Host keeps declining breaches near public air shafts. Its companies are fixing defenders at the wall while the real attack approaches the Lung."
+    },
+    {
+      "sequence": 24,
+      "operation_number": 10,
+      "type": "revelation_established",
+      "revelation_id": "the-enemy-command-is-divided-over-heartstrike",
+      "supporting_clue_ids": [
+        "conflicting-orders-on-the-prisoners"
+      ],
+      "note": "Venn's standing limits and Bas's countermand cannot both be obeyed. The enemy command is giving two different wars."
+    },
+    {
+      "sequence": 25,
+      "operation_number": 11,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-shattered-gate",
+      "text": "The Shattered Gate is held. Brann keeps the outer line, the recovered gallery, and a small movable reserve. The right tower has a measured life and a written withdrawal route."
+    },
+    {
+      "sequence": 26,
+      "operation_number": 12,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "the-cinder-foundry",
+      "party_label": ""
+    },
+    {
+      "sequence": 27,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-unfinished-filter-frame-requisition",
+      "visit_number": 3
+    },
+    {
+      "sequence": 28,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-counterweight-service-gantry",
+      "visit_number": 3
+    },
+    {
+      "sequence": 29,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-shell-frequency-model",
+      "visit_number": 3
+    },
+    {
+      "sequence": 30,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-erased-safety-tolerance",
+      "visit_number": 3
+    },
+    {
+      "sequence": 31,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-variable-vane-model",
+      "visit_number": 3
+    },
+    {
+      "sequence": 32,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Orren and Tamar detuned the live shell while Maela cleared the east hall. The furnace lining was broken away, but the crew recovered the frequency model, the altered tolerances, and the variable-vane drawings before lighting the western hearth."
+    },
+    {
+      "sequence": 33,
+      "operation_number": 13,
+      "type": "revelation_established",
+      "revelation_id": "three-routes-converge-on-the-stone-lung-and-heartstrike-charge",
+      "supporting_clue_ids": [
+        "the-counterweight-service-gantry"
+      ],
+      "note": "The service gantry reaches the Lung's crown without requiring control of the lower road."
+    },
+    {
+      "sequence": 34,
+      "operation_number": 13,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-stone-lung",
+      "source_revelation_id": "three-routes-converge-on-the-stone-lung-and-heartstrike-charge",
+      "reason": ""
+    },
+    {
+      "sequence": 35,
+      "operation_number": 14,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-cinder-foundry",
+      "text": "The Cinder Foundry is held at a cost. The east furnace is rubble, but Mera Coil preserves a disciplined crew, tuned cutting tools, two radial braces, and one retuning counterweight."
+    },
+    {
+      "sequence": 36,
+      "operation_number": 15,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "the-stone-lung",
+      "party_label": ""
+    },
+    {
+      "sequence": 37,
+      "operation_number": 15,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The Hand entered by the crown gantry before Heartstrike was complete. Orren mapped the three strokes, Maela posted a foundry watch, Siva found gas behind the southern wall, and Hadrik cut the visible relay. With no safe overflow or pressure sequence, they withdrew."
+    },
+    {
+      "sequence": 38,
+      "operation_number": 16,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-stone-lung",
+      "text": "The crown relay has been cut and Heartstrike is disarmed; a foundry watch holds the upper gantry."
+    },
+    {
+      "sequence": 39,
+      "operation_number": 17,
+      "type": "operation_voided",
+      "target_operation_number": 16,
+      "reason": "The first report overstated the result. Cutting the crown relay delayed Heartstrike, but the lower charge and a manual trigger remained armed."
+    },
+    {
+      "sequence": 40,
+      "operation_number": 18,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-stone-lung",
+      "text": "The crown relay is cut. Heartstrike is delayed, and the upper gantry is held. The lower charge and Bas's manual trigger remain active."
+    },
+    {
+      "sequence": 41,
+      "operation_number": 19,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "the-pale-gardens",
+      "party_label": ""
+    },
+    {
+      "sequence": 42,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "the-cracked-foundry-exhaust",
+      "visit_number": 5
+    },
+    {
+      "sequence": 43,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "deren-vasks-ration-cart-message",
+      "visit_number": 5
+    },
+    {
+      "sequence": 44,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "the-growers-living-air-map",
+      "visit_number": 5
+    },
+    {
+      "sequence": 45,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "the-southern-rootstock-gradient",
+      "visit_number": 5
+    },
+    {
+      "sequence": 46,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "the-spore-tracer-sequence",
+      "visit_number": 5
+    },
+    {
+      "sequence": 47,
+      "operation_number": 19,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Siva stopped the burning of the blue beds and used their spread as a tracer. The Hand isolated the sabotaged terraces, saved the old rootstock, and sent filter moss and a full-cycle airflow map toward the Refuge and crown crews."
+    },
+    {
+      "sequence": 48,
+      "operation_number": 20,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-pale-gardens",
+      "text": "The Pale Gardens are held. Sen Tahl preserves the harvest, prepares filter frames, and keeps a living tracer sequence for the southern opening."
+    },
+    {
+      "sequence": 49,
+      "operation_number": 21,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "the-refuge-galleries",
+      "party_label": ""
+    },
+    {
+      "sequence": 50,
+      "operation_number": 21,
+      "type": "clue_spotted",
+      "clue_id": "the-refuge-healers-breathing-ledger",
+      "visit_number": 6
+    },
+    {
+      "sequence": 51,
+      "operation_number": 21,
+      "type": "clue_spotted",
+      "clue_id": "the-oily-water-sickness-cluster",
+      "visit_number": 6
+    },
+    {
+      "sequence": 52,
+      "operation_number": 21,
+      "type": "clue_spotted",
+      "clue_id": "the-memorial-maintenance-stair",
+      "visit_number": 6
+    },
+    {
+      "sequence": 53,
+      "operation_number": 21,
+      "type": "clue_spotted",
+      "clue_id": "the-sealed-minutes-and-derens-testimony",
+      "visit_number": 6
+    },
+    {
+      "sequence": 54,
+      "operation_number": 21,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Siva and Deren stabilized the lower gallery before opening the old accusation. Maela set Edda's minutes beside the memorial's omitted names. The stewards accepted evacuation work after Ilyra promised to read the record publicly."
+    },
+    {
+      "sequence": 55,
+      "operation_number": 22,
+      "type": "revelation_established",
+      "revelation_id": "kest-mourne-sealed-lorns-air-branch-and-concealed-it",
+      "supporting_clue_ids": [
+        "the-southern-rootstock-gradient",
+        "the-sealed-minutes-and-derens-testimony"
+      ],
+      "note": "The rootstock, sealed minutes, and Deren's testimony agree: Kest Mourne closed Lorn's branch during the blight and kept the closure secret after the emergency ended."
+    },
+    {
+      "sequence": 56,
+      "operation_number": 23,
+      "type": "revelation_established",
+      "revelation_id": "the-black-cisterns-expose-the-false-conduit-map-and-black-breath",
+      "supporting_clue_ids": [
+        "the-oily-water-sickness-cluster"
+      ],
+      "note": "The worst sickness follows lower-cistern water during the Lung's draw. The Cisterns can reveal what is moving behind the seal and where it can be vented."
+    },
+    {
+      "sequence": 57,
+      "operation_number": 23,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-black-cisterns",
+      "source_revelation_id": "the-black-cisterns-expose-the-false-conduit-map-and-black-breath",
+      "reason": ""
+    },
+    {
+      "sequence": 58,
+      "operation_number": 24,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-refuge-galleries",
+      "text": "The Refuge Galleries are held. Deren Vask and the stewards preserve the testimony, organize an evacuation corps, and open the memorial stair to the southern controls."
+    },
+    {
+      "sequence": 59,
+      "operation_number": 25,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "the-black-cisterns",
+      "party_label": ""
+    },
+    {
+      "sequence": 60,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-old-refuge-evacuation-marks",
+      "visit_number": 7
+    },
+    {
+      "sequence": 61,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-lower-road-maintenance-grate",
+      "visit_number": 7
+    },
+    {
+      "sequence": 62,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-original-conduit-plate",
+      "visit_number": 7
+    },
+    {
+      "sequence": 63,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-hidden-masonry-and-original-map",
+      "visit_number": 7
+    },
+    {
+      "sequence": 64,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-pressure-and-valve-readings",
+      "visit_number": 7
+    },
+    {
+      "sequence": 65,
+      "operation_number": 25,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The Hand rescued the hammer crew, measured a full Lung cycle, and opened the fourth-pool maintenance channel. The lower sluice broke during the work, but Cala Orm kept one overflow clear and issued breathing hoods to the crews going below."
+    },
+    {
+      "sequence": 66,
+      "operation_number": 26,
+      "type": "revelation_established",
+      "revelation_id": "the-countermine-reaches-the-enemys-true-line-of-effort",
+      "supporting_clue_ids": [
+        "the-lower-road-maintenance-grate"
+      ],
+      "note": "The maintenance channel reaches the old lower road beneath the sapper line and approaches the Countermine from below."
+    },
+    {
+      "sequence": 67,
+      "operation_number": 26,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-countermine",
+      "source_revelation_id": "the-countermine-reaches-the-enemys-true-line-of-effort",
+      "reason": ""
+    },
+    {
+      "sequence": 68,
+      "operation_number": 27,
+      "type": "revelation_established",
+      "revelation_id": "the-stone-lung-can-be-retuned-for-shared-air",
+      "supporting_clue_ids": [
+        "the-variable-vane-model",
+        "the-spore-tracer-sequence",
+        "the-pressure-and-valve-readings"
+      ],
+      "note": "The vane tolerances, living tracers, and pressure readings define an operation: vent the black breath, brace the crown, and open the southern valves by stages."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 28,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-black-cisterns",
+      "text": "The Black Cisterns are held at a cost. Clean water, breathing hoods, and reliable readings remain; the broken lower sluice leaves one safe overflow."
+    },
+    {
+      "sequence": 70,
+      "operation_number": 29,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "the-countermine",
+      "party_label": ""
+    },
+    {
+      "sequence": 71,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "the-full-gate-assault-tablet",
+      "visit_number": 8
+    },
+    {
+      "sequence": 72,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "the-black-breath-drainage-draft",
+      "visit_number": 8
+    },
+    {
+      "sequence": 73,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "the-heartstrike-cable",
+      "visit_number": 8
+    },
+    {
+      "sequence": 74,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "the-heartstrike-operational-plan",
+      "visit_number": 8
+    },
+    {
+      "sequence": 75,
+      "operation_number": 29,
+      "type": "clue_spotted",
+      "clue_id": "venns-limits-and-bass-countermand",
+      "visit_number": 8
+    },
+    {
+      "sequence": 76,
+      "operation_number": 29,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Hadrik called a roof truce before either side could see uniforms through the dust. The Hand and Mael Rusk cleared the fall, compared Venn's order with Bas's countermand, and sent a false completion pulse while Brann moved his reserve."
+    },
+    {
+      "sequence": 77,
+      "operation_number": 30,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-countermine",
+      "text": "The Countermine is held by local truce. Mael Rusk controls the charge-gallery approach, Venn has Bas's yield calculation, and the false completion signal delays the manual attack."
+    },
+    {
+      "sequence": 78,
+      "operation_number": 31,
+      "type": "encounter_visited",
+      "visit_number": 9,
+      "encounter_id": "the-lantern-court",
+      "party_label": ""
+    },
+    {
+      "sequence": 79,
+      "operation_number": 31,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "The Hand returned with the conduit plate, Edda's minutes, Bas's yield table, and a staged retuning sequence. Ilyra read the city's act aloud, ordered the lower wards evacuated, moved Brann's reserve to the Lung, and offered Venn joint control if she stopped Bas."
+    },
+    {
+      "sequence": 80,
+      "operation_number": 32,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-lantern-court",
+      "text": "Kest Mourne acknowledges the sealed branch, orders a bounded evacuation, and authorizes temporary joint control of the southern valves with Lorn."
+    },
+    {
+      "sequence": 81,
+      "operation_number": 33,
+      "type": "encounter_visited",
+      "visit_number": 10,
+      "encounter_id": "the-stone-lung",
+      "party_label": ""
+    },
+    {
+      "sequence": 82,
+      "operation_number": 33,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The Hand returned by three roads. Orren and Tamar held the crown; Siva placed tracers and refuge teams along the surviving overflow; Hadrik and Rusk isolated Bas; Maela matched Brann's withdrawal to Ilyra's valve orders."
+    },
+    {
+      "sequence": 83,
+      "operation_number": 34,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-shattered-gate",
+      "text": "The outer gate falls on the second release. Brann withdraws in order after buying the minutes required below, and no Host formation reaches an occupied ward before Venn's truce signal."
+    },
+    {
+      "sequence": 84,
+      "operation_number": 35,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-stone-lung",
+      "text": "Heartstrike is detuned. Black breath vents through the surviving overflow, and the southern branch reopens by measured stages under witnesses from Kest Mourne and Lorn."
+    },
+    {
+      "sequence": 85,
+      "operation_number": 36,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-lantern-court",
+      "text": "Six civic lanterns burn evenly after the retuning. Ilyra sets a seventh unlit lantern beside them for Lorn until permanent controls, reparations, and responsibility for the closure are settled."
+    }
+  ]
+}

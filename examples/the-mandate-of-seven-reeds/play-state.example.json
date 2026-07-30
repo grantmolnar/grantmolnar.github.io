@@ -1,0 +1,2254 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-mandate-of-seven-reeds",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "session_started",
+      "session_number": 1,
+      "title": "The Bare Mat",
+      "played_on": null,
+      "participants": [
+        "Doji Kiyoe",
+        "Akodo Naritomo",
+        "Kitsuki Sadae",
+        "Kaiu Masami",
+        "Ide Qulan"
+      ],
+      "attendance_note": "",
+      "opening_note": "The Witnesses begin with proclamation and movement before choosing patrons or offices."
+    },
+    {
+      "sequence": 2,
+      "operation_number": 2,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "hall-of-the-chrysanthemum-throne",
+      "party_label": "All five Witnesses"
+    },
+    {
+      "sequence": 3,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "the-emperors-first-prohibition",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "the-sword-beneath-the-throne",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "seven-days-and-seven-proclamations",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crane-relief-named-before-claim",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "the-army-held-at-the-ford",
+      "visit_number": 1
+    },
+    {
+      "sequence": 8,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "the-flooded-shrines-named-among-the-losses",
+      "visit_number": 1
+    },
+    {
+      "sequence": 9,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "the-emperors-unanswered-question",
+      "visit_number": 1
+    },
+    {
+      "sequence": 10,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "the-emperors-refusal-to-count",
+      "visit_number": 1
+    },
+    {
+      "sequence": 11,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "The party stated the purpose as preserving Reedwater through the next rains, restoring lawful provincial government, and converting emergency service into answerable duty rather than private title."
+    },
+    {
+      "sequence": 12,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Emergency zones continue for seven days without expansion; new requisitions enter a provisional common ledger. Hearings are mixed, Reedwater witnesses are admitted before drafting, and a complete fallback will be maintained."
+    },
+    {
+      "sequence": 13,
+      "operation_number": 3,
+      "type": "revelation_established",
+      "revelation_id": "otomo-will-divide-authority-before-it-divides-blame",
+      "supporting_clue_ids": [
+        "the-emperors-first-prohibition"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-the-chrysanthemum-throne."
+    },
+    {
+      "sequence": 14,
+      "operation_number": 3,
+      "type": "encounter_unlocked",
+      "encounter_id": "ministry-of-divided-ink",
+      "source_revelation_id": "otomo-will-divide-authority-before-it-divides-blame",
+      "reason": ""
+    },
+    {
+      "sequence": 15,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "seppun-can-accept-a-clan-garrison-under-an-imperial-sword",
+      "supporting_clue_ids": [
+        "the-sword-beneath-the-throne"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-the-chrysanthemum-throne."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "garden-of-white-gravel",
+      "source_revelation_id": "seppun-can-accept-a-clan-garrison-under-an-imperial-sword",
+      "reason": ""
+    },
+    {
+      "sequence": 17,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "miya-will-support-what-can-be-proclaimed-village-by-village",
+      "supporting_clue_ids": [
+        "seven-days-and-seven-proclamations"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-the-chrysanthemum-throne."
+    },
+    {
+      "sequence": 18,
+      "operation_number": 5,
+      "type": "encounter_unlocked",
+      "encounter_id": "hall-of-open-roads",
+      "source_revelation_id": "miya-will-support-what-can-be-proclaimed-village-by-village",
+      "reason": ""
+    },
+    {
+      "sequence": 19,
+      "operation_number": 6,
+      "type": "revelation_established",
+      "revelation_id": "the-crane-can-yield-command-if-it-keeps-the-harvest-from-becoming-spoil",
+      "supporting_clue_ids": [
+        "crane-relief-named-before-claim"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-the-chrysanthemum-throne."
+    },
+    {
+      "sequence": 20,
+      "operation_number": 6,
+      "type": "encounter_unlocked",
+      "encounter_id": "pavilion-of-first-rain",
+      "source_revelation_id": "the-crane-can-yield-command-if-it-keeps-the-harvest-from-becoming-spoil",
+      "reason": ""
+    },
+    {
+      "sequence": 21,
+      "operation_number": 7,
+      "type": "revelation_established",
+      "revelation_id": "the-lion-can-share-administration-if-command-is-not-made-decorative",
+      "supporting_clue_ids": [
+        "the-army-held-at-the-ford"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-the-chrysanthemum-throne."
+    },
+    {
+      "sequence": 22,
+      "operation_number": 7,
+      "type": "encounter_unlocked",
+      "encounter_id": "hall-of-red-standards",
+      "source_revelation_id": "the-lion-can-share-administration-if-command-is-not-made-decorative",
+      "reason": ""
+    },
+    {
+      "sequence": 23,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "the-phoenix-will-bless-reconstruction-only-where-sacred-obligations-survive-it",
+      "supporting_clue_ids": [
+        "the-flooded-shrines-named-among-the-losses"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-the-chrysanthemum-throne."
+    },
+    {
+      "sequence": 24,
+      "operation_number": 8,
+      "type": "encounter_unlocked",
+      "encounter_id": "shrine-of-listening-water",
+      "source_revelation_id": "the-phoenix-will-bless-reconstruction-only-where-sacred-obligations-survive-it",
+      "reason": ""
+    },
+    {
+      "sequence": 25,
+      "operation_number": 9,
+      "type": "revelation_established",
+      "revelation_id": "the-emperor-will-hear-a-mandate-that-restores-his-authorship-without-rewarding-mobilization",
+      "supporting_clue_ids": [
+        "the-emperors-unanswered-question"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-the-chrysanthemum-throne."
+    },
+    {
+      "sequence": 26,
+      "operation_number": 9,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-second-audience",
+      "source_revelation_id": "the-emperor-will-hear-a-mandate-that-restores-his-authorship-without-rewarding-mobilization",
+      "reason": ""
+    },
+    {
+      "sequence": 27,
+      "operation_number": 10,
+      "type": "revelation_established",
+      "revelation_id": "imperial-judgment-tests-dangerous-combinations-and-failure-paths-not-endorsement-counts",
+      "supporting_clue_ids": [
+        "the-emperors-refusal-to-count"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-the-chrysanthemum-throne."
+    },
+    {
+      "sequence": 28,
+      "operation_number": 11,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "hall-of-the-chrysanthemum-throne",
+      "text": "The existing emergency zones remain fixed for seven days under a provisional common requisition ledger; no clan may expand possession while the Mandate is drafted."
+    },
+    {
+      "sequence": 29,
+      "operation_number": 12,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "hall-of-open-roads",
+      "party_label": "Qulan leads; all five attend"
+    },
+    {
+      "sequence": 30,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-post-roads-that-survived",
+      "visit_number": 2
+    },
+    {
+      "sequence": 31,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "four-places-at-the-outer-screen",
+      "visit_number": 2
+    },
+    {
+      "sequence": 32,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-proclamation-test",
+      "visit_number": 2
+    },
+    {
+      "sequence": 33,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-autumn-review-calendar",
+      "visit_number": 2
+    },
+    {
+      "sequence": 34,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-relief-schedule",
+      "visit_number": 2
+    },
+    {
+      "sequence": 35,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "shuns-route-by-route-proclamation",
+      "visit_number": 2
+    },
+    {
+      "sequence": 36,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "shuns-first-proclamation-formula",
+      "visit_number": 2
+    },
+    {
+      "sequence": 37,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-miya-form-with-a-blank-for-the-keeper",
+      "visit_number": 2
+    },
+    {
+      "sequence": 38,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-miya-deadline-that-needs-no-second-proclamation",
+      "visit_number": 2
+    },
+    {
+      "sequence": 39,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-miya-proclamation-that-names-the-unknown-record",
+      "visit_number": 2
+    },
+    {
+      "sequence": 40,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "miya-form-for-a-taking",
+      "visit_number": 2
+    },
+    {
+      "sequence": 41,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "shuns-correction-copy-for-reedwater",
+      "visit_number": 2
+    },
+    {
+      "sequence": 42,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "shuns-sentence-before-the-poem",
+      "visit_number": 2
+    },
+    {
+      "sequence": 43,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-proclamation-that-says-until",
+      "visit_number": 2
+    },
+    {
+      "sequence": 44,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "shuns-three-readings-of-one-order",
+      "visit_number": 2
+    },
+    {
+      "sequence": 45,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-proclamation-that-opens-a-petition-door",
+      "visit_number": 2
+    },
+    {
+      "sequence": 46,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "shuns-review-proclamation-with-no-consequence",
+      "visit_number": 2
+    },
+    {
+      "sequence": 47,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Every Reed must name its acting officer, effective hour, delivery route, correction route, and first petition forum. First-forty-days orders will be drafted with the offices."
+    },
+    {
+      "sequence": 48,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Miya will authenticate and carry Reedwater testimony without claiming patronage or substantive agreement."
+    },
+    {
+      "sequence": 49,
+      "operation_number": 13,
+      "type": "revelation_established",
+      "revelation_id": "the-unicorn-can-carry-the-province-if-roads-and-requisitions-are-bounded",
+      "supporting_clue_ids": [
+        "the-post-roads-that-survived"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 50,
+      "operation_number": 13,
+      "type": "encounter_unlocked",
+      "encounter_id": "courtyard-of-bells",
+      "source_revelation_id": "the-unicorn-can-carry-the-province-if-roads-and-requisitions-are-bounded",
+      "reason": ""
+    },
+    {
+      "sequence": 51,
+      "operation_number": 14,
+      "type": "revelation_established",
+      "revelation_id": "reedwaters-witnesses-can-legitimate-the-mandate-without-becoming-court-ornaments",
+      "supporting_clue_ids": [
+        "four-places-at-the-outer-screen"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 52,
+      "operation_number": 14,
+      "type": "encounter_unlocked",
+      "encounter_id": "guesthouse-of-the-bent-reed",
+      "source_revelation_id": "reedwaters-witnesses-can-legitimate-the-mandate-without-becoming-court-ornaments",
+      "reason": ""
+    },
+    {
+      "sequence": 53,
+      "operation_number": 15,
+      "type": "revelation_established",
+      "revelation_id": "the-chamber-can-separate-title-execution-audit-and-succession",
+      "supporting_clue_ids": [
+        "the-proclamation-test"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 54,
+      "operation_number": 15,
+      "type": "encounter_unlocked",
+      "encounter_id": "chamber-of-seven-reeds",
+      "source_revelation_id": "the-chamber-can-separate-title-execution-audit-and-succession",
+      "reason": ""
+    },
+    {
+      "sequence": 55,
+      "operation_number": 16,
+      "type": "revelation_established",
+      "revelation_id": "a-fixed-term-and-autumn-review-can-make-temporary-losses-honorable",
+      "supporting_clue_ids": [
+        "the-autumn-review-calendar"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 56,
+      "operation_number": 17,
+      "type": "revelation_established",
+      "revelation_id": "demobilization-must-be-a-sequence-of-obedience-and-replacement",
+      "supporting_clue_ids": [
+        "shuns-route-by-route-proclamation"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 57,
+      "operation_number": 18,
+      "type": "revelation_established",
+      "revelation_id": "public-credit-can-settle-political-debt-without-granting-jurisdiction",
+      "supporting_clue_ids": [
+        "shuns-first-proclamation-formula"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 58,
+      "operation_number": 19,
+      "type": "revelation_established",
+      "revelation_id": "relief-burdens-must-be-assigned-before-ceremonial-honors",
+      "supporting_clue_ids": [
+        "the-relief-schedule"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 59,
+      "operation_number": 20,
+      "type": "revelation_established",
+      "revelation_id": "sacred-consultation-needs-a-speaker-a-procedure-and-a-remedy",
+      "supporting_clue_ids": [
+        "the-miya-form-with-a-blank-for-the-keeper"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 60,
+      "operation_number": 21,
+      "type": "revelation_established",
+      "revelation_id": "recusal-without-substitute-jurisdiction-is-a-hidden-veto",
+      "supporting_clue_ids": [
+        "the-miya-deadline-that-needs-no-second-proclamation"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 61,
+      "operation_number": 22,
+      "type": "revelation_established",
+      "revelation_id": "secrecy-may-protect-witnesses-but-not-final-authority-forever",
+      "supporting_clue_ids": [
+        "the-miya-proclamation-that-names-the-unknown-record"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 62,
+      "operation_number": 23,
+      "type": "revelation_established",
+      "revelation_id": "requisition-must-create-a-valued-debt-before-it-consumes-the-next-season",
+      "supporting_clue_ids": [
+        "miya-form-for-a-taking"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 63,
+      "operation_number": 24,
+      "type": "revelation_established",
+      "revelation_id": "provincial-standing-must-survive-drafting-into-implementation-and-review",
+      "supporting_clue_ids": [
+        "shuns-correction-copy-for-reedwater"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 64,
+      "operation_number": 25,
+      "type": "revelation_established",
+      "revelation_id": "a-witnessed-concession-needs-scope-as-carefully-as-a-law",
+      "supporting_clue_ids": [
+        "shuns-sentence-before-the-poem"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 65,
+      "operation_number": 26,
+      "type": "revelation_established",
+      "revelation_id": "public-thanks-should-close-an-emergency-claim-not-renew-it",
+      "supporting_clue_ids": [
+        "the-proclamation-that-says-until"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 66,
+      "operation_number": 27,
+      "type": "revelation_established",
+      "revelation_id": "a-clause-is-not-complete-until-authority-burden-remedy-and-record-travel-together",
+      "supporting_clue_ids": [
+        "shuns-three-readings-of-one-order"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 67,
+      "operation_number": 28,
+      "type": "revelation_established",
+      "revelation_id": "adoption-needs-first-day-orders-resources-and-petition-routes",
+      "supporting_clue_ids": [
+        "the-proclamation-that-opens-a-petition-door"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 68,
+      "operation_number": 29,
+      "type": "revelation_established",
+      "revelation_id": "a-review-without-power-to-renew-narrow-replace-or-remedy-is-only-ceremony",
+      "supporting_clue_ids": [
+        "shuns-review-proclamation-with-no-consequence"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through hall-of-open-roads."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 30,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "hall-of-open-roads",
+      "text": "Miya Shun reserves four authenticated places for Reedwater testimony and begins the proclamation and first-forty-days registers before any office is awarded."
+    },
+    {
+      "sequence": 70,
+      "operation_number": 31,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "courtyard-of-bells",
+      "party_label": "Qulan and Masami lead; Naritomo contests"
+    },
+    {
+      "sequence": 71,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "the-road-masters-schedule",
+      "visit_number": 3
+    },
+    {
+      "sequence": 72,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "three-customs-books",
+      "visit_number": 3
+    },
+    {
+      "sequence": 73,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "the-caravan-masters-invitation",
+      "visit_number": 3
+    },
+    {
+      "sequence": 74,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "road-stewardship-by-season",
+      "visit_number": 3
+    },
+    {
+      "sequence": 75,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "the-unicorn-duplicate-manifest-at-every-crossing",
+      "visit_number": 3
+    },
+    {
+      "sequence": 76,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "the-horse-requisitioned-three-times",
+      "visit_number": 3
+    },
+    {
+      "sequence": 77,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "the-road-cut-by-mercy",
+      "visit_number": 3
+    },
+    {
+      "sequence": 78,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "remount-bells-and-the-drivers-behind-them",
+      "visit_number": 3
+    },
+    {
+      "sequence": 79,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "the-carts-inside-the-generous-route",
+      "visit_number": 3
+    },
+    {
+      "sequence": 80,
+      "operation_number": 31,
+      "type": "clue_spotted",
+      "clue_id": "checkpoint-tokens-returned-with-the-requisition-books",
+      "visit_number": 3
+    },
+    {
+      "sequence": 81,
+      "operation_number": 31,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "The provisional Roads architecture uses Miya title, Unicorn execution through the first planting season, one dispatch law, no private toll privilege, a minimum open route, and district successors."
+    },
+    {
+      "sequence": 82,
+      "operation_number": 31,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Requisition creates a valued debt against the benefiting office; emergency taking may precede valuation but not the debt. Waters must price and fund any route its design destroys."
+    },
+    {
+      "sequence": 83,
+      "operation_number": 32,
+      "type": "clue_missed",
+      "clue_id": "the-horses-assigned-to-the-first-orders",
+      "visit_number": 3
+    },
+    {
+      "sequence": 84,
+      "operation_number": 33,
+      "type": "revelation_established",
+      "revelation_id": "the-scorpion-can-trade-formal-office-for-a-narrow-power-of-inspection",
+      "supporting_clue_ids": [
+        "three-customs-books"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through courtyard-of-bells."
+    },
+    {
+      "sequence": 85,
+      "operation_number": 33,
+      "type": "encounter_unlocked",
+      "encounter_id": "theater-of-a-thousand-sleeves",
+      "source_revelation_id": "the-scorpion-can-trade-formal-office-for-a-narrow-power-of-inspection",
+      "reason": ""
+    },
+    {
+      "sequence": 86,
+      "operation_number": 34,
+      "type": "revelation_established",
+      "revelation_id": "inspection-must-separate-access-preservation-reporting-and-sanction",
+      "supporting_clue_ids": [
+        "the-unicorn-duplicate-manifest-at-every-crossing"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through courtyard-of-bells."
+    },
+    {
+      "sequence": 87,
+      "operation_number": 35,
+      "type": "revelation_established",
+      "revelation_id": "an-engineering-plan-is-a-political-allocation-of-risk-land-and-time",
+      "supporting_clue_ids": [
+        "the-road-cut-by-mercy"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through courtyard-of-bells."
+    },
+    {
+      "sequence": 88,
+      "operation_number": 36,
+      "type": "revelation_established",
+      "revelation_id": "a-gift-must-name-whether-it-repays-honors-transfers-custody-or-undertakes-duty",
+      "supporting_clue_ids": [
+        "remount-bells-and-the-drivers-behind-them"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through courtyard-of-bells."
+    },
+    {
+      "sequence": 89,
+      "operation_number": 37,
+      "type": "revelation_established",
+      "revelation_id": "every-public-bargain-must-name-the-third-parties-it-burdens",
+      "supporting_clue_ids": [
+        "the-carts-inside-the-generous-route"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through courtyard-of-bells."
+    },
+    {
+      "sequence": 90,
+      "operation_number": 38,
+      "type": "revelation_established",
+      "revelation_id": "submission-must-transfer-command-custody-and-records-not-only-symbols",
+      "supporting_clue_ids": [
+        "checkpoint-tokens-returned-with-the-requisition-books"
+      ],
+      "note": "Established during The Bare Mat from the court record accumulated through courtyard-of-bells."
+    },
+    {
+      "sequence": 91,
+      "operation_number": 39,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "courtyard-of-bells",
+      "text": "Roads is provisionally assigned to Miya title and Unicorn execution without toll privilege; duplicate requisitions become office debts rather than invisible provincial loss."
+    },
+    {
+      "sequence": 92,
+      "operation_number": 40,
+      "type": "session_ended",
+      "session_number": 1,
+      "closing_note": "The party leaves with a provisional Roads architecture, a common requisition debt, and Reedwater witnesses admitted before drafting."
+    },
+    {
+      "sequence": 93,
+      "operation_number": 41,
+      "type": "session_started",
+      "session_number": 2,
+      "title": "The Court Outside the Court",
+      "played_on": null,
+      "participants": [
+        "Doji Kiyoe",
+        "Akodo Naritomo",
+        "Kitsuki Sadae",
+        "Kaiu Masami",
+        "Ide Qulan"
+      ],
+      "attendance_note": "",
+      "opening_note": "Provincial testimony will test the relief systems before the Crane claim is converted into office."
+    },
+    {
+      "sequence": 94,
+      "operation_number": 42,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "guesthouse-of-the-bent-reed",
+      "party_label": "All five before the Reedwater witnesses"
+    },
+    {
+      "sequence": 95,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "the-horses-that-did-not-return",
+      "visit_number": 4
+    },
+    {
+      "sequence": 96,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "the-names-on-the-work-levy",
+      "visit_number": 4
+    },
+    {
+      "sequence": 97,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "reis-arithmetic",
+      "visit_number": 4
+    },
+    {
+      "sequence": 98,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "rei-counts-next-years-hunger",
+      "visit_number": 4
+    },
+    {
+      "sequence": 99,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "kentas-empty-patrol-roster",
+      "visit_number": 4
+    },
+    {
+      "sequence": 100,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "hojuns-register-of-the-displaced-keepers",
+      "visit_number": 4
+    },
+    {
+      "sequence": 101,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "saburos-four-kinds-of-repayment",
+      "visit_number": 4
+    },
+    {
+      "sequence": 102,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "reis-one-ledger-for-seven-reeds",
+      "visit_number": 4
+    },
+    {
+      "sequence": 103,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "reis-demand-for-the-name-on-the-breach",
+      "visit_number": 4
+    },
+    {
+      "sequence": 104,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "the-five-rights-after-the-hearing",
+      "visit_number": 4
+    },
+    {
+      "sequence": 105,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "the-witness-facing-the-burden-not-the-patron",
+      "visit_number": 4
+    },
+    {
+      "sequence": 106,
+      "operation_number": 42,
+      "type": "clue_spotted",
+      "clue_id": "the-provincial-chair-that-can-trigger-replacement",
+      "visit_number": 4
+    },
+    {
+      "sequence": 107,
+      "operation_number": 42,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Qulan acknowledged the unresolved Three Crossings horse debt; Naritomo entered checkpoint requisitions against Sword; Masami entered the pasture flooded by her emergency orchard cut."
+    },
+    {
+      "sequence": 108,
+      "operation_number": 42,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The witnesses receive proclamations and corrections, burden-ledger access, petition without patron ownership, a review trigger, and return testimony. They do not endorse one design as a bloc."
+    },
+    {
+      "sequence": 109,
+      "operation_number": 43,
+      "type": "clue_missed",
+      "clue_id": "the-village-that-is-safer-and-poorer",
+      "visit_number": 4
+    },
+    {
+      "sequence": 110,
+      "operation_number": 44,
+      "type": "revelation_established",
+      "revelation_id": "the-crab-can-rebuild-the-dikes-only-with-authority-equal-to-blame",
+      "supporting_clue_ids": [
+        "the-names-on-the-work-levy"
+      ],
+      "note": "Established during The Court Outside the Court from the court record accumulated through guesthouse-of-the-bent-reed."
+    },
+    {
+      "sequence": 111,
+      "operation_number": 44,
+      "type": "encounter_unlocked",
+      "encounter_id": "hall-of-joined-timbers",
+      "source_revelation_id": "the-crab-can-rebuild-the-dikes-only-with-authority-equal-to-blame",
+      "reason": ""
+    },
+    {
+      "sequence": 112,
+      "operation_number": 45,
+      "type": "revelation_established",
+      "revelation_id": "a-written-supply-covenant-can-separate-readiness-from-control-of-granaries",
+      "supporting_clue_ids": [
+        "rei-counts-next-years-hunger"
+      ],
+      "note": "Established during The Court Outside the Court from the court record accumulated through guesthouse-of-the-bent-reed."
+    },
+    {
+      "sequence": 113,
+      "operation_number": 46,
+      "type": "revelation_established",
+      "revelation_id": "labor-levies-must-be-counted-across-offices-before-any-office-commands-another-day",
+      "supporting_clue_ids": [
+        "reis-one-ledger-for-seven-reeds"
+      ],
+      "note": "Established during The Court Outside the Court from the court record accumulated through guesthouse-of-the-bent-reed."
+    },
+    {
+      "sequence": 114,
+      "operation_number": 47,
+      "type": "revelation_established",
+      "revelation_id": "emergency-works-must-name-who-may-sacrifice-a-district-and-who-must-answer-for-it",
+      "supporting_clue_ids": [
+        "reis-demand-for-the-name-on-the-breach"
+      ],
+      "note": "Established during The Court Outside the Court from the court record accumulated through guesthouse-of-the-bent-reed."
+    },
+    {
+      "sequence": 115,
+      "operation_number": 48,
+      "type": "revelation_established",
+      "revelation_id": "seating-can-make-a-coalition-visible-without-making-it-permanent",
+      "supporting_clue_ids": [
+        "the-witness-facing-the-burden-not-the-patron"
+      ],
+      "note": "Established during The Court Outside the Court from the court record accumulated through guesthouse-of-the-bent-reed."
+    },
+    {
+      "sequence": 116,
+      "operation_number": 49,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "guesthouse-of-the-bent-reed",
+      "text": "Rei, Hojun, Saburo, and Kenta gain durable standing through implementation and autumn review; Masami’s orchard cut and Qulan’s missing horses enter the common burden record."
+    },
+    {
+      "sequence": 117,
+      "operation_number": 50,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "pavilion-of-first-rain",
+      "party_label": "Kiyoe leads; Naritomo answers supply"
+    },
+    {
+      "sequence": 118,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "dojis-private-line-on-command",
+      "visit_number": 5
+    },
+    {
+      "sequence": 119,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "a-poem-cannot-be-unsaid",
+      "visit_number": 5
+    },
+    {
+      "sequence": 120,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "the-crane-objection-to-armed-taxation",
+      "visit_number": 5
+    },
+    {
+      "sequence": 121,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "the-crane-give-up-the-sword",
+      "visit_number": 5
+    },
+    {
+      "sequence": 122,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "the-four-kinds-of-rice",
+      "visit_number": 5
+    },
+    {
+      "sequence": 123,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "asahina-chiharus-sealed-seed-jar",
+      "visit_number": 5
+    },
+    {
+      "sequence": 124,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "yorishiges-loss-account",
+      "visit_number": 5
+    },
+    {
+      "sequence": 125,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "the-keys-given-to-an-office-not-a-clan",
+      "visit_number": 5
+    },
+    {
+      "sequence": 126,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "seed-rice-reopened-by-a-longer-sword-term",
+      "visit_number": 5
+    },
+    {
+      "sequence": 127,
+      "operation_number": 50,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Harvest separates household relief, seed, garrison allotment, and emergency reserve. Seed cannot be opened by military declaration alone."
+    },
+    {
+      "sequence": 128,
+      "operation_number": 50,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Masuyo accepts Miya title, Crane execution through the first harvest, outside audit, local standing, district successor wardens, and public credit that closes rather than renews the emergency claim."
+    },
+    {
+      "sequence": 129,
+      "operation_number": 51,
+      "type": "clue_missed",
+      "clue_id": "yorishiges-replacement-before-credit",
+      "visit_number": 5
+    },
+    {
+      "sequence": 130,
+      "operation_number": 52,
+      "type": "revelation_established",
+      "revelation_id": "the-moon-viewing-can-turn-private-bargains-into-public-obligations",
+      "supporting_clue_ids": [
+        "a-poem-cannot-be-unsaid"
+      ],
+      "note": "Established during The Court Outside the Court from the court record accumulated through pavilion-of-first-rain."
+    },
+    {
+      "sequence": 131,
+      "operation_number": 52,
+      "type": "encounter_unlocked",
+      "encounter_id": "evening-of-the-chrysanthemum-moon",
+      "source_revelation_id": "the-moon-viewing-can-turn-private-bargains-into-public-obligations",
+      "reason": ""
+    },
+    {
+      "sequence": 132,
+      "operation_number": 53,
+      "type": "revelation_established",
+      "revelation_id": "no-clan-may-safely-hold-harvest-sword-and-accounts-together",
+      "supporting_clue_ids": [
+        "the-crane-objection-to-armed-taxation"
+      ],
+      "note": "Established during The Court Outside the Court from the court record accumulated through pavilion-of-first-rain."
+    },
+    {
+      "sequence": 133,
+      "operation_number": 54,
+      "type": "revelation_established",
+      "revelation_id": "reciprocal-relinquishments-are-stronger-than-universal-satisfaction",
+      "supporting_clue_ids": [
+        "the-crane-give-up-the-sword"
+      ],
+      "note": "Established during The Court Outside the Court from the court record accumulated through pavilion-of-first-rain."
+    },
+    {
+      "sequence": 134,
+      "operation_number": 55,
+      "type": "revelation_established",
+      "revelation_id": "a-material-amendment-reopens-every-dependent-promise",
+      "supporting_clue_ids": [
+        "seed-rice-reopened-by-a-longer-sword-term"
+      ],
+      "note": "Established during The Court Outside the Court from the court record accumulated through pavilion-of-first-rain."
+    },
+    {
+      "sequence": 135,
+      "operation_number": 56,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "pavilion-of-first-rain",
+      "text": "The Crane prepare to return the white granary keys, retain one-harvest civilian execution, protect seed and household stores, and train district successors under outside audit."
+    },
+    {
+      "sequence": 136,
+      "operation_number": 57,
+      "type": "session_ended",
+      "session_number": 2,
+      "closing_note": "Reedwater gains durable standing; the Crane accept one-harvest civilian execution beneath Imperial title and outside audit."
+    },
+    {
+      "sequence": 137,
+      "operation_number": 58,
+      "type": "session_started",
+      "session_number": 3,
+      "title": "White Keys and Red Standards",
+      "played_on": null,
+      "participants": [
+        "Doji Kiyoe",
+        "Akodo Naritomo",
+        "Kitsuki Sadae",
+        "Kaiu Masami",
+        "Ide Qulan"
+      ],
+      "attendance_note": "",
+      "opening_note": "The company must make military obedience and sacred consultation operative without making either decorative."
+    },
+    {
+      "sequence": 138,
+      "operation_number": 59,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "hall-of-red-standards",
+      "party_label": "Naritomo leads; Kiyoe answers Harvest"
+    },
+    {
+      "sequence": 139,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "the-lion-give-up-the-harvest",
+      "visit_number": 6
+    },
+    {
+      "sequence": 140,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "tadanobus-declining-roster",
+      "visit_number": 6
+    },
+    {
+      "sequence": 141,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "the-six-stages-of-departure",
+      "visit_number": 6
+    },
+    {
+      "sequence": 142,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "kiyokas-eleven-villages",
+      "visit_number": 6
+    },
+    {
+      "sequence": 143,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "noritadas-history-of-obedience",
+      "visit_number": 6
+    },
+    {
+      "sequence": 144,
+      "operation_number": 59,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Sword receives Seppun title and removal, real Lion execution, a declining district roster, fixed supply, bounded emergency variance, staged replacement, and no automatic reversion after provincial failure."
+    },
+    {
+      "sequence": 145,
+      "operation_number": 59,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The Lion renounce civilian Harvest and will lower the red standard before recommission. The Crane recognize the supply covenant and surrender independent armed command of relief escorts."
+    },
+    {
+      "sequence": 146,
+      "operation_number": 60,
+      "type": "clue_missed",
+      "clue_id": "the-standard-fitting-that-does-not-command",
+      "visit_number": 6
+    },
+    {
+      "sequence": 147,
+      "operation_number": 61,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "hall-of-red-standards",
+      "text": "The Lion prepare a declining roster, return civilian granary control, lower their standard before recommission, and train the provincial patrol structure that ends their command."
+    },
+    {
+      "sequence": 148,
+      "operation_number": 62,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "shrine-of-listening-water",
+      "party_label": "Sadae and Masami lead"
+    },
+    {
+      "sequence": 149,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "isawas-demand-for-a-neutral-appeal",
+      "visit_number": 7
+    },
+    {
+      "sequence": 150,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "etsukos-protected-route-for-a-frightened-keeper",
+      "visit_number": 7
+    },
+    {
+      "sequence": 151,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "the-phoenix-commission-that-ends-when-two-keepers-are-ready",
+      "visit_number": 7
+    },
+    {
+      "sequence": 152,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "chises-list-of-people-who-kept-the-shrines-before-court-arrived",
+      "visit_number": 7
+    },
+    {
+      "sequence": 153,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "the-restoration-debt-after-bypass",
+      "visit_number": 7
+    },
+    {
+      "sequence": 154,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "the-cups-served-by-burden-not-alliance",
+      "visit_number": 7
+    },
+    {
+      "sequence": 155,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "etsukos-northern-channel-instead",
+      "visit_number": 7
+    },
+    {
+      "sequence": 156,
+      "operation_number": 62,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Sacred consultation now requires notice, a recognized speaker, site examination, written response, decision, record, remedy, and review."
+    },
+    {
+      "sequence": 157,
+      "operation_number": 62,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Site safety may proceed immediately; plan-preserving emergency work creates notice and debt; political sacrifice requires named Imperial authority or automatic hearing and restoration debt."
+    },
+    {
+      "sequence": 158,
+      "operation_number": 63,
+      "type": "clue_missed",
+      "clue_id": "etsukos-sealed-name-and-public-duty",
+      "visit_number": 7
+    },
+    {
+      "sequence": 159,
+      "operation_number": 64,
+      "type": "revelation_established",
+      "revelation_id": "the-dragon-can-make-divided-offices-answerable-to-one-law",
+      "supporting_clue_ids": [
+        "isawas-demand-for-a-neutral-appeal"
+      ],
+      "note": "Established during White Keys and Red Standards from the court record accumulated through shrine-of-listening-water."
+    },
+    {
+      "sequence": 160,
+      "operation_number": 64,
+      "type": "encounter_unlocked",
+      "encounter_id": "stone-and-moss-court",
+      "source_revelation_id": "the-dragon-can-make-divided-offices-answerable-to-one-law",
+      "reason": ""
+    },
+    {
+      "sequence": 161,
+      "operation_number": 65,
+      "type": "revelation_established",
+      "revelation_id": "a-graceful-refusal-must-leave-a-lawful-path-open",
+      "supporting_clue_ids": [
+        "etsukos-northern-channel-instead"
+      ],
+      "note": "Established during White Keys and Red Standards from the court record accumulated through shrine-of-listening-water."
+    },
+    {
+      "sequence": 162,
+      "operation_number": 66,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "shrine-of-listening-water",
+      "text": "Phoenix specialists will coordinate consultation and restoration while local Reedwater speakers inherit the sacred standing; bypassed obligations create recorded spiritual debt."
+    },
+    {
+      "sequence": 163,
+      "operation_number": 67,
+      "type": "session_ended",
+      "session_number": 3,
+      "closing_note": "The Lion accept staged demobilization and visible submission; the Phoenix accept bounded consultation, emergency bypass, remedy, and local succession."
+    },
+    {
+      "sequence": 164,
+      "operation_number": 68,
+      "type": "session_started",
+      "session_number": 4,
+      "title": "The Price of the Dike",
+      "played_on": null,
+      "participants": [
+        "Doji Kiyoe",
+        "Akodo Naritomo",
+        "Kitsuki Sadae",
+        "Kaiu Masami",
+        "Ide Qulan"
+      ],
+      "attendance_note": "",
+      "opening_note": "The court must choose a reconstruction burden and then place force beneath a legible Imperial chain."
+    },
+    {
+      "sequence": 165,
+      "operation_number": 69,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "hall-of-joined-timbers",
+      "party_label": "Masami leads; Qulan prices the road"
+    },
+    {
+      "sequence": 166,
+      "operation_number": 69,
+      "type": "clue_spotted",
+      "clue_id": "kaius-demand-to-hear-the-laborers",
+      "visit_number": 8
+    },
+    {
+      "sequence": 167,
+      "operation_number": 69,
+      "type": "clue_spotted",
+      "clue_id": "kaius-list-before-banners",
+      "visit_number": 8
+    },
+    {
+      "sequence": 168,
+      "operation_number": 69,
+      "type": "clue_spotted",
+      "clue_id": "masashiges-two-honest-maps",
+      "visit_number": 8
+    },
+    {
+      "sequence": 169,
+      "operation_number": 69,
+      "type": "clue_spotted",
+      "clue_id": "the-three-levels-of-emergency-work",
+      "visit_number": 8
+    },
+    {
+      "sequence": 170,
+      "operation_number": 69,
+      "type": "clue_spotted",
+      "clue_id": "the-district-sacrificed-by-the-beautiful-dike",
+      "visit_number": 8
+    },
+    {
+      "sequence": 171,
+      "operation_number": 69,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "The party chose the northern channel as the long-term design and a Hundred-Day Brace as temporary protection. The duplicate cost, exposed district, substitute western route, and planting-season labor are entered explicitly."
+    },
+    {
+      "sequence": 172,
+      "operation_number": 69,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Kaiu execution receives design, assigned labor and materials, and work-site command. Political sacrifice, route closure, termination certification, and autumn transfer remain outside the directorate."
+    },
+    {
+      "sequence": 173,
+      "operation_number": 70,
+      "type": "clue_missed",
+      "clue_id": "masashiges-refusal-to-inherit-anothers-shortage",
+      "visit_number": 8
+    },
+    {
+      "sequence": 174,
+      "operation_number": 71,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "hall-of-joined-timbers",
+      "text": "The northern channel becomes the long-term design and the Hundred-Day Brace the temporary protection; Waters must fund the substitute western route and cannot choose political sacrifice alone."
+    },
+    {
+      "sequence": 175,
+      "operation_number": 72,
+      "type": "encounter_visited",
+      "visit_number": 9,
+      "encounter_id": "garden-of-white-gravel",
+      "party_label": "Naritomo leads; Sadae tests succession"
+    },
+    {
+      "sequence": 176,
+      "operation_number": 72,
+      "type": "clue_spotted",
+      "clue_id": "the-seppun-condition-of-obedience",
+      "visit_number": 9
+    },
+    {
+      "sequence": 177,
+      "operation_number": 72,
+      "type": "clue_spotted",
+      "clue_id": "the-second-breach-estimate",
+      "visit_number": 9
+    },
+    {
+      "sequence": 178,
+      "operation_number": 72,
+      "type": "clue_spotted",
+      "clue_id": "the-empty-place-before-the-throne",
+      "visit_number": 9
+    },
+    {
+      "sequence": 179,
+      "operation_number": 72,
+      "type": "clue_spotted",
+      "clue_id": "a-commission-with-an-ending",
+      "visit_number": 9
+    },
+    {
+      "sequence": 180,
+      "operation_number": 72,
+      "type": "clue_spotted",
+      "clue_id": "command-after-incapacity",
+      "visit_number": 9
+    },
+    {
+      "sequence": 181,
+      "operation_number": 72,
+      "type": "clue_spotted",
+      "clue_id": "tomoes-thirty-day-variance",
+      "visit_number": 9
+    },
+    {
+      "sequence": 182,
+      "operation_number": 72,
+      "type": "clue_spotted",
+      "clue_id": "tomoes-order-of-submission",
+      "visit_number": 9
+    },
+    {
+      "sequence": 183,
+      "operation_number": 72,
+      "type": "clue_spotted",
+      "clue_id": "tomoes-refusal-of-an-empty-commission",
+      "visit_number": 9
+    },
+    {
+      "sequence": 184,
+      "operation_number": 72,
+      "type": "clue_spotted",
+      "clue_id": "the-standard-lowered-before-new-orders",
+      "visit_number": 9
+    },
+    {
+      "sequence": 185,
+      "operation_number": 72,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Every force traces to an Imperial commission, named superior, term, removal, and failure successor. Current executors cannot resume authority automatically when a successor fails."
+    },
+    {
+      "sequence": 186,
+      "operation_number": 72,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "White keys, red standards, road tokens, requisition books, the engineer’s rule, Accounts custody, shrine registers, and the petition cord are prepared as operative submission instruments."
+    },
+    {
+      "sequence": 187,
+      "operation_number": 73,
+      "type": "clue_missed",
+      "clue_id": "tomoes-removal-order-with-two-successors",
+      "visit_number": 9
+    },
+    {
+      "sequence": 188,
+      "operation_number": 74,
+      "type": "revelation_established",
+      "revelation_id": "the-mandate-needs-a-successor-for-every-office-that-fails",
+      "supporting_clue_ids": [
+        "command-after-incapacity"
+      ],
+      "note": "Established during The Price of the Dike from the court record accumulated through garden-of-white-gravel."
+    },
+    {
+      "sequence": 189,
+      "operation_number": 75,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "garden-of-white-gravel",
+      "text": "Every present armed or work-site force receives a traceable Imperial chain, term, removal authority, and failure successor; submission transfers command, custody, records, or legal status."
+    },
+    {
+      "sequence": 190,
+      "operation_number": 76,
+      "type": "session_ended",
+      "session_number": 4,
+      "closing_note": "The northern channel and Hundred-Day Brace are chosen; submission instruments and failure succession are prepared."
+    },
+    {
+      "sequence": 191,
+      "operation_number": 77,
+      "type": "session_started",
+      "session_number": 5,
+      "title": "Masks, Ledgers, and the Judge Who Leaves",
+      "played_on": null,
+      "participants": [
+        "Doji Kiyoe",
+        "Akodo Naritomo",
+        "Kitsuki Sadae",
+        "Kaiu Masami",
+        "Ide Qulan"
+      ],
+      "attendance_note": "",
+      "opening_note": "The provincial bargains must become offices, records, inspection, recusal, and a lawful fallback."
+    },
+    {
+      "sequence": 192,
+      "operation_number": 78,
+      "type": "encounter_visited",
+      "visit_number": 10,
+      "encounter_id": "ministry-of-divided-ink",
+      "party_label": "Kiyoe and Sadae lead"
+    },
+    {
+      "sequence": 193,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "the-ministrys-grain-precedent",
+      "visit_number": 10
+    },
+    {
+      "sequence": 194,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "the-ministrys-two-ledgers",
+      "visit_number": 10
+    },
+    {
+      "sequence": 195,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "office-without-banner",
+      "visit_number": 10
+    },
+    {
+      "sequence": 196,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "four-columns-beneath-each-reed",
+      "visit_number": 10
+    },
+    {
+      "sequence": 197,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "kazetadas-order-of-presentation",
+      "visit_number": 10
+    },
+    {
+      "sequence": 198,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "the-three-seals-never-kept-together",
+      "visit_number": 10
+    },
+    {
+      "sequence": 199,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "the-ministrys-dead-office-precedent",
+      "visit_number": 10
+    },
+    {
+      "sequence": 200,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "kazetadas-separate-obligations",
+      "visit_number": 10
+    },
+    {
+      "sequence": 201,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "kazetadas-ungrateful-precedent",
+      "visit_number": 10
+    },
+    {
+      "sequence": 202,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "otomos-rule-against-invisible-double-service",
+      "visit_number": 10
+    },
+    {
+      "sequence": 203,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "kazetadas-prohibition-on-technical-sovereignty",
+      "visit_number": 10
+    },
+    {
+      "sequence": 204,
+      "operation_number": 78,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The scribes exposed missing failure successors, valuation appeals, record custody, conflicting-order rules, and remedy powers. Every Reed now carries title, execution, audit, resources, emergency authority, succession, term, review, and remedy."
+    },
+    {
+      "sequence": 205,
+      "operation_number": 78,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Autumn review may renew, narrow, replace, compensate, correct, remove, remedy, enforce debt, and activate failure succession. Gratitude, reimbursement, compensation, and office remain separate instruments."
+    },
+    {
+      "sequence": 206,
+      "operation_number": 79,
+      "type": "clue_missed",
+      "clue_id": "kazetadas-coalition-with-the-emperor-removed",
+      "visit_number": 10
+    },
+    {
+      "sequence": 207,
+      "operation_number": 80,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "ministry-of-divided-ink",
+      "text": "The seven Reeds are separated into complete powers and instruments; the autumn review receives operative verbs rather than ceremonial observation."
+    },
+    {
+      "sequence": 208,
+      "operation_number": 81,
+      "type": "encounter_visited",
+      "visit_number": 11,
+      "encounter_id": "theater-of-a-thousand-sleeves",
+      "party_label": "Sadae and Qulan lead"
+    },
+    {
+      "sequence": 209,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "a-bayushi-compliment-on-weakness",
+      "visit_number": 11
+    },
+    {
+      "sequence": 210,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "bayushis-objection-to-self-inspection",
+      "visit_number": 11
+    },
+    {
+      "sequence": 211,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "a-customs-promise-with-teeth",
+      "visit_number": 11
+    },
+    {
+      "sequence": 212,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "the-role-written-for-a-rival",
+      "visit_number": 11
+    },
+    {
+      "sequence": 213,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "the-scorpion-give-up-the-title",
+      "visit_number": 11
+    },
+    {
+      "sequence": 214,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "a-proposal-kept-folded",
+      "visit_number": 11
+    },
+    {
+      "sequence": 215,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "namikas-six-verbs-for-inspection",
+      "visit_number": 11
+    },
+    {
+      "sequence": 216,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "mireis-five-rungs-of-secrecy",
+      "visit_number": 11
+    },
+    {
+      "sequence": 217,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "the-inspectors-unpaid-receipt-index",
+      "visit_number": 11
+    },
+    {
+      "sequence": 218,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "mireis-protected-return-witness",
+      "visit_number": 11
+    },
+    {
+      "sequence": 219,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "the-mask-accepted-for-inspection-alone",
+      "visit_number": 11
+    },
+    {
+      "sequence": 220,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "namikas-title-declined-duty-accepted",
+      "visit_number": 11
+    },
+    {
+      "sequence": 221,
+      "operation_number": 81,
+      "type": "clue_spotted",
+      "clue_id": "the-ledger-delivered-with-divided-access",
+      "visit_number": 11
+    },
+    {
+      "sequence": 222,
+      "operation_number": 81,
+      "type": "visit_note_recorded",
+      "visit_number": 11,
+      "text": "Accounts keeps Imperial title and Miya custody. Scorpion inspectors receive access, comparison, preservation, protected reporting, and interim restraint; Dragon review and public disposition retain final authority."
+    },
+    {
+      "sequence": 223,
+      "operation_number": 81,
+      "type": "visit_note_recorded",
+      "visit_number": 11,
+      "text": "Sadae disclosed and rejected Namika’s folded fallback. That draft can no longer operate as controlled leverage, though a lawful disclosed fallback remains possible."
+    },
+    {
+      "sequence": 224,
+      "operation_number": 82,
+      "type": "clue_missed",
+      "clue_id": "custody-that-cannot-correct-the-public-record",
+      "visit_number": 11
+    },
+    {
+      "sequence": 225,
+      "operation_number": 83,
+      "type": "revelation_foreclosed",
+      "revelation_id": "a-controlled-fallback-proposal-is-leverage-not-disloyalty",
+      "reason": "Sadae disclosed Namika’s folded fallback to the whole company; that secret draft can no longer function as bounded political leverage."
+    },
+    {
+      "sequence": 226,
+      "operation_number": 84,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "theater-of-a-thousand-sleeves",
+      "text": "The Scorpion relinquish Accounts title and retain bounded inspection under divided custody, protected sources, independent review, and public disposition."
+    },
+    {
+      "sequence": 227,
+      "operation_number": 85,
+      "type": "encounter_visited",
+      "visit_number": 12,
+      "encounter_id": "stone-and-moss-court",
+      "party_label": "Sadae leads; all five revise"
+    },
+    {
+      "sequence": 228,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "kitsukis-distinction-between-command-and-possession",
+      "visit_number": 12
+    },
+    {
+      "sequence": 229,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "a-kitsuki-record-of-sacred-boundaries",
+      "visit_number": 12
+    },
+    {
+      "sequence": 230,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "the-appeal-path-in-red-ink",
+      "visit_number": 12
+    },
+    {
+      "sequence": 231,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "the-successor-clause",
+      "visit_number": 12
+    },
+    {
+      "sequence": 232,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "two-drafts-one-duty",
+      "visit_number": 12
+    },
+    {
+      "sequence": 233,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "harunoris-boundary-between-theology-and-procedure",
+      "visit_number": 12
+    },
+    {
+      "sequence": 234,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "the-central-stone-crowded-with-recused-judges",
+      "visit_number": 12
+    },
+    {
+      "sequence": 235,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "harunoris-chain-of-custody-before-judgment",
+      "visit_number": 12
+    },
+    {
+      "sequence": 236,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "harunoris-record-of-the-chosen-risk",
+      "visit_number": 12
+    },
+    {
+      "sequence": 237,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "the-empty-place-for-the-substitute-judge",
+      "visit_number": 12
+    },
+    {
+      "sequence": 238,
+      "operation_number": 85,
+      "type": "clue_spotted",
+      "clue_id": "harunoris-amendment-chain",
+      "visit_number": 12
+    },
+    {
+      "sequence": 239,
+      "operation_number": 85,
+      "type": "visit_note_recorded",
+      "visit_number": 12,
+      "text": "The common circuit now includes preservation, written reasons, conflict disclosure, recusal, substitute jurisdiction, deadlines, interim orders, appeal, and remedies, with a mixed provincial bench trained before autumn."
+    },
+    {
+      "sequence": 240,
+      "operation_number": 85,
+      "type": "visit_note_recorded",
+      "visit_number": 12,
+      "text": "A new Narrow Imperial Peace fallback was drafted openly. Priority conflicts among site safety, life-preserving movement, food and petitions, and project schedules now have immediate and reviewable resolution."
+    },
+    {
+      "sequence": 241,
+      "operation_number": 86,
+      "type": "clue_missed",
+      "clue_id": "harunoris-failed-supporter-test",
+      "visit_number": 12
+    },
+    {
+      "sequence": 242,
+      "operation_number": 87,
+      "type": "revelation_reopened",
+      "revelation_id": "a-controlled-fallback-proposal-is-leverage-not-disloyalty",
+      "reason": "The party drafted a complete Narrow Imperial Peace openly, with its changed burdens and dependencies disclosed."
+    },
+    {
+      "sequence": 243,
+      "operation_number": 88,
+      "type": "revelation_established",
+      "revelation_id": "a-controlled-fallback-proposal-is-leverage-not-disloyalty",
+      "supporting_clue_ids": [
+        "two-drafts-one-duty",
+        "a-proposal-kept-folded"
+      ],
+      "note": "Established during Masks, Ledgers, and the Judge Who Leaves from the court record accumulated through stone-and-moss-court."
+    },
+    {
+      "sequence": 244,
+      "operation_number": 89,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "stone-and-moss-court",
+      "text": "The common circuit gains deadlines and provincial succession; the secret fallback is replaced by a disclosed, complete Narrow Imperial Peace."
+    },
+    {
+      "sequence": 245,
+      "operation_number": 90,
+      "type": "session_ended",
+      "session_number": 5,
+      "closing_note": "Accounts is divided among custody, inspection, review, and disposition; one secret fallback is foreclosed and a disclosed fallback replaces it."
+    },
+    {
+      "sequence": 246,
+      "operation_number": 91,
+      "type": "session_started",
+      "session_number": 6,
+      "title": "Moonlight and Ink",
+      "played_on": null,
+      "participants": [
+        "Doji Kiyoe",
+        "Akodo Naritomo",
+        "Kitsuki Sadae",
+        "Kaiu Masami",
+        "Ide Qulan"
+      ],
+      "attendance_note": "",
+      "opening_note": "Public obligations will be staged, then tested against the complete settlement stack and first-forty-days orders."
+    },
+    {
+      "sequence": 247,
+      "operation_number": 92,
+      "type": "encounter_visited",
+      "visit_number": 13,
+      "encounter_id": "evening-of-the-chrysanthemum-moon",
+      "party_label": "All five Witnesses"
+    },
+    {
+      "sequence": 248,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "the-mask-offered-without-a-seat",
+      "visit_number": 13
+    },
+    {
+      "sequence": 249,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "the-emperors-cup-left-empty",
+      "visit_number": 13
+    },
+    {
+      "sequence": 250,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "promises-brought-in-from-moonlight",
+      "visit_number": 13
+    },
+    {
+      "sequence": 251,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "the-keys-beneath-white-and-red",
+      "visit_number": 13
+    },
+    {
+      "sequence": 252,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "the-masked-recitation-of-each-emergency-exemption",
+      "visit_number": 13
+    },
+    {
+      "sequence": 253,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "the-nine-lines-of-the-ceremonial-docket",
+      "visit_number": 13
+    },
+    {
+      "sequence": 254,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "four-meanings-for-one-offered-object",
+      "visit_number": 13
+    },
+    {
+      "sequence": 255,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "the-pools-faced-together-for-one-bargain",
+      "visit_number": 13
+    },
+    {
+      "sequence": 256,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "five-forms-of-no-beneath-the-moon",
+      "visit_number": 13
+    },
+    {
+      "sequence": 257,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "thanks-with-a-date-and-a-release",
+      "visit_number": 13
+    },
+    {
+      "sequence": 258,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "the-third-party-named-before-applause",
+      "visit_number": 13
+    },
+    {
+      "sequence": 259,
+      "operation_number": 92,
+      "type": "visit_note_recorded",
+      "visit_number": 13,
+      "text": "White keys and red standards, the road beside the new water, and the mask before the open ledger became witnessed public obligations. Dependencies and third-party burdens were named before applause."
+    },
+    {
+      "sequence": 260,
+      "operation_number": 92,
+      "type": "visit_note_recorded",
+      "visit_number": 13,
+      "text": "The empty provincial cushion held Rei’s petition cord, Kenta’s patrol roster, Hojun’s keeper register, Saburo’s horse ledger, and district successor lists. The Emperor’s cup remained empty."
+    },
+    {
+      "sequence": 261,
+      "operation_number": 93,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "evening-of-the-chrysanthemum-moon",
+      "text": "The principal relinquishments are publicly witnessed with exact scope and dependencies; no ceremony claims to invest authority before the Emperor acts."
+    },
+    {
+      "sequence": 262,
+      "operation_number": 94,
+      "type": "encounter_visited",
+      "visit_number": 14,
+      "encounter_id": "chamber-of-seven-reeds",
+      "party_label": "All five Witnesses and rotating provincial chairs"
+    },
+    {
+      "sequence": 263,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-blank-proclamation-columns",
+      "visit_number": 14
+    },
+    {
+      "sequence": 264,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-empty-appeal-clause",
+      "visit_number": 14
+    },
+    {
+      "sequence": 265,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-first-line-of-the-mandate",
+      "visit_number": 14
+    },
+    {
+      "sequence": 266,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-fallback-seal-string",
+      "visit_number": 14
+    },
+    {
+      "sequence": 267,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-autumn-chair-reserved-for-consequence",
+      "visit_number": 14
+    },
+    {
+      "sequence": 268,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-chambers-margin-for-public-words",
+      "visit_number": 14
+    },
+    {
+      "sequence": 269,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-tenth-strip-beneath-the-nine-boxes",
+      "visit_number": 14
+    },
+    {
+      "sequence": 270,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-red-cords-that-move-with-the-clause",
+      "visit_number": 14
+    },
+    {
+      "sequence": 271,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-first-forty-days-bundle",
+      "visit_number": 14
+    },
+    {
+      "sequence": 272,
+      "operation_number": 94,
+      "type": "clue_spotted",
+      "clue_id": "the-review-box-that-must-contain-a-disposition",
+      "visit_number": 14
+    },
+    {
+      "sequence": 273,
+      "operation_number": 94,
+      "type": "visit_note_recorded",
+      "visit_number": 14,
+      "text": "The primary is Reedwater Succession under the Hundred-Day Brace; the fallback is a Narrow Imperial Peace. The settlement is divided among Mandate, recitals, schedules, covenants, proclamations, and registers."
+    },
+    {
+      "sequence": 274,
+      "operation_number": 94,
+      "type": "visit_note_recorded",
+      "visit_number": 14,
+      "text": "Successor records, stores, initial pay, seals, and staged authority were moved into the first-forty-days bundle. Judgment succession now transfers case records and interim orders; review can remedy burdens already imposed."
+    },
+    {
+      "sequence": 275,
+      "operation_number": 95,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "chamber-of-seven-reeds",
+      "text": "The Chamber adopted the northern channel as the complete Waters design and moved directly to permanent construction without an intermediate emergency brace."
+    },
+    {
+      "sequence": 276,
+      "operation_number": 96,
+      "type": "operation_voided",
+      "target_operation_number": 95,
+      "reason": "The table had adopted the northern channel as the long-term design with a Hundred-Day Brace and temporary protections; the first summary omitted the intermediate works and their dependent promises."
+    },
+    {
+      "sequence": 277,
+      "operation_number": 97,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "chamber-of-seven-reeds",
+      "text": "The primary adopts the northern channel as the long-term design, authorizes a Hundred-Day Brace and temporary evacuation protections, funds substitute roads and surveys, and reserves phase-two burden review for autumn."
+    },
+    {
+      "sequence": 278,
+      "operation_number": 98,
+      "type": "session_ended",
+      "session_number": 6,
+      "closing_note": "The principal relinquishments become witnessed obligations; the primary and fallback leave the Chamber complete and correctable."
+    },
+    {
+      "sequence": 279,
+      "operation_number": 99,
+      "type": "session_started",
+      "session_number": 7,
+      "title": "The Broad Sheet",
+      "played_on": null,
+      "participants": [
+        "Doji Kiyoe",
+        "Akodo Naritomo",
+        "Kitsuki Sadae",
+        "Kaiu Masami",
+        "Ide Qulan"
+      ],
+      "attendance_note": "",
+      "opening_note": "The Emperor will test authorship, obedience, capacity, burden, failure, and transition rather than count supporters."
+    },
+    {
+      "sequence": 280,
+      "operation_number": 100,
+      "type": "encounter_visited",
+      "visit_number": 15,
+      "encounter_id": "the-second-audience",
+      "party_label": "All five Witnesses before the Emperor"
+    },
+    {
+      "sequence": 281,
+      "operation_number": 100,
+      "type": "clue_spotted",
+      "clue_id": "the-effective-hour-in-the-submission-register",
+      "visit_number": 15
+    },
+    {
+      "sequence": 282,
+      "operation_number": 100,
+      "type": "clue_spotted",
+      "clue_id": "the-messenger-who-leaves-before-the-court",
+      "visit_number": 15
+    },
+    {
+      "sequence": 283,
+      "operation_number": 100,
+      "type": "clue_spotted",
+      "clue_id": "the-question-after-the-last-seal",
+      "visit_number": 15
+    },
+    {
+      "sequence": 284,
+      "operation_number": 100,
+      "type": "clue_spotted",
+      "clue_id": "the-autumn-review-with-seven-possible-verbs",
+      "visit_number": 15
+    },
+    {
+      "sequence": 285,
+      "operation_number": 100,
+      "type": "visit_note_recorded",
+      "visit_number": 15,
+      "text": "The party named Three Crossings, western road households, the exposed district, and multiply burdened farming households rather than claiming that Reedwater pays uniformly."
+    },
+    {
+      "sequence": 286,
+      "operation_number": 100,
+      "type": "visit_note_recorded",
+      "visit_number": 15,
+      "text": "The Emperor adopted the primary with a transition amendment barring executors from using withheld records, resources, instruction, or staged authority as grounds for renewal."
+    },
+    {
+      "sequence": 287,
+      "operation_number": 101,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-second-audience",
+      "text": "The primary Mandate is adopted with named amendments, and messengers leave with transfer, construction, patrol, ledger, inspection, shrine, and petition orders before court disperses."
+    },
+    {
+      "sequence": 288,
+      "operation_number": 102,
+      "type": "session_ended",
+      "session_number": 7,
+      "closing_note": "The primary is adopted with a transition amendment; first orders leave for Reedwater before the court disperses."
+    }
+  ]
+}

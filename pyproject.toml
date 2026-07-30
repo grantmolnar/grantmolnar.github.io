@@ -1,0 +1,310 @@
+[project]
+name = "adventure-graph"
+version = "0.11.0"
+description = "Author, validate, render, and track lead-driven encounter graphs."
+authors = [{ name = "Grant Molnar" }]
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = "LicenseRef-Adventure-Graph-Beta"
+license-files = ["BETA-TERMS.md"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Games/Entertainment :: Role-Playing",
+]
+dependencies = []
+
+[project.optional-dependencies]
+desktop-build = [
+    "altgraph==0.17.5",
+    "macholib==1.16.4; sys_platform == 'darwin'",
+    "packaging==26.1",
+    "pefile==2024.8.26; sys_platform == 'win32'",
+    "pyinstaller==6.21.0",
+    "pyinstaller-hooks-contrib==2026.6",
+    "pywin32-ctypes==0.2.3; sys_platform == 'win32'",
+    "setuptools==83.0.0",
+]
+dev = [
+    "bandit>=1.8,<2",
+    "deptry>=0.25,<1",
+    "docstring-format-checker>=1.6,<2",
+    "hypothesis>=6,<7",
+    "import-linter>=2,<3",
+    "jsonschema>=4.26,<5",
+    "mutmut>=3,<4",
+    "pip-audit>=2.10,<3",
+    "playwright>=1.57,<2",
+    "pyright[nodejs]>=1.1.409,<2",
+    "pytest>=9,<10",
+    "pytest-cov>=7,<8",
+    "radon>=6,<7",
+    "ruff>=0.15,<1",
+    "vulture>=2.14,<3",
+]
+
+[project.scripts]
+adventure-graph = "adventure_graph.bootstrap:main"
+adventure-graph-desktop = "adventure_graph.desktop:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+adventure_graph = [
+    "py.typed",
+    "resources/*.json",
+    "interfaces/web/assets/*.css",
+    "interfaces/web/assets/*.js",
+]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+pythonpath = [".", "src"]
+addopts = [
+    "--strict-config",
+    "--strict-markers",
+    "-ra",
+]
+markers = [
+    "architecture: static tests for dependency boundaries and entry-point contracts",
+    "smoke: broad import and command-line smoke tests",
+    "browser: executable Chromium tests for client-side interface behavior",
+    "corpus: bundled-adventure synchronization and editorial regression contracts",
+    "property: property-based assertion style; organize these tests by feature/layer, not folder",
+]
+
+
+[tool.pyright]
+include = ["src"]
+exclude = [
+    "**/__pycache__",
+    ".git",
+    ".hypothesis",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".venv",
+    "build",
+    "dist",
+    "htmlcov",
+    "mutants",
+    "node_modules",
+]
+extraPaths = ["src"]
+pythonVersion = "3.11"
+typeCheckingMode = "strict"
+reportMissingTypeStubs = "none"
+reportUnnecessaryIsInstance = "none"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+exclude = [
+    ".git",
+    ".hypothesis",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".venv",
+    "build",
+    "dist",
+    "htmlcov",
+    "mutants",
+]
+
+[tool.ruff.format]
+docstring-code-format = true
+line-ending = "auto"
+quote-style = "double"
+indent-style = "space"
+
+[tool.ruff.lint]
+select = [
+    "A",      # flake8-builtins
+    "ARG",    # flake8-unused-arguments
+    "B",      # flake8-bugbear
+    "C4",     # flake8-comprehensions
+    "DTZ",    # flake8-datetimez
+    "E",      # pycodestyle errors
+    "ERA",    # eradicate commented-out code
+    "F",      # pyflakes
+    "FA",     # flake8-future-annotations
+    "I",      # isort
+    "ISC",    # flake8-implicit-str-concat
+    "N",      # pep8-naming
+    "PERF",   # perflint
+    "PIE",    # flake8-pie
+    "PL",     # pylint-derived rules
+    "PT",     # flake8-pytest-style
+    "PTH",    # flake8-use-pathlib
+    "RET",    # flake8-return
+    "RUF",    # Ruff-specific rules
+    "SIM",    # flake8-simplify
+    "T20",    # print statements
+    "BLE",    # blind except clauses
+    "UP",     # pyupgrade
+    "W",      # pycodestyle warnings
+]
+ignore = [
+    "PLR0911", # Return-count thresholds are noisy for explicit dispatch functions.
+    "PLR0912", # Branch-count thresholds duplicate the dedicated complexity gate.
+    "PLR0913", # Argument-count thresholds are noisy at typed application boundaries.
+    "PLR0915", # Statement-count thresholds duplicate the dedicated complexity gate.
+    "PLR0917", # Positional-argument counts are noisy for stable internal boundaries.
+    "PLR2004", # Magic values are often acceptable in tests and small pure functions.
+]
+fixable = ["ALL"]
+unfixable = ["ERA"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = [
+    "ARG001", # pytest fixtures may appear unused by static analysis.
+    "E501",   # Long expected prose and HTML assertions are clearer left intact.
+    "PLR2004",
+]
+"src/adventure_graph/desktop.py" = [
+    "PLC0415", # Tkinter remains a lazy optional import for headless environments.
+]
+"src/adventure_graph/bootstrap.py" = [
+    "T201", # CLI composition root intentionally prints user-facing status.
+]
+"src/adventure_graph/cli_*_commands.py" = [
+    "T201", # CLI command execution intentionally prints user-facing status.
+]
+"src/adventure_graph/interfaces/presentation.py" = [
+    "T201", # CLI presentation intentionally writes user-facing output.
+]
+"src/adventure_graph/interfaces/web/archive_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/journal_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/page_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/play_encounter_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/play_ledger_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/play_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/adventure_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/authoring_rendering_support.py" = [
+    "E501", # Embedded HTML fragments are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/clue_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/encounter_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/revelation_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/reference_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/structure_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/report_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/run_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/workspace_rendering.py" = [
+    "E501", # Embedded HTML templates are clearer when their structural lines remain intact.
+]
+"src/adventure_graph/interfaces/web/server.py" = [
+    "T201", # Local server startup and shutdown are intentionally announced.
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["adventure_graph"]
+
+[tool.coverage.run]
+branch = true
+source = ["adventure_graph"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+skip_covered = true
+exclude_also = [
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+]
+
+[tool.deptry]
+extend_exclude = ["docs"]
+known_first_party = ["adventure_graph"]
+ignore_notebooks = true
+
+[tool.importlinter]
+root_package = "adventure_graph"
+include_external_packages = true
+exclude_type_checking_imports = true
+
+[[tool.importlinter.contracts]]
+id = "clean-architecture-layers"
+name = "Clean architecture dependency direction"
+type = "layers"
+layers = [
+    "adventure_graph.interfaces | adventure_graph.infrastructure",
+    "adventure_graph.application",
+    "adventure_graph.domain",
+]
+
+[[tool.importlinter.contracts]]
+id = "interfaces-independent-of-infrastructure"
+name = "Interface adapters do not import infrastructure adapters"
+type = "forbidden"
+source_modules = ["adventure_graph.interfaces"]
+forbidden_modules = ["adventure_graph.infrastructure"]
+
+[tool.mutmut]
+source_paths = ["src/adventure_graph"]
+pytest_add_cli_args_test_selection = ["tests"]
+mutate_only_covered_lines = true
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+recursive = true
+skips = ["B608"] # No SQL layer exists; HTML form templates trigger this heuristic.
+
+[tool.dfc]
+allow_undefined_sections = true
+require_docstrings = true
+check_private = false
+validate_param_types = false
+optional_style = "silent"
+
+[[tool.dfc.sections]]
+order = 1
+name = "summary"
+type = "free_text"
+required = false
+

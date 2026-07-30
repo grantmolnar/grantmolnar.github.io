@@ -1,0 +1,908 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-glass-saint",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "session_started",
+      "session_number": 1,
+      "title": "What the Glass Threw Out",
+      "played_on": "2026-07-18",
+      "participants": [
+        "Aven Rook",
+        "Mira Thane",
+        "Pell Orison",
+        "Lysa Ord"
+      ],
+      "attendance_note": "All four independent witnesses present under Iria Vale’s emergency charter.",
+      "opening_note": "The Counterseal Witnesses enter a sealed museum scene while Dorr presses to classify the rupture as ordinary vandalism."
+    },
+    {
+      "sequence": 2,
+      "operation_number": 2,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "the-shattered-gallery",
+      "party_label": "The Counterseal Witnesses with Iria Vale, Ors Renn, Ossa Pell, and Lio Marr"
+    },
+    {
+      "sequence": 3,
+      "operation_number": 3,
+      "type": "clue_spotted",
+      "clue_id": "accession-number-on-a-glass-shard",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 4,
+      "type": "clue_spotted",
+      "clue_id": "bell-metal-dust",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 5,
+      "type": "clue_spotted",
+      "clue_id": "vale-family-carriage-seal",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 6,
+      "type": "clue_spotted",
+      "clue_id": "service-door-witness-line",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 7,
+      "type": "clue_spotted",
+      "clue_id": "west-infirmary-name-on-the-copy-backing",
+      "visit_number": 1
+    },
+    {
+      "sequence": 8,
+      "operation_number": 8,
+      "type": "clue_spotted",
+      "clue_id": "missing-conservators-saw",
+      "visit_number": 1
+    },
+    {
+      "sequence": 9,
+      "operation_number": 9,
+      "type": "clue_missed",
+      "clue_id": "engraved-petition-ghosts",
+      "visit_number": 1
+    },
+    {
+      "sequence": 10,
+      "operation_number": 10,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Mira and Ossa separate the answer-pin, theft tools, and destination evidence into three custody packets instead of treating the burst case as one undifferentiated scene."
+    },
+    {
+      "sequence": 11,
+      "operation_number": 11,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Aven takes a counter-signed rubbing of the accession number; Renn seals the original shard and the missing-saw tray before Dorr can move them under an undocumented trustee order."
+    },
+    {
+      "sequence": 12,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Lysa records Lio’s service-door sight line after Pell stabilizes the hanging case and clears glass from the docent’s path."
+    },
+    {
+      "sequence": 13,
+      "operation_number": 13,
+      "type": "revelation_established",
+      "revelation_id": "the-archive-vault-contains-the-relics-hidden-provenance",
+      "supporting_clue_ids": [
+        "accession-number-on-a-glass-shard"
+      ],
+      "note": "The restricted accession number makes the substitution ledger an actionable lead."
+    },
+    {
+      "sequence": 14,
+      "operation_number": 13,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-archive-vault",
+      "source_revelation_id": "the-archive-vault-contains-the-relics-hidden-provenance",
+      "reason": ""
+    },
+    {
+      "sequence": 15,
+      "operation_number": 14,
+      "type": "revelation_established",
+      "revelation_id": "the-bell-chapel-is-being-used-for-ritual-preparation",
+      "supporting_clue_ids": [
+        "bell-metal-dust"
+      ],
+      "note": "The bell-metal filings and chapel wax identify a workshop tied to the rupture, though the group does not yet know its full function."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 14,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-bell-chapel",
+      "source_revelation_id": "the-bell-chapel-is-being-used-for-ritual-preparation",
+      "reason": ""
+    },
+    {
+      "sequence": 17,
+      "operation_number": 15,
+      "type": "revelation_established",
+      "revelation_id": "vale-manor-is-the-conspiracys-operational-center",
+      "supporting_clue_ids": [
+        "vale-family-carriage-seal"
+      ],
+      "note": "The Vale carriage seal gives an immediate destination for direct pursuit."
+    },
+    {
+      "sequence": 18,
+      "operation_number": 15,
+      "type": "encounter_unlocked",
+      "encounter_id": "vale-manor",
+      "source_revelation_id": "vale-manor-is-the-conspiracys-operational-center",
+      "reason": ""
+    },
+    {
+      "sequence": 19,
+      "operation_number": 16,
+      "type": "revelation_established",
+      "revelation_id": "the-procession-court-holds-the-thefts-public-witnesses",
+      "supporting_clue_ids": [
+        "service-door-witness-line"
+      ],
+      "note": "Lio saw the wrapped weight enter the public court, where the transfer can be reconstructed from independent witnesses."
+    },
+    {
+      "sequence": 20,
+      "operation_number": 16,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-procession-court",
+      "source_revelation_id": "the-procession-court-holds-the-thefts-public-witnesses",
+      "reason": ""
+    },
+    {
+      "sequence": 21,
+      "operation_number": 17,
+      "type": "revelation_established",
+      "revelation_id": "the-west-infirmary-preserves-olyras-suppressed-history",
+      "supporting_clue_ids": [
+        "west-infirmary-name-on-the-copy-backing"
+      ],
+      "note": "The copy backing identifies the west infirmary as an independent source for the original shrine and Olyra’s history."
+    },
+    {
+      "sequence": 22,
+      "operation_number": 17,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-west-infirmary",
+      "source_revelation_id": "the-west-infirmary-preserves-olyras-suppressed-history",
+      "reason": ""
+    },
+    {
+      "sequence": 23,
+      "operation_number": 18,
+      "type": "revelation_established",
+      "revelation_id": "tavia-sorn-removed-the-vow-bed-for-edrin",
+      "supporting_clue_ids": [
+        "missing-conservators-saw"
+      ],
+      "note": "Tavia’s missing numbered saw matches the cuts, making her the named theft suspect rather than merely the absent employee."
+    },
+    {
+      "sequence": 24,
+      "operation_number": 19,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-shattered-gallery",
+      "text": "Renn holds the live answer-pin under watch seal; Ossa holds the saw tray; Aven carries a counter-signed accession rubbing outside trustee custody."
+    },
+    {
+      "sequence": 25,
+      "operation_number": 20,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "the-procession-court",
+      "party_label": "The Counterseal Witnesses with Sergeant Vela Rusk, Pellen Vey, Hara Bex, Iven Quill, and Sera Mott"
+    },
+    {
+      "sequence": 26,
+      "operation_number": 21,
+      "type": "clue_spotted",
+      "clue_id": "dorrs-summons-to-emergency-session",
+      "visit_number": 2
+    },
+    {
+      "sequence": 27,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "tavias-copyist-token",
+      "visit_number": 2
+    },
+    {
+      "sequence": 28,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "tavias-restricted-shelf-slip",
+      "visit_number": 2
+    },
+    {
+      "sequence": 29,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "copyists-heard-handoff-line",
+      "visit_number": 2
+    },
+    {
+      "sequence": 30,
+      "operation_number": 25,
+      "type": "clue_missed",
+      "clue_id": "rehearsal-order-with-a-missed-beat",
+      "visit_number": 2
+    },
+    {
+      "sequence": 31,
+      "operation_number": 26,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "The witnesses are interviewed separately: Pellen supplies weight, Hara supplies wax and wagon movement, and the copyists supply the argument and carriage handoff."
+    },
+    {
+      "sequence": 32,
+      "operation_number": 27,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "The group does not chase Tavia. Iven and Sera carry word to the House that the investigators will bring a certified record and evidence of a possible living cost."
+    },
+    {
+      "sequence": 33,
+      "operation_number": 28,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Lysa asks the West Door families only to preserve their own observations; they withdraw their children from the front rank but make no promise to testify or accept custody."
+    },
+    {
+      "sequence": 34,
+      "operation_number": 29,
+      "type": "revelation_established",
+      "revelation_id": "the-trustees-chamber-can-authorize-or-obstruct-the-investigation",
+      "supporting_clue_ids": [
+        "dorrs-summons-to-emergency-session"
+      ],
+      "note": "Dorr’s summons identifies the chamber as the place where lawful scope and procession delay will be contested."
+    },
+    {
+      "sequence": 35,
+      "operation_number": 29,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-trustees-chamber",
+      "source_revelation_id": "the-trustees-chamber-can-authorize-or-obstruct-the-investigation",
+      "reason": ""
+    },
+    {
+      "sequence": 36,
+      "operation_number": 30,
+      "type": "revelation_established",
+      "revelation_id": "the-house-of-petitions-knows-what-the-vow-bed-carries",
+      "supporting_clue_ids": [
+        "tavias-copyist-token"
+      ],
+      "note": "Tavia’s token identifies the House as her destination and the likely public-copy route."
+    },
+    {
+      "sequence": 37,
+      "operation_number": 30,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-house-of-petitions",
+      "source_revelation_id": "the-house-of-petitions-knows-what-the-vow-bed-carries",
+      "reason": ""
+    },
+    {
+      "sequence": 38,
+      "operation_number": 31,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-procession-court",
+      "text": "Pellen, Hara, Iven, and Sera sign separate statements; the Vale-carriage allegation is public but remains disputed; the procession loses its West Door children from the front rank."
+    },
+    {
+      "sequence": 39,
+      "operation_number": 32,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "the-archive-vault",
+      "party_label": "The Counterseal Witnesses with Senna Drail, Eren Sol, and Mave Kitt"
+    },
+    {
+      "sequence": 40,
+      "operation_number": 33,
+      "type": "clue_spotted",
+      "clue_id": "curator-incident-memorandum",
+      "visit_number": 3
+    },
+    {
+      "sequence": 41,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "private-transfer-ledger",
+      "visit_number": 3
+    },
+    {
+      "sequence": 42,
+      "operation_number": 35,
+      "type": "clue_spotted",
+      "clue_id": "modern-trustee-concealment-minute",
+      "visit_number": 3
+    },
+    {
+      "sequence": 43,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "survivor-index-beside-the-deposition",
+      "visit_number": 3
+    },
+    {
+      "sequence": 44,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "depositions-broken-seal",
+      "visit_number": 3
+    },
+    {
+      "sequence": 45,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "alis-vales-warning-in-the-transfer-letter",
+      "visit_number": 3
+    },
+    {
+      "sequence": 46,
+      "operation_number": 39,
+      "type": "clue_missed",
+      "clue_id": "restorers-marginal-diagram",
+      "visit_number": 3
+    },
+    {
+      "sequence": 47,
+      "operation_number": 40,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Aven prioritizes the Olyra and modern-suppression packets. Eren certifies the deposition and survivor index while Mave certifies the trustee minute and recent conservation finding."
+    },
+    {
+      "sequence": 48,
+      "operation_number": 41,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "One certified set goes under Renn’s watch seal; one remains with the investigators for a public reading. Senna keeps every original and logs Dorr’s later suspension order."
+    },
+    {
+      "sequence": 49,
+      "operation_number": 42,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "The group deliberately leaves the ritual diagram packet unopened when Dorr’s order reaches the public stair; this preserves authentication but costs them the chapel-to-manor working details."
+    },
+    {
+      "sequence": 50,
+      "operation_number": 43,
+      "type": "revelation_established",
+      "revelation_id": "the-gallery-is-the-investigations-public-point-of-origin",
+      "supporting_clue_ids": [
+        "curator-incident-memorandum"
+      ],
+      "note": "The memorandum confirms that the missing silver in the gallery is the object named by the old accession chain."
+    },
+    {
+      "sequence": 51,
+      "operation_number": 44,
+      "type": "revelation_established",
+      "revelation_id": "olyra-was-remembered-backwards",
+      "supporting_clue_ids": [
+        "depositions-broken-seal"
+      ],
+      "note": "Olyra’s deposition directly states that she broke the council seal and opened the abandoned infirmary."
+    },
+    {
+      "sequence": 52,
+      "operation_number": 45,
+      "type": "revelation_established",
+      "revelation_id": "the-rite-will-take-a-vale-voice-and-broadcast-one-command",
+      "supporting_clue_ids": [
+        "alis-vales-warning-in-the-transfer-letter"
+      ],
+      "note": "Alis’s warning establishes a real Vale voice hazard and city-wide transmission, but not yet the exact three-stage mechanism."
+    },
+    {
+      "sequence": 53,
+      "operation_number": 46,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-archive-vault",
+      "text": "Two certified packets now exist outside Vale and museum control; Dorr’s signed suspension closes the public stair after their removal and enters Senna’s custody log."
+    },
+    {
+      "sequence": 54,
+      "operation_number": 47,
+      "type": "session_ended",
+      "session_number": 1,
+      "closing_note": "The witnesses have a theft route, a certified historical contradiction, and a living-voice warning, but no warrant, no counterkey, and no control of the sunset peal."
+    },
+    {
+      "sequence": 55,
+      "operation_number": 48,
+      "type": "session_started",
+      "session_number": 2,
+      "title": "A Warrant Refused",
+      "played_on": "2026-07-18",
+      "participants": [
+        "Aven Rook",
+        "Mira Thane",
+        "Pell Orison",
+        "Lysa Ord"
+      ],
+      "attendance_note": "All four independent witnesses present under Iria Vale’s emergency charter.",
+      "opening_note": "The group brings certified evidence into the emergency trustee session while the procession resumes forming below the windows."
+    },
+    {
+      "sequence": 56,
+      "operation_number": 49,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "the-trustees-chamber",
+      "party_label": "The Counterseal Witnesses with Helian Dorr, Iria Vale, Ors Renn, and the divided trustees"
+    },
+    {
+      "sequence": 57,
+      "operation_number": 50,
+      "type": "clue_spotted",
+      "clue_id": "trustee-seizure-order-for-petition-ledgers",
+      "visit_number": 4
+    },
+    {
+      "sequence": 58,
+      "operation_number": 51,
+      "type": "clue_spotted",
+      "clue_id": "answer-pin-installation-order",
+      "visit_number": 4
+    },
+    {
+      "sequence": 59,
+      "operation_number": 52,
+      "type": "clue_spotted",
+      "clue_id": "trustees-language-of-order",
+      "visit_number": 4
+    },
+    {
+      "sequence": 60,
+      "operation_number": 53,
+      "type": "clue_spotted",
+      "clue_id": "dorrs-public-record-threshold",
+      "visit_number": 4
+    },
+    {
+      "sequence": 61,
+      "operation_number": 54,
+      "type": "clue_missed",
+      "clue_id": "dorrs-dismissal-of-hospice-testimony",
+      "visit_number": 4
+    },
+    {
+      "sequence": 62,
+      "operation_number": 55,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Dorr accepts that theft and concealment are proven but refuses a manor search and full procession delay, claiming the voice warning is too old and unspecific for private entry."
+    },
+    {
+      "sequence": 63,
+      "operation_number": 56,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Renn obtains only a narrow belfry safety inspection. Dorr signs the refusal, preserves the full peal order, and orders petition copies held rather than destroyed."
+    },
+    {
+      "sequence": 64,
+      "operation_number": 57,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Iria publicly acknowledges the false display and family custody but does not claim authority to surrender the heartglass or excuse Edrin."
+    },
+    {
+      "sequence": 65,
+      "operation_number": 58,
+      "type": "revelation_established",
+      "revelation_id": "the-grand-belfry-controls-the-commanding-peal",
+      "supporting_clue_ids": [
+        "answer-pin-installation-order"
+      ],
+      "note": "The maintenance order identifies three unexplained Grand Belfry pins installed under Edrin’s authority."
+    },
+    {
+      "sequence": 66,
+      "operation_number": 58,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-grand-belfry",
+      "source_revelation_id": "the-grand-belfry-controls-the-commanding-peal",
+      "reason": ""
+    },
+    {
+      "sequence": 67,
+      "operation_number": 59,
+      "type": "revelation_established",
+      "revelation_id": "edrin-can-be-stopped-by-a-credible-public-hearing",
+      "supporting_clue_ids": [
+        "dorrs-public-record-threshold"
+      ],
+      "note": "The chamber procedure defines a same-day public entry and named custody plan that can survive another private promise."
+    },
+    {
+      "sequence": 68,
+      "operation_number": 60,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-trustees-chamber",
+      "text": "Dorr denies the manor warrant and procession hold in writing, grants a narrow belfry inspection, preserves the full peal, and creates a signed public record of institutional refusal."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 61,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "the-house-of-petitions",
+      "party_label": "The Counterseal Witnesses with Nessa Quill, Tavia Sorn, and the four petition caucuses"
+    },
+    {
+      "sequence": 70,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "petition-wagon-transfer-note",
+      "visit_number": 5
+    },
+    {
+      "sequence": 71,
+      "operation_number": 63,
+      "type": "clue_spotted",
+      "clue_id": "copyists-warning-pattern",
+      "visit_number": 5
+    },
+    {
+      "sequence": 72,
+      "operation_number": 64,
+      "type": "clue_spotted",
+      "clue_id": "sermon-and-petition-side-by-side",
+      "visit_number": 5
+    },
+    {
+      "sequence": 73,
+      "operation_number": 65,
+      "type": "clue_spotted",
+      "clue_id": "tavias-bloodied-museum-cuff",
+      "visit_number": 5
+    },
+    {
+      "sequence": 74,
+      "operation_number": 66,
+      "type": "clue_spotted",
+      "clue_id": "six-decades-of-copy-ledgers",
+      "visit_number": 5
+    },
+    {
+      "sequence": 75,
+      "operation_number": 67,
+      "type": "clue_spotted",
+      "clue_id": "petitioners-public-custody-pledge",
+      "visit_number": 5
+    },
+    {
+      "sequence": 76,
+      "operation_number": 68,
+      "type": "clue_missed",
+      "clue_id": "chapel-delivery-receipt",
+      "visit_number": 5
+    },
+    {
+      "sequence": 77,
+      "operation_number": 69,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Tavia reads Alis’s voice warning and rejects Edrin’s plan to take any Vale voice. She confesses sabotage, theft, and the carriage transfer without asking to be absolved."
+    },
+    {
+      "sequence": 78,
+      "operation_number": 70,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Nessa sends certified copies through three named keepers and organizes a public reading outside Vale Manor. The Quiet Keepers retain one sealed copy rather than joining the march."
+    },
+    {
+      "sequence": 79,
+      "operation_number": 71,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "The most repeated current petition is “Open the doors,” but no one carries that packet into the winter garden. It becomes public language, not an automatic change to the vow-bed."
+    },
+    {
+      "sequence": 80,
+      "operation_number": 72,
+      "type": "revelation_established",
+      "revelation_id": "the-vow-bed-turns-petitions-into-the-manifestations-script",
+      "supporting_clue_ids": [
+        "six-decades-of-copy-ledgers"
+      ],
+      "note": "The copy ledgers show that the silver carries recurring, incompatible imperatives accumulated over decades."
+    },
+    {
+      "sequence": 81,
+      "operation_number": 73,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-house-of-petitions",
+      "text": "Tavia cooperates under Renn’s named custody; three certified copy sets leave by different keepers; petitioners commit to a public reading outside the manor; no current petition packet is placed in the apparatus."
+    },
+    {
+      "sequence": 82,
+      "operation_number": 74,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "the-grand-belfry",
+      "party_label": "The Counterseal Witnesses with Jori Kest, Mela Fen, Rian Voss, Pavo Tern, Lis Aven, and Karel Venn"
+    },
+    {
+      "sequence": 83,
+      "operation_number": 75,
+      "type": "clue_spotted",
+      "clue_id": "bell-tower-view-of-the-court",
+      "visit_number": 6
+    },
+    {
+      "sequence": 84,
+      "operation_number": 76,
+      "type": "clue_spotted",
+      "clue_id": "council-seal-on-the-peal-order",
+      "visit_number": 6
+    },
+    {
+      "sequence": 85,
+      "operation_number": 77,
+      "type": "clue_spotted",
+      "clue_id": "manor-warning-signal-in-the-bell-log",
+      "visit_number": 6
+    },
+    {
+      "sequence": 86,
+      "operation_number": 78,
+      "type": "clue_spotted",
+      "clue_id": "answer-pins-resonate-with-spoken-orders",
+      "visit_number": 6
+    },
+    {
+      "sequence": 87,
+      "operation_number": 79,
+      "type": "clue_spotted",
+      "clue_id": "kests-three-bell-options",
+      "visit_number": 6
+    },
+    {
+      "sequence": 88,
+      "operation_number": 80,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The group has no tuning strip and does not pretend otherwise. Pell and Kest identify the crown bell from Mela’s ledger and the pins’ separate resonance, then choose a manual rope bind instead of live-pin removal."
+    },
+    {
+      "sequence": 89,
+      "operation_number": 81,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The narrow inspection order and Tavia’s confession give Kest enough cover for controlled work. Rian refuses to remove a pin but accepts a brake-post bind that can be inspected and later released."
+    },
+    {
+      "sequence": 90,
+      "operation_number": 82,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Kest sounds the public warning pattern before binding the crown rope. Petitioners and watch move toward the west lawn; Dorr receives the warning only after it is audible city-wide."
+    },
+    {
+      "sequence": 91,
+      "operation_number": 83,
+      "type": "revelation_established",
+      "revelation_id": "the-peal-can-be-delayed-muted-or-retuned",
+      "supporting_clue_ids": [
+        "kests-three-bell-options"
+      ],
+      "note": "Kest identifies exact bell operations, while the party’s missing counterkey limits them to binding rather than controlled pin removal or retuning."
+    },
+    {
+      "sequence": 92,
+      "operation_number": 84,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-grand-belfry",
+      "text": "The public warning peal sounds; the crown bell is manually bound at its brake post; witness and mouth bells remain operable; no stage pin is safely removed; Kest, Mela, and Rian become named witnesses."
+    },
+    {
+      "sequence": 93,
+      "operation_number": 85,
+      "type": "session_ended",
+      "session_number": 2,
+      "closing_note": "The manor warrant has failed, but certified copies, Tavia’s confession, a public-custody pledge, a warning peal, and a physically bound crown bell now exist as separate durable facts."
+    },
+    {
+      "sequence": 94,
+      "operation_number": 86,
+      "type": "session_started",
+      "session_number": 3,
+      "title": "The Saint Who Could Not Answer",
+      "played_on": "2026-07-18",
+      "participants": [
+        "Aven Rook",
+        "Mira Thane",
+        "Pell Orison",
+        "Lysa Ord"
+      ],
+      "attendance_note": "All four independent witnesses present under Iria Vale’s emergency charter.",
+      "opening_note": "The Counterseal Witnesses approach Vale Manor behind a warning crowd while the witness bell remains ready and the crown bell is physically bound."
+    },
+    {
+      "sequence": 95,
+      "operation_number": 87,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "vale-manor",
+      "party_label": "The Counterseal Witnesses with Iria Vale, Tavia Sorn, Ors Renn, Nessa Quill, Jori Kest, Edrin Vale, Leva Orm, and Peren Holt"
+    },
+    {
+      "sequence": 96,
+      "operation_number": 88,
+      "type": "clue_spotted",
+      "clue_id": "crated-replacement-reliquary",
+      "visit_number": 7
+    },
+    {
+      "sequence": 97,
+      "operation_number": 89,
+      "type": "clue_spotted",
+      "clue_id": "bell-rope-ritual-key",
+      "visit_number": 7
+    },
+    {
+      "sequence": 98,
+      "operation_number": 90,
+      "type": "clue_spotted",
+      "clue_id": "silver-bed-speaking-in-layers",
+      "visit_number": 7
+    },
+    {
+      "sequence": 99,
+      "operation_number": 91,
+      "type": "clue_spotted",
+      "clue_id": "heartglass-fails-to-recognize-the-doors",
+      "visit_number": 7
+    },
+    {
+      "sequence": 100,
+      "operation_number": 92,
+      "type": "clue_spotted",
+      "clue_id": "edrins-written-consent-to-silence",
+      "visit_number": 7
+    },
+    {
+      "sequence": 101,
+      "operation_number": 93,
+      "type": "clue_spotted",
+      "clue_id": "edrins-draft-surrender-terms",
+      "visit_number": 7
+    },
+    {
+      "sequence": 102,
+      "operation_number": 94,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The public approach supplies two independent anchors: certified copies already distributed outside and the warning crowd reading Olyra’s deposition. The group names interim custody before asking Edrin to stand down."
+    },
+    {
+      "sequence": 103,
+      "operation_number": 95,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Tavia rejects the involuntary mouth stage in public; Iria acknowledges the Vale concealment; Kest certifies that the crown bell is bound but warns that the witness and mouth notes remain live."
+    },
+    {
+      "sequence": 104,
+      "operation_number": 96,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Edrin moves to Witnessed Terms. He permits the witness note as a public demonstration, opens the garden doors, and agrees that no current petition packet will be placed on the vow-bed."
+    },
+    {
+      "sequence": 105,
+      "operation_number": 97,
+      "type": "revelation_established",
+      "revelation_id": "the-glass-saint-will-not-be-olyra",
+      "supporting_clue_ids": [
+        "heartglass-fails-to-recognize-the-doors"
+      ],
+      "note": "The witness body cannot recognize the fever doors and repeats a civic slogan instead of Olyra’s deposition; it is unstable evidence, not Olyra restored."
+    },
+    {
+      "sequence": 106,
+      "operation_number": 98,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The witness note forms a translucent figure that recites “open the doors,” “wait for lawful order,” and unrelated pleas. It answers no question and recognizes no personal relic."
+    },
+    {
+      "sequence": 107,
+      "operation_number": 99,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "vale-manor",
+      "text": "A witness-only Glass Saint forms before named observers; it provides no unknown fact, stable personality, or claim to be Olyra."
+    },
+    {
+      "sequence": 108,
+      "operation_number": 100,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "vale-manor",
+      "text": "Edrin steps off the speaker mark and opens the inner mouth knot before the second note; no Vale voice is taken."
+    },
+    {
+      "sequence": 109,
+      "operation_number": 101,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-grand-belfry",
+      "text": "The manual crown-bell bind holds through the finale; no crown note launches and neither relay tower receives a command."
+    },
+    {
+      "sequence": 110,
+      "operation_number": 102,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "vale-manor",
+      "text": "Peren lowers and seals the heartglass after the demonstration; the witness body collapses without broken panes or injured servants."
+    },
+    {
+      "sequence": 111,
+      "operation_number": 103,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "vale-manor",
+      "text": "Edrin and Tavia submit to Renn’s named custody. Cooperation is recorded without erasing conspiracy, sabotage, injury, theft, or attempted compulsion."
+    },
+    {
+      "sequence": 112,
+      "operation_number": 104,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "vale-manor",
+      "text": "Interim custody is split: Renn seals the inert heartglass; the House inventories and holds the vow-bed; Senna retains archive originals; certified copies remain distributed; the shrine panes stay shuttered under Leva’s household inventory pending a public hearing."
+    },
+    {
+      "sequence": 113,
+      "operation_number": 105,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-archive-vault",
+      "text": "Olyra’s deposition and the trustee concealment minute receive a witnessed public reading and distributed certified copies, but no infirmary family testimony or physical hospice authentication has yet been obtained."
+    },
+    {
+      "sequence": 114,
+      "operation_number": 106,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-trustees-chamber",
+      "text": "Dorr’s warrant denial, peal order, and prior concealment minute enter a public inquiry; the adventure does not recast him as an occult conspirator."
+    },
+    {
+      "sequence": 115,
+      "operation_number": 107,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-house-of-petitions",
+      "text": "The obedience cult fractures publicly around the deposition and witness body; petition caucuses remain divided over relic preservation, prosecution, and whether any future answering rite should be attempted."
+    },
+    {
+      "sequence": 116,
+      "operation_number": 108,
+      "type": "session_ended",
+      "session_number": 3,
+      "closing_note": "Immediate coercion ends with no stolen voice and no command. The city has a public record, a witnessed but unstable manifestation, divided custody, named accused people, and unresolved arguments about Olyra, the relic, and institutional reform."
+    }
+  ]
+}

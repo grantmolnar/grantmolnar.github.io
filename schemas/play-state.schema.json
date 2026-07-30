@@ -1,0 +1,610 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/adventure-graph/play-state.schema.json",
+  "title": "Adventure Graph play state",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "adventure_id",
+    "events"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 6
+    },
+    "adventure_id": {
+      "$ref": "#/$defs/identifier"
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/sessionStarted"
+          },
+          {
+            "$ref": "#/$defs/sessionEnded"
+          },
+          {
+            "$ref": "#/$defs/encounterVisited"
+          },
+          {
+            "$ref": "#/$defs/clueSpotted"
+          },
+          {
+            "$ref": "#/$defs/clueMissed"
+          },
+          {
+            "$ref": "#/$defs/revelationEstablished"
+          },
+          {
+            "$ref": "#/$defs/revelationForeclosed"
+          },
+          {
+            "$ref": "#/$defs/revelationReopened"
+          },
+          {
+            "$ref": "#/$defs/diceRollRecorded"
+          },
+          {
+            "$ref": "#/$defs/encounterUnlocked"
+          },
+          {
+            "$ref": "#/$defs/visitNoteRecorded"
+          },
+          {
+            "$ref": "#/$defs/referenceNoteRecorded"
+          },
+          {
+            "$ref": "#/$defs/encounterConsequenceRecorded"
+          },
+          {
+            "$ref": "#/$defs/operationVoided"
+          }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "operationNumber": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "sessionNumber": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "visitNumber": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "identifier": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sessionStarted": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "session_number"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "session_started"
+        },
+        "session_number": {
+          "$ref": "#/$defs/sessionNumber"
+        },
+        "title": {
+          "type": "string",
+          "default": ""
+        },
+        "played_on": {
+          "oneOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "participants": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "default": []
+        },
+        "attendance_note": {
+          "type": "string",
+          "default": ""
+        },
+        "opening_note": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "sessionEnded": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "session_number"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "session_ended"
+        },
+        "session_number": {
+          "$ref": "#/$defs/sessionNumber"
+        },
+        "closing_note": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "encounterVisited": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "visit_number",
+        "encounter_id"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "encounter_visited"
+        },
+        "visit_number": {
+          "$ref": "#/$defs/visitNumber"
+        },
+        "encounter_id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "party_label": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "clueSpotted": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "clue_id",
+        "visit_number"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "clue_spotted"
+        },
+        "clue_id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "visit_number": {
+          "$ref": "#/$defs/visitNumber"
+        }
+      }
+    },
+    "clueMissed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "clue_id",
+        "visit_number"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "clue_missed"
+        },
+        "clue_id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "visit_number": {
+          "$ref": "#/$defs/visitNumber"
+        }
+      }
+    },
+    "revelationEstablished": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "revelation_id"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "revelation_established"
+        },
+        "revelation_id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "supporting_clue_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/identifier"
+          },
+          "uniqueItems": true,
+          "default": []
+        },
+        "note": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "revelationForeclosed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "revelation_id",
+        "reason"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "revelation_foreclosed"
+        },
+        "revelation_id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "revelationReopened": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "revelation_id",
+        "reason"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "revelation_reopened"
+        },
+        "revelation_id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "diceRollRecorded": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "expression",
+        "terms",
+        "total"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "dice_roll_recorded"
+        },
+        "expression": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "default": ""
+        },
+        "terms": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/diceGroupResult"
+              },
+              {
+                "$ref": "#/$defs/diceModifierResult"
+              }
+            ]
+          }
+        },
+        "total": {
+          "type": "integer"
+        }
+      }
+    },
+    "diceGroupResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "sign",
+        "faces",
+        "results"
+      ],
+      "properties": {
+        "kind": {
+          "const": "dice"
+        },
+        "sign": {
+          "enum": [
+            -1,
+            1
+          ]
+        },
+        "faces": {
+          "type": "integer",
+          "minimum": 2
+        },
+        "results": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "diceModifierResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "value"
+      ],
+      "properties": {
+        "kind": {
+          "const": "modifier"
+        },
+        "value": {
+          "type": "integer"
+        }
+      }
+    },
+    "encounterUnlocked": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "encounter_id"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "encounter_unlocked"
+        },
+        "encounter_id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "source_revelation_id": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/identifier"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "reason": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "visitNoteRecorded": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "visit_number",
+        "text"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "visit_note_recorded"
+        },
+        "visit_number": {
+          "$ref": "#/$defs/visitNumber"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "referenceNoteRecorded": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "reference_id",
+        "text"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "reference_note_recorded"
+        },
+        "reference_id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "encounterConsequenceRecorded": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "encounter_id",
+        "text"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "encounter_consequence_recorded"
+        },
+        "encounter_id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "operationVoided": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "operation_number",
+        "type",
+        "target_operation_number",
+        "reason"
+      ],
+      "properties": {
+        "sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "type": {
+          "const": "operation_voided"
+        },
+        "target_operation_number": {
+          "$ref": "#/$defs/operationNumber"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

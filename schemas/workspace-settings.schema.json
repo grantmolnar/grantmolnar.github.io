@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/adventure-graph/workspace-settings.schema.json",
+  "title": "Adventure Graph workspace settings",
+  "type": "object",
+  "required": [
+    "schema_version"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "selected_adventure_key": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "default": null
+    },
+    "validator_defaults": {
+      "type": "object",
+      "properties": {
+        "minimum_clues_per_revelation": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 3
+        },
+        "minimum_source_encounters_per_revelation": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 3
+        },
+        "minimum_incoming_clues_per_encounter": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 3
+        },
+        "minimum_incoming_source_encounters_per_encounter": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 3
+        },
+        "minimum_outgoing_clues_per_encounter": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 3
+        },
+        "minimum_distinct_encounter_targets_per_encounter": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 3
+        },
+        "minimum_edge_connectivity": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 3
+        },
+        "require_directed_reachability": {
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "additionalProperties": false,
+      "default": {}
+    }
+  },
+  "additionalProperties": false
+}

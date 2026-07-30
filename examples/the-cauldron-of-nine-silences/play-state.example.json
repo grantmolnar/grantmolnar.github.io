@@ -1,0 +1,1221 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-cauldron-of-nine-silences",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "session_started",
+      "session_number": 1,
+      "title": "Masks, Ash, and the Old Chapel",
+      "played_on": null,
+      "participants": [
+        "Rhoswen Pell",
+        "Brother Aneirin Cade",
+        "Huw Rill",
+        "Gareth Bryn",
+        "Sian Mere"
+      ],
+      "attendance_note": "",
+      "opening_note": "The Unsworn Hand accepts the exact question, divides between court and kitchens, and agrees to preserve all nine silences and every word of Branoc’s answer."
+    },
+    {
+      "sequence": 2,
+      "operation_number": 2,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "crooked-magpie",
+      "party_label": "All five members of the Unsworn Hand"
+    },
+    {
+      "sequence": 3,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-branocs-oath-ring-makes-his-first-full-asking-possible-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-dunwarrens-invitations-are-verified-by-wax-and-witness-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-lord-mael-will-burn-the-nine-silences-in-the-great-muster-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-the-coalition-will-ask-what-branoc-commanded-at-the-western-gate-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-the-gate-compact-renews-at-dawn-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 8,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-the-green-larks-enter-at-the-third-bell-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 9,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-the-nine-hearth-trust-claims-the-cauldron-as-a-communal-circuit-25",
+      "visit_number": 1
+    },
+    {
+      "sequence": 10,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-the-rookwalk-crosses-the-inner-wall-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 11,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-the-smoke-kitchens-join-the-old-service-tunnels-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 12,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-the-white-hart-court-is-the-public-way-in-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 13,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "crooked-magpie-the-widows-solar-holds-the-founders-seal-1",
+      "visit_number": 1
+    },
+    {
+      "sequence": 14,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "The crew chooses the genuine invitation, kitchen tabards and tally colors, and roof hooks with rope and plank; they decline the reinforced handcart."
+    },
+    {
+      "sequence": 15,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Aneirin carries Branoc’s oath-ring, Rhoswen carries the exact question, and the crew agrees that no band will be committed or testimony abridged."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 3,
+      "type": "revelation_established",
+      "revelation_id": "the-white-hart-court-is-the-public-way-in",
+      "supporting_clue_ids": [
+        "crooked-magpie-the-white-hart-court-is-the-public-way-in-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 17,
+      "operation_number": 3,
+      "type": "encounter_unlocked",
+      "encounter_id": "white-hart-court",
+      "source_revelation_id": "the-white-hart-court-is-the-public-way-in",
+      "reason": ""
+    },
+    {
+      "sequence": 18,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "the-smoke-kitchens-join-the-old-service-tunnels",
+      "supporting_clue_ids": [
+        "crooked-magpie-the-smoke-kitchens-join-the-old-service-tunnels-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 19,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "smoke-kitchens",
+      "source_revelation_id": "the-smoke-kitchens-join-the-old-service-tunnels",
+      "reason": ""
+    },
+    {
+      "sequence": 20,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "the-rookwalk-crosses-the-inner-wall",
+      "supporting_clue_ids": [
+        "crooked-magpie-the-rookwalk-crosses-the-inner-wall-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 21,
+      "operation_number": 5,
+      "type": "encounter_unlocked",
+      "encounter_id": "rookwalk",
+      "source_revelation_id": "the-rookwalk-crosses-the-inner-wall",
+      "reason": ""
+    },
+    {
+      "sequence": 22,
+      "operation_number": 6,
+      "type": "revelation_established",
+      "revelation_id": "the-widows-solar-holds-the-founders-seal",
+      "supporting_clue_ids": [
+        "crooked-magpie-the-widows-solar-holds-the-founders-seal-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 23,
+      "operation_number": 6,
+      "type": "encounter_unlocked",
+      "encounter_id": "widows-solar",
+      "source_revelation_id": "the-widows-solar-holds-the-founders-seal",
+      "reason": ""
+    },
+    {
+      "sequence": 24,
+      "operation_number": 7,
+      "type": "revelation_established",
+      "revelation_id": "dunwarrens-invitations-are-verified-by-wax-and-witness",
+      "supporting_clue_ids": [
+        "crooked-magpie-dunwarrens-invitations-are-verified-by-wax-and-witness-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 25,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "lord-mael-will-burn-the-nine-silences-in-the-great-muster",
+      "supporting_clue_ids": [
+        "crooked-magpie-lord-mael-will-burn-the-nine-silences-in-the-great-muster-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 26,
+      "operation_number": 9,
+      "type": "revelation_established",
+      "revelation_id": "branocs-oath-ring-makes-his-first-full-asking-possible",
+      "supporting_clue_ids": [
+        "crooked-magpie-branocs-oath-ring-makes-his-first-full-asking-possible-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 27,
+      "operation_number": 10,
+      "type": "revelation_established",
+      "revelation_id": "the-green-larks-enter-at-the-third-bell",
+      "supporting_clue_ids": [
+        "crooked-magpie-the-green-larks-enter-at-the-third-bell-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 28,
+      "operation_number": 11,
+      "type": "revelation_established",
+      "revelation_id": "the-gate-compact-renews-at-dawn",
+      "supporting_clue_ids": [
+        "crooked-magpie-the-gate-compact-renews-at-dawn-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 29,
+      "operation_number": 12,
+      "type": "revelation_established",
+      "revelation_id": "the-coalition-will-ask-what-branoc-commanded-at-the-western-gate",
+      "supporting_clue_ids": [
+        "crooked-magpie-the-coalition-will-ask-what-branoc-commanded-at-the-western-gate-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 30,
+      "operation_number": 13,
+      "type": "revelation_established",
+      "revelation_id": "the-nine-hearth-trust-claims-the-cauldron-as-a-communal-circuit",
+      "supporting_clue_ids": [
+        "crooked-magpie-the-nine-hearth-trust-claims-the-cauldron-as-a-communal-circuit-25"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 31,
+      "operation_number": 14,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "crooked-magpie",
+      "text": "The coalition’s commission is fixed to intact removal or an immediate proper Asking; sabotage remains an emergency delay rather than equal success."
+    },
+    {
+      "sequence": 32,
+      "operation_number": 15,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "white-hart-court",
+      "party_label": "Rhoswen and Gareth under Aderyn’s household witness"
+    },
+    {
+      "sequence": 33,
+      "operation_number": 15,
+      "type": "clue_spotted",
+      "clue_id": "white-hart-court-the-chapel-of-the-last-word-keeps-the-old-oaths-1",
+      "visit_number": 2
+    },
+    {
+      "sequence": 34,
+      "operation_number": 15,
+      "type": "clue_spotted",
+      "clue_id": "white-hart-court-the-gate-compact-rests-on-branocs-alleged-final-command-1",
+      "visit_number": 2
+    },
+    {
+      "sequence": 35,
+      "operation_number": 15,
+      "type": "clue_spotted",
+      "clue_id": "white-hart-court-the-third-kitchen-bell-clears-the-east-passage-1",
+      "visit_number": 2
+    },
+    {
+      "sequence": 36,
+      "operation_number": 15,
+      "type": "clue_spotted",
+      "clue_id": "white-hart-court-the-vault-can-preserve-exact-testimony-before-opposed-witnesses-13",
+      "visit_number": 2
+    },
+    {
+      "sequence": 37,
+      "operation_number": 15,
+      "type": "clue_spotted",
+      "clue_id": "white-hart-court-vanes-recovery-order-preserves-the-vessel-and-takes-bearers-alive-34",
+      "visit_number": 2
+    },
+    {
+      "sequence": 38,
+      "operation_number": 15,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Maraith Fen admits the disguised mourning household under Aderyn’s witness without falsely identifying Gareth as the dead Sir Celyn."
+    },
+    {
+      "sequence": 39,
+      "operation_number": 15,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Gareth obtains Hew’s living-defense figures while Rhoswen confirms that Mael’s recital preserves only the first clause attributed to Branoc."
+    },
+    {
+      "sequence": 40,
+      "operation_number": 16,
+      "type": "clue_missed",
+      "clue_id": "white-hart-court-the-rookwalk-crosses-the-inner-wall-2",
+      "visit_number": 2
+    },
+    {
+      "sequence": 41,
+      "operation_number": 17,
+      "type": "revelation_established",
+      "revelation_id": "the-chapel-of-the-last-word-keeps-the-old-oaths",
+      "supporting_clue_ids": [
+        "white-hart-court-the-chapel-of-the-last-word-keeps-the-old-oaths-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 42,
+      "operation_number": 17,
+      "type": "encounter_unlocked",
+      "encounter_id": "chapel-last-word",
+      "source_revelation_id": "the-chapel-of-the-last-word-keeps-the-old-oaths",
+      "reason": ""
+    },
+    {
+      "sequence": 43,
+      "operation_number": 18,
+      "type": "revelation_established",
+      "revelation_id": "the-third-kitchen-bell-clears-the-east-passage",
+      "supporting_clue_ids": [
+        "white-hart-court-the-third-kitchen-bell-clears-the-east-passage-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 44,
+      "operation_number": 19,
+      "type": "revelation_established",
+      "revelation_id": "the-gate-compact-rests-on-branocs-alleged-final-command",
+      "supporting_clue_ids": [
+        "white-hart-court-the-gate-compact-rests-on-branocs-alleged-final-command-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 45,
+      "operation_number": 20,
+      "type": "revelation_established",
+      "revelation_id": "the-vault-can-preserve-exact-testimony-before-opposed-witnesses",
+      "supporting_clue_ids": [
+        "white-hart-court-the-vault-can-preserve-exact-testimony-before-opposed-witnesses-13"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 46,
+      "operation_number": 21,
+      "type": "revelation_established",
+      "revelation_id": "vanes-recovery-order-preserves-the-vessel-and-takes-bearers-alive",
+      "supporting_clue_ids": [
+        "white-hart-court-vanes-recovery-order-preserves-the-vessel-and-takes-bearers-alive-34"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 47,
+      "operation_number": 22,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "white-hart-court",
+      "text": "Aderyn’s household witness is publicly implicated, and Mael’s herald can identify Rhoswen if testimony appears later."
+    },
+    {
+      "sequence": 48,
+      "operation_number": 23,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "smoke-kitchens",
+      "party_label": "Aneirin, Huw, and Sian with the late charcoal train"
+    },
+    {
+      "sequence": 49,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "smoke-kitchens-an-opened-band-can-be-arrested-before-its-silence-is-spent-4",
+      "visit_number": 3
+    },
+    {
+      "sequence": 50,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "smoke-kitchens-low-tide-opens-the-reed-weir-for-forty-minutes-1",
+      "visit_number": 3
+    },
+    {
+      "sequence": 51,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "smoke-kitchens-the-barrow-stair-opens-beneath-the-chapel-1",
+      "visit_number": 3
+    },
+    {
+      "sequence": 52,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "smoke-kitchens-the-great-muster-apparatus-can-be-delayed-by-mismatched-components-16",
+      "visit_number": 3
+    },
+    {
+      "sequence": 53,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "smoke-kitchens-the-house-sends-orders-through-swappable-command-lines-1",
+      "visit_number": 3
+    },
+    {
+      "sequence": 54,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "smoke-kitchens-the-reed-weir-is-the-prepared-way-out-1",
+      "visit_number": 3
+    },
+    {
+      "sequence": 55,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "smoke-kitchens-the-weir-punt-cannot-carry-the-cauldron-and-every-claimant-28",
+      "visit_number": 3
+    },
+    {
+      "sequence": 56,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "smoke-kitchens-three-extraction-routes-trade-secrecy-disguise-and-public-proof-40",
+      "visit_number": 3
+    },
+    {
+      "sequence": 57,
+      "operation_number": 23,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Nessa Pike closes the tally board over the incorrect tabard knot and shows the crew the mismatched Great Muster apparatus assembled from ordinary stores."
+    },
+    {
+      "sequence": 58,
+      "operation_number": 23,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Sian recovers Captain Alwen Reed’s missing ferry sentence: No boat is last while someone waits on the bank."
+    },
+    {
+      "sequence": 59,
+      "operation_number": 24,
+      "type": "clue_missed",
+      "clue_id": "smoke-kitchens-the-white-hart-court-is-the-public-way-in-2",
+      "visit_number": 3
+    },
+    {
+      "sequence": 60,
+      "operation_number": 25,
+      "type": "revelation_established",
+      "revelation_id": "the-barrow-stair-opens-beneath-the-chapel",
+      "supporting_clue_ids": [
+        "smoke-kitchens-the-barrow-stair-opens-beneath-the-chapel-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 61,
+      "operation_number": 25,
+      "type": "encounter_unlocked",
+      "encounter_id": "barrow-stair",
+      "source_revelation_id": "the-barrow-stair-opens-beneath-the-chapel",
+      "reason": ""
+    },
+    {
+      "sequence": 62,
+      "operation_number": 26,
+      "type": "revelation_established",
+      "revelation_id": "the-reed-weir-is-the-prepared-way-out",
+      "supporting_clue_ids": [
+        "smoke-kitchens-the-reed-weir-is-the-prepared-way-out-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 63,
+      "operation_number": 26,
+      "type": "encounter_unlocked",
+      "encounter_id": "reed-weir",
+      "source_revelation_id": "the-reed-weir-is-the-prepared-way-out",
+      "reason": ""
+    },
+    {
+      "sequence": 64,
+      "operation_number": 27,
+      "type": "revelation_established",
+      "revelation_id": "low-tide-opens-the-reed-weir-for-forty-minutes",
+      "supporting_clue_ids": [
+        "smoke-kitchens-low-tide-opens-the-reed-weir-for-forty-minutes-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 65,
+      "operation_number": 28,
+      "type": "revelation_established",
+      "revelation_id": "the-house-sends-orders-through-swappable-command-lines",
+      "supporting_clue_ids": [
+        "smoke-kitchens-the-house-sends-orders-through-swappable-command-lines-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 66,
+      "operation_number": 29,
+      "type": "revelation_established",
+      "revelation_id": "an-opened-band-can-be-arrested-before-its-silence-is-spent",
+      "supporting_clue_ids": [
+        "smoke-kitchens-an-opened-band-can-be-arrested-before-its-silence-is-spent-4"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 67,
+      "operation_number": 30,
+      "type": "revelation_established",
+      "revelation_id": "the-weir-punt-cannot-carry-the-cauldron-and-every-claimant",
+      "supporting_clue_ids": [
+        "smoke-kitchens-the-weir-punt-cannot-carry-the-cauldron-and-every-claimant-28"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 68,
+      "operation_number": 31,
+      "type": "revelation_established",
+      "revelation_id": "three-extraction-routes-trade-secrecy-disguise-and-public-proof",
+      "supporting_clue_ids": [
+        "smoke-kitchens-three-extraction-routes-trade-secrecy-disguise-and-public-proof-40"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 32,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "smoke-kitchens",
+      "text": "Two empty apparatus labels are exchanged, creating a safe verification delay without opening or damaging a band."
+    },
+    {
+      "sequence": 70,
+      "operation_number": 33,
+      "type": "revelation_foreclosed",
+      "revelation_id": "the-great-muster-apparatus-can-be-delayed-by-mismatched-components",
+      "reason": "Aneirin judges blind apparatus sabotage too likely to commit a band before the crew understands the lower machinery."
+    },
+    {
+      "sequence": 71,
+      "operation_number": 34,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "rookwalk",
+      "party_label": "Huw and Sian preparing the windlass diversion"
+    },
+    {
+      "sequence": 72,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "rookwalk-four-custody-dogs-release-the-cradle-without-opening-a-band-7",
+      "visit_number": 4
+    },
+    {
+      "sequence": 73,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "rookwalk-the-cauldron-and-its-oak-cradle-must-leave-together-1",
+      "visit_number": 4
+    },
+    {
+      "sequence": 74,
+      "operation_number": 34,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Huw rigs the old windlass as a heavy fallback and false objective; Sian alters the rook shutter to create a north-roof movement signal at the fourth bell."
+    },
+    {
+      "sequence": 75,
+      "operation_number": 34,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "A Green Lark flash shows that Tomas entered early after the crew spent extra preparation time."
+    },
+    {
+      "sequence": 76,
+      "operation_number": 35,
+      "type": "clue_missed",
+      "clue_id": "rookwalk-the-third-kitchen-bell-clears-the-east-passage-3",
+      "visit_number": 4
+    },
+    {
+      "sequence": 77,
+      "operation_number": 36,
+      "type": "revelation_established",
+      "revelation_id": "the-cauldron-and-its-oak-cradle-must-leave-together",
+      "supporting_clue_ids": [
+        "rookwalk-the-cauldron-and-its-oak-cradle-must-leave-together-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 78,
+      "operation_number": 37,
+      "type": "revelation_established",
+      "revelation_id": "four-custody-dogs-release-the-cradle-without-opening-a-band",
+      "supporting_clue_ids": [
+        "rookwalk-four-custody-dogs-release-the-cradle-without-opening-a-band-7"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 79,
+      "operation_number": 38,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "rookwalk",
+      "text": "The windlass and rook signal remain prepared as a public fallback and draw predictive security north when the cauldron moves."
+    },
+    {
+      "sequence": 80,
+      "operation_number": 39,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "chapel-last-word",
+      "party_label": "The reunited Unsworn Hand with Brother Caddoc"
+    },
+    {
+      "sequence": 81,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-a-full-asking-requires-anchor-name-question-and-consent-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 82,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-a-proper-full-asking-returns-the-nine-silences-at-voluntary-departure-10",
+      "visit_number": 5
+    },
+    {
+      "sequence": 83,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-a-recovered-reason-can-silence-a-borrowed-command-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 84,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-a-spent-silence-requires-communal-restoration-not-metal-repair-19",
+      "visit_number": 5
+    },
+    {
+      "sequence": 85,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-each-band-preserves-one-faculty-of-a-whole-dead-person-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 86,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-one-authenticated-witness-leaf-can-stay-the-dawn-oath-37",
+      "visit_number": 5
+    },
+    {
+      "sequence": 87,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-the-barrow-stair-records-declarations-rather-than-reading-hearts-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 88,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-the-cauldron-crosses-thresholds-only-under-named-custody-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 89,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-the-cauldron-vault-lies-below-the-drowned-court-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 90,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-the-great-muster-severs-counsel-from-the-dead-who-gave-it-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 91,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-the-house-of-borrowed-voices-guards-the-underkeep-1",
+      "visit_number": 5
+    },
+    {
+      "sequence": 92,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "chapel-last-word-the-old-compact-allows-a-one-night-respite-under-three-authorities-22",
+      "visit_number": 5
+    },
+    {
+      "sequence": 93,
+      "operation_number": 39,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Caddoc authenticates the ring and confirms that Branoc has never been summoned; the crew learns the complete rite and the nine faculties."
+    },
+    {
+      "sequence": 94,
+      "operation_number": 39,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Caddoc opens the Barrow Stair on condition that no band is committed and one exact witness leaf returns to the chapel."
+    },
+    {
+      "sequence": 95,
+      "operation_number": 40,
+      "type": "clue_missed",
+      "clue_id": "chapel-last-word-the-widows-solar-holds-the-founders-seal-3",
+      "visit_number": 5
+    },
+    {
+      "sequence": 96,
+      "operation_number": 41,
+      "type": "revelation_established",
+      "revelation_id": "the-house-of-borrowed-voices-guards-the-underkeep",
+      "supporting_clue_ids": [
+        "chapel-last-word-the-house-of-borrowed-voices-guards-the-underkeep-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 97,
+      "operation_number": 41,
+      "type": "encounter_unlocked",
+      "encounter_id": "house-borrowed-voices",
+      "source_revelation_id": "the-house-of-borrowed-voices-guards-the-underkeep",
+      "reason": ""
+    },
+    {
+      "sequence": 98,
+      "operation_number": 42,
+      "type": "revelation_established",
+      "revelation_id": "the-cauldron-vault-lies-below-the-drowned-court",
+      "supporting_clue_ids": [
+        "chapel-last-word-the-cauldron-vault-lies-below-the-drowned-court-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 99,
+      "operation_number": 42,
+      "type": "encounter_unlocked",
+      "encounter_id": "cauldron-vault",
+      "source_revelation_id": "the-cauldron-vault-lies-below-the-drowned-court",
+      "reason": ""
+    },
+    {
+      "sequence": 100,
+      "operation_number": 43,
+      "type": "revelation_established",
+      "revelation_id": "a-full-asking-requires-anchor-name-question-and-consent",
+      "supporting_clue_ids": [
+        "chapel-last-word-a-full-asking-requires-anchor-name-question-and-consent-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 101,
+      "operation_number": 44,
+      "type": "revelation_established",
+      "revelation_id": "the-cauldron-crosses-thresholds-only-under-named-custody",
+      "supporting_clue_ids": [
+        "chapel-last-word-the-cauldron-crosses-thresholds-only-under-named-custody-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 102,
+      "operation_number": 45,
+      "type": "revelation_established",
+      "revelation_id": "the-great-muster-severs-counsel-from-the-dead-who-gave-it",
+      "supporting_clue_ids": [
+        "chapel-last-word-the-great-muster-severs-counsel-from-the-dead-who-gave-it-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 103,
+      "operation_number": 46,
+      "type": "revelation_established",
+      "revelation_id": "the-barrow-stair-records-declarations-rather-than-reading-hearts",
+      "supporting_clue_ids": [
+        "chapel-last-word-the-barrow-stair-records-declarations-rather-than-reading-hearts-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 104,
+      "operation_number": 47,
+      "type": "revelation_established",
+      "revelation_id": "a-recovered-reason-can-silence-a-borrowed-command",
+      "supporting_clue_ids": [
+        "chapel-last-word-a-recovered-reason-can-silence-a-borrowed-command-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 105,
+      "operation_number": 48,
+      "type": "revelation_established",
+      "revelation_id": "each-band-preserves-one-faculty-of-a-whole-dead-person",
+      "supporting_clue_ids": [
+        "chapel-last-word-each-band-preserves-one-faculty-of-a-whole-dead-person-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 106,
+      "operation_number": 49,
+      "type": "revelation_established",
+      "revelation_id": "a-proper-full-asking-returns-the-nine-silences-at-voluntary-departure",
+      "supporting_clue_ids": [
+        "chapel-last-word-a-proper-full-asking-returns-the-nine-silences-at-voluntary-departure-10"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 107,
+      "operation_number": 50,
+      "type": "revelation_established",
+      "revelation_id": "a-spent-silence-requires-communal-restoration-not-metal-repair",
+      "supporting_clue_ids": [
+        "chapel-last-word-a-spent-silence-requires-communal-restoration-not-metal-repair-19"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 108,
+      "operation_number": 51,
+      "type": "revelation_established",
+      "revelation_id": "the-old-compact-allows-a-one-night-respite-under-three-authorities",
+      "supporting_clue_ids": [
+        "chapel-last-word-the-old-compact-allows-a-one-night-respite-under-three-authorities-22"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 109,
+      "operation_number": 52,
+      "type": "revelation_established",
+      "revelation_id": "one-authenticated-witness-leaf-can-stay-the-dawn-oath",
+      "supporting_clue_ids": [
+        "chapel-last-word-one-authenticated-witness-leaf-can-stay-the-dawn-oath-37"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 110,
+      "operation_number": 53,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "chapel-last-word",
+      "text": "Caddoc joins the operation as ritual witness and claims one complete black-water leaf for the chapel record."
+    },
+    {
+      "sequence": 111,
+      "operation_number": 54,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "widows-solar",
+      "party_label": "Rhoswen and Gareth with Lady Aderyn"
+    },
+    {
+      "sequence": 112,
+      "operation_number": 54,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Aderyn provides the founder’s seal, excavation packet, original Compact, and a one-season replacement defense covenant revised with Hew’s figures."
+    },
+    {
+      "sequence": 113,
+      "operation_number": 54,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The political preparation is valuable but consumes enough time to narrow the optimal low-tide window."
+    },
+    {
+      "sequence": 114,
+      "operation_number": 55,
+      "type": "clue_missed",
+      "clue_id": "widows-solar-dunwarrens-invitations-are-verified-by-wax-and-witness-3",
+      "visit_number": 6
+    },
+    {
+      "sequence": 115,
+      "operation_number": 56,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "widows-solar",
+      "text": "Aderyn authorizes the fourth custody key and a one-season living defense covenant but the crew reaches low tide late."
+    },
+    {
+      "sequence": 116,
+      "operation_number": 57,
+      "type": "session_ended",
+      "session_number": 1,
+      "closing_note": "The crew reunites with ring, exact question, complete rite, founder authority, replacement defense, prepared roof diversion, and no settled permanent owner."
+    },
+    {
+      "sequence": 117,
+      "operation_number": 58,
+      "type": "session_started",
+      "session_number": 2,
+      "title": "The Three Declarations and the Borrowed Council",
+      "played_on": null,
+      "participants": [
+        "Rhoswen Pell",
+        "Brother Aneirin Cade",
+        "Huw Rill",
+        "Gareth Bryn",
+        "Sian Mere"
+      ],
+      "attendance_note": "",
+      "opening_note": "The fourth bell approaches as the crew descends under a provisional keeper declaration and seeks a nonlethal way through the predictive command room."
+    },
+    {
+      "sequence": 118,
+      "operation_number": 59,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "barrow-stair",
+      "party_label": "The Unsworn Hand, Caddoc, and the recorded declarations"
+    },
+    {
+      "sequence": 119,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "barrow-stair-physical-possession-does-not-replace-the-recorded-keeper-31",
+      "visit_number": 7
+    },
+    {
+      "sequence": 120,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "barrow-stair-the-borrowed-voices-can-be-divided-by-conflicting-priorities-1",
+      "visit_number": 7
+    },
+    {
+      "sequence": 121,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "barrow-stair-the-borrowed-voices-wake-when-the-cauldron-moves-1",
+      "visit_number": 7
+    },
+    {
+      "sequence": 122,
+      "operation_number": 59,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The stair records Branoc’s whole name and ring, the coalition’s exact first question, and Sian’s provisional divided custody to Mere House subject to Branoc’s consent and a noon hearing."
+    },
+    {
+      "sequence": 123,
+      "operation_number": 59,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The crew retracts Mael’s warrant tongue rather than breaking the landings or pretending that physical possession settles authority."
+    },
+    {
+      "sequence": 124,
+      "operation_number": 60,
+      "type": "clue_missed",
+      "clue_id": "barrow-stair-the-rookwalk-crosses-the-inner-wall-4",
+      "visit_number": 7
+    },
+    {
+      "sequence": 125,
+      "operation_number": 61,
+      "type": "revelation_established",
+      "revelation_id": "the-borrowed-voices-wake-when-the-cauldron-moves",
+      "supporting_clue_ids": [
+        "barrow-stair-the-borrowed-voices-wake-when-the-cauldron-moves-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 126,
+      "operation_number": 62,
+      "type": "revelation_established",
+      "revelation_id": "the-borrowed-voices-can-be-divided-by-conflicting-priorities",
+      "supporting_clue_ids": [
+        "barrow-stair-the-borrowed-voices-can-be-divided-by-conflicting-priorities-1"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 127,
+      "operation_number": 63,
+      "type": "revelation_established",
+      "revelation_id": "physical-possession-does-not-replace-the-recorded-keeper",
+      "supporting_clue_ids": [
+        "barrow-stair-physical-possession-does-not-replace-the-recorded-keeper-31"
+      ],
+      "note": "Established from the canonical clue recovered during the Unsworn Hand playthrough."
+    },
+    {
+      "sequence": 128,
+      "operation_number": 64,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "barrow-stair",
+      "text": "Sian Mere is recorded as temporary keeper to Mere House under divided authority, Branoc’s consent, and a noon-hearing limit."
+    },
+    {
+      "sequence": 129,
+      "operation_number": 65,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "house-borrowed-voices",
+      "party_label": "The Unsworn Hand inside the active command room"
+    },
+    {
+      "sequence": 130,
+      "operation_number": 65,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Sian restores Alwen Reed’s reason and the Low Water Mask corrects its order to keep the carrying road open for named bearers and witnesses."
+    },
+    {
+      "sequence": 131,
+      "operation_number": 65,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Rhoswen restores Seren Bell-Bearer’s safe-conduct principle while Huw and Gareth cross command collars and send the main seizure response toward the Rookwalk."
+    },
+    {
+      "sequence": 132,
+      "operation_number": 66,
+      "type": "clue_missed",
+      "clue_id": "house-borrowed-voices-the-chapel-of-the-last-word-keeps-the-old-oaths-5",
+      "visit_number": 8
+    },
+    {
+      "sequence": 133,
+      "operation_number": 67,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "house-borrowed-voices",
+      "text": "Alwen Reed’s answer is released from active command, Seren Bell-Bearer protects declared witnesses, and ten retained answers remain to be restored later."
+    },
+    {
+      "sequence": 134,
+      "operation_number": 68,
+      "type": "revelation_reopened",
+      "revelation_id": "the-great-muster-apparatus-can-be-delayed-by-mismatched-components",
+      "reason": "The crew now understands which mismatches force verification without touching a ritual band."
+    },
+    {
+      "sequence": 135,
+      "operation_number": 69,
+      "type": "revelation_established",
+      "revelation_id": "the-great-muster-apparatus-can-be-delayed-by-mismatched-components",
+      "supporting_clue_ids": [
+        "smoke-kitchens-the-great-muster-apparatus-can-be-delayed-by-mismatched-components-16"
+      ],
+      "note": "Reopened and established after the command-room inspection makes the safe delay legible."
+    },
+    {
+      "sequence": 136,
+      "operation_number": 70,
+      "type": "session_ended",
+      "session_number": 2,
+      "closing_note": "Alwen’s reason is restored, Seren protects declared witnesses, the Rookwalk carries the false heavy objective, and Vane’s recovery order is known before the drowned-court door opens."
+    },
+    {
+      "sequence": 137,
+      "operation_number": 71,
+      "type": "session_started",
+      "session_number": 3,
+      "title": "The King’s Answer and the Carrying Road",
+      "played_on": null,
+      "participants": [
+        "Rhoswen Pell",
+        "Brother Aneirin Cade",
+        "Huw Rill",
+        "Gareth Bryn",
+        "Sian Mere"
+      ],
+      "attendance_note": "",
+      "opening_note": "The crew reaches the vault with all nine silences intact and must decide whether to move first, ask first, bargain, delay, or destroy."
+    },
+    {
+      "sequence": 138,
+      "operation_number": 72,
+      "type": "encounter_visited",
+      "visit_number": 9,
+      "encounter_id": "cauldron-vault",
+      "party_label": "The Unsworn Hand with Caddoc, Aderyn, Vane, Hew, and Mael opposed"
+    },
+    {
+      "sequence": 139,
+      "operation_number": 72,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "All nine bands remain closed; Hearth, Hand, and Reply are strained but no communal silence has been spent."
+    },
+    {
+      "sequence": 140,
+      "operation_number": 72,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Branoc consents after the living witnesses promise whole publication and specify a provisional living defense; he answers the agreed question and departs voluntarily."
+    },
+    {
+      "sequence": 141,
+      "operation_number": 72,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "The crew releases the four custody dogs without opening a ritual band and begins intact extraction after three black-water leaves form."
+    },
+    {
+      "sequence": 142,
+      "operation_number": 73,
+      "type": "clue_missed",
+      "clue_id": "cauldron-vault-the-barrow-stair-opens-beneath-the-chapel-5",
+      "visit_number": 9
+    },
+    {
+      "sequence": 143,
+      "operation_number": 74,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "cauldron-vault",
+      "text": "Branoc’s complete answer survives in three leaves; all nine silences return to equilibrium; Mael loses the claim that his recital is Branoc’s whole command."
+    },
+    {
+      "sequence": 144,
+      "operation_number": 75,
+      "type": "encounter_visited",
+      "visit_number": 10,
+      "encounter_id": "reed-weir",
+      "party_label": "The divided extraction party, Green Larks, and Vane’s recovery line"
+    },
+    {
+      "sequence": 145,
+      "operation_number": 75,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Sian bargains for Tomas’s second skiff under temporary Mere House custody, divided keys, no second question before three hearths, and separate whole witness leaves."
+    },
+    {
+      "sequence": 146,
+      "operation_number": 75,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The punt grounds in sucking water; the crew corrects the route, uses the old runner road and Lark labor, and preserves the cradle rather than separating the load."
+    },
+    {
+      "sequence": 147,
+      "operation_number": 75,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Vessel and ring leave for Mere House, one leaf travels with them, one returns to the chapel, and Rhoswen and Aderyn carry the founder leaf to stay the dawn oath."
+    },
+    {
+      "sequence": 148,
+      "operation_number": 76,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "reed-weir",
+      "text": "The cauldron and ring reach temporary Mere House custody, the oath is stayed until noon, and Vane and Hew begin the provisional living defense while Mael remains lord without renewed hereditary emergency authority."
+    },
+    {
+      "sequence": 149,
+      "operation_number": 77,
+      "type": "session_ended",
+      "session_number": 3,
+      "closing_note": "Branoc’s whole answer survives in three leaves, the cauldron and ring reach temporary Mere House custody, the dawn oath is stayed, and a living defense replaces the Great Muster pending the noon hearing."
+    }
+  ]
+}

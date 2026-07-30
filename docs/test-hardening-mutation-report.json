@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "campaign": "test-hardening-session-03",
+  "scope": [
+    "domain.graph",
+    "application.dice",
+    "application.play_projection",
+    "application.play_tracking",
+    "infrastructure.adventure_store",
+    "infrastructure.play_state_store",
+    "infrastructure.file_transactions"
+  ],
+  "tooling": {
+    "method": "curated source mutations with focused pytest selections",
+    "mutmut_available": false,
+    "reason": "The configured package mirror provided no mutmut distribution. The campaign used explicit, reviewable mutations rather than claiming an unavailable exhaustive tool run."
+  },
+  "summary": {
+    "unique_mutants": 27,
+    "initially_killed": 15,
+    "meaningful_initial_survivors": 9,
+    "equivalent_or_redundant_survivors": 3,
+    "meaningful_survivors_repaired": 9,
+    "finally_killed": 24,
+    "finally_equivalent_or_redundant": 3,
+    "raw_final_score": 0.8888888889,
+    "adjusted_final_score": 1.0
+  },
+  "mutants": [
+    {"id": "graph-directed-add-reverse-edge", "initial": "killed", "final": "killed"},
+    {"id": "graph-reachability-never-enqueue", "initial": "killed", "final": "killed"},
+    {"id": "graph-single-vertex-threshold", "initial": "survived", "final": "equivalent", "reason": "Both forms return None because a one-vertex graph has no vertex pair to examine."},
+    {"id": "graph-terminal-do-not-intersect-vertices", "initial": "survived", "final": "killed-after-test"},
+    {"id": "graph-zero-capacity-is-traversable", "initial": "killed", "final": "killed"},
+    {"id": "graph-simple-edges-keep-self-loops", "initial": "survived", "final": "equivalent", "reason": "The undirected adjacency projection and cut calculation already discard self-loops."},
+    {"id": "dice-reject-exact-max-expression-length", "initial": "survived", "final": "killed-after-test"},
+    {"id": "dice-reject-exact-max-terms", "initial": "survived", "final": "killed-after-test"},
+    {"id": "dice-reject-exact-max-total-dice", "initial": "killed", "final": "killed"},
+    {"id": "dice-allow-one-faced-dice", "initial": "killed", "final": "killed"},
+    {"id": "dice-allow-entropy-upper-bound", "initial": "killed", "final": "killed"},
+    {"id": "dice-allow-bool-entropy", "initial": "killed", "final": "killed"},
+    {"id": "dice-ignore-recorded-total-mismatch", "initial": "killed", "final": "killed"},
+    {"id": "projection-append-consecutive-operation-duplicates", "initial": "survived", "final": "killed-after-test"},
+    {"id": "projection-ignore-adventure-identity", "initial": "killed", "final": "killed"},
+    {"id": "tracking-next-sequence-does-not-increment", "initial": "killed", "final": "killed"},
+    {"id": "tracking-correct-oldest-active-operation", "initial": "killed", "final": "killed"},
+    {"id": "adventure-store-allow-zero-positive-integer", "initial": "survived", "final": "killed-after-test"},
+    {"id": "adventure-store-allow-empty-required-string", "initial": "killed", "final": "killed"},
+    {"id": "play-store-signed-integer-allows-bool", "initial": "survived", "final": "killed-after-test"},
+    {"id": "transactions-allow-normalized-duplicate-destinations", "initial": "killed", "final": "killed"},
+    {"id": "transactions-committed-state-loses-precedence", "initial": "survived", "final": "killed-after-test"},
+    {"id": "transactions-remove-explicit-missing-backup-guard", "initial": "survived", "final": "redundant", "reason": "The immediately following bounded artifact read still raises TransactionRecoveryError before any restore can occur."},
+    {"id": "transactions-allow-symlinked-marker", "initial": "killed", "final": "killed"},
+    {"id": "transactions-skip-containment-check", "initial": "killed", "final": "killed"},
+    {"id": "transactions-reject-exact-max-artifact-size", "initial": "survived", "final": "killed-after-test"},
+    {"id": "transactions-reject-exact-max-marker-size", "initial": "survived", "final": "killed-after-test"}
+  ]
+}

@@ -1,0 +1,728 @@
+{
+  "schema_version": 6,
+  "adventure_id": "when-the-swine-kneel",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "the-hall-of-petitions",
+      "party_label": ""
+    },
+    {
+      "sequence": 2,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "southgate-condemnation-docket",
+      "visit_number": 1
+    },
+    {
+      "sequence": 3,
+      "operation_number": 3,
+      "type": "clue_spotted",
+      "clue_id": "college-jurisdiction-over-civic-resonance",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 4,
+      "type": "clue_spotted",
+      "clue_id": "the-rillcross-petition-bundle",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 5,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Mara obtained a written inspection commission, a two-hour stay on slaughter, and custody of the bronze pin. Nell made the Rillcross witnesses part of the record instead of letting the hearing dismiss them as frightened farmers."
+    },
+    {
+      "sequence": 6,
+      "operation_number": 6,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "When the courtyard gilt knelt and the pin trembled, Sera felt the pulse through the floor while Orris confirmed that the movement was not transmitted through the air."
+    },
+    {
+      "sequence": 7,
+      "operation_number": 7,
+      "type": "revelation_established",
+      "revelation_id": "the-southgate-stockyards-carry-the-warning-inside-veyr",
+      "supporting_clue_ids": [
+        "southgate-condemnation-docket"
+      ],
+      "note": "The cull will begin first at Southgate, making the stockyards the immediate crisis and the place where evidence is most likely to be destroyed."
+    },
+    {
+      "sequence": 8,
+      "operation_number": 7,
+      "type": "encounter_unlocked",
+      "encounter_id": "southgate-stockyards",
+      "source_revelation_id": "the-southgate-stockyards-carry-the-warning-inside-veyr",
+      "reason": ""
+    },
+    {
+      "sequence": 9,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "rillcross-reveals-the-warnings-full-geography",
+      "supporting_clue_ids": [
+        "the-rillcross-petition-bundle"
+      ],
+      "note": "The six farms describe one repeated sequence across enough distance to reveal a larger pattern."
+    },
+    {
+      "sequence": 10,
+      "operation_number": 8,
+      "type": "encounter_unlocked",
+      "encounter_id": "rillcross-farm-belt",
+      "source_revelation_id": "rillcross-reveals-the-warnings-full-geography",
+      "reason": ""
+    },
+    {
+      "sequence": 11,
+      "operation_number": 9,
+      "type": "revelation_established",
+      "revelation_id": "the-college-of-civic-measure-can-test-the-buried-pulse",
+      "supporting_clue_ids": [
+        "college-jurisdiction-over-civic-resonance"
+      ],
+      "note": "The College has both the instruments and the chartered responsibility to test vibration in civic works."
+    },
+    {
+      "sequence": 12,
+      "operation_number": 9,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-college-of-civic-measure",
+      "source_revelation_id": "the-college-of-civic-measure-can-test-the-buried-pulse",
+      "reason": ""
+    },
+    {
+      "sequence": 13,
+      "operation_number": 10,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-hall-of-petitions",
+      "text": "Alda Mere issued the Ashlar Company a narrow written commission, preserved the petition bundle, and placed the bronze pin in Mara's custody until the following evening bell."
+    },
+    {
+      "sequence": 14,
+      "operation_number": 11,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "southgate-stockyards",
+      "party_label": ""
+    },
+    {
+      "sequence": 15,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-vibrating-weigh-frame",
+      "visit_number": 2
+    },
+    {
+      "sequence": 16,
+      "operation_number": 13,
+      "type": "clue_spotted",
+      "clue_id": "the-obsolete-survey-marker-socket",
+      "visit_number": 2
+    },
+    {
+      "sequence": 17,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "the-irregular-condemnation-authority",
+      "visit_number": 2
+    },
+    {
+      "sequence": 18,
+      "operation_number": 15,
+      "type": "clue_spotted",
+      "clue_id": "the-pigs-stop-before-the-pulse-arrives",
+      "visit_number": 2
+    },
+    {
+      "sequence": 19,
+      "operation_number": 16,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Nell and Ina Rill reorganized the eastern pens around the old dry passage while Sera shored the cracked retaining wall. Mara assumed responsibility under Alda's commission, forcing Pell to hold the cull crew outside the gate."
+    },
+    {
+      "sequence": 20,
+      "operation_number": 17,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Orris used the retained bronze pin and the disused weighing frame to time the buried beat. The pigs halted at the invisible line several breaths before either instrument responded."
+    },
+    {
+      "sequence": 21,
+      "operation_number": 18,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Mara placed Inspector Tal under the commission's protection. He admitted removing the marker on Orr's orders and identified the First Survey emblem on its socket."
+    },
+    {
+      "sequence": 22,
+      "operation_number": 19,
+      "type": "revelation_established",
+      "revelation_id": "the-chapel-of-the-first-survey-keeps-the-lost-doctrine",
+      "supporting_clue_ids": [
+        "the-obsolete-survey-marker-socket"
+      ],
+      "note": "Tal's account and the obsolete emblem identify the surveyors' roadside chapel as the likeliest surviving repository for the removed instruments."
+    },
+    {
+      "sequence": 23,
+      "operation_number": 19,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-chapel-of-the-first-survey",
+      "source_revelation_id": "the-chapel-of-the-first-survey-keeps-the-lost-doctrine",
+      "reason": ""
+    },
+    {
+      "sequence": 24,
+      "operation_number": 20,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "southgate-stockyards",
+      "text": "The eastern herd survived, the dry passage remains open, and Inspector Tal is under Alda Mere's protection. Pell's condemnation order is suspended only until the following morning."
+    },
+    {
+      "sequence": 25,
+      "operation_number": 21,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "rillcross-farm-belt",
+      "party_label": ""
+    },
+    {
+      "sequence": 26,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-forbidden-survey-rhyme",
+      "visit_number": 3
+    },
+    {
+      "sequence": 27,
+      "operation_number": 23,
+      "type": "clue_spotted",
+      "clue_id": "the-outer-pressure-vent",
+      "visit_number": 3
+    },
+    {
+      "sequence": 28,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "the-farm-belts-quarantine-appeal",
+      "visit_number": 3
+    },
+    {
+      "sequence": 29,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-six-herd-warning-map",
+      "visit_number": 3
+    },
+    {
+      "sequence": 30,
+      "operation_number": 26,
+      "type": "clue_spotted",
+      "clue_id": "the-water-offices-received-warning",
+      "visit_number": 3
+    },
+    {
+      "sequence": 31,
+      "operation_number": 27,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "The company went to Rillcross before the College because Nell argued that the city could measure only what the farms first taught them to ask. They worked the farms separately, then compared observations at Harl Rill's kitchen table."
+    },
+    {
+      "sequence": 32,
+      "operation_number": 28,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Sera and Nell brought a child out of a fresh subsidence without breaking the bronze diaphragm beneath it. Orris recognized the chamber as a pressure vent and refused to descend while the route was still shedding earth."
+    },
+    {
+      "sequence": 33,
+      "operation_number": 29,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "The party organized six holdings into a timed observation chain. They deliberately did not follow the Nine-Mile maintenance wagons; the next resonance cycle was minutes away, and abandoning the farms would have ruined the map."
+    },
+    {
+      "sequence": 34,
+      "operation_number": 30,
+      "type": "revelation_established",
+      "revelation_id": "the-pigs-are-reading-the-danger-not-causing-it",
+      "supporting_clue_ids": [
+        "the-pigs-stop-before-the-pulse-arrives",
+        "the-six-herd-warning-map"
+      ],
+      "note": "The animals anticipate the pulse and report different failures along six lines. Their behavior is a warning system, not the source of the danger."
+    },
+    {
+      "sequence": 35,
+      "operation_number": 31,
+      "type": "revelation_established",
+      "revelation_id": "the-deep-bell-lies-beneath-veyr",
+      "supporting_clue_ids": [
+        "the-outer-pressure-vent"
+      ],
+      "note": "The bronze-lined vent descends toward a central pressure instrument beneath Veyr. The route is real, but the company judges immediate entry reckless without doctrine or control of the pumps."
+    },
+    {
+      "sequence": 36,
+      "operation_number": 31,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-deep-bell",
+      "source_revelation_id": "the-deep-bell-lies-beneath-veyr",
+      "reason": ""
+    },
+    {
+      "sequence": 37,
+      "operation_number": 32,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "rillcross-farm-belt",
+      "text": "Ina Rill and the farm families maintain a six-holding observation relay, with one watcher assigned to each herd through every evening cycle."
+    },
+    {
+      "sequence": 38,
+      "operation_number": 33,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "rillcross-farm-belt",
+      "text": "The outer pressure vent is marked and lightly braced, but remains unsafe for an unsupported descent."
+    },
+    {
+      "sequence": 39,
+      "operation_number": 34,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "the-college-of-civic-measure",
+      "party_label": ""
+    },
+    {
+      "sequence": 40,
+      "operation_number": 35,
+      "type": "clue_spotted",
+      "clue_id": "pulse-to-pump-phase-correlation",
+      "visit_number": 4
+    },
+    {
+      "sequence": 41,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "the-college-charters-stay-provision",
+      "visit_number": 4
+    },
+    {
+      "sequence": 42,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "controlled-porcine-resonance-test",
+      "visit_number": 4
+    },
+    {
+      "sequence": 43,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "dasts-dated-impound-order",
+      "visit_number": 4
+    },
+    {
+      "sequence": 44,
+      "operation_number": 39,
+      "type": "clue_spotted",
+      "clue_id": "three-viable-response-curves",
+      "visit_number": 4
+    },
+    {
+      "sequence": 45,
+      "operation_number": 40,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Orris gave Quill the field timings instead of asking the College to begin from rumor. Nell supervised the borrowed sow, and the controlled test reproduced kneeling and water refusal without distress at any other frequency."
+    },
+    {
+      "sequence": 46,
+      "operation_number": 41,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Mara and Vos held the archive cart by forcing the proctor to read the College charter aloud before witnesses. Rector Sen signed the experimental trace but declined to accuse Dast without an operating order bearing his hand."
+    },
+    {
+      "sequence": 47,
+      "operation_number": 42,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The company did not spend the remaining calibration window remapping Southgate; Orris judged the pump correlation and response curves more urgent than a second proof of a location they had already visited."
+    },
+    {
+      "sequence": 48,
+      "operation_number": 43,
+      "type": "revelation_established",
+      "revelation_id": "the-nine-mile-pump-house-is-driving-the-crisis",
+      "supporting_clue_ids": [
+        "pulse-to-pump-phase-correlation"
+      ],
+      "note": "The buried pulse is phase-locked to Nine-Mile's true operating load, which is substantially higher than the public schedule records."
+    },
+    {
+      "sequence": 49,
+      "operation_number": 43,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-nine-mile-pump-house",
+      "source_revelation_id": "the-nine-mile-pump-house-is-driving-the-crisis",
+      "reason": ""
+    },
+    {
+      "sequence": 50,
+      "operation_number": 44,
+      "type": "revelation_established",
+      "revelation_id": "the-hall-can-restrain-the-offices-destroying-the-evidence",
+      "supporting_clue_ids": [
+        "the-irregular-condemnation-authority",
+        "the-farm-belts-quarantine-appeal",
+        "the-college-charters-stay-provision"
+      ],
+      "note": "The defective cull order, farm quarantine appeal, and College charter provision give Alda enough law to preserve witnesses, animals, records, and evacuation authority."
+    },
+    {
+      "sequence": 51,
+      "operation_number": 45,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-college-of-civic-measure",
+      "text": "The College preserved its archive and calibration instruments. Quill and Vos agreed to serve as public witnesses, while Rector Sen signed the trace under the College seal."
+    },
+    {
+      "sequence": 52,
+      "operation_number": 46,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-college-of-civic-measure",
+      "text": "The water-office proctor departed without the archive cart but reported the Ashlar Company's actions to Corven Dast."
+    },
+    {
+      "sequence": 53,
+      "operation_number": 47,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "the-hall-of-petitions",
+      "party_label": ""
+    },
+    {
+      "sequence": 54,
+      "operation_number": 48,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Mara proposed returning to the Hall; Nell agreed only after Mara promised that the farm affidavits and threatened holdings would be named individually in every order."
+    },
+    {
+      "sequence": 55,
+      "operation_number": 49,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Alda widened the commission in public, stayed the cull and quarantine, ordered the College archive preserved, and authorized evacuation of Southgate and Rillcross sites identified by the investigators."
+    },
+    {
+      "sequence": 56,
+      "operation_number": 50,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "The return cost most of the afternoon and placed their evidence in official hands. Orris accepted the delay because the finale would require workers and citywide control, not four competent trespassers."
+    },
+    {
+      "sequence": 57,
+      "operation_number": 51,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-hall-of-petitions",
+      "text": "The Ashlar Company's commission now includes emergency entry, evidence preservation, limited water-service orders, and evacuation authority for named sites."
+    },
+    {
+      "sequence": 58,
+      "operation_number": 52,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-hall-of-petitions",
+      "text": "Southgate slaughter, the Rillcross quarantine, and seizure of First Survey or College materials are stayed pending a public return hearing."
+    },
+    {
+      "sequence": 59,
+      "operation_number": 53,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "the-chapel-of-the-first-survey",
+      "party_label": ""
+    },
+    {
+      "sequence": 60,
+      "operation_number": 54,
+      "type": "clue_spotted",
+      "clue_id": "map-of-the-six-rillcross-lines",
+      "visit_number": 6
+    },
+    {
+      "sequence": 61,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "the-nine-mile-auxiliary-works",
+      "visit_number": 6
+    },
+    {
+      "sequence": 62,
+      "operation_number": 56,
+      "type": "clue_spotted",
+      "clue_id": "the-surveyors-stair-to-the-tuning-crown",
+      "visit_number": 6
+    },
+    {
+      "sequence": 63,
+      "operation_number": 57,
+      "type": "clue_spotted",
+      "clue_id": "the-surveyors-table-of-remedies",
+      "visit_number": 6
+    },
+    {
+      "sequence": 64,
+      "operation_number": 58,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The company accepted Anja Veil's custody terms before entering the crypt. Sera braced the flooding aisle while Orris and Tomas tuned the memorial rods; they did not open the founder's tomb."
+    },
+    {
+      "sequence": 65,
+      "operation_number": 59,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Mara read Alda's stay to Sergeant Korr and then showed him the tablet describing the Tanneries collapse. Korr withdrew his seizure party rather than burn the only operating doctrine."
+    },
+    {
+      "sequence": 66,
+      "operation_number": 60,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "They left the Southgate wall plan in place. The living map from the farms and the surviving stockyard evidence were sufficient, while removing another bronze sheet would have endangered the aisle."
+    },
+    {
+      "sequence": 67,
+      "operation_number": 61,
+      "type": "revelation_established",
+      "revelation_id": "the-deep-bell-admits-several-costly-remedies",
+      "supporting_clue_ids": [
+        "three-viable-response-curves",
+        "the-surveyors-table-of-remedies"
+      ],
+      "note": "The College model and First Survey doctrine agree: shutdown, retuning, and controlled collapse can each work, but each assigns danger to different people."
+    },
+    {
+      "sequence": 68,
+      "operation_number": 62,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-chapel-of-the-first-survey",
+      "text": "The crypt archive and memorial plates remain under the surveyor families' custody. Anja Veil will accompany the company to the tuning crown and require a public accounting afterward."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 63,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "the-nine-mile-pump-house",
+      "party_label": ""
+    },
+    {
+      "sequence": 70,
+      "operation_number": 64,
+      "type": "clue_spotted",
+      "clue_id": "the-chapel-seizure-warrant",
+      "visit_number": 7
+    },
+    {
+      "sequence": 71,
+      "operation_number": 65,
+      "type": "clue_spotted",
+      "clue_id": "the-hydraulic-service-conduit",
+      "visit_number": 7
+    },
+    {
+      "sequence": 72,
+      "operation_number": 66,
+      "type": "clue_spotted",
+      "clue_id": "dasts-signed-overdrive-directive",
+      "visit_number": 7
+    },
+    {
+      "sequence": 73,
+      "operation_number": 67,
+      "type": "clue_spotted",
+      "clue_id": "independent-controls-for-load-phase-and-venting",
+      "visit_number": 7
+    },
+    {
+      "sequence": 74,
+      "operation_number": 68,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The company entered openly under the widened commission. Captain Thane recognized the order but demanded a safe transfer of command before admitting them to the control hall."
+    },
+    {
+      "sequence": 75,
+      "operation_number": 69,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Sera and Salk kept the cavitating pump alive long enough for Nell to free Tamar Vey from the instrument room. Orris used the old control faces, not the falsified gauges, to stabilize the surge."
+    },
+    {
+      "sequence": 76,
+      "operation_number": 70,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Mara confronted Dast with Harl's received warning, the dated impound order, and his signed overdrive directive. Dast conceded the chronology but insisted that an immediate shutdown would empty hospital and fire reserves."
+    },
+    {
+      "sequence": 77,
+      "operation_number": 71,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The company removed Dast from command but kept him as an adviser under guard. Sera judged that excluding the one person who knew the undocumented bypasses would turn punishment into an additional hazard."
+    },
+    {
+      "sequence": 78,
+      "operation_number": 72,
+      "type": "revelation_established",
+      "revelation_id": "corven-dast-knowingly-drove-the-pumps-beyond-tolerance",
+      "supporting_clue_ids": [
+        "the-water-offices-received-warning",
+        "dasts-dated-impound-order",
+        "dasts-signed-overdrive-directive"
+      ],
+      "note": "The warning receipt, impound order, and signed directive prove that Dast knew the subterranean danger before he increased the load and suppressed the evidence."
+    },
+    {
+      "sequence": 79,
+      "operation_number": 73,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-nine-mile-pump-house",
+      "text": "Tamar Vey and Oren Salk hold operational command of Nine-Mile under the widened commission."
+    },
+    {
+      "sequence": 80,
+      "operation_number": 74,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-nine-mile-pump-house",
+      "text": "Corven Dast remains under Captain Thane's guard as a technical adviser; he has no unilateral authority over pumps, guards, records, or prisoners."
+    },
+    {
+      "sequence": 81,
+      "operation_number": 75,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-nine-mile-pump-house",
+      "text": "The station is balanced below full drought load and prepared to execute either staged shutdown or a coordinated counter-phase."
+    },
+    {
+      "sequence": 82,
+      "operation_number": 76,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "the-deep-bell",
+      "party_label": ""
+    },
+    {
+      "sequence": 83,
+      "operation_number": 77,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "The company split across all three approaches. Orris, Sera, and Anja descended the surveyors' stair; Nell and Ina entered through the Rillcross vent with the live herd relay; Mara joined Tamar, Salk, and the guarded Dast in the pump conduit."
+    },
+    {
+      "sequence": 84,
+      "operation_number": 78,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Cycle one twisted the surveyors' stair and flooded the conduit. Sera secured the tuning crown at the cost of a crushed hand, while Dast identified an undocumented bypass that let Tamar drain the conduit without restoring his command."
+    },
+    {
+      "sequence": 85,
+      "operation_number": 79,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Sera initially argued for shutdown and bracing. Orris argued that the College curves, Anja's sequence, and live animal readings made retuning possible. Nell rejected controlled collapse because every proposed surface target treated an inhabited place as expendable."
+    },
+    {
+      "sequence": 86,
+      "operation_number": 80,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Mara authorized a bounded retuning: preserve five lines, isolate the failing Southgate line, evacuate the eastern pens and warehouses, and accept reduced water service rather than secretly venting the hollow beneath a district."
+    },
+    {
+      "sequence": 87,
+      "operation_number": 81,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "During cycle two, the Southgate pigs broke their common kneeling and turned west. Nell read the divergence as failure in the Third Urban line; Quill confirmed it through the College relay, and Alda cleared the named Southgate blocks before the paving opened."
+    },
+    {
+      "sequence": 88,
+      "operation_number": 82,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Orris and Anja reset five tone rods while Tamar and Salk rephased the pumps. Dast held the manual bypass against the surge under guard. He helped save the city without being restored to office or forgiven."
+    },
+    {
+      "sequence": 89,
+      "operation_number": 83,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "At the final counter-beat, Sera crossed the throat bridge and released the Bell. The Southgate rod tore free, but the remaining five lines answered in sequence and the buried river settled below the foundations."
+    },
+    {
+      "sequence": 90,
+      "operation_number": 84,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "The company returned above with copies of the orders, traces, farm warnings, and Survey doctrine. Mara refused a private settlement; Nell required the farm witnesses to stand in the same hearing as the civic officers."
+    },
+    {
+      "sequence": 91,
+      "operation_number": 85,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-deep-bell",
+      "text": "Five sounding lines were retuned. The failing Southgate line was isolated and remains permanently dead; the Deep Bell still measures the surviving network."
+    },
+    {
+      "sequence": 92,
+      "operation_number": 86,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-deep-bell",
+      "text": "Southgate's evacuated eastern warehouses and part of the weighing yard subsided. No occupied district or farm tract was deliberately sacrificed, and no one was killed in the collapse."
+    },
+    {
+      "sequence": 93,
+      "operation_number": 87,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-nine-mile-pump-house",
+      "text": "Veyr retains reduced water service under public ration priorities while the Nine-Mile station is rebuilt and independently audited."
+    },
+    {
+      "sequence": 94,
+      "operation_number": 88,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "southgate-stockyards",
+      "text": "The eastern pens are closed over the dead sounding line. The surviving herd was released to its owners after the pigs resumed ordinary drinking and movement."
+    },
+    {
+      "sequence": 95,
+      "operation_number": 89,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-hall-of-petitions",
+      "text": "A public return hearing will examine Dast's concealment, restore the First Survey record, compensate the affected farms and stockyards, and determine permanent custody of the Deep Bell."
+    },
+    {
+      "sequence": 96,
+      "operation_number": 90,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "rillcross-farm-belt",
+      "text": "The six farm families are recognized as custodians of the surviving field pins and as required observers for any future change to the sounding network."
+    }
+  ]
+}

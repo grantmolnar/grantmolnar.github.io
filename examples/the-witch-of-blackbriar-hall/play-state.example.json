@@ -1,0 +1,1516 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-witch-of-blackbriar-hall",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "session_started",
+      "session_number": 1,
+      "title": "The Torch in Tomas's Hands",
+      "played_on": "2026-07-17",
+      "participants": [
+        "Sabren Holt",
+        "Lysa Marrin",
+        "Toma Brack",
+        "Neris Kade"
+      ],
+      "attendance_note": "All four members of Canon Ysra Vale's Blackbriar Commission are present.",
+      "opening_note": "The commission reaches Saint Orra's Gallows as Judith Crowl orders Tomas Sedge to light his innocent mother's pyre."
+    },
+    {
+      "sequence": 2,
+      "operation_number": 2,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "saint-orra-gallows",
+      "party_label": "The Blackbriar Commission with Mara and Tomas Sedge"
+    },
+    {
+      "sequence": 3,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "mara-names-the-packets-under-her-floor",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "mara-accuses-saint-mercy-house",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "the-reeve-sends-every-seizure-to-blackbriar",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "caldus-names-the-chapel-bell",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "red-cloth-on-the-departing-crows",
+      "visit_number": 1
+    },
+    {
+      "sequence": 8,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "judith-speaks-through-a-marked-guard",
+      "visit_number": 1
+    },
+    {
+      "sequence": 9,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "the-reeves-token-warms-when-judith-enters",
+      "visit_number": 1
+    },
+    {
+      "sequence": 10,
+      "operation_number": 2,
+      "type": "clue_missed",
+      "clue_id": "crow-reports-arrive-in-judiths-palm",
+      "visit_number": 1
+    },
+    {
+      "sequence": 11,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "renewal-oath-rehearsed-at-the-execution",
+      "visit_number": 1
+    },
+    {
+      "sequence": 12,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Sabren reads Canon Ysra's stay clause before the crowd; Reeve Pell cannot produce a lawful recovery record for Nell Sedge."
+    },
+    {
+      "sequence": 13,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Piers Vey is released from one active command when Neris removes his burning guard token and Caldus names the chapel bell."
+    },
+    {
+      "sequence": 14,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Tomas drops the torch. Mara is removed from the pyre alive and placed under the commission's temporary custody."
+    },
+    {
+      "sequence": 15,
+      "operation_number": 3,
+      "type": "revelation_established",
+      "revelation_id": "the-sedge-croft-preserves-the-accused-midwife-s-last-evidence",
+      "supporting_clue_ids": [
+        "mara-names-the-packets-under-her-floor"
+      ],
+      "note": "Mara names the comparison packets beneath her workroom floor and asks that they be copied before Judith can destroy them."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 3,
+      "type": "encounter_unlocked",
+      "encounter_id": "sedge-croft",
+      "source_revelation_id": "the-sedge-croft-preserves-the-accused-midwife-s-last-evidence",
+      "reason": ""
+    },
+    {
+      "sequence": 17,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "saint-mercy-house-is-where-judith-keeps-the-children-she-has-taken",
+      "supporting_clue_ids": [
+        "mara-accuses-saint-mercy-house"
+      ],
+      "note": "Mara identifies Saint Mercy House as Nell's destination and reports earlier missing children at its upper windows."
+    },
+    {
+      "sequence": 18,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "saint-mercy-house",
+      "source_revelation_id": "saint-mercy-house-is-where-judith-keeps-the-children-she-has-taken",
+      "reason": ""
+    },
+    {
+      "sequence": 19,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "blackbriar-hall-contains-judith-s-household-ledgers-and-private-machinery",
+      "supporting_clue_ids": [
+        "the-reeve-sends-every-seizure-to-blackbriar"
+      ],
+      "note": "The seizure inventory sends trial property to Blackbriar Hall rather than any lawful parish store."
+    },
+    {
+      "sequence": 20,
+      "operation_number": 5,
+      "type": "encounter_unlocked",
+      "encounter_id": "blackbriar-hall",
+      "source_revelation_id": "blackbriar-hall-contains-judith-s-household-ledgers-and-private-machinery",
+      "reason": ""
+    },
+    {
+      "sequence": 21,
+      "operation_number": 6,
+      "type": "revelation_established",
+      "revelation_id": "the-chapel-of-the-free-witness-preserves-the-old-protections",
+      "supporting_clue_ids": [
+        "caldus-names-the-chapel-bell"
+      ],
+      "note": "Caldus identifies the shuttered chapel and its bell as a surviving interruption to Judith's commands."
+    },
+    {
+      "sequence": 22,
+      "operation_number": 6,
+      "type": "encounter_unlocked",
+      "encounter_id": "chapel-of-the-free-witness",
+      "source_revelation_id": "the-chapel-of-the-free-witness-preserves-the-old-protections",
+      "reason": ""
+    },
+    {
+      "sequence": 23,
+      "operation_number": 7,
+      "type": "revelation_established",
+      "revelation_id": "crow-wood-carries-judith-s-familiar-road-and-moving-captives",
+      "supporting_clue_ids": [
+        "red-cloth-on-the-departing-crows"
+      ],
+      "note": "The red prison cloth on departing crows ties Judith's messenger route to Crow Wood."
+    },
+    {
+      "sequence": 24,
+      "operation_number": 7,
+      "type": "encounter_unlocked",
+      "encounter_id": "crow-wood",
+      "source_revelation_id": "crow-wood-carries-judith-s-familiar-road-and-moving-captives",
+      "reason": ""
+    },
+    {
+      "sequence": 25,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "judith-crowl-is-the-witch-and-manufactured-the-prosecutions",
+      "supporting_clue_ids": [
+        "judith-speaks-through-a-marked-guard"
+      ],
+      "note": "Judith speaks through a written-name guard after her body leaves the green, while Sila Darr identifies the planted poppet as compelled evidence."
+    },
+    {
+      "sequence": 26,
+      "operation_number": 9,
+      "type": "revelation_established",
+      "revelation_id": "mercy-tokens-and-gratitude-signatures-are-invitations-not-charity",
+      "supporting_clue_ids": [
+        "the-reeves-token-warms-when-judith-enters"
+      ],
+      "note": "Pell's token opens a threshold without a fresh welcome; the gift carries a concealed magical claim."
+    },
+    {
+      "sequence": 27,
+      "operation_number": 10,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "saint-orra-gallows",
+      "text": "Mara Sedge survives under a public temporary stay; Tomas is not forced to serve as executioner."
+    },
+    {
+      "sequence": 28,
+      "operation_number": 11,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "saint-orra-gallows",
+      "text": "Reeve Pell commits the civil court to preserve the scene and suspend sentence pending inspection."
+    },
+    {
+      "sequence": 29,
+      "operation_number": 12,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "saint-orra-gallows",
+      "text": "Eleven households publicly refuse Judith's Renewal oath; twenty-three remain silent rather than answer."
+    },
+    {
+      "sequence": 30,
+      "operation_number": 13,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "saint-orra-gallows",
+      "text": "Judith's body leaves by carriage for Blackbriar Hall; no duplicate Judith remains on the green."
+    },
+    {
+      "sequence": 31,
+      "operation_number": 14,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "sedge-croft",
+      "party_label": "The Blackbriar Commission with the Sedge household and Darr witnesses"
+    },
+    {
+      "sequence": 32,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "nell-s-map-of-the-long-white-house",
+      "visit_number": 2
+    },
+    {
+      "sequence": 33,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "quill-carries-names-uphill",
+      "visit_number": 2
+    },
+    {
+      "sequence": 34,
+      "operation_number": 14,
+      "type": "clue_missed",
+      "clue_id": "white-lime-beneath-nells-feathers",
+      "visit_number": 2
+    },
+    {
+      "sequence": 35,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "maras-note-open-door-honest-bell",
+      "visit_number": 2
+    },
+    {
+      "sequence": 36,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "nell-s-drawing-of-mirrors-among-reeds",
+      "visit_number": 2
+    },
+    {
+      "sequence": 37,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "the-planted-poppets-blackbriar-thread",
+      "visit_number": 2
+    },
+    {
+      "sequence": 38,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "maras-three-transaction-chronology",
+      "visit_number": 2
+    },
+    {
+      "sequence": 39,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "nells-gift-carries-her-full-name",
+      "visit_number": 2
+    },
+    {
+      "sequence": 40,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "the-hearth-mark-follows-stolen-ash",
+      "visit_number": 2
+    },
+    {
+      "sequence": 41,
+      "operation_number": 14,
+      "type": "clue_spotted",
+      "clue_id": "maras-successful-household-revocation",
+      "visit_number": 2
+    },
+    {
+      "sequence": 42,
+      "operation_number": 14,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Mara, Tomas, and Pate revoke Judith's welcome, remove Nell's named gift and stolen ash, and establish a fresh witnessed hearth."
+    },
+    {
+      "sequence": 43,
+      "operation_number": 14,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "All seven prosecution packets are copied into chapel, commission, and household custody sets."
+    },
+    {
+      "sequence": 44,
+      "operation_number": 14,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Quill is captured carrying a written seizure order and a physical ash packet; its bone tongue points uphill toward Blackbriar Hall."
+    },
+    {
+      "sequence": 45,
+      "operation_number": 15,
+      "type": "revelation_established",
+      "revelation_id": "moonless-mere-is-where-stolen-names-are-delivered",
+      "supporting_clue_ids": [
+        "nell-s-drawing-of-mirrors-among-reeds"
+      ],
+      "note": "Nell's drawing joins the Mercy House mirrors to a black pool among reeds where paper names are delivered."
+    },
+    {
+      "sequence": 46,
+      "operation_number": 15,
+      "type": "encounter_unlocked",
+      "encounter_id": "moonless-mere",
+      "source_revelation_id": "moonless-mere-is-where-stolen-names-are-delivered",
+      "reason": ""
+    },
+    {
+      "sequence": 47,
+      "operation_number": 16,
+      "type": "revelation_established",
+      "revelation_id": "judith-s-magic-comes-from-three-willing-pacts-with-the-unwelcome-court",
+      "supporting_clue_ids": [
+        "maras-three-transaction-chronology"
+      ],
+      "note": "Mara's chronology separates Judith's threshold, burial, and naming powers into three willingly acquired bargains."
+    },
+    {
+      "sequence": 48,
+      "operation_number": 17,
+      "type": "revelation_established",
+      "revelation_id": "judith-spies-and-strikes-through-accepted-gifts-written-names-and-hearth-ash",
+      "supporting_clue_ids": [
+        "the-hearth-mark-follows-stolen-ash"
+      ],
+      "note": "The croft attack requires transported ash and a written order; Judith's apparent omniscience is a finite network."
+    },
+    {
+      "sequence": 49,
+      "operation_number": 18,
+      "type": "revelation_established",
+      "revelation_id": "the-hollow-feast-can-be-stopped-by-revoking-the-village-welcome",
+      "supporting_clue_ids": [
+        "renewal-oath-rehearsed-at-the-execution",
+        "maras-successful-household-revocation"
+      ],
+      "note": "The public oath supplies a common welcome, while the Sedge revocation proves a household claim can be withdrawn materially and before witnesses."
+    },
+    {
+      "sequence": 50,
+      "operation_number": 19,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "sedge-croft",
+      "text": "The Sedge household revocation is complete and persists; a soot hand stops at the threshold and leaves a visible print."
+    },
+    {
+      "sequence": 51,
+      "operation_number": 20,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "sedge-croft",
+      "text": "All seven prosecution packets survive in three independent custody sets."
+    },
+    {
+      "sequence": 52,
+      "operation_number": 21,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "sedge-croft",
+      "text": "Quill loses one message strip, one ash packet, and its bone-tongue hinge; the familiar remains a finite captured creature."
+    },
+    {
+      "sequence": 53,
+      "operation_number": 22,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "sedge-croft",
+      "text": "The croft becomes a six-person refuge under Mara and Adela Merrow's receiving plan."
+    },
+    {
+      "sequence": 54,
+      "operation_number": 23,
+      "type": "session_ended",
+      "session_number": 1,
+      "closing_note": "Mara is alive, the Sedge evidence is distributed, Saint Mercy House and several alternative routes are open, and Judith has spent one bounded response through Quill rather than erasing the croft offstage."
+    },
+    {
+      "sequence": 55,
+      "operation_number": 24,
+      "type": "session_started",
+      "session_number": 2,
+      "title": "The White House and the Red Road",
+      "played_on": "2026-07-17",
+      "participants": [
+        "Sabren Holt",
+        "Lysa Marrin",
+        "Toma Brack",
+        "Neris Kade"
+      ],
+      "attendance_note": "All four members of Canon Ysra Vale's Blackbriar Commission are present.",
+      "opening_note": "The commission enters Saint Mercy House under inspection authority while receiving households prepare beds, carts, and medical capacity."
+    },
+    {
+      "sequence": 56,
+      "operation_number": 25,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "saint-mercy-house",
+      "party_label": "The Blackbriar Commission with Nell, resident organizers, and receiving crews"
+    },
+    {
+      "sequence": 57,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "infirmary-disposal-route",
+      "visit_number": 3
+    },
+    {
+      "sequence": 58,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "silver-slips-wet-with-mere-water",
+      "visit_number": 3
+    },
+    {
+      "sequence": 59,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-emergency-transfer-order",
+      "visit_number": 3
+    },
+    {
+      "sequence": 60,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "altered-admissions-follow-every-accusation",
+      "visit_number": 3
+    },
+    {
+      "sequence": 61,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-mercy-books-gift-column",
+      "visit_number": 3
+    },
+    {
+      "sequence": 62,
+      "operation_number": 25,
+      "type": "clue_missed",
+      "clue_id": "mirrors-repeat-conversations-from-marked-rooms",
+      "visit_number": 3
+    },
+    {
+      "sequence": 63,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "infirmary-labels-restore-several-identities",
+      "visit_number": 3
+    },
+    {
+      "sequence": 64,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "nell-discovers-the-vessel-sequence",
+      "visit_number": 3
+    },
+    {
+      "sequence": 65,
+      "operation_number": 25,
+      "type": "clue_spotted",
+      "clue_id": "the-feast-checklist-names-three-components",
+      "visit_number": 3
+    },
+    {
+      "sequence": 66,
+      "operation_number": 25,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "The inspection reaches the fourth clock step: records move, four onsite captives are hooded, and all seven vessels are crated for transfer."
+    },
+    {
+      "sequence": 67,
+      "operation_number": 25,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Five infirmary patients move with matched bottles, cool cases, carriers, and receiving beds; no bottle is treated as ownerless cargo."
+    },
+    {
+      "sequence": 68,
+      "operation_number": 25,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Sister Harl opens the hidden stair and holds the east bridge after seeing that Judith plans to spend the residents as feast voices."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 25,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "The master Mercy Book has already gone to Blackbriar Hall, but token lists, admissions, feast instructions, transfer orders, and infirmary records are independently copied."
+    },
+    {
+      "sequence": 70,
+      "operation_number": 26,
+      "type": "revelation_established",
+      "revelation_id": "the-white-pits-hold-the-plague-dead-judith-denied-burial",
+      "supporting_clue_ids": [
+        "infirmary-disposal-route"
+      ],
+      "note": "The infirmary disposal log sends failed transfers to sealed night orders in the abandoned north orchard."
+    },
+    {
+      "sequence": 71,
+      "operation_number": 26,
+      "type": "encounter_unlocked",
+      "encounter_id": "white-pits",
+      "source_revelation_id": "the-white-pits-hold-the-plague-dead-judith-denied-burial",
+      "reason": ""
+    },
+    {
+      "sequence": 72,
+      "operation_number": 27,
+      "type": "revelation_established",
+      "revelation_id": "the-worm-in-white-pact-can-be-broken-by-honest-burial",
+      "supporting_clue_ids": [
+        "infirmary-labels-restore-several-identities"
+      ],
+      "note": "Infirmary labels restore eleven erased identities and show that names, bodies, lifting, and witnessed disposition must remain separate."
+    },
+    {
+      "sequence": 73,
+      "operation_number": 28,
+      "type": "revelation_established",
+      "revelation_id": "the-child-behind-glass-pact-can-be-broken-by-returning-the-stolen-names",
+      "supporting_clue_ids": [
+        "nell-discovers-the-vessel-sequence"
+      ],
+      "note": "Nell knows the safe order: establish the owner's unborrowed reflection, speak the name back, and break the vessel only afterward."
+    },
+    {
+      "sequence": 74,
+      "operation_number": 29,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "saint-mercy-house",
+      "text": "Nell Sedge, Amey Fen, Lark Merrow, Sella Darr, and Eda Lorn leave the House alive with named guardians."
+    },
+    {
+      "sequence": 75,
+      "operation_number": 30,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "saint-mercy-house",
+      "text": "All seven current name vessels are covered, recorded separately, and carried by free custodians."
+    },
+    {
+      "sequence": 76,
+      "operation_number": 31,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "saint-mercy-house",
+      "text": "Thirty visible children, nine adult dependents, and five infirmary patients receive staged destinations rather than one abstract evacuation result."
+    },
+    {
+      "sequence": 77,
+      "operation_number": 32,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "saint-mercy-house",
+      "text": "Judith returns Pell's wasting illness through the cure receipt; Linn Pell survives under care and the carrier is isolated as public evidence."
+    },
+    {
+      "sequence": 78,
+      "operation_number": 33,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "crow-wood",
+      "party_label": "The Blackbriar Commission with Garran Pike under challenge"
+    },
+    {
+      "sequence": 79,
+      "operation_number": 33,
+      "type": "clue_spotted",
+      "clue_id": "the-service-road-under-the-thorns",
+      "visit_number": 4
+    },
+    {
+      "sequence": 80,
+      "operation_number": 33,
+      "type": "clue_missed",
+      "clue_id": "crows-roost-only-west-of-the-burned-doors",
+      "visit_number": 4
+    },
+    {
+      "sequence": 81,
+      "operation_number": 33,
+      "type": "clue_spotted",
+      "clue_id": "garrans-white-wheeled-corpse-cart",
+      "visit_number": 4
+    },
+    {
+      "sequence": 82,
+      "operation_number": 33,
+      "type": "clue_spotted",
+      "clue_id": "prisoners-hear-the-feast-below-the-road",
+      "visit_number": 4
+    },
+    {
+      "sequence": 83,
+      "operation_number": 33,
+      "type": "clue_spotted",
+      "clue_id": "crows-carry-paper-not-thoughts",
+      "visit_number": 4
+    },
+    {
+      "sequence": 84,
+      "operation_number": 33,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The visible cage is a decoy; Jo Rusk, Perrin Mett, and Haro Venn are found in hidden wagon compartments."
+    },
+    {
+      "sequence": 85,
+      "operation_number": 33,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Garran unlocks the wagon, removes written restraints, names his transport work, and leads the party toward the Hall tunnel after Olla fails to recognize him."
+    },
+    {
+      "sequence": 86,
+      "operation_number": 33,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Two crow messages are captured and a third is altered to send Cleft's escort toward the orchard decoy."
+    },
+    {
+      "sequence": 87,
+      "operation_number": 34,
+      "type": "revelation_established",
+      "revelation_id": "the-hollow-feast-will-be-completed-beneath-blackbriar-hall",
+      "supporting_clue_ids": [
+        "prisoners-hear-the-feast-below-the-road"
+      ],
+      "note": "The prisoners hear children reciting names and cutlery beneath the Hall service road; the final operation is physically below Blackbriar Hall."
+    },
+    {
+      "sequence": 88,
+      "operation_number": 34,
+      "type": "encounter_unlocked",
+      "encounter_id": "underhall-of-the-hollow-feast",
+      "source_revelation_id": "the-hollow-feast-will-be-completed-beneath-blackbriar-hall",
+      "reason": ""
+    },
+    {
+      "sequence": 89,
+      "operation_number": 35,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "crow-wood",
+      "text": "Jo Rusk, Perrin Mett, and Haro Venn are rescued to Dena Moor's western coppice route."
+    },
+    {
+      "sequence": 90,
+      "operation_number": 36,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "crow-wood",
+      "text": "Garran Pike cooperates in custody; his assistance does not erase prisoner transport, concealment, or corpse use."
+    },
+    {
+      "sequence": 91,
+      "operation_number": 37,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "crow-wood",
+      "text": "Olla Pike's commanded body walks toward the White Pits, exposing the surviving Worm route rather than disappearing into the wood."
+    },
+    {
+      "sequence": 92,
+      "operation_number": 38,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "blackbriar-hall",
+      "party_label": "The Blackbriar Commission with Cora Pike and six defecting staff"
+    },
+    {
+      "sequence": 93,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "order-to-strip-the-sedge-house",
+      "visit_number": 5
+    },
+    {
+      "sequence": 94,
+      "operation_number": 38,
+      "type": "clue_missed",
+      "clue_id": "night-transfers-from-the-hall",
+      "visit_number": 5
+    },
+    {
+      "sequence": 95,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "the-false-shelter-ledger",
+      "visit_number": 5
+    },
+    {
+      "sequence": 96,
+      "operation_number": 38,
+      "type": "clue_missed",
+      "clue_id": "judiths-moonless-appointments",
+      "visit_number": 5
+    },
+    {
+      "sequence": 97,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "garrans-road-allotment",
+      "visit_number": 5
+    },
+    {
+      "sequence": 98,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "the-locked-stair-marked-with-three-chairs",
+      "visit_number": 5
+    },
+    {
+      "sequence": 99,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "judiths-accusation-drafts",
+      "visit_number": 5
+    },
+    {
+      "sequence": 100,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "three-chairs-in-judiths-private-dining-room",
+      "visit_number": 5
+    },
+    {
+      "sequence": 101,
+      "operation_number": 38,
+      "type": "clue_missed",
+      "clue_id": "ash-gallery-labels-match-household-tokens",
+      "visit_number": 5
+    },
+    {
+      "sequence": 102,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "the-network-maintenance-board",
+      "visit_number": 5
+    },
+    {
+      "sequence": 103,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "the-private-ledger-is-the-pacts-living-copy",
+      "visit_number": 5
+    },
+    {
+      "sequence": 104,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "three-injury-ledgers",
+      "visit_number": 5
+    },
+    {
+      "sequence": 105,
+      "operation_number": 38,
+      "type": "clue_spotted",
+      "clue_id": "judiths-contingency-matrix",
+      "visit_number": 5
+    },
+    {
+      "sequence": 106,
+      "operation_number": 38,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "The party enters by the root-cut service tunnel before Judith reconciles the false crow report."
+    },
+    {
+      "sequence": 107,
+      "operation_number": 38,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Corin Pike is recovered with Mercy Book leaves; Cora Pike takes custody after his written strip is removed."
+    },
+    {
+      "sequence": 108,
+      "operation_number": 38,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "The living false shelter ledger, accusation drafts, injury ledgers, contingency matrix, and pact-renewal records are copied or secured."
+    },
+    {
+      "sequence": 109,
+      "operation_number": 38,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Odo carries the master Mercy Book and Cleft carries the token-table key into the Underhall while Judith retreats through one intact ash route."
+    },
+    {
+      "sequence": 110,
+      "operation_number": 39,
+      "type": "revelation_established",
+      "revelation_id": "the-burned-refuge-is-the-seat-of-the-guest-in-ash-pact",
+      "supporting_clue_ids": [
+        "the-false-shelter-ledger"
+      ],
+      "note": "Judith's private shelter ledger names nineteen supposed departures and marks each with living pact ash."
+    },
+    {
+      "sequence": 111,
+      "operation_number": 39,
+      "type": "encounter_unlocked",
+      "encounter_id": "burned-refuge",
+      "source_revelation_id": "the-burned-refuge-is-the-seat-of-the-guest-in-ash-pact",
+      "reason": ""
+    },
+    {
+      "sequence": 112,
+      "operation_number": 40,
+      "type": "revelation_established",
+      "revelation_id": "the-guest-in-ash-pact-can-be-broken-at-the-burned-refuge",
+      "supporting_clue_ids": [
+        "the-private-ledger-is-the-pacts-living-copy"
+      ],
+      "note": "The ash returning to erased names proves that the living false ledger must be burned under the refuge counter-operation rather than destroyed as ordinary evidence."
+    },
+    {
+      "sequence": 113,
+      "operation_number": 41,
+      "type": "revelation_established",
+      "revelation_id": "judith-s-immortality-is-distributed-across-the-three-pacts",
+      "supporting_clue_ids": [
+        "three-injury-ledgers"
+      ],
+      "note": "Judith records wounds diverted among ash, abandoned flesh, and stolen reflections and notes that two patrons must fail before her body is merely her own."
+    },
+    {
+      "sequence": 114,
+      "operation_number": 42,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "blackbriar-hall",
+      "text": "Corin Pike is rescued; all seven current children and all seven current vessels are now under free custody."
+    },
+    {
+      "sequence": 115,
+      "operation_number": 43,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "blackbriar-hall",
+      "text": "The living false shelter ledger is secured in a covered iron box for the Burned Refuge operation."
+    },
+    {
+      "sequence": 116,
+      "operation_number": 44,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "blackbriar-hall",
+      "text": "Cora Pike and six ordinary staff protect the relief stores under an emergency inventory rather than allowing either side to burn or seize them wholesale."
+    },
+    {
+      "sequence": 117,
+      "operation_number": 45,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "blackbriar-hall",
+      "text": "Judith's body enters the Underhall through the last intact Guest route; Odo, Cleft, six marked guards, the master Mercy Book, and token key go below."
+    },
+    {
+      "sequence": 118,
+      "operation_number": 46,
+      "type": "session_ended",
+      "session_number": 2,
+      "closing_note": "All seven current children and vessels are controlled by free guardians, the Hall records and living pact ledger are secured, and the party deliberately postpones the Underhall until counter-operations can make Judith bodily mortal and disable the choir."
+    },
+    {
+      "sequence": 119,
+      "operation_number": 47,
+      "type": "session_started",
+      "session_number": 3,
+      "title": "Three Debts Answered",
+      "played_on": "2026-07-17",
+      "participants": [
+        "Sabren Holt",
+        "Lysa Marrin",
+        "Toma Brack",
+        "Neris Kade"
+      ],
+      "attendance_note": "All four members of Canon Ysra Vale's Blackbriar Commission are present.",
+      "opening_note": "The chapel becomes the refuge and operations center while Judith remains physically below Blackbriar Hall preparing the feast."
+    },
+    {
+      "sequence": 120,
+      "operation_number": 48,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "chapel-of-the-free-witness",
+      "party_label": "The Blackbriar Commission with Caldus, the Vey bell crew, household witnesses, and Mercy House evacuees"
+    },
+    {
+      "sequence": 121,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "canon-ysras-sealed-inspection-request",
+      "visit_number": 6
+    },
+    {
+      "sequence": 122,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "saint-vey-granary-refugee-roll",
+      "visit_number": 6
+    },
+    {
+      "sequence": 123,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "missing-pox-procession",
+      "visit_number": 6
+    },
+    {
+      "sequence": 124,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "the-naming-rites-warning",
+      "visit_number": 6
+    },
+    {
+      "sequence": 125,
+      "operation_number": 48,
+      "type": "clue_missed",
+      "clue_id": "diagram-of-a-many-doored-underhall",
+      "visit_number": 6
+    },
+    {
+      "sequence": 126,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "the-old-priests-rejected-confession",
+      "visit_number": 6
+    },
+    {
+      "sequence": 127,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "old-hospitality-law-distinguishes-aid-from-welcome",
+      "visit_number": 6
+    },
+    {
+      "sequence": 128,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "counter-rite-of-the-freely-offered-hearth",
+      "visit_number": 6
+    },
+    {
+      "sequence": 129,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "the-honest-bell-records-concealed-death",
+      "visit_number": 6
+    },
+    {
+      "sequence": 130,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "free-witness-clause-for-missing-owners",
+      "visit_number": 6
+    },
+    {
+      "sequence": 131,
+      "operation_number": 48,
+      "type": "clue_spotted",
+      "clue_id": "public-withdrawal-form",
+      "visit_number": 6
+    },
+    {
+      "sequence": 132,
+      "operation_number": 48,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The original threshold remains open; closure strips and six hidden tokens are removed and preserved as evidence."
+    },
+    {
+      "sequence": 133,
+      "operation_number": 48,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Toma lowers, repairs, frames, and publicly commissions the honest bell with clean Vey bronze and Darr leather."
+    },
+    {
+      "sequence": 134,
+      "operation_number": 48,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Twenty-eight households complete private revocations; nineteen read public revocations before witnesses and eleven more destroy tokens without public speech."
+    },
+    {
+      "sequence": 135,
+      "operation_number": 48,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The chapel rolls, manuals, false ordinance, rejected confession memorandum, burial office, naming office, and withdrawal form are copied into independent custody."
+    },
+    {
+      "sequence": 136,
+      "operation_number": 49,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "chapel-of-the-free-witness",
+      "text": "The chapel becomes a staffed refuge, medical site, evidence repository, and coordination point without installing a replacement threshold door."
+    },
+    {
+      "sequence": 137,
+      "operation_number": 50,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "chapel-of-the-free-witness",
+      "text": "Piers Vey completes the bell swing under command, then publicly names his prior willing service; the last active Vey name strip is destroyed."
+    },
+    {
+      "sequence": 138,
+      "operation_number": 51,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "chapel-of-the-free-witness",
+      "text": "The honest bell is portable and commissioned to state body, evidence, location, and person who denied burial."
+    },
+    {
+      "sequence": 139,
+      "operation_number": 52,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "burned-refuge",
+      "party_label": "The Blackbriar Commission with eight workers, Dena Moor, and Mara Sedge witnessing from the yard"
+    },
+    {
+      "sequence": 140,
+      "operation_number": 52,
+      "type": "clue_missed",
+      "clue_id": "a-soot-child-asks-for-the-white-house",
+      "visit_number": 7
+    },
+    {
+      "sequence": 141,
+      "operation_number": 52,
+      "type": "clue_spotted",
+      "clue_id": "lime-wagon-ruts-leave-the-refuge-road",
+      "visit_number": 7
+    },
+    {
+      "sequence": 142,
+      "operation_number": 52,
+      "type": "clue_spotted",
+      "clue_id": "ash-doors-opening-into-village-hearths",
+      "visit_number": 7
+    },
+    {
+      "sequence": 143,
+      "operation_number": 52,
+      "type": "clue_spotted",
+      "clue_id": "the-dead-name-their-jailer",
+      "visit_number": 7
+    },
+    {
+      "sequence": 144,
+      "operation_number": 52,
+      "type": "clue_spotted",
+      "clue_id": "the-guest-remembers-her-invitation",
+      "visit_number": 7
+    },
+    {
+      "sequence": 145,
+      "operation_number": 52,
+      "type": "clue_spotted",
+      "clue_id": "nineteen-knocks-three-unfinished-acts",
+      "visit_number": 7
+    },
+    {
+      "sequence": 146,
+      "operation_number": 52,
+      "type": "clue_spotted",
+      "clue_id": "flame-takes-one-kind-of-harm",
+      "visit_number": 7
+    },
+    {
+      "sequence": 147,
+      "operation_number": 52,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Workers pull the original west doors outward without accepting the Guest's offer of painless entry."
+    },
+    {
+      "sequence": 148,
+      "operation_number": 52,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "All nineteen refuge names are restored from the chapel roll, material marks, and released memories with uncertainty recorded honestly."
+    },
+    {
+      "sequence": 149,
+      "operation_number": 52,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "The living false ledger burns in Mara Sedge's freely offered, cleansed household hearth while the restored roll is read."
+    },
+    {
+      "sequence": 150,
+      "operation_number": 53,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "burned-refuge",
+      "text": "The Guest in Ash pact is severed: hearth passage, inward fire, threshold denial, and soot concealment end."
+    },
+    {
+      "sequence": 151,
+      "operation_number": 54,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "burned-refuge",
+      "text": "The nineteen refuge dead can speak without the Guest translating them; copied doors across the vale swing outward."
+    },
+    {
+      "sequence": 152,
+      "operation_number": 55,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "white-pits",
+      "party_label": "The Blackbriar Commission with the honest-bell crew, sixteen rotating workers, household identifiers, and exposure care"
+    },
+    {
+      "sequence": 153,
+      "operation_number": 55,
+      "type": "clue_missed",
+      "clue_id": "mercy-house-infirmary-tags",
+      "visit_number": 8
+    },
+    {
+      "sequence": 154,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "refuge-ash-seals-the-oldest-pit-dead",
+      "visit_number": 8
+    },
+    {
+      "sequence": 155,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "the-dead-rehearse-a-supper-response",
+      "visit_number": 8
+    },
+    {
+      "sequence": 156,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "wounds-move-from-judith-into-the-dead",
+      "visit_number": 8
+    },
+    {
+      "sequence": 157,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "the-worms-tally-of-renewals",
+      "visit_number": 8
+    },
+    {
+      "sequence": 158,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "the-dead-point-to-names-lifting-and-bell",
+      "visit_number": 8
+    },
+    {
+      "sequence": 159,
+      "operation_number": 55,
+      "type": "clue_spotted",
+      "clue_id": "the-pits-take-flesh-wounds",
+      "visit_number": 8
+    },
+    {
+      "sequence": 160,
+      "operation_number": 55,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "All thirty-one founding dead are identified household by household and lifted from quicklime under bell witness."
+    },
+    {
+      "sequence": 161,
+      "operation_number": 55,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Twenty-seven founding bodies receive honest burning; Rell and Siva Vane, Jessa Bale, and Tev Noll remain wrapped pending independent family witnesses."
+    },
+    {
+      "sequence": 162,
+      "operation_number": 55,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Auda Vey, Elian Darr, Ilyra Fen, Bram Kett, Toman Rusk, and two additional renewal remains are recovered from the later trench."
+    },
+    {
+      "sequence": 163,
+      "operation_number": 55,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Olla Pike stops walking after her body is lifted from the white root; Toma suffers a controlled quicklime burn while cutting one visible wound-transfer thread."
+    },
+    {
+      "sequence": 164,
+      "operation_number": 56,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "white-pits",
+      "text": "The Worm in White pact is narrowed but not severed: all founding dead are named and lifted, twenty-seven are disposed, and four protected bodies still carry limited threads."
+    },
+    {
+      "sequence": 165,
+      "operation_number": 57,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "white-pits",
+      "text": "Five renewal victims are returned under their true identities; two additional remains stay under chapel custody for later identification."
+    },
+    {
+      "sequence": 166,
+      "operation_number": 58,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "white-pits",
+      "text": "Broad pit-root corpse command and sickness transfer end with removal; limited wound displacement remains visible through the four unburned founding bodies."
+    },
+    {
+      "sequence": 167,
+      "operation_number": 59,
+      "type": "encounter_visited",
+      "visit_number": 9,
+      "encounter_id": "moonless-mere",
+      "party_label": "The Blackbriar Commission with all seven current children, their chosen guardians, and older-name witnesses"
+    },
+    {
+      "sequence": 168,
+      "operation_number": 59,
+      "type": "clue_missed",
+      "clue_id": "nell-s-reflection-asks-for-the-loose-board",
+      "visit_number": 9
+    },
+    {
+      "sequence": 169,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "a-reflected-corridor-climbs-into-blackbriar",
+      "visit_number": 9
+    },
+    {
+      "sequence": 170,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "the-mere-refuses-the-honest-bell-s-reflection",
+      "visit_number": 9
+    },
+    {
+      "sequence": 171,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "her-reflection-answers-before-she-does",
+      "visit_number": 9
+    },
+    {
+      "sequence": 172,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "the-child-offers-judiths-original-bargain",
+      "visit_number": 9
+    },
+    {
+      "sequence": 173,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "reflections-enter-only-marked-homes",
+      "visit_number": 9
+    },
+    {
+      "sequence": 174,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "the-unborrowed-reflection-test",
+      "visit_number": 9
+    },
+    {
+      "sequence": 175,
+      "operation_number": 59,
+      "type": "clue_spotted",
+      "clue_id": "reflections-take-defeat-and-recognition",
+      "visit_number": 9
+    },
+    {
+      "sequence": 176,
+      "operation_number": 59,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Each current child chooses a claimed name, passes the three unborrowed-reflection tests, receives a free witness response, and breaks the matching vessel afterward."
+    },
+    {
+      "sequence": 177,
+      "operation_number": 59,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Five living former residents and four dead owners are restored through specific witnesses and records; three damaged unidentified vessels remain covered and separately numbered."
+    },
+    {
+      "sequence": 178,
+      "operation_number": 59,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "The standing reflection replays Judith's willing first bargain and finally copies Judith rather than the observer before withdrawing."
+    },
+    {
+      "sequence": 179,
+      "operation_number": 60,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "moonless-mere",
+      "text": "The Child Behind Glass pact is severed; sustained name command, borrowed voices, dream entry through stolen names, false recognition, and reflected routes end."
+    },
+    {
+      "sequence": 180,
+      "operation_number": 61,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "moonless-mere",
+      "text": "All seven current and nine identifiable older names are returned; sixteen vessels are broken only after correct restoration."
+    },
+    {
+      "sequence": 181,
+      "operation_number": 62,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "moonless-mere",
+      "text": "Three unidentified damaged vessels remain covered, unresolved, and outside Judith's custody rather than being destroyed for a false claim of completeness."
+    },
+    {
+      "sequence": 182,
+      "operation_number": 63,
+      "type": "session_ended",
+      "session_number": 3,
+      "closing_note": "Two pacts are severed, the Worm remains active only through four protected bodies, the captive choir is unusable, and the common welcome now depends on both the Mercy Book and token network surviving the final operation."
+    },
+    {
+      "sequence": 183,
+      "operation_number": 64,
+      "type": "session_started",
+      "session_number": 4,
+      "title": "The Hollow Feast",
+      "played_on": "2026-07-17",
+      "participants": [
+        "Sabren Holt",
+        "Lysa Marrin",
+        "Toma Brack",
+        "Neris Kade"
+      ],
+      "attendance_note": "All four members of Canon Ysra Vale's Blackbriar Commission are present.",
+      "opening_note": "The commission returns through the controlled service tunnel as the feast reaches the children-speak stage without any owned child voice available."
+    },
+    {
+      "sequence": 184,
+      "operation_number": 65,
+      "type": "encounter_visited",
+      "visit_number": 10,
+      "encounter_id": "underhall-of-the-hollow-feast",
+      "party_label": "The Blackbriar Commission with Mara, Caldus, Pell, Cora Pike, Harl, and household witnesses"
+    },
+    {
+      "sequence": 185,
+      "operation_number": 65,
+      "type": "clue_spotted",
+      "clue_id": "the-guest-recoils-from-an-opened-refuge",
+      "visit_number": 10
+    },
+    {
+      "sequence": 186,
+      "operation_number": 65,
+      "type": "clue_spotted",
+      "clue_id": "the-worm-loses-judiths-wounds-when-burial-begins",
+      "visit_number": 10
+    },
+    {
+      "sequence": 187,
+      "operation_number": 65,
+      "type": "clue_spotted",
+      "clue_id": "empty-chairs-remove-visible-protections",
+      "visit_number": 10
+    },
+    {
+      "sequence": 188,
+      "operation_number": 65,
+      "type": "clue_spotted",
+      "clue_id": "the-rite-continues-after-judith-falls",
+      "visit_number": 10
+    },
+    {
+      "sequence": 189,
+      "operation_number": 65,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Odo has the master Mercy Book and Cleft the token key; seven servants reading copied strips cannot satisfy the choir after the names are restored."
+    },
+    {
+      "sequence": 190,
+      "operation_number": 65,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Sabren severs the master binding between names and concealed obligations while preserving the pages and index as evidence."
+    },
+    {
+      "sequence": 191,
+      "operation_number": 65,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The common welcome collapses when the choir and Mercy Book are neutralized; five active household token claims remain locally dangerous."
+    },
+    {
+      "sequence": 192,
+      "operation_number": 65,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The final four pit bodies receive independent witnessed burning at the chapel, breaking the visible Worm threads during the confrontation."
+    },
+    {
+      "sequence": 193,
+      "operation_number": 65,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Judith refuses surrender, attempts to displace a self-inflicted wound into the pits, and dies when the severed pacts leave the wound on her own body."
+    },
+    {
+      "sequence": 194,
+      "operation_number": 66,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "underhall-of-the-hollow-feast",
+      "text": "The Mercy Book is neutralized as a feast component but preserved as evidence; the captive choir was already neutralized by rescue and name return."
+    },
+    {
+      "sequence": 195,
+      "operation_number": 67,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "underhall-of-the-hollow-feast",
+      "text": "The common valley-wide welcome collapses; five active household claims and several uncertain signatures remain for local revocation work."
+    },
+    {
+      "sequence": 196,
+      "operation_number": 68,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "underhall-of-the-hollow-feast",
+      "text": "The final four founding dead receive honest disposition under independent witnesses, fully severing the Worm in White pact."
+    },
+    {
+      "sequence": 197,
+      "operation_number": 69,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "underhall-of-the-hollow-feast",
+      "text": "Judith Crowl dies after refusing surrender; her body remains under guarded civil and chapel custody rather than vanishing through a patron channel."
+    },
+    {
+      "sequence": 198,
+      "operation_number": 70,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "underhall-of-the-hollow-feast",
+      "text": "Odo Vane and Varro Cleft are captured; Garran Pike and Sister Harl remain protected witnesses under custody, with cooperation recorded separately from culpability."
+    },
+    {
+      "sequence": 199,
+      "operation_number": 71,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "underhall-of-the-hollow-feast",
+      "text": "A temporary local council controls relief stores, refuge, medical care, and evidence until outside authorities arrive; Canon Ysra's commission does not become permanent government."
+    },
+    {
+      "sequence": 200,
+      "operation_number": 72,
+      "type": "session_ended",
+      "session_number": 4,
+      "closing_note": "Judith is dead, all three pacts are severed, the common welcome is broken, all seven current names are restored, all founding dead are honestly disposed, and the surviving work remains concrete: five local claims, three unidentified vessels, two unidentified later bodies, displaced care, property repair, and collaborator judgments."
+    }
+  ]
+}

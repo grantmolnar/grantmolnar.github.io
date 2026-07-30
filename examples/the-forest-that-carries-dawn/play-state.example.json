@@ -1,0 +1,1495 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-forest-that-carries-dawn",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "session_started",
+      "session_number": 1,
+      "title": "Thirteen Names Beyond the Roots",
+      "played_on": "2026-07-16",
+      "participants": [
+        "Ansel Roe",
+        "Shai Moss",
+        "Kesh Rill",
+        "Len Orf"
+      ],
+      "attendance_note": "All four roster members present; Hessa labels their report line the Saltward Four.",
+      "opening_note": "The forest has lifted the Cairnroad camp. Orra commissions one people-first survey and requires burden-specific route reports."
+    },
+    {
+      "sequence": 2,
+      "operation_number": 2,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "camp-under-new-leaves",
+      "party_label": "The Saltward Four with Orra, Hessa, Nahl, and Sio"
+    },
+    {
+      "sequence": 3,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "bells-beyond-the-root-seam",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "dark-pellets-under-bronze-beetles",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "green-light-where-sunrise-should-be",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "dew-falling-upward",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "smoke-crossing-the-canopy",
+      "visit_number": 1
+    },
+    {
+      "sequence": 8,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "salt-retreating-beneath-the-western-roots",
+      "visit_number": 1
+    },
+    {
+      "sequence": 9,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "full-beetles-east-empty-beetles-west",
+      "visit_number": 1
+    },
+    {
+      "sequence": 10,
+      "operation_number": 2,
+      "type": "clue_spotted",
+      "clue_id": "sio-s-six-lines-describing-one-process",
+      "visit_number": 1
+    },
+    {
+      "sequence": 11,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Hessa confirms forty-two names: twenty-nine at camp and thirteen missing among three wagon pockets."
+    },
+    {
+      "sequence": 12,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Ansel marks the broad western salt shelf as a provisional walking route but refuses to certify wagon capacity before seeing its moving edge."
+    },
+    {
+      "sequence": 13,
+      "operation_number": 2,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Shai treats Sio's six lines as a testable process description, not proof that a removable seed exists."
+    },
+    {
+      "sequence": 14,
+      "operation_number": 3,
+      "type": "clue_missed",
+      "clue_id": "sio-s-final-line-tested-against-the-horizon",
+      "visit_number": 1
+    },
+    {
+      "sequence": 15,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "the-divided-roots-hold-the-missing-wagons",
+      "supporting_clue_ids": [
+        "bells-beyond-the-root-seam"
+      ],
+      "note": "Three wagon bells answer from the northeast fork; the rescue party can follow a named sound rather than search the whole moving forest."
+    },
+    {
+      "sequence": 16,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "wagons-in-the-forked-roots",
+      "source_revelation_id": "the-divided-roots-hold-the-missing-wagons",
+      "reason": ""
+    },
+    {
+      "sequence": 17,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "old-soil-mounds-mark-the-soilbearer-road",
+      "supporting_clue_ids": [
+        "dark-pellets-under-bronze-beetles"
+      ],
+      "note": "Loaded beetles and living pellets identify a crownward road whose traffic is distinct from the caravan wreck."
+    },
+    {
+      "sequence": 18,
+      "operation_number": 5,
+      "type": "encounter_unlocked",
+      "encounter_id": "soilbearer-road",
+      "source_revelation_id": "old-soil-mounds-mark-the-soilbearer-road",
+      "reason": ""
+    },
+    {
+      "sequence": 19,
+      "operation_number": 6,
+      "type": "revelation_established",
+      "revelation_id": "borrowed-dawn-marks-the-lantern-canopy",
+      "supporting_clue_ids": [
+        "green-light-where-sunrise-should-be"
+      ],
+      "note": "Closed shining cups above the camp provide a physical locator for the stored-light region."
+    },
+    {
+      "sequence": 20,
+      "operation_number": 6,
+      "type": "encounter_unlocked",
+      "encounter_id": "lantern-canopy",
+      "source_revelation_id": "borrowed-dawn-marks-the-lantern-canopy",
+      "reason": ""
+    },
+    {
+      "sequence": 21,
+      "operation_number": 7,
+      "type": "revelation_established",
+      "revelation_id": "warm-rain-runs-above-the-westward-roots",
+      "supporting_clue_ids": [
+        "dew-falling-upward"
+      ],
+      "note": "Upward-traveling droplets reveal a suspended water route rather than ordinary dew."
+    },
+    {
+      "sequence": 22,
+      "operation_number": 7,
+      "type": "encounter_unlocked",
+      "encounter_id": "warm-rain-basins",
+      "source_revelation_id": "warm-rain-runs-above-the-westward-roots",
+      "reason": ""
+    },
+    {
+      "sequence": 23,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "the-blackgrass-burn-is-moving-toward-the-old-scar",
+      "supporting_clue_ids": [
+        "smoke-crossing-the-canopy"
+      ],
+      "note": "The smoke front moves west relative to fixed branches and will intersect the wagon scar."
+    },
+    {
+      "sequence": 24,
+      "operation_number": 8,
+      "type": "encounter_unlocked",
+      "encounter_id": "blackgrass-burn",
+      "source_revelation_id": "the-blackgrass-burn-is-moving-toward-the-old-scar",
+      "reason": ""
+    },
+    {
+      "sequence": 25,
+      "operation_number": 9,
+      "type": "revelation_established",
+      "revelation_id": "the-glass-verge-is-the-last-walkable-departure",
+      "supporting_clue_ids": [
+        "salt-retreating-beneath-the-western-roots"
+      ],
+      "note": "The shrinking salt contact identifies the final ordinary western footing."
+    },
+    {
+      "sequence": 26,
+      "operation_number": 9,
+      "type": "encounter_unlocked",
+      "encounter_id": "glass-verge",
+      "source_revelation_id": "the-glass-verge-is-the-last-walkable-departure",
+      "reason": ""
+    },
+    {
+      "sequence": 27,
+      "operation_number": 10,
+      "type": "revelation_established",
+      "revelation_id": "soilbearers-carry-old-ground-they-do-not-consume-the-forest",
+      "supporting_clue_ids": [
+        "full-beetles-east-empty-beetles-west"
+      ],
+      "note": "The opposing loaded and empty streams show transport between source and receiver."
+    },
+    {
+      "sequence": 28,
+      "operation_number": 11,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "camp-under-new-leaves",
+      "text": "Orra opens three parallel work lines: people-first rescue, western-route marking, and observation that may continue only while reports and carriers remain available."
+    },
+    {
+      "sequence": 29,
+      "operation_number": 12,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "wagons-in-the-forked-roots",
+      "party_label": "The Saltward Four with Tasa, Rua, Kol, Kesh's handlers, and two litter crews"
+    },
+    {
+      "sequence": 30,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-polished-track-beneath-the-upper-wheel",
+      "visit_number": 2
+    },
+    {
+      "sequence": 31,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "hoofprints-filled-from-below",
+      "visit_number": 2
+    },
+    {
+      "sequence": 32,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-repeated-depth-beneath-the-low-hollow",
+      "visit_number": 2
+    },
+    {
+      "sequence": 33,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "wagon-frames-lifting-with-one-pulse",
+      "visit_number": 2
+    },
+    {
+      "sequence": 34,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "animals-pulling-toward-the-western-light",
+      "visit_number": 2
+    },
+    {
+      "sequence": 35,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "salt-dust-only-on-western-bark",
+      "visit_number": 2
+    },
+    {
+      "sequence": 36,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "pellets-protected-from-spilled-grain",
+      "visit_number": 2
+    },
+    {
+      "sequence": 37,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-blocked-delivery-below-the-wreck",
+      "visit_number": 2
+    },
+    {
+      "sequence": 38,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Ansel and Kesh name people, load, route, means, and abandonment separately for each of the three pockets."
+    },
+    {
+      "sequence": 39,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Len records the spice wagon frame and Pelen's frame as different ownership from Ira's copper stock."
+    },
+    {
+      "sequence": 40,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "The group hears no responsive person in the fresh cord repetition because it does not stop to test Tovan's copied voice after reaching Tovan alive."
+    },
+    {
+      "sequence": 41,
+      "operation_number": 13,
+      "type": "clue_missed",
+      "clue_id": "tovan-s-words-without-tovan-s-answer",
+      "visit_number": 2
+    },
+    {
+      "sequence": 42,
+      "operation_number": 14,
+      "type": "clue_missed",
+      "clue_id": "slack-ropes-during-the-deep-pulse",
+      "visit_number": 2
+    },
+    {
+      "sequence": 43,
+      "operation_number": 15,
+      "type": "revelation_established",
+      "revelation_id": "pale-cords-lead-to-the-hollow-of-kept-voices",
+      "supporting_clue_ids": [
+        "the-repeated-depth-beneath-the-low-hollow"
+      ],
+      "note": "A repeated well depth fades along a pale cord leading away from the low hollow."
+    },
+    {
+      "sequence": 44,
+      "operation_number": 15,
+      "type": "encounter_unlocked",
+      "encounter_id": "hollow-of-kept-voices",
+      "source_revelation_id": "pale-cords-lead-to-the-hollow-of-kept-voices",
+      "reason": ""
+    },
+    {
+      "sequence": 45,
+      "operation_number": 16,
+      "type": "revelation_established",
+      "revelation_id": "the-bearer-s-breath-rises-beneath-the-central-mound",
+      "supporting_clue_ids": [
+        "wagon-frames-lifting-with-one-pulse"
+      ],
+      "note": "Separate wagon pockets rise together on one warm central pressure cycle."
+    },
+    {
+      "sequence": 46,
+      "operation_number": 16,
+      "type": "encounter_unlocked",
+      "encounter_id": "root-breath-chamber",
+      "source_revelation_id": "the-bearer-s-breath-rises-beneath-the-central-mound",
+      "reason": ""
+    },
+    {
+      "sequence": 47,
+      "operation_number": 17,
+      "type": "revelation_established",
+      "revelation_id": "the-forest-will-enter-the-glass-waste-at-dawn",
+      "supporting_clue_ids": [
+        "salt-dust-only-on-western-bark"
+      ],
+      "note": "Sustained eastward motion and the reflected eastern plain make the dawn crossing a present deadline, not merely Sio's inherited warning."
+    },
+    {
+      "sequence": 48,
+      "operation_number": 18,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "wagons-in-the-forked-roots",
+      "text": "Upper wheel: Tovan, Deme, Salen, and Miri are lowered alive; the spice frame is cut, two chests are recovered, one chest remains aboard, and the leaking oil jar is caught before it reaches the soil track."
+    },
+    {
+      "sequence": 49,
+      "operation_number": 19,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "wagons-in-the-forked-roots",
+      "text": "Split freight bed: Pelen is freed with his leg stabilized for carried movement; Bell and most copper pipe reach the western half, while Pelen's frame and several fittings are committed to later repair."
+    },
+    {
+      "sequence": 50,
+      "operation_number": 20,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "wagons-in-the-forked-roots",
+      "text": "Low hollow: Jun, Iri, Mael, and Daro reach the western climb using Thistle's litter and the handbarrow; Crook is recovered, while Moth and Reed remain loose toward the warm basins."
+    },
+    {
+      "sequence": 51,
+      "operation_number": 21,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "wagons-in-the-forked-roots",
+      "text": "All forty-two people are physically accounted for before Red Dusk. Nobody dies; Pelen, Lio, Sen, and Daro require carried or assisted movement."
+    },
+    {
+      "sequence": 52,
+      "operation_number": 22,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "soilbearer-road",
+      "party_label": "The Saltward Four with Pelen, Ira, Nahl, Vara, and a company repair crew"
+    },
+    {
+      "sequence": 53,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "spice-oil-across-the-beetle-detour",
+      "visit_number": 3
+    },
+    {
+      "sequence": 54,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "glasswing-scales-in-the-soil-mist",
+      "visit_number": 3
+    },
+    {
+      "sequence": 55,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "root-gates-opening-on-the-exhale",
+      "visit_number": 3
+    },
+    {
+      "sequence": 56,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-empty-return-stream-moving-west",
+      "visit_number": 3
+    },
+    {
+      "sequence": 57,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "five-landscapes-inside-the-mounds",
+      "visit_number": 3
+    },
+    {
+      "sequence": 58,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "bright-pollen-rising-from-delivered-soil",
+      "visit_number": 3
+    },
+    {
+      "sequence": 59,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "living-soil-beneath-the-old-burn",
+      "visit_number": 3
+    },
+    {
+      "sequence": 60,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "soil-mist-leaving-the-road",
+      "visit_number": 3
+    },
+    {
+      "sequence": 61,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "surplus-mist-after-the-gate-test",
+      "visit_number": 3
+    },
+    {
+      "sequence": 62,
+      "operation_number": 22,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Pelen directs from a litter while Len distinguishes his surrendered frame from Ira's lent copper."
+    },
+    {
+      "sequence": 63,
+      "operation_number": 22,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Shai checks both the crownward receiver and the neighboring rain acceptance after each repair test."
+    },
+    {
+      "sequence": 64,
+      "operation_number": 22,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "The party does not follow the reflected-heat turn far enough to use it as a separate verge clue."
+    },
+    {
+      "sequence": 65,
+      "operation_number": 23,
+      "type": "clue_missed",
+      "clue_id": "river-clay-threaded-with-speaking-fungus",
+      "visit_number": 3
+    },
+    {
+      "sequence": 66,
+      "operation_number": 24,
+      "type": "clue_missed",
+      "clue_id": "empty-beetles-turning-before-reflected-heat",
+      "visit_number": 3
+    },
+    {
+      "sequence": 67,
+      "operation_number": 25,
+      "type": "revelation_established",
+      "revelation_id": "the-forest-can-spare-one-mature-seed-if-the-broken-soil-route-is-restored",
+      "supporting_clue_ids": [
+        "the-blocked-delivery-below-the-wreck",
+        "surplus-mist-after-the-gate-test"
+      ],
+      "note": "The wreck demonstrably reduced delivery, and a repaired burden-and-gate test produces old-ground mist beyond the first knot's demand."
+    },
+    {
+      "sequence": 68,
+      "operation_number": 26,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "soilbearer-road",
+      "text": "The oil break is caught and covered; company canvas and Pelen's dismantled frame carry two opposed beetle streams without crushing them."
+    },
+    {
+      "sequence": 69,
+      "operation_number": 27,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "soilbearer-road",
+      "text": "Ira lends one pipe length for a reversible scent-rill. The length remains installed in the forest; Len records owner, measure, purpose, and witnesses rather than calling it a gift."
+    },
+    {
+      "sequence": 70,
+      "operation_number": 28,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "soilbearer-road",
+      "text": "The paired gates pass approach, burden, exhale, and receiver tests. Living old-soil delivery becomes strong and produces surplus crownward mist."
+    },
+    {
+      "sequence": 71,
+      "operation_number": 29,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "soilbearer-road",
+      "text": "A wet old-ground margin is prepared where the blackgrass heat will cross the repaired corridor."
+    },
+    {
+      "sequence": 72,
+      "operation_number": 30,
+      "type": "session_ended",
+      "session_number": 1,
+      "closing_note": "All people are accounted for, the soil road is strong, six animals are reduced to two still missing, and the Saltward Four return with distinct rescue, property, route, and seed-process reports."
+    },
+    {
+      "sequence": 73,
+      "operation_number": 31,
+      "type": "session_started",
+      "session_number": 2,
+      "title": "Water That Climbs",
+      "played_on": "2026-07-16",
+      "participants": [
+        "Ansel Roe",
+        "Shai Moss",
+        "Kesh Rill",
+        "Len Orf"
+      ],
+      "attendance_note": "All four present; Pelen participates from a litter and Jun joins the animal-recovery line.",
+      "opening_note": "Outer roots draw inward. The party divides between captured light, the rising basins, and the pale cords before those regions move beyond ordinary access."
+    },
+    {
+      "sequence": 74,
+      "operation_number": 32,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "lantern-canopy",
+      "party_label": "Shai and Len with Nahl, Della, and two canopy climbers"
+    },
+    {
+      "sequence": 75,
+      "operation_number": 32,
+      "type": "clue_spotted",
+      "clue_id": "pollen-only-on-delivered-ground",
+      "visit_number": 4
+    },
+    {
+      "sequence": 76,
+      "operation_number": 32,
+      "type": "clue_spotted",
+      "clue_id": "capillary-cords-beneath-the-cups",
+      "visit_number": 4
+    },
+    {
+      "sequence": 77,
+      "operation_number": 32,
+      "type": "clue_spotted",
+      "clue_id": "pollen-filaments-converging-inward",
+      "visit_number": 4
+    },
+    {
+      "sequence": 78,
+      "operation_number": 32,
+      "type": "clue_spotted",
+      "clue_id": "stored-dawn-releasing-before-true-sunrise",
+      "visit_number": 4
+    },
+    {
+      "sequence": 79,
+      "operation_number": 32,
+      "type": "clue_spotted",
+      "clue_id": "a-dry-branch-closing-three-lantern-cups",
+      "visit_number": 4
+    },
+    {
+      "sequence": 80,
+      "operation_number": 32,
+      "type": "clue_spotted",
+      "clue_id": "pollen-current-without-a-seed-tree",
+      "visit_number": 4
+    },
+    {
+      "sequence": 81,
+      "operation_number": 32,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Shai and Len compare intact, dry, and severed-looking cups without cutting a living flower for proof."
+    },
+    {
+      "sequence": 82,
+      "operation_number": 32,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The group tracks pollen to a receiver and tests the neighboring water branch before declaring the light current restored."
+    },
+    {
+      "sequence": 83,
+      "operation_number": 33,
+      "type": "clue_missed",
+      "clue_id": "a-cut-cup-shines-but-sends-no-filament",
+      "visit_number": 4
+    },
+    {
+      "sequence": 84,
+      "operation_number": 34,
+      "type": "clue_missed",
+      "clue_id": "flowers-opening-ahead-of-heat",
+      "visit_number": 4
+    },
+    {
+      "sequence": 85,
+      "operation_number": 35,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "lantern-canopy",
+      "text": "Two intact cups are rehung and one wet pollen bridge bypasses a dry branch. The light current becomes working but not strong; one branch remains closed."
+    },
+    {
+      "sequence": 86,
+      "operation_number": 36,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "lantern-canopy",
+      "text": "No flower is severed. Della's living planters remain at camp, and the canopy repair uses company line, basin water, and intact fallen material."
+    },
+    {
+      "sequence": 87,
+      "operation_number": 37,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "warm-rain-basins",
+      "party_label": "Ansel, Shai, and Kesh with Jun, Olan, Tess, and a water crew"
+    },
+    {
+      "sequence": 88,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "the-grain-team-s-upward-hoofprints",
+      "visit_number": 5
+    },
+    {
+      "sequence": 89,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "warm-rain-lighting-the-flower-stems",
+      "visit_number": 5
+    },
+    {
+      "sequence": 90,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "measurements-traveling-with-the-water",
+      "visit_number": 5
+    },
+    {
+      "sequence": 91,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "six-marked-waters-in-one-mist",
+      "visit_number": 5
+    },
+    {
+      "sequence": 92,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "basin-temperature-rising-from-the-east",
+      "visit_number": 5
+    },
+    {
+      "sequence": 93,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "warm-rain-accepted-only-after-soil-delivery",
+      "visit_number": 5
+    },
+    {
+      "sequence": 94,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "lit-water-entering-the-central-branch",
+      "visit_number": 5
+    },
+    {
+      "sequence": 95,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "marked-water-completing-the-circuit",
+      "visit_number": 5
+    },
+    {
+      "sequence": 96,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "one-measurement-in-three-voices",
+      "visit_number": 5
+    },
+    {
+      "sequence": 97,
+      "operation_number": 37,
+      "type": "clue_spotted",
+      "clue_id": "several-basin-branches-feeding-one-lattice",
+      "visit_number": 5
+    },
+    {
+      "sequence": 98,
+      "operation_number": 37,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Kesh and Jun follow Moth and Reed by the pair's upward hoofprints rather than driving another animal into the basin route."
+    },
+    {
+      "sequence": 99,
+      "operation_number": 37,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Shai marks one measured cup and checks cooling roots, fungal cords, lantern stems, and the crownward branch before authorizing drinking from replenished yield."
+    },
+    {
+      "sequence": 100,
+      "operation_number": 38,
+      "type": "clue_missed",
+      "clue_id": "basins-steaming-toward-the-bright-edge",
+      "visit_number": 5
+    },
+    {
+      "sequence": 101,
+      "operation_number": 39,
+      "type": "revelation_established",
+      "revelation_id": "lantern-flowers-lend-captured-dawn-to-the-rain-seed",
+      "supporting_clue_ids": [
+        "bright-pollen-rising-from-delivered-soil",
+        "lit-water-entering-the-central-branch"
+      ],
+      "note": "Captured dawn travels as living pollen through lit water toward the crown; ordinary illumination is not the same function."
+    },
+    {
+      "sequence": 102,
+      "operation_number": 40,
+      "type": "revelation_established",
+      "revelation_id": "the-rain-crown-forms-where-six-currents-meet",
+      "supporting_clue_ids": [
+        "six-marked-waters-in-one-mist"
+      ],
+      "note": "Distinct mineral and pollen traces join at one high lattice rather than at a parent tree."
+    },
+    {
+      "sequence": 103,
+      "operation_number": 40,
+      "type": "encounter_unlocked",
+      "encounter_id": "crown-of-unfallen-rain",
+      "source_revelation_id": "the-rain-crown-forms-where-six-currents-meet",
+      "reason": ""
+    },
+    {
+      "sequence": 104,
+      "operation_number": 41,
+      "type": "revelation_established",
+      "revelation_id": "the-warm-basins-circulate-rain-and-cannot-be-safely-drained",
+      "supporting_clue_ids": [
+        "marked-water-completing-the-circuit"
+      ],
+      "note": "Marked water returns through multiple dependencies; removing the basin contents would weaken the same circuit that replenishes them."
+    },
+    {
+      "sequence": 105,
+      "operation_number": 42,
+      "type": "revelation_established",
+      "revelation_id": "a-viable-rain-seed-is-assembled-by-convergence-not-picked-from-one-tree",
+      "supporting_clue_ids": [
+        "sio-s-six-lines-describing-one-process",
+        "soil-mist-leaving-the-road",
+        "pollen-current-without-a-seed-tree",
+        "several-basin-branches-feeding-one-lattice"
+      ],
+      "note": "Ground, light, and water arrive from separate sources at one receiver, confirming that the seed is assembled through relations rather than harvested from one organism."
+    },
+    {
+      "sequence": 106,
+      "operation_number": 43,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "warm-rain-basins",
+      "text": "Moth and Reed are recovered without injury after a cooled return path and Jun's familiar call are established. They later carry assisted travelers, not experimental loads."
+    },
+    {
+      "sequence": 107,
+      "operation_number": 44,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "warm-rain-basins",
+      "text": "The caravan draws only the measured replenishing yield. The basin circuit remains strong after a capillary bypass restores the pinched lower return."
+    },
+    {
+      "sequence": 108,
+      "operation_number": 45,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "warm-rain-basins",
+      "text": "Two casks are filled for immediate departure, but no basin is drained and no water is removed faster than the marked cup returns."
+    },
+    {
+      "sequence": 109,
+      "operation_number": 46,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "hollow-of-kept-voices",
+      "party_label": "Shai and Len with Sio, Nahl, and Bera as returning courier"
+    },
+    {
+      "sequence": 110,
+      "operation_number": 46,
+      "type": "clue_spotted",
+      "clue_id": "voices-sharpen-when-the-cords-wet",
+      "visit_number": 6
+    },
+    {
+      "sequence": 111,
+      "operation_number": 46,
+      "type": "clue_spotted",
+      "clue_id": "river-measures-repeating-above",
+      "visit_number": 6
+    },
+    {
+      "sequence": 112,
+      "operation_number": 46,
+      "type": "clue_spotted",
+      "clue_id": "earlier-voices-naming-a-glass-crossing",
+      "visit_number": 6
+    },
+    {
+      "sequence": 113,
+      "operation_number": 46,
+      "type": "clue_spotted",
+      "clue_id": "personal-details-washing-out",
+      "visit_number": 6
+    },
+    {
+      "sequence": 114,
+      "operation_number": 46,
+      "type": "clue_spotted",
+      "clue_id": "a-chosen-course-entering-an-unfinished-knot",
+      "visit_number": 6
+    },
+    {
+      "sequence": 115,
+      "operation_number": 46,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "Shai and Sio test a fresh fragment with a new question, then compare repeated measurements across different cadences."
+    },
+    {
+      "sequence": 116,
+      "operation_number": 46,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The party selects a course by fall, storage, ground, overflow, and interval rather than by the familiarity of a voice."
+    },
+    {
+      "sequence": 117,
+      "operation_number": 47,
+      "type": "clue_missed",
+      "clue_id": "tovan-s-roster-call-in-the-cords",
+      "visit_number": 6
+    },
+    {
+      "sequence": 118,
+      "operation_number": 48,
+      "type": "clue_missed",
+      "clue_id": "voice-cords-relaxing-at-root-night",
+      "visit_number": 6
+    },
+    {
+      "sequence": 119,
+      "operation_number": 49,
+      "type": "revelation_established",
+      "revelation_id": "the-kept-voices-preserve-river-courses-not-whole-persons",
+      "supporting_clue_ids": [
+        "one-measurement-in-three-voices",
+        "personal-details-washing-out"
+      ],
+      "note": "Measurements persist across changing voices and personal details, while a fresh fragment cannot answer a new question."
+    },
+    {
+      "sequence": 120,
+      "operation_number": 50,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "hollow-of-kept-voices",
+      "text": "A Merewash-compatible course is selected with moderate fall, deep seasonal storage, porous mineral ground, a broad overflow margin, and a long dry interval."
+    },
+    {
+      "sequence": 121,
+      "operation_number": 51,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "hollow-of-kept-voices",
+      "text": "The course is carried forward in one living braid. A wet transcription is sent west as a record but is not treated as the functioning memory current."
+    },
+    {
+      "sequence": 122,
+      "operation_number": 52,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "hollow-of-kept-voices",
+      "text": "The remembered-course current becomes strong enough to preserve one alternate measurement when the crown is diagnosed."
+    },
+    {
+      "sequence": 123,
+      "operation_number": 53,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "camp-under-new-leaves",
+      "text": "Orra sends the first willing walking group to the western staging ground, but retains sufficient carriers, handlers, and repair workers for Root Night. Ela leaves the inner camp without endorsing the seed attempt."
+    },
+    {
+      "sequence": 124,
+      "operation_number": 54,
+      "type": "session_ended",
+      "session_number": 2,
+      "closing_note": "All six draft animals are recovered. Soil and rain are strong, captured dawn is working, a living river course is prepared, and the caravan has begun a staged western muster without treating departure as one collective vote."
+    },
+    {
+      "sequence": 125,
+      "operation_number": 55,
+      "type": "session_started",
+      "session_number": 3,
+      "title": "One Long Breath",
+      "played_on": "2026-07-16",
+      "participants": [
+        "Ansel Roe",
+        "Shai Moss",
+        "Kesh Rill",
+        "Len Orf"
+      ],
+      "attendance_note": "All four present; the caravan is divided between departure staging, fire margins, chamber work, and crown preparation.",
+      "opening_note": "Root Night opens the Bearer's service seams. The bounded burn, burden correction, crown descent, and single deep exhale must be coordinated without collapsing into one group action."
+    },
+    {
+      "sequence": 126,
+      "operation_number": 56,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "blackgrass-burn",
+      "party_label": "Ansel and Len with Pelen, Rusk, Vara, and two margin crews"
+    },
+    {
+      "sequence": 127,
+      "operation_number": 56,
+      "type": "clue_spotted",
+      "clue_id": "a-firebreak-made-of-carried-earth",
+      "visit_number": 7
+    },
+    {
+      "sequence": 128,
+      "operation_number": 56,
+      "type": "clue_spotted",
+      "clue_id": "silenced-cords-at-the-burn-edge",
+      "visit_number": 7
+    },
+    {
+      "sequence": 129,
+      "operation_number": 56,
+      "type": "clue_spotted",
+      "clue_id": "flame-bowing-away-from-the-mound",
+      "visit_number": 7
+    },
+    {
+      "sequence": 130,
+      "operation_number": 56,
+      "type": "clue_spotted",
+      "clue_id": "hard-shells-opening-behind-the-flame",
+      "visit_number": 7
+    },
+    {
+      "sequence": 131,
+      "operation_number": 56,
+      "type": "clue_spotted",
+      "clue_id": "flame-crossing-the-crownward-gap-on-the-exhale",
+      "visit_number": 7
+    },
+    {
+      "sequence": 132,
+      "operation_number": 56,
+      "type": "clue_spotted",
+      "clue_id": "heat-completing-only-prepared-shells",
+      "visit_number": 7
+    },
+    {
+      "sequence": 133,
+      "operation_number": 56,
+      "type": "clue_spotted",
+      "clue_id": "a-restored-corridor-carrying-both-soil-and-heat",
+      "visit_number": 7
+    },
+    {
+      "sequence": 134,
+      "operation_number": 56,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Ansel requires two maintained margins, a prepared receiver, and a named retreat before allowing each segment to advance."
+    },
+    {
+      "sequence": 135,
+      "operation_number": 56,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Len records the remaining spice chest as abandoned property rather than fuel; Rusk's caught oil is carried west before ignition."
+    },
+    {
+      "sequence": 136,
+      "operation_number": 57,
+      "type": "clue_missed",
+      "clue_id": "second-ignition-in-the-glass-reflection",
+      "visit_number": 7
+    },
+    {
+      "sequence": 137,
+      "operation_number": 58,
+      "type": "revelation_established",
+      "revelation_id": "blackgrass-fire-opens-the-seed-coat-and-renews-the-migration-corridor",
+      "supporting_clue_ids": [
+        "living-soil-beneath-the-old-burn",
+        "hard-shells-opening-behind-the-flame"
+      ],
+      "note": "Narrow earlier scars preserve active soil, prepared shells open behind bounded heat, and empty shells exposed too early fail."
+    },
+    {
+      "sequence": 138,
+      "operation_number": 59,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "blackgrass-burn",
+      "text": "The wagon-scar and restored-corridor segments pass low between wet old-ground margins. Soil delivery continues before and after the heat front."
+    },
+    {
+      "sequence": 139,
+      "operation_number": 60,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "blackgrass-burn",
+      "text": "The crownward seam is held at its prepared edge until the deep exhale. Bounded heat is working; runaway fire remains absent."
+    },
+    {
+      "sequence": 140,
+      "operation_number": 61,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "blackgrass-burn",
+      "text": "One dry canvas strip is spent as an outer warning margin. The fire never reaches the rescued wagon line or the lantern pollen bridge."
+    },
+    {
+      "sequence": 141,
+      "operation_number": 62,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "root-breath-chamber",
+      "party_label": "Kesh and Shai with Nahl, Tobin, Corda, and a burden crew"
+    },
+    {
+      "sequence": 142,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "old-ground-plugs-in-the-inner-gates",
+      "visit_number": 8
+    },
+    {
+      "sequence": 143,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "cooling-channels-in-the-chamber-wall",
+      "visit_number": 8
+    },
+    {
+      "sequence": 144,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "heat-pulse-along-the-ancient-scar",
+      "visit_number": 8
+    },
+    {
+      "sequence": 145,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "pulse-channels-leading-to-the-crown",
+      "visit_number": 8
+    },
+    {
+      "sequence": 146,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "crownward-gates-keyed-to-beetle-vibration",
+      "visit_number": 8
+    },
+    {
+      "sequence": 147,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "the-bearer-heating-when-flow-is-removed",
+      "visit_number": 8
+    },
+    {
+      "sequence": 148,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "new-flexible-roots-behind-charred-tissue",
+      "visit_number": 8
+    },
+    {
+      "sequence": 149,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "the-breath-seam-and-hardened-interval",
+      "visit_number": 8
+    },
+    {
+      "sequence": 150,
+      "operation_number": 62,
+      "type": "clue_spotted",
+      "clue_id": "multiple-crown-channels-opening-under-balanced-burden",
+      "visit_number": 8
+    },
+    {
+      "sequence": 151,
+      "operation_number": 62,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "The chamber team maps western carry, middle circulation, and crownward lift burdens separately."
+    },
+    {
+      "sequence": 152,
+      "operation_number": 62,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Kesh refuses to use Bell and Crook as a forced test load; dismantled wagon material provides the reversible burden instead."
+    },
+    {
+      "sequence": 153,
+      "operation_number": 62,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Shai restores the cooling path before the preliminary breath is used to check the service-root redirection."
+    },
+    {
+      "sequence": 154,
+      "operation_number": 63,
+      "type": "clue_missed",
+      "clue_id": "voice-patterns-aligned-to-water-channels",
+      "visit_number": 8
+    },
+    {
+      "sequence": 155,
+      "operation_number": 64,
+      "type": "revelation_established",
+      "revelation_id": "root-breath-is-the-only-safe-moment-to-separate-a-mature-seed",
+      "supporting_clue_ids": [
+        "flame-crossing-the-crownward-gap-on-the-exhale",
+        "the-breath-seam-and-hardened-interval"
+      ],
+      "note": "Both heat passage and direct stem observation identify one long central slack interval followed by immediate hardening."
+    },
+    {
+      "sequence": 156,
+      "operation_number": 65,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "root-breath-chamber",
+      "text": "The western carry band is relieved by moving the abandoned axle and committed frame pieces onto the middle support band."
+    },
+    {
+      "sequence": 157,
+      "operation_number": 66,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "root-breath-chamber",
+      "text": "The middle circulation band is cooled and remains open. The crownward lift band balances after the restored soil stream enters under burden."
+    },
+    {
+      "sequence": 158,
+      "operation_number": 67,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "root-breath-chamber",
+      "text": "One preliminary breath confirms the service root and wet middle ledge without spending the unique deep exhale. Root pulse becomes working and the deep-exhale window remains unused."
+    },
+    {
+      "sequence": 159,
+      "operation_number": 68,
+      "type": "encounter_visited",
+      "visit_number": 9,
+      "encounter_id": "crown-of-unfallen-rain",
+      "party_label": "The Saltward Four with Nahl, Sio, Jun, Pelen, and the crown and verge crews"
+    },
+    {
+      "sequence": 160,
+      "operation_number": 68,
+      "type": "clue_spotted",
+      "clue_id": "a-voice-thread-entering-the-incomplete-knot",
+      "visit_number": 9
+    },
+    {
+      "sequence": 161,
+      "operation_number": 68,
+      "type": "clue_spotted",
+      "clue_id": "crown-stems-slackening-together",
+      "visit_number": 9
+    },
+    {
+      "sequence": 162,
+      "operation_number": 68,
+      "type": "clue_spotted",
+      "clue_id": "the-crown-hardening-from-east-to-west",
+      "visit_number": 9
+    },
+    {
+      "sequence": 163,
+      "operation_number": 68,
+      "type": "clue_spotted",
+      "clue_id": "knots-filling-after-living-soil-arrival",
+      "visit_number": 9
+    },
+    {
+      "sequence": 164,
+      "operation_number": 68,
+      "type": "clue_spotted",
+      "clue_id": "dark-knots-beside-a-broken-light-thread",
+      "visit_number": 9
+    },
+    {
+      "sequence": 165,
+      "operation_number": 68,
+      "type": "clue_spotted",
+      "clue_id": "complete-but-sealed-knots-without-heat",
+      "visit_number": 9
+    },
+    {
+      "sequence": 166,
+      "operation_number": 68,
+      "type": "clue_spotted",
+      "clue_id": "six-visible-defects-in-incomplete-knots",
+      "visit_number": 9
+    },
+    {
+      "sequence": 167,
+      "operation_number": 68,
+      "type": "clue_spotted",
+      "clue_id": "several-maturing-knots-after-living-soil-delivery",
+      "visit_number": 9
+    },
+    {
+      "sequence": 168,
+      "operation_number": 68,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "The crown group reads missing currents from separate knot defects before assigning labor to any repair."
+    },
+    {
+      "sequence": 169,
+      "operation_number": 68,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Shai distinguishes a clean socket test from the separate evidence needed to call one knot surplus."
+    },
+    {
+      "sequence": 170,
+      "operation_number": 68,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Len records the wet cradle, seed custodian, continuing soil delivery, attached mature knot, and fire state before separation begins."
+    },
+    {
+      "sequence": 171,
+      "operation_number": 69,
+      "type": "clue_missed",
+      "clue_id": "an-old-torn-knot-beside-a-clean-separation-scar",
+      "visit_number": 9
+    },
+    {
+      "sequence": 172,
+      "operation_number": 70,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "crown-of-unfallen-rain",
+      "text": "The working light branch is directed to the selected receiver; strong soil, strong rain, the living course, bounded heat, and balanced root pulse complete two mature knots and one viable unopened knot."
+    },
+    {
+      "sequence": 173,
+      "operation_number": 71,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "crown-of-unfallen-rain",
+      "text": "During the long central exhale, the crownward seam receives bounded heat, the selected mature knot completes its return, and a wet cradle bears its weight before the feeder ring is drawn free."
+    },
+    {
+      "sequence": 174,
+      "operation_number": 72,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "crown-of-unfallen-rain",
+      "text": "One mature surplus seed separates with a smooth living socket. One other mature knot and one viable knot remain attached; living-soil delivery continues and no common return is lost."
+    },
+    {
+      "sequence": 175,
+      "operation_number": 73,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "crown-of-unfallen-rain",
+      "text": "The carried seed contains the Merewash-compatible course and begins transport in a closed wet cradle under Shai and Nahl's joint custody."
+    },
+    {
+      "sequence": 176,
+      "operation_number": 74,
+      "type": "session_ended",
+      "session_number": 3,
+      "closing_note": "The deep exhale is spent exactly once. A clean mature surplus seed is in its cradle, one mature knot remains attached, and departure crews move under the inward draw toward the Glass Verge."
+    },
+    {
+      "sequence": 177,
+      "operation_number": 75,
+      "type": "session_started",
+      "session_number": 4,
+      "title": "The Last Salt",
+      "played_on": "2026-07-16",
+      "participants": [
+        "Ansel Roe",
+        "Shai Moss",
+        "Kesh Rill",
+        "Len Orf"
+      ],
+      "attendance_note": "All four present at opening; the session ends with all four west of the verge and two recorded voluntary eastbound travelers.",
+      "opening_note": "First reflection has passed. Crown work and three burden-specific departures now resolve in parallel before direct sun removes ordinary western footing."
+    },
+    {
+      "sequence": 178,
+      "operation_number": 76,
+      "type": "encounter_visited",
+      "visit_number": 10,
+      "encounter_id": "glass-verge",
+      "party_label": "The Saltward Four, Orra's last departure crews, and the two eastbound volunteers"
+    },
+    {
+      "sequence": 179,
+      "operation_number": 76,
+      "type": "clue_spotted",
+      "clue_id": "a-chain-of-steam-above-the-western-roots",
+      "visit_number": 10
+    },
+    {
+      "sequence": 180,
+      "operation_number": 76,
+      "type": "clue_spotted",
+      "clue_id": "a-breathing-shadow-beneath-the-canopy",
+      "visit_number": 10
+    },
+    {
+      "sequence": 181,
+      "operation_number": 76,
+      "type": "clue_spotted",
+      "clue_id": "the-verge-closing-under-direct-light",
+      "visit_number": 10
+    },
+    {
+      "sequence": 182,
+      "operation_number": 76,
+      "type": "clue_spotted",
+      "clue_id": "glass-hardening-after-the-final-exhale",
+      "visit_number": 10
+    },
+    {
+      "sequence": 183,
+      "operation_number": 76,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Ansel states each route by burden and closing sign. Hessa reads every name before the inward draw."
+    },
+    {
+      "sequence": 184,
+      "operation_number": 76,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "Sio and Jun separately hear the westward options, eastbound exposure, available supplies, and possible nonreturn before choosing continued migration."
+    },
+    {
+      "sequence": 185,
+      "operation_number": 76,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The party does not use the obsolete dead-guide route or the distant wagon silhouette as new evidence; both opportunities are recorded as missed."
+    },
+    {
+      "sequence": 186,
+      "operation_number": 77,
+      "type": "clue_missed",
+      "clue_id": "a-dead-guide-s-route-ending-at-old-terrain",
+      "visit_number": 10
+    },
+    {
+      "sequence": 187,
+      "operation_number": 78,
+      "type": "clue_missed",
+      "clue_id": "a-wagon-silhouette-under-reflected-dawn",
+      "visit_number": 10
+    },
+    {
+      "sequence": 188,
+      "operation_number": 79,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "glass-verge",
+      "text": "The broad salt shelf carries the first walking group, dependents, most hand loads, Clove and Sedge, and one surviving camp wagon before the retreating edge narrows."
+    },
+    {
+      "sequence": 189,
+      "operation_number": 80,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "glass-verge",
+      "text": "The wet middle ledge carries the mature seed cradle, Shai, Nahl, Bell and Crook under Rua and Tess, and the carried or assisted travelers Pelen, Lio, Sen, and Daro."
+    },
+    {
+      "sequence": 190,
+      "operation_number": 81,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "glass-verge",
+      "text": "The crown service root carries Orra, Hessa, Ansel, Kesh, Len, the final route keepers, Moth and Reed, and the remaining records before the inward draw closes it."
+    },
+    {
+      "sequence": 191,
+      "operation_number": 82,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "glass-verge",
+      "text": "Forty people reach the western salt alive. Sio Tern and Jun Alder remain aboard by separately recorded choice with water, grain, blankets, tools, course transcriptions, and a named plan to observe the forest beyond the Glass Waste."
+    },
+    {
+      "sequence": 192,
+      "operation_number": 83,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "glass-verge",
+      "text": "All forty-two people are accounted for: forty westbound, two eastbound, none unresolved, none dead. All six missing draft animals and Thistle are westbound."
+    },
+    {
+      "sequence": 193,
+      "operation_number": 84,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "glass-verge",
+      "text": "The westbound caravan retains two spice chests, most copper pipe, Merewash seed grain, reservoir tools, medicinal planters, water casks, and dismantled loads; the spice wagon, grain wagon, Pelen's frame, one pipe length, and several fittings remain with the forest."
+    },
+    {
+      "sequence": 194,
+      "operation_number": 85,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "glass-verge",
+      "text": "The carried knot is a mature surplus seed, cleanly separated and still circulating. The forest continues east with one mature knot attached, one viable knot, strong soil and rain, working light, strong remembered course, working bounded heat, working root pulse, and no runaway fire."
+    },
+    {
+      "sequence": 195,
+      "operation_number": 86,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "glass-verge",
+      "text": "Ira ratifies the emergency pipe use but leaves compensation open. Pelen confirms his frame as a voluntary repair contribution. The abandoned spice and grain property remain named claims rather than disappearing into the successful outcome."
+    },
+    {
+      "sequence": 196,
+      "operation_number": 87,
+      "type": "session_ended",
+      "session_number": 4,
+      "closing_note": "Direct sun closes western footing. The caravan, seed, animals, records, and forty westbound people stand on the White Salt; Sio and Jun continue east as known volunteers rather than missing persons."
+    }
+  ]
+}

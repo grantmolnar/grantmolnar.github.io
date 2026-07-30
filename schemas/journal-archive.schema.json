@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/adventure-graph/journal-archive.schema.json",
+  "title": "Adventure Graph journal archive",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "archive",
+    "adventure_snapshot",
+    "play_state"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "archive": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "archived_at",
+        "source_state_name",
+        "event_count"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+        },
+        "label": {
+          "type": "string",
+          "default": ""
+        },
+        "archived_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source_state_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_count": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "adventure_snapshot": {
+      "$ref": "adventure.schema.json"
+    },
+    "play_state": {
+      "$ref": "play-state.schema.json"
+    }
+  }
+}

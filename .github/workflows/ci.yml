@@ -1,0 +1,112 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install package and developer tools
+        run: python -m pip install -e ".[dev]"
+
+      - name: Run validation and branch-coverage gate
+        run: make validate
+
+  browser:
+    name: Executable Chromium behavior
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install package and developer tools
+        run: python -m pip install -e ".[dev]"
+
+      - name: Install Chromium for Playwright
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run executable browser regressions
+        run: make test-browser
+
+  extended-quality:
+    name: Extended quality and security
+    runs-on: ubuntu-latest
+    needs: validate
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install package and developer tools
+        run: python -m pip install -e ".[dev]"
+
+      - name: Run dead-code, complexity, docstring, and security gates
+        run: make dead-code complexity docstrings security
+
+  package:
+    name: Smoke-test beta wheel on ${{ matrix.os }} / Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    needs: [validate, extended-quality]
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ["3.11", "3.12", "3.13"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install build backend
+        run: python -m pip install "setuptools>=77"
+
+      - name: Build wheel
+        run: python -m pip wheel --no-build-isolation --no-deps --wheel-dir dist .
+
+      - name: Smoke-test clean wheel installation
+        run: python scripts/beta_smoke.py --wheel-dir dist

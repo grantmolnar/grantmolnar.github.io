@@ -1,0 +1,1221 @@
+{
+  "schema_version": 6,
+  "adventure_id": "the-last-bell-of-bramblewick",
+  "events": [
+    {
+      "sequence": 1,
+      "operation_number": 1,
+      "type": "encounter_visited",
+      "visit_number": 1,
+      "encounter_id": "hearth-hall-and-the-map-room",
+      "party_label": ""
+    },
+    {
+      "sequence": 2,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-focused-wound-behind-the-ear",
+      "visit_number": 1
+    },
+    {
+      "sequence": 3,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "rain-lies-on-blood-already-spread",
+      "visit_number": 1
+    },
+    {
+      "sequence": 4,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "clock-glass-rests-on-the-blood",
+      "visit_number": 1
+    },
+    {
+      "sequence": 5,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "blue-chalk-stops-the-pendulum",
+      "visit_number": 1
+    },
+    {
+      "sequence": 6,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "no-forced-entry-and-an-unlatched-garden-door",
+      "visit_number": 1
+    },
+    {
+      "sequence": 7,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-authorized-key-register-names-orlo",
+      "visit_number": 1
+    },
+    {
+      "sequence": 8,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "merrit-expected-the-old-folios-to-speak-for-him",
+      "visit_number": 1
+    },
+    {
+      "sequence": 9,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-service-card-fixes-the-pantry-witnesses",
+      "visit_number": 1
+    },
+    {
+      "sequence": 10,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "perrin-s-seal-marks-the-open-bottle",
+      "visit_number": 1
+    },
+    {
+      "sequence": 11,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "fine-flour-links-an-earlier-visitor-to-the-mill",
+      "visit_number": 1
+    },
+    {
+      "sequence": 12,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "bram-s-own-story-makes-the-orchard-testable",
+      "visit_number": 1
+    },
+    {
+      "sequence": 13,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-audit-folio-cites-common-chest-warrants",
+      "visit_number": 1
+    },
+    {
+      "sequence": 14,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "hester-schedules-a-first-bell-hearing",
+      "visit_number": 1
+    },
+    {
+      "sequence": 15,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-audit-margin-cites-the-open-door-register",
+      "visit_number": 1
+    },
+    {
+      "sequence": 16,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "orlos-stated-alibi-makes-the-school-a-witness-scene",
+      "visit_number": 1
+    },
+    {
+      "sequence": 17,
+      "operation_number": 1,
+      "type": "clue_spotted",
+      "clue_id": "the-garden-exit-opens-toward-the-north-hedge",
+      "visit_number": 1
+    },
+    {
+      "sequence": 18,
+      "operation_number": 1,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "The company separated the clock glass, covered the map weights without cleaning them, recorded the open window and unlatched garden door, and took the six first statements apart rather than in company."
+    },
+    {
+      "sequence": 19,
+      "operation_number": 1,
+      "type": "visit_note_recorded",
+      "visit_number": 1,
+      "text": "Bram was the first working suspect: he found the body, had argued with Merrit, watched the desk, and left ash and cloth in the room. The company treated this as a theory to test, not a finding."
+    },
+    {
+      "sequence": 20,
+      "operation_number": 2,
+      "type": "revelation_established",
+      "revelation_id": "merrit-s-private-archive-contains-the-audit-s-working-papers",
+      "supporting_clue_ids": [
+        "merrit-expected-the-old-folios-to-speak-for-him"
+      ],
+      "note": "Merrit expected the old folios and private files at his burrow to survive him."
+    },
+    {
+      "sequence": 21,
+      "operation_number": 2,
+      "type": "encounter_unlocked",
+      "encounter_id": "merrit-alder-s-burrow",
+      "source_revelation_id": "merrit-s-private-archive-contains-the-audit-s-working-papers",
+      "reason": ""
+    },
+    {
+      "sequence": 22,
+      "operation_number": 3,
+      "type": "revelation_established",
+      "revelation_id": "the-copper-kettle-can-reconstruct-supper-service",
+      "supporting_clue_ids": [
+        "the-service-card-fixes-the-pantry-witnesses"
+      ],
+      "note": "The supper service card identifies the pantry witnesses and the school tray route."
+    },
+    {
+      "sequence": 23,
+      "operation_number": 3,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-copper-kettle-and-long-pantry",
+      "source_revelation_id": "the-copper-kettle-can-reconstruct-supper-service",
+      "reason": ""
+    },
+    {
+      "sequence": 24,
+      "operation_number": 4,
+      "type": "revelation_established",
+      "revelation_id": "moss-apothecary-can-test-the-medicine-and-wound",
+      "supporting_clue_ids": [
+        "perrin-s-seal-marks-the-open-bottle"
+      ],
+      "note": "Perrin’s seal and the focused wound make the shop a legitimate medical cross-check."
+    },
+    {
+      "sequence": 25,
+      "operation_number": 4,
+      "type": "encounter_unlocked",
+      "encounter_id": "moss-apothecary",
+      "source_revelation_id": "moss-apothecary-can-test-the-medicine-and-wound",
+      "reason": ""
+    },
+    {
+      "sequence": 26,
+      "operation_number": 5,
+      "type": "revelation_established",
+      "revelation_id": "bramble-mill-preserves-an-independent-rain-clock",
+      "supporting_clue_ids": [
+        "fine-flour-links-an-earlier-visitor-to-the-mill"
+      ],
+      "note": "The flour trace and stream weather make the mill an independent timing source."
+    },
+    {
+      "sequence": 27,
+      "operation_number": 5,
+      "type": "encounter_unlocked",
+      "encounter_id": "bramble-mill",
+      "source_revelation_id": "bramble-mill-preserves-an-independent-rain-clock",
+      "reason": ""
+    },
+    {
+      "sequence": 28,
+      "operation_number": 6,
+      "type": "revelation_established",
+      "revelation_id": "bram-s-storm-work-can-be-reconstructed-in-the-orchard",
+      "supporting_clue_ids": [
+        "bram-s-own-story-makes-the-orchard-testable"
+      ],
+      "note": "Bram’s announced destination makes his storm work testable before the rain erases detail."
+    },
+    {
+      "sequence": 29,
+      "operation_number": 6,
+      "type": "encounter_unlocked",
+      "encounter_id": "alder-orchard",
+      "source_revelation_id": "bram-s-storm-work-can-be-reconstructed-in-the-orchard",
+      "reason": ""
+    },
+    {
+      "sequence": 30,
+      "operation_number": 7,
+      "type": "revelation_established",
+      "revelation_id": "the-common-chest-contains-the-disputed-disbursements",
+      "supporting_clue_ids": [
+        "the-audit-folio-cites-common-chest-warrants"
+      ],
+      "note": "Merrit’s audit identifies the exact warrant series in the Common Chest."
+    },
+    {
+      "sequence": 31,
+      "operation_number": 7,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-common-chest",
+      "source_revelation_id": "the-common-chest-contains-the-disputed-disbursements",
+      "reason": ""
+    },
+    {
+      "sequence": 32,
+      "operation_number": 8,
+      "type": "revelation_established",
+      "revelation_id": "the-first-bell-moot-will-hear-the-partys-case",
+      "supporting_clue_ids": [
+        "hester-schedules-a-first-bell-hearing"
+      ],
+      "note": "Hester summons a first-bell hearing but does not promise that suspicion will count as proof."
+    },
+    {
+      "sequence": 33,
+      "operation_number": 8,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-first-bell-moot",
+      "source_revelation_id": "the-first-bell-moot-will-hear-the-partys-case",
+      "reason": ""
+    },
+    {
+      "sequence": 34,
+      "operation_number": 9,
+      "type": "revelation_established",
+      "revelation_id": "the-chapel-register-can-identify-the-ghost-hearth-names",
+      "supporting_clue_ids": [
+        "the-audit-margin-cites-the-open-door-register"
+      ],
+      "note": "The audit margin sends the impossible household names to the burial register."
+    },
+    {
+      "sequence": 35,
+      "operation_number": 9,
+      "type": "encounter_unlocked",
+      "encounter_id": "chapel-of-the-open-door",
+      "source_revelation_id": "the-chapel-register-can-identify-the-ghost-hearth-names",
+      "reason": ""
+    },
+    {
+      "sequence": 36,
+      "operation_number": 10,
+      "type": "revelation_established",
+      "revelation_id": "the-school-is-central-to-both-the-money-and-orlos-alibi",
+      "supporting_clue_ids": [
+        "orlos-stated-alibi-makes-the-school-a-witness-scene"
+      ],
+      "note": "Orlo’s own alibi makes the school a witness scene."
+    },
+    {
+      "sequence": 37,
+      "operation_number": 10,
+      "type": "encounter_unlocked",
+      "encounter_id": "bramblewick-school",
+      "source_revelation_id": "the-school-is-central-to-both-the-money-and-orlos-alibi",
+      "reason": ""
+    },
+    {
+      "sequence": 38,
+      "operation_number": 11,
+      "type": "revelation_established",
+      "revelation_id": "the-north-hedge-can-reconstruct-the-pre-rain-route",
+      "supporting_clue_ids": [
+        "the-garden-exit-opens-toward-the-north-hedge"
+      ],
+      "note": "The garden exit and old lane preserve the likely departure route."
+    },
+    {
+      "sequence": 39,
+      "operation_number": 11,
+      "type": "encounter_unlocked",
+      "encounter_id": "the-north-hedge",
+      "source_revelation_id": "the-north-hedge-can-reconstruct-the-pre-rain-route",
+      "reason": ""
+    },
+    {
+      "sequence": 40,
+      "operation_number": 12,
+      "type": "encounter_visited",
+      "visit_number": 2,
+      "encounter_id": "alder-orchard",
+      "party_label": ""
+    },
+    {
+      "sequence": 41,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "brace-cuts-were-exposed-before-the-rain",
+      "visit_number": 2
+    },
+    {
+      "sequence": 42,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "dog-and-boot-traces-remain-around-the-work-site",
+      "visit_number": 2
+    },
+    {
+      "sequence": 43,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "brams-cuff-and-tobacco-re-date-the-scene-traces",
+      "visit_number": 2
+    },
+    {
+      "sequence": 44,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "pre-rain-tracks-continue-toward-the-low-gate",
+      "visit_number": 2
+    },
+    {
+      "sequence": 45,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-dry-hedge-route-reaches-the-school-in-six-minutes",
+      "visit_number": 2
+    },
+    {
+      "sequence": 46,
+      "operation_number": 12,
+      "type": "clue_spotted",
+      "clue_id": "the-north-window-remained-open-when-rain-began",
+      "visit_number": 2
+    },
+    {
+      "sequence": 47,
+      "operation_number": 12,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Bram admitted searching Merrit’s desk before supper. The brace cuts, tether pattern, rain sequence, and distance place his incriminating room traces before the killing and his body in the orchard during it."
+    },
+    {
+      "sequence": 48,
+      "operation_number": 13,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Working conclusion entered too quickly: Bram’s torn cuff proves that he returned to the map room during the murder interval."
+    },
+    {
+      "sequence": 49,
+      "operation_number": 14,
+      "type": "operation_voided",
+      "target_operation_number": 13,
+      "reason": "The cuff match proved an earlier desk search; the orchard chronology contradicted the inference that Bram returned during the murder."
+    },
+    {
+      "sequence": 50,
+      "operation_number": 15,
+      "type": "visit_note_recorded",
+      "visit_number": 2,
+      "text": "Corrected conclusion: Bram lied about an earlier desk search, but the storm work independently accounts for the murder interval. His guilt is trespass and attempted will-hunting, not Merrit’s death."
+    },
+    {
+      "sequence": 51,
+      "operation_number": 16,
+      "type": "revelation_established",
+      "revelation_id": "bram-searched-merrits-papers-earlier-but-worked-in-the-orchard-during-the-murder",
+      "supporting_clue_ids": [
+        "brace-cuts-were-exposed-before-the-rain",
+        "dog-and-boot-traces-remain-around-the-work-site",
+        "brams-cuff-and-tobacco-re-date-the-scene-traces"
+      ],
+      "note": "Bram’s scene traces are genuine but earlier; his orchard work covers the actual killing interval."
+    },
+    {
+      "sequence": 52,
+      "operation_number": 17,
+      "type": "encounter_visited",
+      "visit_number": 3,
+      "encounter_id": "merrit-alder-s-burrow",
+      "party_label": ""
+    },
+    {
+      "sequence": 53,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "merrit-traced-six-years-of-warrants",
+      "visit_number": 3
+    },
+    {
+      "sequence": 54,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "burial-dates-sit-beside-the-false-hearths",
+      "visit_number": 3
+    },
+    {
+      "sequence": 55,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "school-initials-recur-beside-the-disbursements",
+      "visit_number": 3
+    },
+    {
+      "sequence": 56,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "the-clock-had-recently-kept-reliable-time",
+      "visit_number": 3
+    },
+    {
+      "sequence": 57,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "a-sketch-records-the-weights-crescent-flaw",
+      "visit_number": 3
+    },
+    {
+      "sequence": 58,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "the-wills-explain-brams-earlier-search",
+      "visit_number": 3
+    },
+    {
+      "sequence": 59,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "merrit-s-index-decodes-mara-s-envelopes",
+      "visit_number": 3
+    },
+    {
+      "sequence": 60,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "the-three-hearth-ages-are-impossible",
+      "visit_number": 3
+    },
+    {
+      "sequence": 61,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "merrit-linked-orlo-to-the-old-register-request",
+      "visit_number": 3
+    },
+    {
+      "sequence": 62,
+      "operation_number": 17,
+      "type": "clue_spotted",
+      "clue_id": "merrit-drafted-the-first-bell-audit-agenda",
+      "visit_number": 3
+    },
+    {
+      "sequence": 63,
+      "operation_number": 17,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "The archive showed that Merrit kept separate files on Bram, Mara, Perrin, Cora, Hester, and the school accounts. The company resisted merging every secret into one conspiracy."
+    },
+    {
+      "sequence": 64,
+      "operation_number": 17,
+      "type": "visit_note_recorded",
+      "visit_number": 3,
+      "text": "Sable’s first account reconstruction favored Hester: her mark appeared on disputed payments, she controlled access to the chest, and she had asked for procedural delay. Pella insisted the bridge file and the ghost-hearth sheet be tested separately."
+    },
+    {
+      "sequence": 65,
+      "operation_number": 18,
+      "type": "revelation_established",
+      "revelation_id": "the-tallcase-clock-was-deliberately-staged",
+      "supporting_clue_ids": [
+        "clock-glass-rests-on-the-blood",
+        "blue-chalk-stops-the-pendulum",
+        "the-clock-had-recently-kept-reliable-time"
+      ],
+      "note": "The sound clock was stopped with chalk and its glass broken after Merrit bled; nine was selected, not recorded."
+    },
+    {
+      "sequence": 66,
+      "operation_number": 19,
+      "type": "encounter_visited",
+      "visit_number": 4,
+      "encounter_id": "the-common-chest",
+      "party_label": ""
+    },
+    {
+      "sequence": 67,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "the-first-warrants-retain-the-childrens-memorial-marks",
+      "visit_number": 4
+    },
+    {
+      "sequence": 68,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "six-years-of-shares-end-in-school-redemptions",
+      "visit_number": 4
+    },
+    {
+      "sequence": 69,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "orlo-wrote-the-authorizations-and-receiving-marks",
+      "visit_number": 4
+    },
+    {
+      "sequence": 70,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "hesters-unlawful-spending-is-physically-accounted-for",
+      "visit_number": 4
+    },
+    {
+      "sequence": 71,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "the-warrant-bundle-points-back-to-the-chapel-register",
+      "visit_number": 4
+    },
+    {
+      "sequence": 72,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "the-receiving-seal-and-beneficiary-numbers-lead-to-the-school",
+      "visit_number": 4
+    },
+    {
+      "sequence": 73,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "nim-can-certify-a-narrow-warrant-chain",
+      "visit_number": 4
+    },
+    {
+      "sequence": 74,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "only-orlo-owns-the-threatened-scheme",
+      "visit_number": 4
+    },
+    {
+      "sequence": 75,
+      "operation_number": 19,
+      "type": "clue_spotted",
+      "clue_id": "the-chest-supplies-a-complete-motive-exhibit",
+      "visit_number": 4
+    },
+    {
+      "sequence": 76,
+      "operation_number": 19,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "Hester admitted spending without a vote. The bridge invoices, delivered stone, and separate warrant sequence accounted for the whole discrepancy; her offense was real but not the ghost-hearth diversion."
+    },
+    {
+      "sequence": 77,
+      "operation_number": 19,
+      "type": "visit_note_recorded",
+      "visit_number": 4,
+      "text": "The ghost-hearth warrants ran for six years in Orlo’s clean-copy hand and ended in school redemptions. The company copied only the narrow chain needed for the murder case and sealed beneficiary names."
+    },
+    {
+      "sequence": 78,
+      "operation_number": 20,
+      "type": "encounter_visited",
+      "visit_number": 5,
+      "encounter_id": "chapel-of-the-open-door",
+      "party_label": ""
+    },
+    {
+      "sequence": 79,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "all-three-names-belong-to-children-who-died-young",
+      "visit_number": 5
+    },
+    {
+      "sequence": 80,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "orlo-borrowed-the-register-before-the-false-hearths-appeared",
+      "visit_number": 5
+    },
+    {
+      "sequence": 81,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "merrits-correction-slips-point-back-to-his-private-folios",
+      "visit_number": 5
+    },
+    {
+      "sequence": 82,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "orlos-memorial-program-links-the-selected-names-to-school-work",
+      "visit_number": 5
+    },
+    {
+      "sequence": 83,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "amity-will-certify-the-names-without-exposing-beneficiaries",
+      "visit_number": 5
+    },
+    {
+      "sequence": 84,
+      "operation_number": 20,
+      "type": "clue_spotted",
+      "clue_id": "orlo-selected-the-names-merrit-was-about-to-expose",
+      "visit_number": 5
+    },
+    {
+      "sequence": 85,
+      "operation_number": 20,
+      "type": "visit_note_recorded",
+      "visit_number": 5,
+      "text": "Sister Amity certified the deaths without opening the school’s beneficiary list. The same three names later appeared in an Orlo-prepared memorial exercise and then as adult hearths with no births, marriages, or successions."
+    },
+    {
+      "sequence": 86,
+      "operation_number": 21,
+      "type": "revelation_established",
+      "revelation_id": "three-dead-children-s-names-became-fictitious-hearths",
+      "supporting_clue_ids": [
+        "the-three-hearth-ages-are-impossible",
+        "the-first-warrants-retain-the-childrens-memorial-marks",
+        "all-three-names-belong-to-children-who-died-young"
+      ],
+      "note": "The three supposed households are dead children transformed into fictitious adult hearths."
+    },
+    {
+      "sequence": 87,
+      "operation_number": 22,
+      "type": "encounter_visited",
+      "visit_number": 6,
+      "encounter_id": "bramblewick-school",
+      "party_label": ""
+    },
+    {
+      "sequence": 88,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-pupils-completed-four-stanzas-before-orlo-arrived",
+      "visit_number": 6
+    },
+    {
+      "sequence": 89,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "jory-saw-orlo-enter-at-8-54",
+      "visit_number": 6
+    },
+    {
+      "sequence": 90,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-missing-blue-chalk-stick-matches-the-clock-wedge",
+      "visit_number": 6
+    },
+    {
+      "sequence": 91,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "orlos-copyist-key-carries-map-room-lime",
+      "visit_number": 6
+    },
+    {
+      "sequence": 92,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-beneficiary-box-is-indexed-by-ghost-hearth-warrants",
+      "visit_number": 6
+    },
+    {
+      "sequence": 93,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-wash-basin-holds-blood-dilution-and-merrits-collar-lint",
+      "visit_number": 6
+    },
+    {
+      "sequence": 94,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "orlo-revises-both-his-presence-and-his-entrance",
+      "visit_number": 6
+    },
+    {
+      "sequence": 95,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-side-yard-opens-directly-onto-the-north-hedge",
+      "visit_number": 6
+    },
+    {
+      "sequence": 96,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-selected-names-came-from-an-open-door-memorial-roll",
+      "visit_number": 6
+    },
+    {
+      "sequence": 97,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "three-school-exhibits-carry-the-case",
+      "visit_number": 6
+    },
+    {
+      "sequence": 98,
+      "operation_number": 22,
+      "type": "clue_spotted",
+      "clue_id": "the-school-gathers-the-broken-alibi-the-chalk-and-the-fund",
+      "visit_number": 6
+    },
+    {
+      "sequence": 99,
+      "operation_number": 22,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The children were interviewed separately and asked what they sang and saw, not whether their teacher was a murderer. Practice sheets, candle bands, and Jory’s side-door account agree that Orlo arrived only for the final stanza."
+    },
+    {
+      "sequence": 100,
+      "operation_number": 22,
+      "type": "visit_note_recorded",
+      "visit_number": 6,
+      "text": "The missing chalk matched the clock wedge. Orlo’s key held map-room lime, and the wash basin contained diluted blood and a strand from Merrit’s green collar. Orlo changed both his arrival time and the door he claimed to have used."
+    },
+    {
+      "sequence": 101,
+      "operation_number": 23,
+      "type": "revelation_established",
+      "revelation_id": "the-ghost-hearth-shares-flowed-through-orlo-s-school-fund",
+      "supporting_clue_ids": [
+        "six-years-of-shares-end-in-school-redemptions",
+        "the-beneficiary-box-is-indexed-by-ghost-hearth-warrants"
+      ],
+      "note": "The fictitious shares were redeemed through a school fund controlled by Orlo; the beneficiaries remain unnecessary to the proof."
+    },
+    {
+      "sequence": 102,
+      "operation_number": 24,
+      "type": "encounter_visited",
+      "visit_number": 7,
+      "encounter_id": "the-copper-kettle-and-long-pantry",
+      "party_label": ""
+    },
+    {
+      "sequence": 103,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "elsie-crossed-the-green-when-the-rain-began",
+      "visit_number": 7
+    },
+    {
+      "sequence": 104,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "orlo-left-the-school-side-before-rehearsal",
+      "visit_number": 7
+    },
+    {
+      "sequence": 105,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "the-burst-crock-fixes-mara-in-the-pantry",
+      "visit_number": 7
+    },
+    {
+      "sequence": 106,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "merrit-s-burned-demand-names-the-old-drain",
+      "visit_number": 7
+    },
+    {
+      "sequence": 107,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "orlo-told-the-pupils-to-begin-without-him",
+      "visit_number": 7
+    },
+    {
+      "sequence": 108,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "school-meal-warrants-carry-the-recurring-initials",
+      "visit_number": 7
+    },
+    {
+      "sequence": 109,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "the-service-passage-confirms-a-screened-north-route",
+      "visit_number": 7
+    },
+    {
+      "sequence": 110,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "three-diners-saw-bram-take-the-orchard-tools",
+      "visit_number": 7
+    },
+    {
+      "sequence": 111,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "hester-joined-the-pantry-work-after-the-reading",
+      "visit_number": 7
+    },
+    {
+      "sequence": 112,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "mara-delivered-old-account-packets-to-merrits-burrow",
+      "visit_number": 7
+    },
+    {
+      "sequence": 113,
+      "operation_number": 24,
+      "type": "clue_spotted",
+      "clue_id": "merrit-walked-steadily-after-the-tincture",
+      "visit_number": 7
+    },
+    {
+      "sequence": 114,
+      "operation_number": 24,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Elsie’s tray crossing fixed the rain before the bell. Mara’s staff saw Orlo leave the school side before rehearsal, while Mara and Hester remained in the pantry during the killing interval."
+    },
+    {
+      "sequence": 115,
+      "operation_number": 24,
+      "type": "visit_note_recorded",
+      "visit_number": 7,
+      "text": "Mara admitted the untaxed brandy and Merrit’s extortion. Hester admitted the bridge expenditure. The company kept both matters distinct from the murder and from the beneficiary families."
+    },
+    {
+      "sequence": 116,
+      "operation_number": 25,
+      "type": "revelation_established",
+      "revelation_id": "merrit-was-killed-by-a-deliberate-blow",
+      "supporting_clue_ids": [
+        "the-focused-wound-behind-the-ear",
+        "merrit-walked-steadily-after-the-tincture"
+      ],
+      "note": "Merrit walked alert after the medicine and then suffered a focused lethal blow; poison and collapse do not explain the scene."
+    },
+    {
+      "sequence": 117,
+      "operation_number": 26,
+      "type": "revelation_established",
+      "revelation_id": "merrit-died-before-the-last-bell",
+      "supporting_clue_ids": [
+        "rain-lies-on-blood-already-spread",
+        "the-north-window-remained-open-when-rain-began",
+        "elsie-crossed-the-green-when-the-rain-began"
+      ],
+      "note": "Three independent observations place bleeding and the open window before the 8:50 rain and therefore before the last bell."
+    },
+    {
+      "sequence": 118,
+      "operation_number": 27,
+      "type": "revelation_established",
+      "revelation_id": "mara-paid-for-silence-about-brandy-and-was-in-the-pantry-during-the-murder",
+      "supporting_clue_ids": [
+        "merrit-s-index-decodes-mara-s-envelopes",
+        "the-burst-crock-fixes-mara-in-the-pantry",
+        "merrit-s-burned-demand-names-the-old-drain"
+      ],
+      "note": "Mara’s envelopes bought Merrit’s silence about brandy; the burst crock and pantry witnesses cover the killing interval."
+    },
+    {
+      "sequence": 119,
+      "operation_number": 28,
+      "type": "revelation_established",
+      "revelation_id": "hester-spent-common-money-on-the-bridge-and-served-pie-during-the-murder",
+      "supporting_clue_ids": [
+        "hesters-unlawful-spending-is-physically-accounted-for",
+        "hester-joined-the-pantry-work-after-the-reading"
+      ],
+      "note": "Hester spent common money without authorization, but the bridge accounts for it and public pantry work covers the murder interval."
+    },
+    {
+      "sequence": 120,
+      "operation_number": 29,
+      "type": "revelation_established",
+      "revelation_id": "orlo-s-public-alibi-begins-only-after-the-murder",
+      "supporting_clue_ids": [
+        "the-pupils-completed-four-stanzas-before-orlo-arrived",
+        "jory-saw-orlo-enter-at-8-54",
+        "orlo-left-the-school-side-before-rehearsal"
+      ],
+      "note": "Orlo was absent for four stanzas, appeared at the side door near 8:54, and led only the final stanza heard at the bell."
+    },
+    {
+      "sequence": 121,
+      "operation_number": 30,
+      "type": "encounter_visited",
+      "visit_number": 8,
+      "encounter_id": "the-north-hedge",
+      "party_label": ""
+    },
+    {
+      "sequence": 122,
+      "operation_number": 30,
+      "type": "clue_spotted",
+      "clue_id": "a-direct-track-crossed-before-the-rain",
+      "visit_number": 8
+    },
+    {
+      "sequence": 123,
+      "operation_number": 30,
+      "type": "clue_spotted",
+      "clue_id": "the-garden-door-can-be-pulled-closed-but-not-latched",
+      "visit_number": 8
+    },
+    {
+      "sequence": 124,
+      "operation_number": 30,
+      "type": "clue_spotted",
+      "clue_id": "lime-beneath-mud-and-a-blue-cuff-thread-mark-the-crossing",
+      "visit_number": 8
+    },
+    {
+      "sequence": 125,
+      "operation_number": 30,
+      "type": "clue_spotted",
+      "clue_id": "the-dry-route-fits-an-8-48-departure-and-8-54-arrival",
+      "visit_number": 8
+    },
+    {
+      "sequence": 126,
+      "operation_number": 30,
+      "type": "clue_spotted",
+      "clue_id": "the-old-track-ends-at-the-school-wash-yard",
+      "visit_number": 8
+    },
+    {
+      "sequence": 127,
+      "operation_number": 30,
+      "type": "clue_spotted",
+      "clue_id": "the-orchard-work-site-overlooks-but-does-not-join-the-direct-track",
+      "visit_number": 8
+    },
+    {
+      "sequence": 128,
+      "operation_number": 30,
+      "type": "clue_spotted",
+      "clue_id": "only-orlo-fits-the-whole-crossing",
+      "visit_number": 8
+    },
+    {
+      "sequence": 129,
+      "operation_number": 30,
+      "type": "clue_spotted",
+      "clue_id": "the-route-can-be-proved-without-naming-a-footprint",
+      "visit_number": 8
+    },
+    {
+      "sequence": 130,
+      "operation_number": 30,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "Fen walked the dry-distance route in five minutes and forty seconds. The rounded pre-rain track ran from the unlatched garden door to the school wash yard; map-room lime lay beneath the mud and blue cuff thread caught at the gate."
+    },
+    {
+      "sequence": 131,
+      "operation_number": 30,
+      "type": "visit_note_recorded",
+      "visit_number": 8,
+      "text": "The company stated the limit of the evidence: the footprint was not unique. The route became identifying only when joined to Orlo’s key, chalk, washed cuff, late arrival, and school-fund motive."
+    },
+    {
+      "sequence": 132,
+      "operation_number": 31,
+      "type": "revelation_established",
+      "revelation_id": "the-killer-entered-lawfully-and-left-by-the-north-route",
+      "supporting_clue_ids": [
+        "no-forced-entry-and-an-unlatched-garden-door",
+        "the-dry-hedge-route-reaches-the-school-in-six-minutes",
+        "a-direct-track-crossed-before-the-rain",
+        "the-garden-door-can-be-pulled-closed-but-not-latched"
+      ],
+      "note": "The killer used an authorized key, pulled the garden door closed, and crossed the north route before the rain."
+    },
+    {
+      "sequence": 133,
+      "operation_number": 32,
+      "type": "revelation_established",
+      "revelation_id": "orlo-had-the-access-and-materials-used-to-stage-the-scene",
+      "supporting_clue_ids": [
+        "the-authorized-key-register-names-orlo",
+        "merrit-linked-orlo-to-the-old-register-request",
+        "orlo-wrote-the-authorizations-and-receiving-marks",
+        "orlo-borrowed-the-register-before-the-false-hearths-appeared",
+        "orlos-copyist-key-carries-map-room-lime",
+        "lime-beneath-mud-and-a-blue-cuff-thread-mark-the-crossing"
+      ],
+      "note": "Orlo alone joins authorized entry, the selected burial names, school chalk, map-room lime, and the blue-cloth crossing trace."
+    },
+    {
+      "sequence": 134,
+      "operation_number": 33,
+      "type": "revelation_established",
+      "revelation_id": "the-evidence-supports-a-coherent-first-bell-accusation",
+      "supporting_clue_ids": [
+        "the-chest-supplies-a-complete-motive-exhibit",
+        "the-school-gathers-the-broken-alibi-the-chalk-and-the-fund",
+        "the-route-can-be-proved-without-naming-a-footprint"
+      ],
+      "note": "The company can present motive, chronology, staging, route, late alibi, and convergence without exposing beneficiary families."
+    },
+    {
+      "sequence": 135,
+      "operation_number": 34,
+      "type": "encounter_visited",
+      "visit_number": 9,
+      "encounter_id": "hearth-hall-and-the-map-room",
+      "party_label": ""
+    },
+    {
+      "sequence": 136,
+      "operation_number": 34,
+      "type": "clue_spotted",
+      "clue_id": "residue-remains-in-the-nicked-acorn-weight",
+      "visit_number": 9
+    },
+    {
+      "sequence": 137,
+      "operation_number": 34,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "The preserved acorn weight still held residue and green collar fiber in its crescent nick. Merrit’s inventory sketch confirmed the flaw; the company marked the weapon as corroboration rather than the sole basis of accusation."
+    },
+    {
+      "sequence": 138,
+      "operation_number": 34,
+      "type": "visit_note_recorded",
+      "visit_number": 9,
+      "text": "Pella and Elian sealed Merrit’s unrelated leverage files. Sable prepared the narrow warrant chain, and Fen prepared the door-and-route demonstration."
+    },
+    {
+      "sequence": 139,
+      "operation_number": 35,
+      "type": "revelation_established",
+      "revelation_id": "a-brass-acorn-map-weight-was-the-weapon",
+      "supporting_clue_ids": [
+        "residue-remains-in-the-nicked-acorn-weight",
+        "a-sketch-records-the-weights-crescent-flaw"
+      ],
+      "note": "The nicked brass acorn weight carries Merrit’s collar fiber and residue and matches the preserved inventory sketch."
+    },
+    {
+      "sequence": 140,
+      "operation_number": 36,
+      "type": "encounter_visited",
+      "visit_number": 10,
+      "encounter_id": "the-first-bell-moot",
+      "party_label": ""
+    },
+    {
+      "sequence": 141,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "the-public-clock-demonstration-survives-challenge",
+      "visit_number": 10
+    },
+    {
+      "sequence": 142,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "separated-rehearsal-evidence-fixes-orlos-late-arrival",
+      "visit_number": 10
+    },
+    {
+      "sequence": 143,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "the-door-and-route-can-be-reconstructed-before-the-village",
+      "visit_number": 10
+    },
+    {
+      "sequence": 144,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "a-narrow-certified-chain-proves-the-school-diversion",
+      "visit_number": 10
+    },
+    {
+      "sequence": 145,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "orlo-concedes-every-instrument-while-denying-the-sequence",
+      "visit_number": 10
+    },
+    {
+      "sequence": 146,
+      "operation_number": 36,
+      "type": "clue_spotted",
+      "clue_id": "the-whole-sequence-leaves-no-innocent-substitute",
+      "visit_number": 10
+    },
+    {
+      "sequence": 147,
+      "operation_number": 36,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The company presented six propositions in order: death before the bell, staged clock, lawful entry and north route, late school arrival, the threatened school-fund scheme, and the evidence joining Orlo to the whole sequence."
+    },
+    {
+      "sequence": 148,
+      "operation_number": 36,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The children’s testimony was read as separated factual statements. The certified account exhibit omitted beneficiary names. Orlo conceded his key, register loan, chalk, and fund only after each had been independently proved."
+    },
+    {
+      "sequence": 149,
+      "operation_number": 36,
+      "type": "visit_note_recorded",
+      "visit_number": 10,
+      "text": "The moot found that Orlo Vane killed Merrit Alder. His later admission explained panic and purpose but did not create the finding."
+    },
+    {
+      "sequence": 150,
+      "operation_number": 37,
+      "type": "revelation_established",
+      "revelation_id": "orlo-vane-killed-merrit-alder",
+      "supporting_clue_ids": [
+        "only-orlo-owns-the-threatened-scheme",
+        "orlo-selected-the-names-merrit-was-about-to-expose",
+        "the-wash-basin-holds-blood-dilution-and-merrits-collar-lint",
+        "orlo-revises-both-his-presence-and-his-entrance",
+        "only-orlo-fits-the-whole-crossing",
+        "the-whole-sequence-leaves-no-innocent-substitute"
+      ],
+      "note": "Orlo killed Merrit at 8:44, staged nine on the clock, crossed the hedge before rain, washed at the school, and arrived for the final stanza."
+    },
+    {
+      "sequence": 151,
+      "operation_number": 38,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-first-bell-moot",
+      "text": "The moot found Orlo Vane responsible for Merrit Alder’s murder and remanded him to the circuit magistrate. The finding rested on the reconstructed sequence rather than confession."
+    },
+    {
+      "sequence": 152,
+      "operation_number": 39,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-common-chest",
+      "text": "The ghost-hearth warrants were closed. Beneficiary identities remained sealed, and three custodians now hold separate keys for any emergency school relief fund."
+    },
+    {
+      "sequence": 153,
+      "operation_number": 40,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "bramblewick-school",
+      "text": "The school remained open under Sister Amity and two rotating village tutors. Meals and winter shoes continue through a voted fund with public totals and private recipients."
+    },
+    {
+      "sequence": 154,
+      "operation_number": 41,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "hearth-hall-and-the-map-room",
+      "text": "Merrit’s murder exhibits were retained under seal. His unrelated leverage files were returned, destroyed, or referred separately rather than read into the public murder record."
+    },
+    {
+      "sequence": 155,
+      "operation_number": 42,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-copper-kettle-and-long-pantry",
+      "text": "Mara paid duty and a substantial fine for the hidden brandy trade; the moot did not treat Merrit’s extortion as a license for murder."
+    },
+    {
+      "sequence": 156,
+      "operation_number": 43,
+      "type": "encounter_consequence_recorded",
+      "encounter_id": "the-common-chest",
+      "text": "Hester was censured for spending without a vote. The village ratified the completed bridge work but removed unilateral emergency spending from the reeve’s office."
+    }
+  ]
+}

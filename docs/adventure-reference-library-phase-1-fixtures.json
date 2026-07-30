@@ -1,0 +1,255 @@
+{
+  "fixture_design_version": 1,
+  "status": "Phase 1 design evidence only; this is not a canonical adventure document.",
+  "candidate_contract": {
+    "reference_fields": [
+      "id",
+      "kind",
+      "title",
+      "aliases",
+      "summary",
+      "content",
+      "tags"
+    ],
+    "reference_kinds": [
+      "person",
+      "place",
+      "organization",
+      "object",
+      "other"
+    ],
+    "encounter_link_field": "reference_links",
+    "link_fields": [
+      "reference_id",
+      "context"
+    ],
+    "reference_order": "Authored order in the top-level references array.",
+    "encounter_link_order": "Authored order in each encounter's reference_links array.",
+    "generated_group_order": [
+      "person",
+      "place",
+      "organization",
+      "object",
+      "other"
+    ]
+  },
+  "fixtures": [
+    {
+      "id": "recurring-person-cora-pike",
+      "source_adventure": "examples/the-witch-of-blackbriar-hall/adventure.json",
+      "source_adventure_id": "the-witch-of-blackbriar-hall",
+      "reference": {
+        "id": "b88c6486-4644-417c-a593-f3d32f91bd26",
+        "kind": "person",
+        "title": "Cora Pike",
+        "aliases": [],
+        "summary": "A Blackbriar clerk whose loyalty breaks when Judith's custody system consumes her own household.",
+        "content": "Cora knows the hall's store records, staff routines, and ordinary relief work. Her authored record describes her starting position; her defection remains play history in the journal.",
+        "tags": [
+          "Blackbriar staff",
+          "records",
+          "potential ally"
+        ]
+      },
+      "links": [
+        {
+          "encounter_id": "saint-orra-gallows",
+          "context": "Present among Judith's dependents before her break with the household regime."
+        },
+        {
+          "encounter_id": "blackbriar-hall",
+          "context": "Knows the stores, staff, and custody records; this is the most likely point of defection."
+        },
+        {
+          "encounter_id": "white-pits",
+          "context": "Her family evidence connects the Pike dead to Mercy House transfers."
+        },
+        {
+          "encounter_id": "moonless-mere",
+          "context": "Her household connections help identify names and vessels moved through the mirror route."
+        }
+      ],
+      "runtime_evidence": {
+        "archive": "examples/the-witch-of-blackbriar-hall/archives/blackbriar-commission-demonstrated-playthrough.journal.json",
+        "event_sequences": [
+          92,
+          116,
+          184
+        ],
+        "observed_change": "Cora joins the commission with six defecting staff and later protects relief stores.",
+        "contract_effect": "No authored reference mutation and no new runtime event type."
+      }
+    },
+    {
+      "id": "shared-place-blackbriar-estate",
+      "source_adventure": "examples/the-witch-of-blackbriar-hall/adventure.json",
+      "source_adventure_id": "the-witch-of-blackbriar-hall",
+      "reference": {
+        "id": "c94f4bce-d1c9-4dfc-a6aa-5ff28e579408",
+        "kind": "place",
+        "title": "Blackbriar Hall and Grounds",
+        "aliases": [
+          "Blackbriar Estate"
+        ],
+        "summary": "Judith Crowl's estate, including its public hall, service wood, and ritual underhall.",
+        "content": "The estate record holds reusable approaches, ownership, staff circulation, and the relationship among the public house, covert service routes, and the chambers below.",
+        "tags": [
+          "estate",
+          "headquarters",
+          "ritual site"
+        ]
+      },
+      "links": [
+        {
+          "encounter_id": "blackbriar-hall",
+          "context": "The public administrative and relief-facing center of the estate."
+        },
+        {
+          "encounter_id": "crow-wood",
+          "context": "The estate's service approaches, transfer wagons, and hidden route network."
+        },
+        {
+          "encounter_id": "underhall-of-the-hollow-feast",
+          "context": "The ritual complex beneath the hall and the estate's final convergence point."
+        }
+      ]
+    },
+    {
+      "id": "distributed-organization-saint-mercy",
+      "source_adventure": "examples/the-witch-of-blackbriar-hall/adventure.json",
+      "source_adventure_id": "the-witch-of-blackbriar-hall",
+      "reference": {
+        "id": "58593ab5-fc56-4acb-92ab-7e3b787c3731",
+        "kind": "organization",
+        "title": "Saint Mercy House",
+        "aliases": [
+          "Mercy House"
+        ],
+        "summary": "A genuine relief institution converted into Judith's system of custody, leverage, and transfer.",
+        "content": "The organization record distinguishes the institution, its staff, dependents, records, routes, and legitimate care work from the encounter that occurs in its principal building.",
+        "tags": [
+          "charity",
+          "custody",
+          "medical care"
+        ]
+      },
+      "links": [
+        {
+          "encounter_id": "saint-orra-gallows",
+          "context": "Judith uses promised admission and dependent households to compel obedience."
+        },
+        {
+          "encounter_id": "sedge-croft",
+          "context": "Mara's case packets trace disappearances and coerced transfers into the institution."
+        },
+        {
+          "encounter_id": "saint-mercy-house",
+          "context": "The organization's principal site, staff, dependents, and hidden rooms."
+        },
+        {
+          "encounter_id": "blackbriar-hall",
+          "context": "The estate controls its stores, records, and administrative dependencies."
+        },
+        {
+          "encounter_id": "white-pits",
+          "context": "Transfer traffic and false accounts connect the institution to the burial system."
+        },
+        {
+          "encounter_id": "moonless-mere",
+          "context": "Name vessels move from the institution through Judith's mirror route."
+        }
+      ]
+    },
+    {
+      "id": "recurring-object-bronze-seal",
+      "source_adventure": "examples/the-princess-on-the-salt-road/adventure.json",
+      "source_adventure_id": "the-princess-on-the-salt-road",
+      "reference": {
+        "id": "8e2bd3ba-20fb-456c-9c73-cb9bab481e26",
+        "kind": "object",
+        "title": "The Aulonite Bronze Seal",
+        "aliases": [
+          "the royal seal",
+          "the palace seal"
+        ],
+        "summary": "A portable instrument of royal authority whose custody, use, and public handling shape the flight from Aulon.",
+        "content": "The seal's canonical description and legal significance remain stable while its carrier, evidentiary value, and immediate risk vary by encounter.",
+        "tags": [
+          "authority",
+          "evidence",
+          "portable"
+        ]
+      },
+      "links": [
+        {
+          "encounter_id": "house-of-blue-lamps",
+          "context": "Ianthe begins with the seal and decides whether authority or misdirection should travel openly."
+        },
+        {
+          "encounter_id": "gate-of-horns",
+          "context": "The warrant requires the seal preserved, making its custody part of the gate dispute."
+        },
+        {
+          "encounter_id": "dry-aqueduct",
+          "context": "The escort may separate Ianthe from the seal to divide the search."
+        },
+        {
+          "encounter_id": "house-at-three-cypresses",
+          "context": "Preparation choices determine who carries or displays the seal on the mounted road."
+        },
+        {
+          "encounter_id": "red-bridge",
+          "context": "The seal can authenticate orders, create witnesses, or expose the escort to pursuit."
+        },
+        {
+          "encounter_id": "reed-villages",
+          "context": "Boat assignments may separate the seal from Ianthe, witnesses, or the armed escort."
+        },
+        {
+          "encounter_id": "beacon-hill",
+          "context": "Records and the seal can correct the false abduction signal only if their custody is credible."
+        },
+        {
+          "encounter_id": "myrine-harbor",
+          "context": "The harbor court treats the seal as a separate claimant object with its own custody lane."
+        }
+      ]
+    },
+    {
+      "id": "reference-light-existing-adventure",
+      "source_adventure": "examples/when-the-swine-kneel/adventure.json",
+      "source_adventure_id": "when-the-swine-kneel",
+      "references": [],
+      "encounter_reference_links": [],
+      "contract_effect": "The existing adventure remains legal without creating records for every official, animal group, survey pin, or institution named in encounter prose."
+    },
+    {
+      "id": "portable-project-and-archive",
+      "source_adventure": "examples/the-princess-on-the-salt-road/adventure.json",
+      "reference_ids": [
+        "8e2bd3ba-20fb-456c-9c73-cb9bab481e26"
+      ],
+      "required_preservation": [
+        "ordinary project relocation preserves adventure bytes and therefore reference identities and links",
+        "journal archives embed the complete authored adventure snapshot including references and links",
+        "clean standalone export copies the complete authored adventure without campaign reconciliation",
+        "generated packets use the same reference identity for anchors and source revision evidence"
+      ]
+    },
+    {
+      "id": "dependency-aware-removal",
+      "source_adventure": "examples/the-witch-of-blackbriar-hall/adventure.json",
+      "reference_id": "b88c6486-4644-417c-a593-f3d32f91bd26",
+      "linked_encounter_ids": [
+        "saint-orra-gallows",
+        "blackbriar-hall",
+        "white-pits",
+        "moonless-mere"
+      ],
+      "remove_reference_without_cascade": "refuse and report all four links",
+      "remove_reference_with_cascade": "remove the reference and its four subordinate encounter links; preserve every encounter and every journal event",
+      "remove_linked_encounter_without_cascade": "refuse and report its reference links together with existing clue, revelation-destination, and journal dependencies",
+      "remove_linked_encounter_with_cascade": "remove the encounter and its subordinate reference links, retain the reference record, and still refuse if a known journal mentions the encounter"
+    }
+  ]
+}

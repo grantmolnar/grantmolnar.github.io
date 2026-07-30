@@ -1,0 +1,1223 @@
+{
+  "schema_version": 3,
+  "adventure": {
+    "id": "the-march-on-vossgard",
+    "title": "The March on Vossgard",
+    "synopsis": "The Ashen Gate opens at dawn. By dusk, the Dawn Compact has an army in the Shadowfell and one road home. Count Othmar Voss holds the Gloam March with living levies, grave infantry, vampire cavalry, and blood enough to carry war across the mortal border. Marshal Aveline Rusk issues the Ash Warrant: authority to cross between columns, redirect scarce formations, receive surrenders, and bind the Compact when written orders arrive too late. The commission has three orders—break Voss's field army, take Vossgard, and deny him an organized remnant.",
+    "premise": "The Dawn Compact has entered the Shadowfell through one road, with Voss's army between its bridgehead and Vossgard. The Ash Warrant can redirect formations and bind field promises. Its bearers must break the defenses, preserve enough of the March to hold or evacuate it, and close every organized escape.",
+    "explanation": "The Ashen Gate's grey daylight prevents Voss from massing enough dead at the bridgehead to throw the Compact back. He will trade the outer March for hours, strip people and stores, gather every surviving command at Vossgard, and leave by whichever of three military exits remains open. A direct spearhead reaches him sooner with exposed roads and fewer troops for prisoners or occupation. A methodical encirclement spends strength on civilians, blood stores, command relays, and containment while the fortress hardens. Every bypass preserves tempo and leaves a named enemy force free to act later. Victory depends on the battlefield the Warrant builds, the promises backed by officers and stores, and the government or withdrawal the remaining army can defend.",
+    "tags": {
+      "genres": [
+        "Military fantasy",
+        "War"
+      ],
+      "game_systems": [
+        "Dungeons & Dragons"
+      ],
+      "settings": [
+        "Shadowfell"
+      ],
+      "party_size": {
+        "minimum": 3,
+        "maximum": 5
+      },
+      "level": {
+        "minimum": null,
+        "maximum": null
+      },
+      "combat_intensity": "heavy",
+      "keywords": [
+        "Mass combat",
+        "Command decisions",
+        "Vampires",
+        "Campaign operations"
+      ]
+    },
+    "validation": {
+      "minimum_clues_per_revelation": 3,
+      "minimum_source_encounters_per_revelation": 3,
+      "minimum_incoming_clues_per_encounter": 3,
+      "minimum_incoming_source_encounters_per_encounter": 3,
+      "minimum_outgoing_clues_per_encounter": 3,
+      "minimum_distinct_encounter_targets_per_encounter": 3,
+      "minimum_edge_connectivity": 3,
+      "require_directed_reachability": true
+    }
+  },
+  "references": [
+    {
+      "id": "e714bd67-22b9-462d-889a-c1d70af6170f",
+      "kind": "person",
+      "title": "Marshal Aveline Rusk",
+      "aliases": [
+        "Aveline Rusk",
+        "Rusk"
+      ],
+      "summary": "The Dawn Compact marshal who commands the Ashen Gate campaign, allocates scarce formations, and keeps the obligation and review boundaries behind the Ash Warrant.",
+      "content": "## Gate ledger: road, beds, wagons, reserve\n\nAveline Rusk commands the Dawn Compact's bridgehead and the campaign launched through the Ashen Gate. She reads an offensive in formations, hospital capacity, wagon room, reserves, and the one road by which troops, prisoners, civilians, and promises must return to daylight. Her office joins military command to responsibility for what the army can actually sustain.\n\n## Field plate returned with duplicate terms\n\nRusk issues the Ash Warrant as a bounded cross-command commission. Its bearers may redirect committed forces, receive battlefield surrenders, record requisitions, grant temporary parole pending hearing, and make enforceable local agreements when ordinary orders cannot arrive. Returning couriers carry duplicate terms to her obligation ledger so protection, custody, supply, and later review survive the distance between columns.\n\n## Allocate only named strength\n\nRusk can allocate available formations, redirect a freed reserve, demand corrected reports, and review provisional military and civil arrangements. She cannot create troops, transport, custody, or stores that were never assigned; erase command responsibility; grant permanent sovereignty; or convert an unsupported promise into an enforceable one. Current allocations, losses, obligations, routes, and settlement orders belong to campaign state and play.",
+      "tags": [
+        "Dawn Compact",
+        "campaign command",
+        "Ash Warrant",
+        "obligations"
+      ]
+    },
+    {
+      "id": "b9b91d52-59d8-41ba-b73e-05ab1d3e15c4",
+      "kind": "person",
+      "title": "Brigadier Tamsin Holt",
+      "aliases": [
+        "Tamsin Holt",
+        "Holt",
+        "Brigadier Holt"
+      ],
+      "summary": "The Grey Banner brigadier who turns available infantry into bounded assault, containment, and surrendered-ground assignments without pretending one formation can hold every road.",
+      "content": "## Battalion frontage on the assigned road\n\nTamsin Holt commands the first Grey Banner battalions in the Vossgard campaign. Her infantry can fix a prepared position, carry a breach, hold an interdiction line, receive surrendered ground, and provide the visible force that makes a military order more than a courier's sentence. Holt thinks in companies, frontage, relief, casualties, and the road a formation must still protect after taking its objective.\n\n## Breach order or interdiction line\n\nA Grey Banner assault may reduce defenders when specialists open the way; containment instead names the road, gate, or line the battalions must hold and leaves the enemy dangerous behind it. Holt can divide work among battalions and support a strike against command, but ordinary infantry does not automatically preserve a bridge, silence a signal system, settle a surrender, or capture a position's distinctive asset.\n\n## Mark the companies still present\n\nHolt can report what her battalions can attempt, accept a bounded mission, and keep surrendered soldiers or ground under military guard pending civil process. She cannot occupy every exposed road at once or restore companies already spent elsewhere. Her current location, strength, casualties, containment duty, and availability remain campaign state.",
+      "tags": [
+        "Dawn Compact",
+        "Grey Banners",
+        "infantry",
+        "containment"
+      ]
+    },
+    {
+      "id": "1fe01544-1445-48cb-b8af-c8f2d630a7cf",
+      "kind": "person",
+      "title": "Colonel Dain Merrow",
+      "aliases": [
+        "Dain Merrow",
+        "Merrow",
+        "Colonel Merrow"
+      ],
+      "summary": "The Gatewright colonel responsible for siege infrastructure, demolition, heavy movement, and the scarce engineering capacity that determines what remains usable after seizure.",
+      "content": "## Span, gallery, lock, pylon, load\n\nDain Merrow commands the Gatewrights and the head of the Compact's siege train. He measures roads, spans, galleries, locks, pylons, loads, crews, firing systems, repair time, and the order in which heavy matériel can move. His engineers make the difference between forcing an obstacle and preserving it for the army that follows.\n\n## Preserve, disable, or demolish by order\n\nMerrow can assess demolition, stabilize damaged infrastructure, assign specialist teams, and explain what troops must hold while engineers work. A bridge, canal, gate, or siege route is not secured merely because a mechanism was reached: crews need access, protection, time, and a load path that remains intact. Deliberate destruction can be sound command, but it denies the same capacity to the Compact.\n\n## One Gatewright section cannot serve every axis\n\nMerrow can commit available Gatewright sections and advise what an engineering result will cost. He cannot operate every axis, make an unsupported detached column solve a fortified position, or declare an asset preserved when its crews, approaches, or mechanisms were lost. Current assignments, damage, ammunition, repair, and route status remain campaign state.",
+      "tags": [
+        "Dawn Compact",
+        "Gatewrights",
+        "engineering",
+        "siege train"
+      ]
+    },
+    {
+      "id": "bdc6dade-caff-49e9-8c4d-1f6b5eca9469",
+      "kind": "person",
+      "title": "Captain Jessa Vale",
+      "aliases": [
+        "Jessa Vale",
+        "Vale",
+        "Captain Vale"
+      ],
+      "summary": "The Dawn Lancer captain whose mobile command scouts, screens, intercepts, pursues, and answers exposed roads while remaining too small to hold every route at once.",
+      "content": "## Distance written in remounts and hours\n\nJessa Vale commands the Dawn Lancers, the Compact's fast reconnaissance and response formation. Her riders find movement before it reaches a supply road, screen a march, intercept couriers, test an apparent gap, and turn verified information into time for a slower command. Vale reads distance through remounts, patrol intervals, exposed flanks, and which road still lacks a watcher.\n\n## Screen, intercept, report, redeploy\n\nThe Lancers can contest hostile cavalry, isolate couriers, exploit a false signal, pursue a broken command, or screen relief while another formation attacks. They cannot simultaneously clear every hidden position, hold a fixed line, escort every convoy, and retain a mobile reserve. A screen is real only while riders, remounts, and a named route remain assigned to it.\n\n## A courier mark does not close the road\n\nVale can provide reconnaissance, warning, interception, and bounded mobile support. Her scouts do not reduce a position offscreen or establish discoveries that play has not earned. Current patrols, remount condition, casualties, route coverage, pursuit, and availability remain campaign state.",
+      "tags": [
+        "Dawn Compact",
+        "Dawn Lancers",
+        "reconnaissance",
+        "mobile response"
+      ]
+    },
+    {
+      "id": "892dbdaa-9163-44f0-8e4a-369a43864d82",
+      "kind": "person",
+      "title": "Provost Liora Dane",
+      "aliases": [
+        "Liora Dane",
+        "Dane",
+        "Provost Dane"
+      ],
+      "summary": "The Compact provost who joins civil affairs to field-police authority and makes surrender, requisition, protection, custody, abuse, and later review administratively real.",
+      "content": "## Name the protected people and holding officer\n\nLiora Dane leads the campaign's civil-affairs officers, interpreters, and field police. Her office records who surrendered, what was requisitioned, which people or property received protection, what force enforces that promise, who holds custody, and where a complaint or hearing must go. She treats a roster, receipt, witness, guard detail, and review date as parts of the same obligation.\n\n## Guards, transport, record, hearing\n\nDane can authenticate surrender records, organize temporary parole and custody pending hearing, document lawful requisition, separate protected people from active combatants, and investigate Compact abuse. She can help living authorities understand what an army has actually promised. A white cloth, verbal assurance, or officer's sympathy does not itself supply guards, transport, food, jurisdiction, or safe passage.\n\n## Custody preserves the question\n\nDane's office preserves responsibility rather than erasing it. She cannot grant blanket immunity, decide permanent sovereignty, promise resources the army has not committed, or turn temporary military custody into final judgment. Current terms, prisoners, requisitions, accusations, guards, hearings, and postwar arrangements remain campaign state and play.",
+      "tags": [
+        "Dawn Compact",
+        "civil affairs",
+        "field police",
+        "surrender records"
+      ]
+    },
+    {
+      "id": "d6384410-c4d7-4cb9-91da-ce1e19c30d0d",
+      "kind": "person",
+      "title": "Count Othmar Voss",
+      "aliases": [
+        "Othmar Voss",
+        "Voss",
+        "Count Voss"
+      ],
+      "summary": "The vampire ruler of the Gloam March, commanding its living levies, dead formations, cavalry, blood logistics, and fortress system through organized roads and subordinate commands.",
+      "content": "## Seventy-three years of roads under one command\n\nOthmar Voss rules the Gloam March from Vossgard. Living subjects provide grain, labor, soldiers, and scheduled blood; dead formations hold roads and prepared positions; vampire officers command mobile striking forces. His rule is military administration as much as terror, joining levy households, blood allotments, couriers, bells, fortifications, and the three approaches to his fortress.\n\n## Withdraw the force that can still obey\n\nVoss trades ground for time and measures survival in coherent formations, usable exits, prisoners, stores, and blood. He prefers a withdrawal or breakout that preserves command over a glorious death at an outer position. His subordinates receive bounded delay, removal, reserve, and concentration duties, and their ability to answer later orders depends on what their encounters actually preserve.\n\n## Gate, bell, canal, levy, blood\n\nVoss can issue orders through his existing officers, roads, signal systems, and fortress. He cannot silently restore a reduced formation, move a contained command without breaking its line, or gain an unannounced route merely because time advances. His current location, surviving forces, open exits, blood reserve, prisoners, surrender, flight, and final disposition remain campaign state and play.",
+      "tags": [
+        "Gloam March",
+        "vampire ruler",
+        "field army",
+        "Vossgard"
+      ]
+    },
+    {
+      "id": "2cfd0b01-d287-4d40-b785-ea11bc1aa001",
+      "kind": "person",
+      "title": "Dame Kasia Morcant",
+      "aliases": [
+        "Kasia Morcant",
+        "Morcant",
+        "Dame Morcant"
+      ],
+      "summary": "The Gloam March's mobile vampire commander, preserving night riders, remounts, and lateral freedom so an unresolved gap can become the next battlefield.",
+      "content": "## Remount strings behind the next road\n\nKasia Morcant commands the Gloam March's night riders, wight outriders, and shadow-fed coursers. She values mobility over fixed ground and treats barrows, remounts, hidden tracks, and lateral roads as one operating system. Her force exists to find an exposed convoy, bridgehead, village, or flank before slower troops can answer.\n\n## Spend the mound; preserve the riders\n\nMorcant will abandon a mound or apparent objective to preserve a coherent mounted force. She can raid, screen, pursue, feint, reinforce, or threaten a road when her riders and remounts remain available. Holding her in place requires a real screen, seized remount system, broken formation, or named interdiction—not an assumption that visiting one barrow fixes every road.\n\n## Mark where the mobile force still answers\n\nMorcant's stable doctrine explains why Compact allocations must account for a mobile hostile command. It does not establish where she rides, whether her force survived, which remounts remain, what raid occurs, or whether she can reach Vossgard. Those facts depend on campaign state, clues, and play.",
+      "tags": [
+        "Gloam March",
+        "night riders",
+        "cavalry",
+        "mobile command"
+      ]
+    },
+    {
+      "id": "be727f0b-3d2e-44b8-9309-896dcc57726c",
+      "kind": "object",
+      "title": "The Ash Warrant",
+      "aliases": [
+        "Ash Warrant",
+        "the Warrant",
+        "blackened field plate"
+      ],
+      "summary": "The bounded cross-command commission that lets its bearers redirect committed forces, receive surrenders, and bind field promises only when authority, support, records, and later review are named.",
+      "content": "## Blackened plate between separated commands\n\nThe Ash Warrant is a portable field commission issued by Marshal Aveline Rusk for an army whose columns cannot wait on ordinary written orders. Its bearers may cross command boundaries, redirect forces already placed within reach, receive military surrender, record lawful requisition, grant temporary parole pending hearing, and make local agreements in the Dawn Compact's name. The blackened field plate makes that authority visible; it does not make it unlimited.\n\n## Unit, enforcing hand, matériel, end, review\n\nA Warrant order or promise identifies the people or unit affected, the officer who must enforce it, the troops, stores, transport, custody, or engineering capacity that support it, the record that preserves it, and the review that ends or confirms it. Couriers return duplicate terms to Rusk's obligation ledger. Emergency words may begin action, but lasting protection depends on an accountable hand and a route by which the promise can be checked.\n\n## No blank line supplies a missing formation\n\nThe Warrant cannot create absent formations, unassigned guards, missing wagons, engineers, food, lawful jurisdiction, or a safe route. It cannot turn a bypass into a victory, a receipt into delivery, a parole into acquittal, or a provisional military arrangement into permanent government. Current allocations, bargains, requisitions, casualties, surrenders, custody, routes, and settlements belong to campaign state and play.",
+      "tags": [
+        "Dawn Compact",
+        "field commission",
+        "command authority",
+        "obligations"
+      ]
+    },
+    {
+      "id": "545ffe74-1efc-4b32-bdf6-8ec831f34e51",
+      "kind": "place",
+      "title": "The Ashen Gate",
+      "aliases": [
+        "Ashen Gate",
+        "the Gate",
+        "the bridgehead"
+      ],
+      "summary": "The iron-pinned daylight passage and single bridgehead road through which the Compact must move troops, supply, prisoners, civilians, casualties, and every promise it means to sustain.",
+      "content": "## Pylon light across the inner apron\n\nThe Ashen Gate stands upright in empty air, held open by iron pylons and repeated sunlight rites. Material grey daylight falls across its inner apron, weakening dead troops that enter the bar while forcing living formations to bunch beneath weapons firing through the passage. Voss cannot hold the apron or close the way while the pylons and rites endure, but the opening remains narrow enough to obstruct, bombard, and overload.\n\n## One rutted lane, two directions\n\nThe Compact's bridgehead surrounds a single rutted traffic lane. Battalions, wagons, replacement horses, ammunition, surgeons, prisoners, protected civilians, messages, and wounded soldiers all compete for it. A field promise made deeper in the March eventually reaches this road as guards, transport, hospital space, paperwork, or a claimant who must be heard. Outbound ambition and inbound responsibility therefore consume the same capacity.\n\n## Mark strain on the bridgehead board\n\nThe Gate defines the campaign's supply and evacuation constraint, not its present condition. Its sheet does not establish whether the pylons are stable, the hospitals intact, the lane clear, a reserve present, refugees admitted, a convoy moving, or the bridgehead threatened. Those facts belong to the campaign board and journal.",
+      "tags": [
+        "place",
+        "bridgehead",
+        "daylight",
+        "logistics"
+      ]
+    },
+    {
+      "id": "ed795697-5230-4578-8ea0-e625d05b61ff",
+      "kind": "place",
+      "title": "The Iron Causeway",
+      "aliases": [
+        "Iron Causeway",
+        "the Causeway",
+        "the heavy road"
+      ],
+      "summary": "The black-stone bridge complex whose span, gatehouses, lifting works, and demolition galleries govern whether heavy matériel can move toward Vossgard.",
+      "content": "## West gate, east gate, span, galleries\n\nThe Iron Causeway carries the campaign's heavy road across a plain where shadow clutches at wheels, animals, and unattended equipment. The bridge complex consists of a raised black-stone span, narrow parapets, west and east gatehouses, and a central lifting mechanism that can isolate either half. Fixed firing positions dominate troops committed to the road.\n\n## Visible road above, demolition order below\n\nDemolition galleries run below the span and can be reached from the gatehouses or from the shadow plain. The position was built to separate the visible fight from the engineering decision: a force may hold the parapets while another crew owns the charges, the lifting works, or the approach by which repairs must be made. Living engineers and dead cadres can therefore receive incompatible orders inside one fortification.\n\n## Record the load path that remains\n\nA heavy route remains useful only when the span, gates, lifting mechanism, galleries, approaches, crews, and protection required for movement are accounted for. This record does not establish current damage, control, surrender, family guarantees, demolition readiness, engineer availability, or whether the siege train crossed. Those are campaign-state facts.",
+      "tags": [
+        "place",
+        "bridge",
+        "heavy route",
+        "demolition"
+      ]
+    },
+    {
+      "id": "c7b208a6-4626-40b4-8321-54b840918905",
+      "kind": "place",
+      "title": "The Tithe Villages",
+      "aliases": [
+        "Tithe Villages",
+        "Garren, Orra, and Lume",
+        "the three villages"
+      ],
+      "summary": "Garren, Orra, and Lume: the March's broad grain ground, three distinct councils, and the households from which Voss takes labor, levy service, blood, and hostages.",
+      "content": "## Garren, Orra, Lume on raised roads\n\nGarren, Orra, and Lume occupy raised field roads and stone drainage dikes on the only broad ground in the Gloam March where mortal grain grows reliably without sorcery. Their granaries stand apart from most homes, a central crossroads joins the western, eastern, and southern campaign roads, and low canal country begins beyond their worked fields. The three settlements trade and suffer together without sharing one council or one political will.\n\n## Grain, labor, levy, blood, household\n\nThe villages supply grain, labor, military service, and scheduled blood. Levy families, local officers, blood-tithe records, transport carts, labor rolls, drainage knowledge, and canal workers tie ordinary households to the March's military infrastructure. Hostage taking and requisition therefore reach beyond the person removed or the wagon emptied: they alter which council can act, which field can be worked, and which promise an army must later honor.\n\n## Guards and receipts outlast the column\n\nThe villages provide a durable civil and logistical relationship, not a fixed allegiance. This record does not establish population posture, current guards, stores, fires, hostages, conscripts, collaboration, evacuation, requisitions, receipts, guides, labor records, or support for either army. Those facts depend on what the Warrant does and what the journal records.",
+      "tags": [
+        "place",
+        "villages",
+        "grain",
+        "civil affairs"
+      ]
+    },
+    {
+      "id": "7247ca22-2063-4332-ba40-0bf7face6275",
+      "kind": "place",
+      "title": "The Red Abbey",
+      "aliases": [
+        "Red Abbey",
+        "the Abbey",
+        "the ridge depot"
+      ],
+      "summary": "The desecrated cloister turned blood depot, prison compound, cavalry mustering ground, and northwestern military road into Vossgard.",
+      "content": "## Ridge postern, prison yard, vault, nave\n\nThe Red Abbey crowns a ridge northwest of Vossgard. Its outer wall and lower gate enclose a ruined nave used as a stable court, a prison yard, a warded blood vault, and a cloister yard that can be reclaimed as consecrated ground. The ridge gate opens onto a direct road to a postern in Vossgard's western wall.\n\n## Blood, prisoners, knights on one road\n\nThe Abbey joins preserved blood, prisoners selected for feeding, and mounted vampire reserves within one defensive complex. Internal walls separate the prison from the vault, controlled channels and firebreaks govern the blood stores, and the ridge road gives the knights a route independent of the lower plain. A small force cannot simultaneously secure the prisoners, vault, cloister, stable court, and road without outside support.\n\n## Consecrate only held ground\n\nThe cloister can become protected ground and a casualty station only through actual rites, time, and protection. This sheet does not establish whether the Abbey was assaulted, contained, surrendered, reconsecrated, burned, drained, garrisoned, bypassed, or emptied; whether prisoners were rescued; or whether blood, knights, or the ridge road remain available.",
+      "tags": [
+        "place",
+        "blood depot",
+        "prison",
+        "ridge road"
+      ]
+    },
+    {
+      "id": "cab5eeb5-ca45-443e-a7f7-2425c38b1ea4",
+      "kind": "object",
+      "title": "The Black Bell",
+      "aliases": [
+        "Black Bell",
+        "the Bell",
+        "the field bell"
+      ],
+      "summary": "The iron signal instrument whose peals, programmed sequences, couriers, and roads let Voss coordinate dead formations and living officers across the lower March.",
+      "content": "## Peal, courier, receiver, road\n\nThe Black Bell hangs in an open tower above a redoubt, resonance ditches, courier stables, and roads to Vossgard, the Tithe Villages, and the Red Abbey. Its voice carries farther through the Shadowfell than flags, horns, or shouted command. Simple peals move programmed dead; more intricate sequences call reserves, clear roads, coordinate withdrawals, and tell living officers which prepared order is active.\n\n## Programmed dead beneath living command\n\nThe Bell works as a system rather than a magical verdict. A warden draws the sequence through the mechanism, couriers and officers interpret orders the dead cannot, roads carry the response, and subordinate commands decide what coherent force can obey. A captured sequence may misdirect troops only where receivers recognize it and where the signal fits the order they are prepared to execute.\n\n## Silence, seizure, isolation, contradiction\n\nThe Bell may be destroyed, disabled, seized, isolated from couriers, contradicted, or left sounding after its command network has failed. This record establishes none of those outcomes. It does not reveal current peals, reserve strength, courier movement, authenticated false orders, tower control, road control, or whether any formation reached Vossgard.",
+      "tags": [
+        "object",
+        "signal system",
+        "field command",
+        "couriers"
+      ]
+    },
+    {
+      "id": "e510af2a-eb44-4055-945b-b09c79985a47",
+      "kind": "place",
+      "title": "The Drowned Sluice",
+      "aliases": [
+        "Drowned Sluice",
+        "the Sluice",
+        "the military canal"
+      ],
+      "summary": "The three-lock military canal beneath Vossgard's eastern terraces, capable of carrying barges and engines or flooding inhabited low ground when operated without sequence and control.",
+      "content": "## Outer Chain, Sunken Turn, Underkeep Gate\n\nThe old military canal reaches Vossgard through the Outer Chain, the Sunken Turn, and the Underkeep Gate. Flooded towpaths, maintenance ledges, vertical shafts, chained gates, and a dry side basin connect the chambers. The route was built to move barges, stores, broken-down engines, and troops below the fortress approaches rather than across the exposed plain.\n\n## Chamber order against flood marks\n\nEach mechanism changes pressure and level elsewhere. Chamber order, load limits, flood marks, gate timing, and crews determine whether the canal carries supply or becomes a weapon. Low inhabited ground lies outside the embankment; careless destruction can reach homes and fields that are not part of the fortification. Village labor records and canal knowledge preserve names beneath the marks even when military maps do not.\n\n## Crew, protection, sequence, load\n\nThe canal requires sequence, engineers, protected work space, and control of chambers already passed. This sheet does not establish current water level, damage, access, gate position, barge availability, engineer attendance, inhabitants, flood, control, preservation, demolition, escape, or fortress entry.",
+      "tags": [
+        "place",
+        "canal",
+        "locks",
+        "flood risk"
+      ]
+    },
+    {
+      "id": "613c3c19-2fd2-4de7-93ed-ba0e279e1777",
+      "kind": "place",
+      "title": "Vossgard",
+      "aliases": [
+        "the fortress",
+        "Voss's fortress"
+      ],
+      "summary": "The Gloam March fortress whose known walls, three military exits, living garrison, prisoner yards, and inner keep gather the consequences of every outer operation.",
+      "content": "## Bell gate, ridge postern, Underkeep Gate\n\nVossgard consists of an outer wall, the Bell gate, the abbey ridge postern, the Underkeep Gate, a garrison court, prisoner yards, and an inner keep above Othmar Voss's coffin vault. The ridge road, bell road, and military canal are known military exits rather than hidden revelations. Border surveys, deserters, and captured planning establish this shape before the final assault.\n\n## Every outer position arrives at the wall\n\nThe Iron Causeway determines whether heavy engines and bulk supply can approach. The Tithe Villages connect guides, food, levies, hostages, and surrender channels. The Thorn Barrows govern mobile relief and lateral movement. The Red Abbey joins blood, prisoners, cavalry, and a western postern. The Black Bell coordinates the broad road and field reserve. The Drowned Sluice carries supply, assault, or organized escape beneath the eastern terraces.\n\n## Breach, surrender, prisoners, pursuit, night command\n\nTaking a gate, killing a vampire, receiving a living garrison, guarding prisoners, closing exits, pursuing flight, and establishing provisional administration are separate acts. This record does not state which roads are open, what forces survive, who commands or surrenders, where prisoners or civilians are held, whether Voss is present, or what government follows the battle.",
+      "tags": [
+        "place",
+        "fortress",
+        "military exits",
+        "campaign objective"
+      ]
+    }
+  ],
+  "encounters": [
+    {
+      "id": "the-ashen-gate",
+      "title": "The Ashen Gate",
+      "summary": "Rusk has one road home, three southbound demands, and enough strength to make only two real.",
+      "opening_view": "The council breaks when the hospital awning comes down. Orderlies drag the cots clear; a second carrion bolt hangs black in the Gate’s grey daylight. Three couriers reach Rusk together: charges at the Causeway, removal carts in the villages, horses being saddled among the barrows. Merrow has the heavy train, Dane the occupation companies, Vale the only fast reserve. One road leads home behind them. Rusk plants the Warrant’s blackened field plate on the campaign map. “Choose what reaches daylight first.”",
+      "content": "## Situation\n\nRusk's campaign map is pinned to a hospital trestle because carrion-bolt fire has cleared the command mound. Merrow has written Gate strain and wagon intervals along one edge; Dane has marked prisoner and civilian space; Holt and Vale have set formation counters beside the only road. Every southbound commitment now competes with wounded soldiers, empty wagons, replacement horses, ammunition, and whatever obligations the Warrant brings back.\n\nThree attacks arrive before the allocation is complete. A second carrion bolt drops the hospital awning. Ash-dead skirmishers stand in the drainage cuts. Riders show themselves on the road and turn away as soon as Vale's reserve moves. None can take the bridgehead while the pylons hold; each can spend the hour, company, or wagon room needed by an opening axis.\n\nThe first council is interrupted by three reports:\n\n- demolition crews are strengthening the Iron Causeway;\n- Voss's officials are gathering people and stores in the Tithe Villages; and\n- night riders are assembling in the Thorn Barrows.\n\nAll three reports are true. The army lacks the strength to answer all three in force.\n\n## Command\n\nRusk conducts the allocation with Holt's first Grey Banner battalions, Merrow's Gatewrights and siege-train head, Vale's Dawn Lancers, and Dane's civil-affairs officers, interpreters, and field police. The bridgehead garrison, hospital companies, wagon crews, and Gate artificers remain separate commitments; moving one south changes what the road can receive.\n\nVoss initially commits only probing forces: ash-dead skirmishers, carrion bolts fired from beyond the earthworks, and a small rider detachment testing the road. These attacks are meant to expose the Compact's reserve and delay the first march, not to win a decisive battle.\n\n## The Ash Warrant\n\nRusk turns the blackened field plate over. Five lines wait beneath every field act: the people or unit covered; the enforcing officer or formation; assigned matériel or custody; the duplicate record; and the ending condition and review. The plate lets its bearers redirect committed companies and specialists, receive surrender, grant temporary parole, record requisition, and make local protection or supply agreements when ordinary orders cannot arrive.\n\nA field agreement begins at once but remains enforceable only through named troops, stores, transport, custody, or engineering capacity. Couriers return duplicate terms to Rusk's obligation ledger.\n\nThe Warrant cannot grant permanent sovereignty, erase command responsibility, promise absent support, turn receipt into delivery, or convert temporary custody into final judgment.\n\n## Detached columns\n\nThe first allocation gives other officers bounded work while the Warrant moves elsewhere. An adequately supported column can reconnoiter, delay, preserve an objective, or establish containment when its order names the force and line that make containment real. It cannot reduce a position, capture its distinctive asset, complete a politically contested surrender, or produce operational discoveries offscreen. A weakly supported axis screens and reports until the Warrant returns or redirects additional force.\n\nReport remote developments before they take effect whenever the Warrant can still answer them. Initial support changes what an allied command can attempt; it does not close the other roads to the Warrant.\n\n## Ground and pressure\n\nThe Gate road, field hospital, supply park, prisoner enclosure, and command mound all lie within a few hundred yards. A localized attack or panic therefore creates choices between military priorities.\n\nThe Gate pylons require periodic stabilization. Surging too much matériel through at once can move an additional formation into the campaign, but leaves the passage strained until repaired. A strained Gate narrows the daylit apron and cannot absorb a large emergency evacuation without casualties and lost stores. An imperiled Gate can become a genuine assault objective for Voss rather than merely a target for raids.\n\n## Campaign clock\n\nThe opening council is turn zero. After each major field operation, advance the march turn and announce its threshold reaction before asking for the next destination. On turn two, an unresolved Morcant conducts one visible raid. On turn four, Voss chooses one surviving outer command for his primary withdrawal, stripping, or counterstroke while the other positions visibly prepare. On turn six, every mobile surviving command receives the general concentration and breakout order. A contained force cannot execute that movement unless it first breaks containment, and no threshold silently resolves an encounter.\n\n## Objective\n\nIssue the first operational orders, defeat or ignore Voss's probe without losing tempo, and leave a coherent reserve at the bridgehead.\n\n## Courses of action\n\n### Concentrate on two axes\n\nSupport two initial positions adequately and leave the third to reconnaissance and delay. The first operations gain strength and credible containment; Voss also learns where the Compact is not advancing.\n\n### Spread support across all three\n\nGive every axis enough troops to move but none enough to solve its position alone. The broad front limits Voss's freedom and leaves the Warrant carrying more decisive work at every position.\n\n### Hold a strong reserve\n\nSend one reinforced axis forward, support a second weakly, and keep a formation at the Gate. The reserve protects the bridgehead against the turn-two raid and permits one rapid redeployment, at the price of a slower opening.\n\n### Force a Gate surge\n\nOrder Merrow to push an additional battalion, engineering park, or reserve of consecrated ammunition through immediately. The asset arrives early; the Gate begins strained and demands a later repair.\n\n## Results\n\n### Strong result\n\nThe probe is repelled without delaying the march, the Gate remains stable, and two axes receive adequate support. The army begins ready with a usable reserve.\n\n### Costly results\n\n- The bridgehead holds, but the reserve is spent or a hospital section is lost. The army remains ready while the Gate can absorb fewer later consequences.\n- A forced surge supplies all three axes, but the Gate becomes strained.\n- Preserving every imported asset costs one march turn. Voss's turn-two reaction occurs before the first field position is fully resolved.\n\n### Setback\n\nA raid reaches the supply park or damages a pylon. The Gate remains open, but the army begins strained and Rusk must retain more troops at the bridgehead. The offensive still proceeds.\n\n## What carries forward\n\n- Which axes received adequate support.\n- Whether the Compact retained a mobile reserve.\n- Whether the Ashen Gate is stable, strained, or imperiled.\n- Whether the army begins ready or strained.\n- Whether the Warrant established clear surrender and requisition policies before entering inhabited territory.\n- Which named obligations the Warrant has accepted and what forces or stores enforce them.\n- What bounded orders the detached columns received and what they have reported.\n\n## Returning\n\nThe Gate changes whenever the Warrant returns. Casualties, prisoners, civilians, and captured matériel accumulate. Rusk can reassign a freed formation, but she cannot create troops that were lost or detachments already committed to containment. A return also makes the cost of bypassed positions visible through raids, missing wagons, and exhausted escorts.",
+      "required": true,
+      "start": true,
+      "end": false,
+      "tags": [
+        "command",
+        "logistics",
+        "bridgehead"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "e714bd67-22b9-462d-889a-c1d70af6170f",
+          "context": "Rusk owns the opening allocation, the obligation ledger behind the Warrant, and the limits of what the bridgehead can sustain."
+        },
+        {
+          "reference_id": "b9b91d52-59d8-41ba-b73e-05ab1d3e15c4",
+          "context": "Holt identifies what the Grey Banner battalions can assault, contain, or hold after the first allocation."
+        },
+        {
+          "reference_id": "1fe01544-1445-48cb-b8af-c8f2d630a7cf",
+          "context": "Merrow owns the Gatewright and siege-train capacity divided among the opening axes and any forced Gate surge."
+        },
+        {
+          "reference_id": "bdc6dade-caff-49e9-8c4d-1f6b5eca9469",
+          "context": "Vale owns the mobile reconnaissance and reserve capacity needed to watch the exposed roads."
+        },
+        {
+          "reference_id": "892dbdaa-9163-44f0-8e4a-369a43864d82",
+          "context": "Dane establishes the surrender, requisition, custody, and protection procedure that later columns must make enforceable."
+        },
+        {
+          "reference_id": "d6384410-c4d7-4cb9-91da-ce1e19c30d0d",
+          "context": "Voss designed the probing attacks and wider delay system the opening allocation must answer."
+        },
+        {
+          "reference_id": "2cfd0b01-d287-4d40-b785-ea11bc1aa001",
+          "context": "Morcant is the mobile hostile command whose riders can exploit the axis left weak or unguarded."
+        },
+        {
+          "reference_id": "be727f0b-3d2e-44b8-9309-896dcc57726c",
+          "context": "The Warrant turns the opening allocation into bounded authority whose orders and promises must name available support and later review."
+        },
+        {
+          "reference_id": "545ffe74-1efc-4b32-bdf6-8ec831f34e51",
+          "context": "The Gate defines the campaign's single daylight bridgehead, shared traffic lane, and non-negotiable route home."
+        },
+        {
+          "reference_id": "ed795697-5230-4578-8ea0-e625d05b61ff",
+          "context": "The Causeway is the heavy road named in the opening reports and the route by which siege matériel can move beyond the bridgehead."
+        },
+        {
+          "reference_id": "c7b208a6-4626-40b4-8321-54b840918905",
+          "context": "The villages are the opening civil axis where grain, labor, hostages, and Compact protection first become campaign obligations."
+        },
+        {
+          "reference_id": "613c3c19-2fd2-4de7-93ed-ba0e279e1777",
+          "context": "Vossgard is the campaign objective whose known exits and fortress demands make the opening allocation consequential."
+        }
+      ]
+    },
+    {
+      "id": "the-iron-causeway",
+      "title": "The Iron Causeway",
+      "summary": "Taal offers a living surrender above Krail's charged bridge and waiting grave cohort.",
+      "opening_view": "Captain Arven Taal raises a white engineer’s glove above the east gatehouse. Beneath it hangs a roster of his soldiers’ families in Vossgard. He points once to the demolition galleries. There, Krail’s dead feed powder into numbered chambers while six bolt throwers wait for the siege train to commit. The span is still whole; the surrender is not. A range bolt lands behind the lead wagon, closing the road without yet breaking it.",
+      "content": "## Situation\n\nThe lead ram stops short of the west gate while Krail's bolts walk down the span. Grave infantry hold the parapets; Taal's living engineers stand below beside charges already run into the bridge. The lifting works and shadow-plain entrances divide the position. Winning the visible road does not secure the galleries.\n\nVoss's order is simple: let the siege train commit to the road, break the span, and leave the Compact's heaviest weapons stranded under fixed fire. Captain Arven Taal wants his living soldiers and engineers to survive the order. Standard-Bearer Krail intends to carry it out even if they do not.\n\n## Command\n\nAt the first parley, Captain Arven Taal hangs a white engineer's scarf from the west gate while his two living companies keep their hands on the lifting works and charges. His soldiers' families have been moved into Vossgard. He will surrender only if the terms protect those families and put Compact troops between his engineers and the grave infantry during the handover.\n\nStandard-Bearer Krail answers by turning six fixed bolt throwers toward the span and sending dead cadres into the galleries. He follows Voss's delay order literally and will destroy the bridge even if living troops remain on it.\n\nIf the axis received adequate support, Colonel Merrow and Gatewright assault crews are present. Otherwise only a small engineer section and whatever infantry the Warrant redirected are available.\n\n## Ground\n\n- A narrow raised road exposed to missile fire.\n- West and east gatehouses controlling the span.\n- Demolition galleries accessible from the gatehouses or from the shadow plain beneath.\n- A central lifting mechanism that can isolate either half of the bridge.\n- The plain below, which slows living troops and physically grasps unattended equipment.\n\n## Objective\n\nOpen the road for the Compact and decide whether preserving the causeway is worth the time and casualties required.\n\n## Courses of action\n\n### Direct breach\n\nSend Holt's infantry or another assault force against the east gatehouse and break the parapet defense. Speed opens the span; a second team must still reach the galleries before Krail fires the charges.\n\n### Under-span infiltration\n\nCross the shadow plain with a small Gatewright team, enter the demolition galleries, and seize or cut the firing system while the main column fixes the defenders above. The bridge may survive with fewer mass casualties, but the dead hold the confined ground.\n\n### Surrender under fire\n\nOffer Taal terms for the living garrison and their families, then protect the handover from Krail. Hold the firing levers, separate living troops from dead cadres, or bind the Compact publicly to recover named fortress households.\n\n### Deliberate destruction\n\nClear the east bank and turn the defenders' charges or Gatewright explosives against the span. Demolition reduces the position quickly and denies the bridge to both armies until a major reconstruction restores it.\n\n### Bypass and contain\n\nMove through the villages or barrows while a battalion fixes the causeway garrison. Tempo and a later surrender remain available only if the containing force can hold the east gate; otherwise the garrison can raid the Gate road or demolish the span when the siege train approaches.\n\n## Voss's response\n\nTaal tries to preserve his soldiers until he believes the Compact will actually protect them. Krail treats hesitation as time to prepare a cleaner demolition. Negotiation without physical control of the galleries gives Krail the handover as his firing moment.\n\nAt turn four, Taal receives a withdrawal-and-demolition packet. If Voss chooses the Causeway for his primary turn-four reaction, the useful engineers begin withdrawing and the bridge is prepared for immediate destruction; otherwise the preparations remain visible and answerable. At turn six, any mobile living engineers withdraw under the general concentration order. A contained garrison cannot leave without first breaking the battalion holding the east gate, while Krail's dead remain with the charges ready.\n\n## Results\n\n### Strong result\n\nThe causeway is intact, Krail's cohort is destroyed, and Taal's living garrison surrenders. The heavy column and bulk supply can advance. The surrendered engineers can assist at the Drowned Sluice or Vossgard.\n\n### Costly results\n\n- The causeway is intact, but the assault heavily strains the army.\n- The causeway is destroyed after the position is taken. The western bank is secure, but the siege train cannot pass without a later reconstruction operation.\n- Taal escapes with his engineers after disabling the charges. The route opens, but Voss gains skilled fortress engineers.\n- Broad parole wins the road quickly and leaves local victims and Compact officers to contest the settlement later.\n\n### Reduced\n\nThe grave cohort is destroyed or dispersed, the living garrison no longer fights, and the causeway cannot support organized enemy action. The road may be intact or destroyed.\n\n### Contained\n\nA Compact battalion holds the east gate and fixes the garrison. The position cannot raid freely, but the battalion is unavailable elsewhere and the heavy train cannot pass.\n\n### Bypassed\n\nTaal and Krail retain the bridge complex. On a later march turn they can raid a convoy, force the siege train to halt, or send engineers and grave infantry to Vossgard. At the finale, an uncontained causeway requires a rear guard and worsens the army's ability to sustain simultaneous objectives.\n\n## What carries forward\n\n- **Intact heavy route:** the siege train can reach Vossgard.\n- **Surrendered engineers:** improve later engineering operations and support a lawful settlement.\n- **Destroyed bridge:** closes the enemy position but removes the Compact's heavy route.\n- **Surviving grave cohort:** becomes a rear-area or fortress reinforcement.\n- **Family guarantee:** binds the Warrant to protect specified households in Vossgard.\n\n## Returning\n\nA contained causeway can later surrender, be stormed, or be abandoned by its living garrison. A destroyed causeway can be rebuilt at the cost of a march turn and a major Gatewright commitment. A previously intact causeway may become the target of a Voss counterattack if the heavy train is using it.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "assault",
+        "engineering",
+        "logistics"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "b9b91d52-59d8-41ba-b73e-05ab1d3e15c4",
+          "context": "Holt provides the heavy infantry capable of fixing or breaching the Causeway while other hands reach its distinctive machinery."
+        },
+        {
+          "reference_id": "1fe01544-1445-48cb-b8af-c8f2d630a7cf",
+          "context": "Merrow defines the engineer crews, demolition control, load path, and repair capacity required to preserve or deliberately ruin the span."
+        },
+        {
+          "reference_id": "892dbdaa-9163-44f0-8e4a-369a43864d82",
+          "context": "Dane provides the standing Compact procedure for a living-garrison surrender, family protection, temporary custody, and later hearing."
+        },
+        {
+          "reference_id": "d6384410-c4d7-4cb9-91da-ce1e19c30d0d",
+          "context": "Voss assigned the Causeway as a delay position meant to strand the siege train rather than merely hold ground."
+        },
+        {
+          "reference_id": "be727f0b-3d2e-44b8-9309-896dcc57726c",
+          "context": "The Warrant can bind surrender and family guarantees only when troops, custody, engineers, and later review make those terms enforceable."
+        },
+        {
+          "reference_id": "545ffe74-1efc-4b32-bdf6-8ec831f34e51",
+          "context": "The Causeway extends the Gate's single logistics lane; losing the span leaves heavy matériel and bulk supply on the wrong side of the campaign."
+        },
+        {
+          "reference_id": "ed795697-5230-4578-8ea0-e625d05b61ff",
+          "context": "The Causeway sheet separates the visible bridge fight from the lifting works and demolition galleries that decide whether the road remains usable."
+        },
+        {
+          "reference_id": "613c3c19-2fd2-4de7-93ed-ba0e279e1777",
+          "context": "Vossgard holds the households used against the living engineers and is the destination that gives the heavy route its strategic value."
+        }
+      ]
+    },
+    {
+      "id": "the-tithe-villages",
+      "title": "The Tithe Villages",
+      "summary": "Three bells divide fire, removal, and resistance while the Compact establishes the price of protection.",
+      "opening_view": "The bells of Garren, Orra, and Lume disagree. One calls fire, one removal, one armed assembly. Grain carts leave between bound householders and ash hounds while Senior Reeve Maela Orr holds three requisitions no Compact officer has signed. Deren Salk opens the seed store for weapons; Hessa Dorn bars Orra against both armies. At the crossroads, Vosca’s column divides. The first cart south carries grain, hostages, and the occupation’s reputation.",
+      "content": "## Situation\n\nThree council tables stand at the raised crossroads while carts move south. Garren's reeves count grain and ask which guards will remain. Orra's officers load military-age adults and selected households for Vossgard. Lume's volunteers pull tithe books and collaborator names before Tal Vosca's men can burn them. Voss's orders are already moving: remove people and stores, destroy what cannot travel, and avoid Compact regulars.\n\nThe councils disagree about resistance, neutrality, requisition, and punishment. They share four facts:\n\n- Voss will punish them if the Compact leaves;\n- an invading army can consume a harvest as thoroughly as a fire;\n- families with members in the levy fear both armies; and\n- several local officers have prospered under Voss and will fight to keep their place.\n\nAllegiance follows roads, guards, receipts, and what happens to collaborators after the first victory. Compact protection must become more credible than Voss's revenge.\n\n## Command and local powers\n\n**Senior Reeve Maela Orr** speaks for Garren and coordinates the three village councils when they can agree. She will support the Compact if it posts troops, pays or records requisitions, and accepts responsibility for hostages taken toward Vossgard.\n\n**Reeve Deren Salk** of Lume favors armed resistance immediately. His volunteers are useful but likely to punish collaborators and seize stores without discipline.\n\n**Reeve Hessa Dorn** of Orra believes Voss will outlast the invasion. She prefers neutrality unless the Compact demonstrates that it can hold the roads.\n\n**Blood Provost Tal Vosca** commands levy officers, household guards, ash hounds, and two companies of conscripts. His immediate orders are to remove hostages and grain, burn what remains, and avoid a decisive fight with Compact regulars.\n\nProvost Liora Dane and Grey Banner infantry are present if the axis received adequate support.\n\n## Ground\n\n- Three villages connected by raised field roads and stone drainage dikes.\n- Granaries separated from most homes but vulnerable to fire.\n- A blood-tithe house with records, restraints, and transport carts.\n- A central crossroads leading west to the causeway, east to the barrows, and south toward the abbey and sluice roads.\n- Evacuation columns that mix officials, conscripts, hostages, livestock, and grain wagons.\n\nNo single strike can protect three villages, their granaries, and a moving hostage column.\n\n## Objective\n\nPrevent Voss from removing the population and useful stores while establishing a policy the villages believe the Compact will honor.\n\n## Courses of action\n\n### Distributed protection\n\nDivide allied troops among the villages, establish signals, and strike the moving provost convoy. People and stores gain coverage; Vosca can defeat a thin deployment in detail if he concentrates.\n\n### Seize the crossroads\n\nOccupy the road junction and announce surrender and requisition terms. The crossroads blocks organized removal and creates a defensible center while outlying granaries and households remain exposed to fire.\n\n### Decapitate the levy operation\n\nStrike Vosca, his ash hounds, and the hostage convoy. Much of the living levy stands down without its command cadre; local reeves must then control reprisals and fires.\n\n### Arm local resistance\n\nArm Salk's volunteers while Compact regulars advance elsewhere. The bargain preserves regular strength and may raise broad resistance; feud killings, theft, and irregular conduct then determine population posture.\n\n### Bargain for neutrality and supply\n\nOffer written guarantees, payment records, and limited local self-rule for food, guides, and refusal to serve Voss. Little fighting is required only if enough troops remain to enforce the bargain.\n\n### Pass through\n\nThe army takes what it can carry and continues toward the second belt. This keeps the march moving. Voss removes people and stores behind it, and the Compact loses the strongest basis for a durable settlement.\n\n## Voss's response\n\nVosca does not defend every village. He uses fire and hostage columns to create simultaneous emergencies, then withdraws toward the Red Abbey or Drowned Sluice. If the Warrant announces indiscriminate punishment for collaborators, Vosca spreads the words among the conscripts and gains a more cohesive retreat.\n\nBy turn four, removal and burning are visibly underway. If Voss chooses the villages for his primary turn-four reaction, one major hostage-and-grain column departs or one principal store burns unless the Compact answers it; the other settlements do not empty automatically. At turn six, any convoy still able to move joins the general concentration toward Vossgard or the Red Abbey. Reduction or containment determines how much can actually leave.\n\n## Results\n\n### Strong result\n\nThe hostage convoy is stopped, most grain survives, Compact requisition is disciplined, and the reeves publicly accept protection. The population becomes cooperative. Living levies begin surrendering elsewhere when shown the village terms.\n\n### Costly results\n\n- The people are protected, but the grain burns. Population posture improves while army condition worsens.\n- The stores are captured quickly through coercive seizure. Army condition improves, but the population becomes opposed.\n- Vosca is killed and the levy collapses, but local reprisals begin. The Warrant must spend authority and troops to stop them or accept a harsher political settlement.\n- Evacuating threatened households saves lives and burdens the Gate and supply road.\n\n### Reduced\n\nVosca's command is broken, the villages are no longer organized for Voss, and the principal hostages or stores are secure. Reduction leaves the population cooperative, watchful, or opposed according to Compact conduct.\n\n### Contained\n\nCompact troops hold the crossroads and prevent organized movement, but Vosca retains one or more villages. A battalion remains tied down, and local conduct continues to shape population posture.\n\n### Bypassed\n\nVoss gains hostages, grain, guides, and replacement levies. Later operations face better enemy reconnaissance and a larger living garrison at Vossgard. The Warrant can still rescue hostages and induce defections at the fortress, but it has lost the easiest opportunity to establish legitimacy.\n\n## What carries forward\n\n- **Cooperative population:** guides, food, casualty reports, and levy defections.\n- **Saved granaries:** stabilize or improve army condition.\n- **Village militia:** can guard roads if disciplined, or create political liabilities if not.\n- **Hostage obligation:** records the specific people the Warrant has promised to recover.\n- **Opposed population:** concealment and guides favor Voss, and occupation requires more troops.\n\n## Returning\n\nA later return shows whether the Compact's promises were kept. Villages can become a rest and resupply base, a field of burned stores and displaced families, or an insurgent rear area. The Warrant can need to suppress Compact looting, respond to a rider raid, or choose whether to send local forces toward Vossgard.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "civil-affairs",
+        "logistics",
+        "occupation"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "892dbdaa-9163-44f0-8e4a-369a43864d82",
+          "context": "Dane owns the civil-affairs and field-police standards by which protection, requisition, custody, and Compact abuse become accountable."
+        },
+        {
+          "reference_id": "d6384410-c4d7-4cb9-91da-ce1e19c30d0d",
+          "context": "Voss built grain, labor, levy service, hostages, and blood into the March administration the villages are being ordered to preserve or destroy."
+        },
+        {
+          "reference_id": "be727f0b-3d2e-44b8-9309-896dcc57726c",
+          "context": "The Warrant makes local protection credible only through named guards, recorded requisitions, custody, transport, and a later hearing."
+        },
+        {
+          "reference_id": "545ffe74-1efc-4b32-bdf6-8ec831f34e51",
+          "context": "The Gate is the evacuation and supply bottleneck to which protected households, grain, wounded people, guards, and receipts must eventually travel."
+        },
+        {
+          "reference_id": "c7b208a6-4626-40b4-8321-54b840918905",
+          "context": "The villages sheet preserves the three councils, shared grain ground, tithe systems, and household relationships without choosing their present allegiance."
+        },
+        {
+          "reference_id": "e510af2a-eb44-4055-945b-b09c79985a47",
+          "context": "The villages hold the labor records and canal knowledge that identify the inhabited ground and operating sequence around the Sluice."
+        },
+        {
+          "reference_id": "613c3c19-2fd2-4de7-93ed-ba0e279e1777",
+          "context": "Vossgard is where selected households, levy forces, grain, and later surrender channels may converge according to campaign state."
+        }
+      ]
+    },
+    {
+      "id": "the-thorn-barrows",
+      "title": "The Thorn Barrows",
+      "summary": "Morcant's remounts and covered lanes turn every unsupported movement into prey.",
+      "opening_view": "One horse returns without its rider. The saddle is warm, the reins cut cleanly, and an arrow pins the Compact dispatch to the saddle roll. Between the cairns, handlers change mounts beneath iron thorns while covered lanes take messengers toward the Bell and the canal. No road marks the central gap. Then Morcant’s horn answers itself from two barrows, and every sealed stone gives back a different number of hooves.",
+      "content": "## Situation\n\nVale's scouts find riderless horses behind three sealed mounds and tracks entering lanes that do not return. Morcant has split remounts among the barrows, posted wight outriders on the visible approaches, and left false fires for slow columns.\n\nThe eastern road is the March's fastest light route. It will not carry the siege train, but it moves scouts, couriers, infantry, and mounted reserves between fronts. Leaving it to Morcant makes every later change of plan pay in escorts, lost messages, or a raid on the rear.\n\n## Command\n\nMorcant begins with roughly ninety night riders, several wight outriders, and the shadow-fed coursers kept within the barrows. She spends a mound, remount string, or false objective to preserve the mounted force, then attacks support rather than the strongest line.\n\nVale brings the Dawn Lancers if the axis received adequate support. She can contest Morcant in the open, intercept a withdrawal, or screen another column, but cannot clear every barrow and watch every road at once.\n\nThe dead interred in the oldest mounds remain inert until fighting or deliberate demolition breaks their seals. Once opened, a mound becomes an environmental military hazard to both armies.\n\n## Ground\n\n- Three remount barrows linked by covered lanes.\n- Thorn gaps that permit cavalry passage but constrain infantry formations.\n- Elevated cairn crowns with long sight lines.\n- Old seals that can be collapsed to block a lane at the risk of releasing uncontrolled dead.\n- A western route back to the causeway and southeastern routes toward the Black Bell and Drowned Sluice.\n\n## Objective\n\nDisplace or fix the night riders long enough to move Compact forces across the barrows and secure lateral freedom for the rest of the campaign.\n\n## Courses of action\n\n### Strike the remount barrows\n\nAttack mounts, fodder, and handlers instead of chasing every rider. Morcant must fight for mobility or withdraw on foot, placing volatile shadow creatures among sealed graves and allied troops.\n\n### Hunt Morcant\n\nLet Vale screen the crossings while a strike tracks or challenges Morcant. Her death or capture breaks coordinated raiding; every feigned retreat forces a choice between pursuit and the exposed column.\n\n### Hold the central gap\n\nFortify one decisive lane while Compact infantry crosses. The immediate movement succeeds under controlled risk, and Morcant retains most of her riders for another axis.\n\n### Force the riders west or south\n\nConduct a broad sweep with Vale and drive Morcant toward the Causeway, Black Bell, or Sluice. A prepared receiving force turns two operations into one battle; a weak one is overwhelmed.\n\n### Collapse selected barrows\n\nSeal lanes with demolition or radiant fire. Containment denies movement to both armies; breaking old seals may release uncontrolled dead and permanently narrows Compact mobility.\n\n### Bypass at speed\n\nCross with a small column by night or magical concealment while the riders raid elsewhere. The march keeps its tempo and leaves Morcant free to strike the Gate, villages, or supply road.\n\n## Voss's response\n\nMorcant attacks support rather than strength. Commit to one barrow and she raids another. Pursue her personally and she sends riders toward exposed wagons or civilians. If her mounts are threatened, she concentrates and accepts battle.\n\nOn march turn two, an unresolved rider force makes its first major raid. The target is whichever of the Gate, a supply column, or an exposed village best reflects the opening allocation. Announce later raids early enough for the Warrant to answer them; never apply them as arbitrary losses.\n\n## Results\n\n### Strong result\n\nMorcant is killed or captured, the remount system is seized, and the barrow lanes remain usable. The Compact gains operational mobility and can screen later movements or relief attempts.\n\n### Costly results\n\n- The route opens while Morcant escapes with most riders. The march gains tempo without ending the raid threat.\n- The mounts are destroyed through fire or unstable magic. The rider force is crippled, but allied casualties or released barrow dead strain the army.\n- Morcant is driven into another encounter, creating an immediate combined battle there.\n- The Compact secures the route by permanently collapsing lanes. Voss loses mobility, but so does the invading army.\n\n### Reduced\n\nMorcant's command and remount system can no longer operate as an organized mobile formation. Individual riders may survive.\n\n### Contained\n\nVale and the Dawn Lancers hold the principal gaps and keep Morcant from leaving in strength. The Compact gains a secure flank, but its cavalry remains tied down and cannot screen the final siege.\n\n### Bypassed\n\nThe night riders remain fully operational. They raid supply, punish lateral movement, escort withdrawing garrisons, and may appear as relief at Vossgard. Their continued existence does not prevent a rapid assault, but it makes every unsupported rear objective more expensive.\n\n## What carries forward\n\n- **Captured shadow mounts:** allow selected troops to redeploy rapidly in the Shadowfell.\n- **Dawn Lancers freed:** can screen an open Vossgard exit or intercept relief.\n- **Collapsed lanes:** limit both enemy and allied movement.\n- **Surviving night riders:** generate visible raids and reinforce later positions.\n- **Morcant captured:** provides a high-value prisoner for exchange or surrender negotiations and may divide surviving riders over whether to recover or abandon her.\n\n## Returning\n\nA contained barrow front may need relief after Morcant gathers strength. A reduced barrow line becomes the quickest way to respond to a raid or shift between first- and second-belt encounters. Released dead must be cleared before local traffic can resume.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "cavalry",
+        "mobility",
+        "battlefield"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "bdc6dade-caff-49e9-8c4d-1f6b5eca9469",
+          "context": "Vale commands the mobile Compact force able to contest riders, screen roads, and exploit a broken mounted formation."
+        },
+        {
+          "reference_id": "d6384410-c4d7-4cb9-91da-ce1e19c30d0d",
+          "context": "Voss relies on the barrow roads and night riders to punish exposed axes and preserve lateral freedom."
+        },
+        {
+          "reference_id": "2cfd0b01-d287-4d40-b785-ea11bc1aa001",
+          "context": "Morcant owns the night-rider command, remount doctrine, and preference for preserving mobility over holding one mound."
+        },
+        {
+          "reference_id": "be727f0b-3d2e-44b8-9309-896dcc57726c",
+          "context": "The Warrant may redirect a mobile force or bind a receiving command, but it cannot make every lateral road watched at once."
+        },
+        {
+          "reference_id": "cab5eeb5-ca45-443e-a7f7-2425c38b1ea4",
+          "context": "The barrow roads lead toward the Bell network, where riders, couriers, and audible orders can turn lateral freedom into coordinated movement."
+        },
+        {
+          "reference_id": "613c3c19-2fd2-4de7-93ed-ba0e279e1777",
+          "context": "Vossgard is the destination for preserved cavalry and the fortress whose approaches become vulnerable or secure according to control of lateral roads."
+        }
+      ]
+    },
+    {
+      "id": "the-red-abbey",
+      "title": "The Red Abbey",
+      "summary": "Rane's knights, Voln's prisoners, and Voss's blood reserve queue for the ridge road.",
+      "opening_view": "The Abbey’s retreat has a queue. Blood casks take the padded wagons; prisoners wait in the lower yard; eighteen vampire knights claim the ridge road first. Quartermaster Nera Voln stands at the gate with a custody ledger and an unraised strip of white cloth. When a prisoner falls, she halts one cart. Dame Halwen Rane does not. “Blood before baggage,” she orders, and the portcullis begins to rise.",
+      "content": "## Situation\n\nThe ridge road is already moving. Blood casks roll toward Vossgard's western postern, prisoners wait in wagon lines below, and Rane's knights saddle beneath the ruined nave. Voln's crews can move one stream quickly or divide their guards and risk all three.\n\nVoss needs the blood, prisoners, and mounted force to leave before the Compact closes the ridge. The Warrant must choose which asset to stop, which people to protect, and whether the cloister becomes a held road, surrendered depot, or consecrated ground.\n\n## Command\n\n**Dame Halwen Rane** commands eighteen vampire knights, mounted retainers, and the dead assigned to the ridge road. She will sortie aggressively if she believes she can destroy the Warrant or a Gatewright detachment, but otherwise preserves her knights for Vossgard.\n\n**Quartermaster Nera Voln** commands the living garrison, prison guards, and blood-handling crews. She is a collaborator whose authority depends on Voss, but she wants her soldiers to survive. She may surrender the outer abbey in exchange for safe conduct and a formal hearing rather than summary execution.\n\n**Chaplain Iven Sol** accompanies the Compact if Rusk committed consecrated support or the Warrant requests him. He can reclaim the cloister yard as protected ground if held long enough, but cannot assault the vaults alone.\n\n## Ground\n\n- Outer wall and gate controlling the lower road.\n- Cloister yard capable of being reconsecrated.\n- Prison yard separated from the blood vault by an internal wall.\n- Stable court and ridge gate for the vampire knights.\n- Blood vault with controlled drainage channels and firebreaks.\n- Ridge road leading directly to a postern of Vossgard.\n\nA small strike team cannot hold the prison, vault, and ridge gate at once without allied support.\n\n## Objective\n\nDeny Voss the blood and vampire reserves while deciding how much strength the prisoners receive.\n\n## Courses of action\n\n### Storm before deployment\n\nLead an immediate breach while Compact troops attack the walls. Speed may catch the knights in the stable court; heavy assault gives Voln little reason to preserve prisoners or infrastructure.\n\n### Cut the ridge and force a sortie\n\nSend a mobile detachment behind the abbey while the main force demonstrates below. Rane must fight outside the walls or abandon the depot; Voln keeps the prison and vault during the battle.\n\n### Negotiate the living garrison out\n\nOffer Voln safe conduct, lawful custody, and protection from Rane. Her living garrison can open the outer gate and prison yard while Compact troops fight the knights. The unpopular terms commit the Compact to hearings instead of immediate punishment.\n\n### Strike the vault and prison separately\n\nSplit the effort: one team disables blood distribution while another secures prisoners. Both objectives survive, and Rane gains a clean ridge withdrawal unless another force blocks it.\n\n### Destroy the depot\n\nFire, sunlight charges, or the vault drains can ruin the blood reserve quickly. An uncontrolled destruction risks prisoners, useful medical stores, and the abbey structure. It may still be the correct choice under severe time pressure.\n\n### Contain the ridge\n\nThe Compact fixes the abbey with infantry and blocks the ridge road without taking the walls. Enough troops close the exit and prevent reinforcement while prisoners and blood remain in enemy hands.\n\n## Voss's response\n\nRane protects the knights and ridge road first, the blood reserve second, and the living garrison last. Voln protects her soldiers and records first, then bargains with whatever leverage remains. A public record of honored surrender terms brings Voln forward sooner.\n\nAt turn four, Rane prepares a blood-and-prisoner convoy. If Voss chooses the Abbey for his primary reaction, that convoy moves and the knights cover it; otherwise the loading remains visible and can still be interrupted. At turn six, surviving mobile knights withdraw under the general concentration order unless the ridge is blocked or the Abbey is contained.\n\n## Results\n\n### Strong result\n\nThe vampire knights are destroyed or captured, prisoners survive, the blood reserve is denied, and the Compact holds the ridge road. The cloister yard becomes a consecrated staging area for the final assault.\n\n### Costly results\n\n- The blood reserve is destroyed, but prisoners or valuable supplies are lost.\n- The prisoners are rescued and the abbey taken, but Rane escapes with the knights.\n- The knights are destroyed in a sortie, but Voln burns the vault and withdraws with hostages.\n- Voln surrenders the position under broad terms that preserve lives but create a difficult postwar justice question.\n- The Compact holds the abbey only by assigning a large garrison, worsening its strength at Vossgard.\n\n### Reduced\n\nThe abbey can no longer supply organized vampire operations, and the ridge road is under Compact control. Surviving knights or guards no longer form an organized command.\n\n### Contained\n\nA sufficient Compact force blocks the ridge road and fixes the garrison. The exit is closed for the finale, but the containing troops cannot join the assault and the blood reserve may still support Voss internally.\n\n### Bypassed\n\nRane, the blood reserve, and the ridge road remain available. Vampire knights reinforce Vossgard, wounded vampires can recover more readily, and Voss has a conventional northwestern breakout route. The Warrant can still attack through another approach.\n\n## What carries forward\n\n- **Blood reserve denied:** vampire troops cannot repeatedly recover during the finale.\n- **Consecrated cloister:** safe staging and casualty point near Vossgard.\n- **Rescued prisoners:** witnesses, guides, and a visible fulfillment of Compact promises.\n- **Captured ridge road:** closes one military exit.\n- **Escaped vampire knights:** strengthen Vossgard or raid an exposed rear.\n- **Surrender terms for Voln:** become precedent for other living officers.\n\n## Returning\n\nA captured abbey can be counterattacked by surviving knights or used as a hospital and staging base. A contained abbey may surrender after the Black Bell falls. Prisoners rescued here identify family hostages, compromised officers, and custody claims that shape the stand-down and settlement at Vossgard.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "assault",
+        "prisoners",
+        "logistics"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "e714bd67-22b9-462d-889a-c1d70af6170f",
+          "context": "Rusk controls whether scarce consecrated support and wider campaign capacity are committed to the Abbey operation."
+        },
+        {
+          "reference_id": "892dbdaa-9163-44f0-8e4a-369a43864d82",
+          "context": "Dane supplies the surrender, safe-conduct, custody, record, and hearing boundaries relevant to the living garrison and prisoners."
+        },
+        {
+          "reference_id": "d6384410-c4d7-4cb9-91da-ce1e19c30d0d",
+          "context": "Voss uses the Abbey as blood logistics, prison administration, vampire recovery, and a military exit toward Vossgard."
+        },
+        {
+          "reference_id": "be727f0b-3d2e-44b8-9309-896dcc57726c",
+          "context": "The Warrant must divide enforceable support among prisoners, blood stores, consecrated ground, the ridge gate, and any surrender it accepts."
+        },
+        {
+          "reference_id": "7247ca22-2063-4332-ba40-0bf7face6275",
+          "context": "The Abbey sheet keeps the prison, blood vault, cloister, cavalry court, and ridge road distinct without declaring their current disposition."
+        },
+        {
+          "reference_id": "613c3c19-2fd2-4de7-93ed-ba0e279e1777",
+          "context": "Vossgard receives the ridge road, blood, prisoners, and mounted force the Abbey was built to sustain."
+        }
+      ]
+    },
+    {
+      "id": "the-black-bell-redoubt",
+      "title": "The Black Bell Redoubt",
+      "summary": "Ren's black bell makes one reserve audible across the army and guards the broadest exit.",
+      "opening_view": "The first peal moves the battlefield. Grave cohorts leave their trenches; three living couriers ride for the Abbey, the canal, and Vossgard; a village road empties before anyone there can have heard the order. Legate Ossa Ren slides one reserve marker and watches Bell-Warden Vark drag the next command through the black mechanism with his chained arms. The second stroke is not yet sound. It is weight descending toward the Warrant.",
+      "content": "## Situation\n\nThe Warrant reaches the redoubt between peals. One sequence turns programmed dead toward the Tithe road; another clears the Abbey road for a reserve column; living couriers wait for the longer order. Ren's formations are shifting before the tower comes into bow range.\n\nThe Bell coordinates only what still answers it. Reaching the mechanism, cutting couriers, forcing the reserve to deploy, and controlling the roads are separate acts. The Compact can silence the tower while an organized field command still moves toward Vossgard.\n\n## Command\n\nLegate Ossa Ren has three cohorts of grave infantry, living couriers, several reserve companies, and four vampire lieutenants in motion around the tower. She uses the simple peals to move the dead, keeps living officers on the courier roads, and retreats toward Vossgard if the reserve remains coherent.\n\nBell-Warden Vark is physically bound to the mechanism. He continues sounding programmed orders while fighting occurs around him and cannot surrender.\n\nIf available, Brigadier Holt can pin the reserve while a strike reaches the tower. Captain Vale can intercept couriers or exploit false orders.\n\n## Ground\n\n- An open bell tower visible across the lower plain.\n- A low redoubt with mutually supporting trenches.\n- Resonance ditches that amplify the bell and disorient troops crossing them.\n- Courier stables and a protected command shelter.\n- The bell road running directly to Vossgard.\n- Side roads to the Tithe Villages and Red Abbey.\n\nThe tower can be reached quickly only by crossing exposed ground or entering the resonance ditches.\n\n## Objective\n\nStop the redoubt from coordinating the field army and decide whether to destroy the network, seize it, or force the reserve into a decisive battle.\n\n## Courses of action\n\n### Tower raid\n\nCross the killing ground, disable Vark, and silence the bell while allied troops avoid a full engagement. Command breaks quickly; Ren may still withdraw an intact reserve to Vossgard.\n\n### Seize and exploit the bell\n\nCapture the tower and protect a signal crew long enough to send false timings. Reinforcements may arrive late, a garrison may expose itself, or dead troops may hold while the Compact moves. An incorrect sequence can also send formations toward civilians or Compact troops.\n\n### Draw out the reserve\n\nThreaten a road or feign a weak column, then strike Ren when she commits. Ren’s reserve may be drawn away from Vossgard at the cost of time and the formation used as bait.\n\n### Direct assault\n\nSend Holt's infantry into the redoubt while a strike destroys command points. This offers the best chance to reduce the reserve and the highest chance of straining the army.\n\n### Courier war\n\nUse Vale's riders to isolate the camp, intercept couriers, and leave Ren only the bell's simple commands. The reserve may be contained without a storm, but the mobile screen remains committed.\n\n### Bypass under disruption\n\nSilence or mask the bell, then move toward the Abbey, Sluice, or Vossgard before Ren restores command. Tempo survives; so does the reserve.\n\n## Voss's response\n\nRen uses the reserve to punish an overextended assault, not to defend the bell at any cost. If the tower falls while her cohorts remain coherent, she withdraws by the bell road. Vark continues programmed signals even if they no longer fit the battle, creating predictable but dangerous movements.\n\nAt turn four, Ren is the officer who executes Voss's one primary reaction: she either recalls one surviving outer garrison or commits the reserve against the weakest Compact axis. Do not also grant every other position a full withdrawal on the same threshold. At turn six, she begins withdrawing the mobile field command into Vossgard under the general concentration order unless the bell road is blocked or the Redoubt is contained.\n\n## Results\n\n### Strong result\n\nThe bell is captured, Ren's reserve is destroyed or surrendered, and the bell road is held. The Compact can misdirect remaining dead formations, prevent coordinated relief, and close the central breakout route.\n\n### Costly results\n\n- The bell is destroyed, but Ren withdraws most of the reserve to Vossgard.\n- The reserve is broken in open battle, but the Compact army becomes strained or spent.\n- False signals achieve a major advantage and collateral harm the Warrant must own.\n- Ren surrenders living troops after the dead are isolated, but demands protection from local reprisals.\n- The redoubt is held only by assigning substantial forces that cannot join the final assault.\n\n### Reduced\n\nThe bell network and field reserve can no longer conduct organized operations. The bell road is under Compact control.\n\n### Contained\n\nCompact forces keep the reserve inside the redoubt and block the bell road. This closes the route while tying down enough troops to matter at Vossgard.\n\n### Bypassed\n\nThe reserve coordinates surviving positions, escorts withdrawals, attacks exposed columns, and provides Voss with his strongest conventional breakout force. An intact bell network also makes bypassed garrisons more dangerous in combination than they would be alone.\n\n## What carries forward\n\n- **Captured bell:** can issue limited false timings or deny dead formations coordinated action.\n- **Order staff and couriers:** improve surrender outreach and identify where living troops are concentrated.\n- **Field reserve destroyed:** prevents a major relief or breakout action.\n- **Bell road held:** closes the central military exit.\n- **Reserve withdrawn:** substantially strengthens the outer defense of Vossgard.\n\n## Returning\n\nA captured bell is useful enough to invite a counterattack. A contained redoubt may collapse after nearby garrisons surrender. The Warrant can also return to use the tower for campaign-wide orders, casualty collection, or the announcement of postwar terms.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "command",
+        "battle",
+        "signals"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "b9b91d52-59d8-41ba-b73e-05ab1d3e15c4",
+          "context": "Holt can fix the field reserve and make room for a bounded strike against its command system."
+        },
+        {
+          "reference_id": "bdc6dade-caff-49e9-8c4d-1f6b5eca9469",
+          "context": "Vale can isolate couriers, screen movement, or exploit a false signal without becoming a fixed assault formation."
+        },
+        {
+          "reference_id": "d6384410-c4d7-4cb9-91da-ce1e19c30d0d",
+          "context": "Voss uses the Bell and its reserve as an audible command system connecting surviving field formations to Vossgard."
+        },
+        {
+          "reference_id": "be727f0b-3d2e-44b8-9309-896dcc57726c",
+          "context": "The Warrant can order a raid, containment, surrender channel, or false signal only through forces and records that can carry the decision beyond the tower."
+        },
+        {
+          "reference_id": "c7b208a6-4626-40b4-8321-54b840918905",
+          "context": "The Bell network reaches the village roads and can coordinate removals, reserve movement, or withdrawal through living couriers."
+        },
+        {
+          "reference_id": "7247ca22-2063-4332-ba40-0bf7face6275",
+          "context": "The Bell network reaches the Abbey road and can call or clear movement between the ridge depot and the field reserve."
+        },
+        {
+          "reference_id": "cab5eeb5-ca45-443e-a7f7-2425c38b1ea4",
+          "context": "The Bell sheet distinguishes the iron mechanism, programmed dead, living couriers, recognized sequences, and roads that make one peal operational."
+        },
+        {
+          "reference_id": "613c3c19-2fd2-4de7-93ed-ba0e279e1777",
+          "context": "Vossgard stands at the end of the Bell road and uses the signal network to join surviving outer commands to the fortress."
+        }
+      ]
+    },
+    {
+      "id": "the-drowned-sluice",
+      "title": "The Drowned Sluice",
+      "summary": "Marr's three lock marks decide whether black water carries supply, assault, escape, or ruin.",
+      "opening_view": "The chalk line vanishes under black water. Engineer Sila Marr marks it again one step higher while drowned infantry rise along the stair and a dry barge withdraws behind an iron grille. Far below, the Sunken Turn answers the Outer Chain, then the Underkeep Gate answers both. Marr looks toward the low roofs beyond the embankment. “One more change floods them.” The towpath doors open, and the chamber chooses a current.",
+      "content": "## Situation\n\nAt the Outer Chain, the lowest flood mark has been scraped away and water rises whenever the Underkeep crew turns its wheel. Drowned infantry hold the ledges; chained bodies pull the lock mechanism; work at the Sunken Turn can be heard before the next chamber is visible. The route must be taken in order even when the fighting is not.\n\nPreserved, the canal carries barges, dismantled engines, and assault troops beneath Vossgard. Denied in sequence, it closes the same road to Voss. Broken without control, it floods inhabited low ground and may leave the Underkeep Gate usable from inside.\n\n## Command\n\nLock-Marshal Ors Keln spends drowned infantry, boat crews, and the dead chained into the machinery one chamber at a time to preserve the Underkeep Gate. He can abandon an outer mechanism without yielding the route behind it.\n\nEngineer Sila Marr can accompany the Compact openly if the villages or their labor records are secure. She brings chamber order, load limits, and the names below each flood mark; she brings no safe passage. Without her, Merrow's Gatewrights must reconstruct the sequence under pressure and with greater risk.\n\nA Gatewright company is present if committed. Without engineers, brute force can destroy or force the canal but rarely preserve it.\n\n## Ground\n\n- The Outer Chain chamber, accessible from the lower plain.\n- A flooded towpath leading to the Sunken Turn.\n- Maintenance ledges and vertical shafts exposed to sudden water movement.\n- The Underkeep Gate beneath Vossgard.\n- Escape barges stored in a dry side basin.\n- Low inhabited ground that will flood if the outer gate is destroyed carelessly.\n\nThe three mechanisms create simultaneous demands: troops must hold cleared chambers while engineers work farther inward.\n\n## Objective\n\nDeny Voss the canal and decide whether to preserve it as a supply and assault route or destroy it as quickly as possible.\n\n## Courses of action\n\n### Sequential clearance\n\nEscort engineers through all three locks and hold each chamber while they restore the mechanisms. The canal and flood control survive, at the cost of time and repeated counterattacks.\n\n### Boat assault\n\nHaul light boats overland or capture them from the side basin, then strike for the Sunken Turn and Underkeep Gate. Surprise shortens the operation; failure traps troops between controlled water levels.\n\n### Divert the canal\n\nOpen the old spillway through the low fields and lower the main channel for infantry. The water protects the assault by entering farms and homes unless the population was evacuated.\n\n### Break the Outer Chain\n\nDestroy the outer gate and let the flood tear through the lock system. A controlled escape vanishes with the route; drowned troops, low ground, and the Ashen Gate road lie in the same current.\n\n### Seize the barges and reverse the locks\n\nEnter the side basin, capture the escape craft, and turn the lock sequence against Keln. Exact timing and troops at separated mechanisms can trap the canal force without ruining the route.\n\n### Block rather than open\n\nThe Compact collapses the outer entrance or holds it with a small fort. This closes the exit at lower cost than full clearance but yields no protected supply route or lower assault path.\n\n## Voss's response\n\nKeln yields outer chambers to draw engineers inward, then changes water levels to isolate them. He sacrifices drowned troops readily but protects the Underkeep Gate and barges. Threaten uncontrolled destruction and Keln opens selected channels toward inhabited ground.\n\nAt turn four, Keln stages stores, selected prisoners, and crews for movement. If Voss chooses the Sluice for his primary reaction, one convoy passes through the lower canal; otherwise the preparation is visible without moving the entire reserve offscreen. At turn six, any surviving mobile crews man the escape barges under the general concentration order, unless the locks are controlled or the entrance is effectively contained.\n\n## Results\n\n### Strong result\n\nAll three mechanisms are controlled, the canal is navigable, the barges are captured, and the lower gate is in Compact hands. The army gains protected supply and an independent assault route while Voss loses the escape.\n\n### Costly results\n\n- The canal is destroyed and the exit closed, but low ground floods and the army gains no route.\n- The canal opens, but engineer casualties or lost equipment strain the army.\n- The lower gate is blocked, but Keln and the barges withdraw into Vossgard.\n- The Compact preserves the route by diverting water through evacuated villages, creating a major reconstruction obligation.\n- Securing the route requires a substantial garrison in the lock chambers.\n\n### Reduced\n\nKeln's canal force can no longer operate, and the Underkeep Gate is controlled or permanently blocked.\n\n### Contained\n\nThe outer entrance is held or collapsed so that Voss cannot use it conventionally. The route is closed to both sides, and troops remain assigned to prevent reopening.\n\n### Bypassed\n\nThe canal remains an enemy supply line and escape route. Drowned troops can threaten the Compact flank, and Voss can organize a barge breakout if the fortress battle turns against him.\n\n## What carries forward\n\n- **Open canal:** stabilizes army condition and provides a lower assault route.\n- **Captured barges:** move troops, prisoners, and supplies under protection.\n- **Closed Underkeep Gate:** removes the final military exit.\n- **Flooded low ground:** worsens population posture and postwar recovery unless evacuation was handled well.\n- **Surviving drowned force:** supports Voss at the lower gate.\n\n## Returning\n\nAn open canal becomes a moving logistical front. Voss may counterattack a lock, the Compact may evacuate prisoners through it, and the Warrant must decide whether scarce engineers remain or march to Vossgard.",
+      "required": true,
+      "start": false,
+      "end": false,
+      "tags": [
+        "engineering",
+        "water",
+        "assault"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "1fe01544-1445-48cb-b8af-c8f2d630a7cf",
+          "context": "Merrow owns the Gatewright capacity needed to operate, preserve, block, or safely demolish the three-lock route."
+        },
+        {
+          "reference_id": "d6384410-c4d7-4cb9-91da-ce1e19c30d0d",
+          "context": "Voss maintains the canal as military infrastructure for supply, fortress access, and organized escape."
+        },
+        {
+          "reference_id": "be727f0b-3d2e-44b8-9309-896dcc57726c",
+          "context": "The Warrant may assign engineers, troops, protection, and consequences, but it cannot replace chamber sequence or absolve a flood imposed on inhabited ground."
+        },
+        {
+          "reference_id": "c7b208a6-4626-40b4-8321-54b840918905",
+          "context": "The villages supply canal knowledge and identify the households and fields lying beneath the flood marks outside the embankment."
+        },
+        {
+          "reference_id": "e510af2a-eb44-4055-945b-b09c79985a47",
+          "context": "The Sluice sheet preserves the three-lock sequence, load relationships, work spaces, and low-ground risk without revealing the present water or gate state."
+        },
+        {
+          "reference_id": "613c3c19-2fd2-4de7-93ed-ba0e279e1777",
+          "context": "Vossgard contains the Underkeep Gate and gives the canal its competing uses as supply route, assault road, and organized exit."
+        }
+      ]
+    },
+    {
+      "id": "vossgard",
+      "title": "Vossgard",
+      "summary": "Every open road and unsupported promise takes its appointed place in Vossgard's final defense.",
+      "opening_view": "Vossgard displays the march in absences. A closed road leaves one gate undermanned; a surviving command sounds from another. Engines, guides, prisoners, blood carts, surrendered companies, and exhausted battalions take only the places earned for them. Castellan Drenn shifts the living garrison around those facts while three breakout standards wait below the inner keep. Somewhere beyond the wall, a gate opens—or fails to. The first assault order will decide what the Compact abandons to reach Voss.",
+      "content": "## Situation\n\nVossgard is now a deployment board, not a riddle. Drenn's reinforcement marks, captured orders, and reports from the outer positions put the Bell gate, ridge postern, Underkeep Gate, garrison court, prisoner yards, and inner keep on one table. Merrow marks where engines can arrive; Dane marks surrendered troops, prisoners, and protected households; Holt and Vale mark the companies required to hold each open road.\n\nThe Compact already knows how to kill a vampire: sunlight mirrors, consecrated steel, stakes, fire, and soldiers drilled to use them. The difficulty is carrying those means to Voss while holding the walls, guarding prisoners, answering every force left in the rear, and closing the breakout road the Warrant left open.\n\nThe fortress takes the shape of the campaign that reached it. A preserved heavy route brings engines to the wall. Cooperative villages bring guides, food, and surrender channels. A bypassed command arrives as reinforcement or attacks the rear. Every closed exit consumes Compact troops; every open exit receives Voss's prisoners, blood, wagons, and surviving force.\n\n## Command\n\nVoss reads the same board from inside the keep. He commands the fortress and each surviving formation that can still answer through an open road. He prefers an organized breakout; if every military exit closes, he spends the living garrison and inner works to gain time for a sortie, last defense, or visible personal flight.\n\nCastellan Lysa Drenn commands the living fortress garrison and household levies. Her loyalty belongs to the continuity of the Gloam March more than to Voss. A credible surrender record and visible separation of living levies from vampire cadres may bring her garrison to a stand-down.\n\nSurviving encounter commanders appear according to campaign state:\n\n- Arven Taal strengthens fortress engineering if he escaped the Causeway.\n- Tal Vosca brings hostages and village levies if the villages were bypassed.\n- Kasia Morcant provides mobile relief if the night riders survive.\n- Halwen Rane and her knights defend the ridge and inner court if the Abbey remains active.\n- Ossa Ren and the field reserve hold the bell gate if the Redoubt remains active.\n- Ors Keln and the drowned force defend the lower gate if the Sluice remains active.\n\nReturn a commander only with the capability the Warrant allowed that command to preserve.\n\n## The fortress on arrival\n\n### Voss's concentration\n\nThe march-turn clock determines preparation:\n\n- **Before turn four:** outer defenses are incomplete, many living troops remain distributed, and prisoners have not all been moved. The Compact arrives with less preparation of its own.\n- **Turns four and five:** Vossgard has a coherent garrison, whatever stores or prisoners the announced turn-four reaction successfully moved, and at most the selected reinforcements that escaped their field positions. Other outer commands prepare, but none reaches the fortress merely because the clock advanced.\n- **Turn six or later:** Voss has issued the general concentration and breakout order. Mobile bypassed forces can answer it; reduced forces cannot, and contained forces must break their named interdiction line before they can move.\n\n### Army condition\n\n- A **ready** army can conduct three major simultaneous tasks during the assault.\n- A **strained** army can conduct two without direct intervention.\n- A **spent** army can sustain one decisive main effort. Every other objective requires abandonment, local allies, or the Warrant’s direct intervention.\n\nThe tasks are:\n\n1. breach and hold an approach;\n2. screen bypassed forces and relief;\n3. secure prisoner yards and prevent massacre or forced removal;\n4. fix or separate the living garrison; and\n5. pursue Voss into the inner keep.\n\n### Military exits\n\n- Red Abbey controlled or sufficiently contained: ridge road closed.\n- Black Bell controlled or sufficiently contained: bell road closed.\n- Drowned Sluice controlled or permanently blocked: canal exit closed.\n\nWith all three closed, Voss cannot organize a conventional breakout. With one open, he prepares a focused escape. With two or three open, he can feint at one route and move through another. Closed roads deny military movement, not every power Voss possesses. He may still abandon his army and attempt a visible escape by mist, climbing, or a dominated mount through the Compact's consecrated cordon. Such a flight becomes a pursuit through the line and carries no organized remnant, prisoners, blood, or stores.\n\n## Choosing the final operation\n\n### Rapid decapitation strike\n\nConcentrate the army on the best available route and drive for the inner keep before Voss fully prepares. Early contact with him leaves prisoners, relief, and open exits with the least coverage.\n\n### Full encirclement and assault\n\nThe Compact invests the fortress, assigns troops to all exits, and breaches through one or more controlled approaches. This converts prior reductions into a powerful final position but gives Voss time to prepare the inner defense and increases accumulated campaign cost.\n\n### Living-garrison collapse\n\nIf the population is cooperative, surrender terms are credible, and **Enforceable terms can split the living levies from the dead** has been established, address Drenn and the levy companies before or during the assault. A stand-down removes living troops and may open a gate; Voss's dead and vampire cadres continue fighting.\n\n### Forced sortie\n\nIf all exits are closed but the army is too spent for a full assault, the Compact threatens the blood stores, begins controlled bombardment, or demonstrates that no relief is coming. Voss may sortie to break the line. This brings him out of the keep at the cost of exposing the encircling troops to a concentrated attack.\n\n### Limited siege and negotiated handover\n\nDemand the surrender of the living garrison, prisoners, and fortress while offering Voss no safe conduct. The terms may isolate him and reduce casualties. The Ashen Gate and army condition put a hard cost on every hour of siege.\n\n## The final operation\n\n### Phase one: establish the breach\n\nSelect the ridge postern, bell gate, lower gate, a siege-train breach, or a costly improvised assault. Prior assets determine which routes exist and how many troops each consumes.\n\n- The intact Iron Causeway and advanced siege train create a controlled wall breach.\n- The Red Abbey creates a secure ridge approach.\n- The Black Bell creates a central road approach and disrupts dead coordination.\n- The Drowned Sluice creates a protected lower approach.\n- A captured shadow-mount force can seize a gate before defenders fully redeploy.\n\n### Phase two: answer the field consequences\n\nBypassed forces act openly. Night riders attack the rear, the Black Bell reserve advances, vampire knights counterattack, or causeway troops strike supply. The Compact must screen them, detach troops, or accept that they enter the fortress battle.\n\nThis phase collects the risks the Warrant knowingly purchased by bypassing field positions.\n\n### Phase three: garrison court and prisoners\n\nDrenn's living levies occupy the court while prisoners are gathered for movement or use as cover. Choose whether to assault through them, honor prior guarantees, attempt surrender under battlefield conditions, or assign another force to the yards.\n\nCooperative villagers, rescued prisoners, captured couriers, and prior surrender precedents turn a stand-down into an executable order addressed to actual companies, officers, and households.\n\n### Phase four: inner keep\n\nVoss retreats or counterattacks through the sunless hall, the officers' stair, and the coffin vault. He wins time by moving and recovering; the Warrant wins by keeping pressure on him.\n\nIf the blood reserve remains, Voss and surviving vampire troops recover between positions until access is physically denied. If it was destroyed, they fight on accumulated wounds. Consecrated assets provide the means; maintain pressure and close the escape.\n\n### Phase five: settlement\n\nOnce Voss is destroyed, captured, or stopped during a personal flight, issue immediate orders:\n\n- who commands the fortress overnight;\n- how prisoners and surrendered troops are handled;\n- whether local reeves form a provisional March council;\n- whether the Compact occupies, protects, or evacuates the territory;\n- what happens to collaborators promised hearings; and\n- how much force remains while the rest returns through the Ashen Gate.\n\nThe Warrant's authority here is provisional. It can appoint overnight command, preserve records, assign custody, continue recorded protection and parole, and establish a temporary council from reeves, surviving civil clerks, road or canal officers, and surrendered commanders who have accepted review. It cannot settle permanent sovereignty or grant final amnesty; Rusk and the Compact's civil commission must review those questions at the next reliable contact.\n\nSettlement begins before the blood dries. A spent army, opposed population, open roads, destroyed records, and intact enemy formations sharply limit which provisional orders can be enforced. An organized withdrawal must likewise name who protects or evacuates the population and how the fortress and crossing are denied to an immediate successor.\n\n## Voss's behavior\n\nVoss's decisions are governed by visible state.\n\n- If two or more military exits remain open and the battle turns against him, he attempts an organized breakout with prisoners, blood, and the strongest surviving formation.\n- If one exit remains open, he stages a major feint and commits his reserve to that route.\n- If no exit remains open, he either launches a concentrated sortie, fights through the inner keep, or abandons the organized army for a visible personal flight through the cordon.\n- If the living garrison remains loyal, he spends it to hold the court and walls.\n- If the living garrison stands down, he relies on dead and vampire troops without gaining a replacement hidden force.\n- If the blood reserve remains, he uses it to keep vampire units in action and sustain his own retreats.\n- If the reserve is denied, he conserves vampire troops and seeks a shorter decisive engagement.\n\nShow these intentions through deployments, signals, and orders. Once Voss commits a reserve, road, or prisoner column, that deployment fixes what the Compact can still intercept.\n\n## Campaign assets in the finale\n\n| Asset or condition | Concrete final effect |\n| --- | --- |\n| Intact Iron Causeway and siege train | Creates a controlled breach or suppresses a wall sector without spending the main effort. |\n| Cooperative Tithe Villages | Provides guides, stretcher crews, food, intelligence on family levies, and a credible provisional government. |\n| Reduced Thorn Barrows | Frees mobile troops to screen relief, chase a breakout, or shift between assault routes. |\n| Reduced or contained Red Abbey | Closes the ridge exit; reduction also denies vampire recovery and provides a consecrated staging ground. |\n| Reduced or contained Black Bell | Closes the bell road; reduction also disrupts coordinated dead formations and can misdirect surviving units. |\n| Reduced or contained Drowned Sluice | Closes the canal exit; reduction also provides the lower assault and supply route. |\n| Credible surrender record | Allows living officers to stand down without assuming summary execution or abandonment. |\n| Ready army | Supports three simultaneous major tasks. |\n| Strained army | Supports two simultaneous major tasks. |\n| Spent army | Supports one major task; every other aim requires allies, sacrifice, or the Warrant’s intervention. |\n| Stable Ashen Gate | Permits large casualty, prisoner, and civilian movement after victory. |\n| Strained or imperiled Gate | Forces hard limits on evacuation and occupation. |\n\n## Campaign outcomes\n\nUse these outcomes to name the military and civil state left after the campaign.\n\n### Decapitation\n\nVoss is destroyed or captured, but major field forces, hostile population, or an unstable Gate prevent the Compact from holding the Gloam March. The Warrant can organize an evacuation or accept a dangerous occupation.\n\n### Military victory\n\nVoss is destroyed or captured, the organized field army is broken, the Ashen Gate survives, and the Compact controls the fortress long enough to choose an orderly withdrawal or occupation.\n\n### Broken flight\n\nVoss abandons his army and escapes alone or with a handful of attendants through the consecrated line. The invasion corridor, fortress, and organized field army are still broken, but the Warrant has failed its first war aim and leaves the Compact a continuing hunt, a political liability, and a ruler who may someday build another command.\n\n### Durable victory\n\nThe military victory is joined to a cooperative or at least watchful population, functioning local administration, controlled roads, and enough army strength to protect the settlement. This need not mean direct Compact rule.\n\n### Costly strategic failure\n\nVoss escapes with a coherent force, or the Ashen Gate becomes unusable before the army and civilians can withdraw. The Warrant can still save thousands, destroy key enemy assets, or deny the immediate invasion corridor. Failure preserves the consequences of the campaign instead of resetting them.",
+      "required": true,
+      "start": false,
+      "end": true,
+      "tags": [
+        "finale",
+        "fortress",
+        "campaign"
+      ],
+      "reference_links": [
+        {
+          "reference_id": "e714bd67-22b9-462d-889a-c1d70af6170f",
+          "context": "Rusk remains the reviewing campaign authority for final allocation, enforceable obligations, overnight command, and any later civil settlement."
+        },
+        {
+          "reference_id": "b9b91d52-59d8-41ba-b73e-05ab1d3e15c4",
+          "context": "Holt defines the Grey Banner infantry available for breach, containment, surrendered ground, and simultaneous final tasks."
+        },
+        {
+          "reference_id": "1fe01544-1445-48cb-b8af-c8f2d630a7cf",
+          "context": "Merrow defines what siege engines, engineers, repaired routes, and preserved infrastructure can actually support at the fortress."
+        },
+        {
+          "reference_id": "bdc6dade-caff-49e9-8c4d-1f6b5eca9469",
+          "context": "Vale defines the mobile screen, courier interception, relief response, and pursuit capacity available around the final cordon."
+        },
+        {
+          "reference_id": "892dbdaa-9163-44f0-8e4a-369a43864d82",
+          "context": "Dane provides the standing machinery for garrison surrender, prisoners, protected civilians, requisition records, hearings, and provisional custody."
+        },
+        {
+          "reference_id": "d6384410-c4d7-4cb9-91da-ce1e19c30d0d",
+          "context": "Voss commands the fortress and any organized remnant through the exits, formations, prisoners, stores, and blood the campaign left him."
+        },
+        {
+          "reference_id": "2cfd0b01-d287-4d40-b785-ea11bc1aa001",
+          "context": "Morcant matters at Vossgard only if her mobile command remains capable of relief, rear attack, or breakout support."
+        },
+        {
+          "reference_id": "be727f0b-3d2e-44b8-9309-896dcc57726c",
+          "context": "The Warrant remains bounded at the fortress: assault orders, surrender, prisoners, pursuit, and provisional administration each require real support and review."
+        },
+        {
+          "reference_id": "545ffe74-1efc-4b32-bdf6-8ec831f34e51",
+          "context": "The Gate remains the single road by which the final army is supplied and by which casualties, prisoners, civilians, records, and obligations return to daylight."
+        },
+        {
+          "reference_id": "ed795697-5230-4578-8ea0-e625d05b61ff",
+          "context": "The Causeway defines whether heavy engines, bulk supply, and engineering capacity can reach the fortress approaches."
+        },
+        {
+          "reference_id": "c7b208a6-4626-40b4-8321-54b840918905",
+          "context": "The villages define the grain, guides, levies, hostages, households, and surrender channels that may arrive at the fortress."
+        },
+        {
+          "reference_id": "7247ca22-2063-4332-ba40-0bf7face6275",
+          "context": "The Abbey defines the western postern, blood reserve, prisoner burden, cavalry approach, and protected ground available near the fortress."
+        },
+        {
+          "reference_id": "cab5eeb5-ca45-443e-a7f7-2425c38b1ea4",
+          "context": "The Bell defines the broad road and signal network by which a surviving field reserve can coordinate with the fortress."
+        },
+        {
+          "reference_id": "e510af2a-eb44-4055-945b-b09c79985a47",
+          "context": "The Sluice defines the eastern Underkeep route and the canal capacity available for supply, assault, or organized escape."
+        },
+        {
+          "reference_id": "613c3c19-2fd2-4de7-93ed-ba0e279e1777",
+          "context": "The Vossgard sheet preserves the known fortress geometry and outer-position relationships without deciding the final deployment or settlement."
+        }
+      ]
+    }
+  ],
+  "revelations": [
+    {
+      "id": "the-iron-causeway-can-carry-the-heavy-column-intact",
+      "title": "The Iron Causeway can carry the heavy column intact",
+      "description": "A two-part attack on the gatehouses and demolition galleries can save the span, break Krail’s grave cohort, and bring the siege train across the shadow plain.",
+      "unlocks_encounter_id": "the-iron-causeway",
+      "required": true
+    },
+    {
+      "id": "the-tithe-villages-can-be-secured-before-voss-empties-them",
+      "title": "The Tithe Villages can be secured before Voss empties them",
+      "description": "A fast force can cut the crossroads, stop the hostage and grain columns, and give the villages terms strong enough to survive Voss’s reprisals.",
+      "unlocks_encounter_id": "the-tithe-villages",
+      "required": true
+    },
+    {
+      "id": "the-thorn-barrows-can-carry-a-fast-eastern-advance",
+      "title": "The Thorn Barrows can carry a fast eastern advance",
+      "description": "Displacing Morcant from the remount barrows and covered lanes opens the quickest route for cavalry, couriers, and light troops across the eastern March.",
+      "unlocks_encounter_id": "the-thorn-barrows",
+      "required": true
+    },
+    {
+      "id": "the-red-abbey-can-be-cut-off-before-it-empties",
+      "title": "The Red Abbey can be cut off before it empties",
+      "description": "Closing the ridge road and striking the cloister, prison yards, and blood vault denies Voss his knights, reserve blood, and northwestern exit.",
+      "unlocks_encounter_id": "the-red-abbey",
+      "required": true
+    },
+    {
+      "id": "the-black-bell-can-be-struck-before-the-field-reserve-withdraws",
+      "title": "The Black Bell can be struck before the field reserve withdraws",
+      "description": "The tower, courier roads, command shelter, and mobile reserve can be broken or captured before they retire behind Vossgard’s walls.",
+      "unlocks_encounter_id": "the-black-bell-redoubt",
+      "required": true
+    },
+    {
+      "id": "the-drowned-sluice-can-be-openedor-closed-on-voss",
+      "title": "The Drowned Sluice can be opened—or closed on Voss",
+      "description": "Control of the Outer Chain, Sunken Turn, and Underkeep Gate creates a protected canal approach or denies the same route to an escaping court.",
+      "unlocks_encounter_id": "the-drowned-sluice",
+      "required": true
+    },
+    {
+      "id": "three-known-roads-can-carry-an-assault-into-vossgard",
+      "title": "Three known roads can carry an assault into Vossgard",
+      "description": "The ridge postern, Bell road, and Underkeep Gate each provide a workable entry. Each is also a conventional route Voss can use to break out.",
+      "unlocks_encounter_id": "vossgard",
+      "required": true
+    },
+    {
+      "id": "a-high-capacity-route-can-bring-the-siege-train-to-vossgard",
+      "title": "A high-capacity route can bring the siege train to Vossgard",
+      "description": "A stable Gate and either the intact Causeway or a working canal can carry the ram, sunlight mirrors, bulk ammunition, and sustained supply to the walls.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "enforceable-terms-can-split-the-living-levies-from-the-dead",
+      "title": "Enforceable terms can split the living levies from the dead",
+      "description": "Named guarantees, protected families, functioning command channels, and visible restraint give living companies a practical way to stand down.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "closing-three-exits-denies-voss-an-organized-breakout",
+      "title": "Closing three exits denies Voss an organized breakout",
+      "description": "Holding the ridge road, Bell road, and Underkeep Gate—while preserving lateral mobility—forces Voss to fight inside the fortress or flee without an army.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "breaking-the-blood-network-weakens-every-vampire-formation",
+      "title": "Breaking the blood network weakens every vampire formation",
+      "description": "Interrupting collection, convoy movement, storage, and final distribution denies Voss’s vampires the blood they need to recover through repeated fighting.",
+      "unlocks_encounter_id": null,
+      "required": true
+    },
+    {
+      "id": "the-compact-can-hold-the-march-after-it-wins",
+      "title": "The Compact can hold the March after it wins",
+      "description": "A stable Gate, controlled roads, working communications, local administration, and disciplined requisition can turn the conquered corridor into a defensible settlement.",
+      "unlocks_encounter_id": null,
+      "required": true
+    }
+  ],
+  "clues": [
+    {
+      "id": "merrow-s-two-team-assault-table",
+      "title": "Merrow's two-team assault table",
+      "source_encounter_id": "the-ashen-gate",
+      "revelation_id": "the-iron-causeway-can-carry-the-heavy-column-intact",
+      "description": "Colonel Merrow’s assault table pairs a Gatewright gallery team with a formation assigned to fix the parapets. If both move before the defenders complete their next demolition drill, the span can be taken without accepting its destruction.",
+      "discovery": "Commit engineers and a covering formation at the opening council, or revise the table after defeating the bridgehead probe without spending those forces."
+    },
+    {
+      "id": "the-three-village-removal-window",
+      "title": "The three-village removal window",
+      "source_encounter_id": "the-ashen-gate",
+      "revelation_id": "the-tithe-villages-can-be-secured-before-voss-empties-them",
+      "description": "Reconnaissance reports place Voss’s carts at three different assembly points and show the removal columns cannot join until they reach the central crossroads. A fast column can block the junction before hostages and grain move south.",
+      "discovery": "Reconcile the scout reports at the command mound and assign enough troops or cavalry to exploit the timing."
+    },
+    {
+      "id": "vale-s-central-gap-order",
+      "title": "Vale's central-gap order",
+      "source_encounter_id": "the-ashen-gate",
+      "revelation_id": "the-thorn-barrows-can-carry-a-fast-eastern-advance",
+      "description": "Captain Vale identifies the central thorn gap as the only crossing Morcant cannot watch from two remount barrows at once. A supported advance there can force the night riders to reveal which station they will defend.",
+      "discovery": "Give Vale authority to screen the eastern axis and decide what infantry, scouts, or reserve will move behind her."
+    },
+    {
+      "id": "the-heavy-column-manifest",
+      "title": "The heavy-column manifest",
+      "source_encounter_id": "the-ashen-gate",
+      "revelation_id": "a-high-capacity-route-can-bring-the-siege-train-to-vossgard",
+      "description": "The manifest distinguishes loads that require reinforced road or barge from those pack animals can carry. Merrow can move the consecrated ram, sunlight mirrors, and bulk ammunition only if the Warrant preserves a high-capacity route and does not strand their crews at the Gate.",
+      "discovery": "Set the siege-train priority during the first council and inspect the loads whose movement determines later engineering options."
+    },
+    {
+      "id": "the-occupation-board",
+      "title": "The occupation board",
+      "source_encounter_id": "the-ashen-gate",
+      "revelation_id": "the-compact-can-hold-the-march-after-it-wins",
+      "description": "Rusk and Dane’s board names the replacement companies, hospital beds, interpreters, evacuation wagons, and civil officers available after the advance. It shows that the Compact can hold conquered ground only by preserving the Gate and assigning administration before every formation is committed forward.",
+      "discovery": "Establish surrender, requisition, and evacuation policy in the opening council, then leave a coherent reserve able to enforce it."
+    },
+    {
+      "id": "taal-s-western-field-road-bearings",
+      "title": "Taal's western field-road bearings",
+      "source_encounter_id": "the-iron-causeway",
+      "revelation_id": "the-tithe-villages-can-be-secured-before-voss-empties-them",
+      "description": "The bridge engineers’ bearings mark a maintenance descent onto the raised field roads north of Garren. Once the east gatehouse is controlled, a Compact column can enter the village crossroads behind Vosca’s removal screen instead of following the exposed main road.",
+      "discovery": "Seize the east gatehouse records, compel Taal’s cooperation, or preserve an engineer crew during the handover."
+    },
+    {
+      "id": "the-abbey-convoy-measure",
+      "title": "The abbey convoy measure",
+      "source_encounter_id": "the-iron-causeway",
+      "revelation_id": "the-red-abbey-can-be-cut-off-before-it-empties",
+      "description": "Captured axle marks and convoy orders show where the abbey road leaves the causeway and when its next blood and equipment train is expected. The junction can be occupied before Rane receives warning or uses the convoy as cover to withdraw.",
+      "discovery": "Take the dispatch station intact, question surrendered engineers, or compare the road wear with a captured convoy manifest."
+    },
+    {
+      "id": "the-reserve-s-crossing-order",
+      "title": "The reserve's crossing order",
+      "source_encounter_id": "the-iron-causeway",
+      "revelation_id": "the-black-bell-can-be-struck-before-the-field-reserve-withdraws",
+      "description": "A current order sends the Black Bell reserve across the causeway road in staggered cohorts before it turns south. A force moving from the bridge complex can reach the redoubt while its trenches and mobile reserve are divided.",
+      "discovery": "Capture the courier traffic during the causeway fight or obtain Taal’s authenticated copy of the reserve order."
+    },
+    {
+      "id": "the-load-bearing-plates",
+      "title": "The load-bearing plates",
+      "source_encounter_id": "the-iron-causeway",
+      "revelation_id": "a-high-capacity-route-can-bring-the-siege-train-to-vossgard",
+      "description": "Plates in the demolition galleries mark which arches can bear the consecrated ram and where Gatewright braces must be placed. With the firing system disabled, the heavy column can cross without gambling the campaign on an untested span.",
+      "discovery": "Control the demolition galleries and preserve enough of the bridge mechanism for Merrow or Taal to inspect it."
+    },
+    {
+      "id": "the-west-road-blood-manifest",
+      "title": "The west-road blood manifest",
+      "source_encounter_id": "the-iron-causeway",
+      "revelation_id": "breaking-the-blood-network-weakens-every-vampire-formation",
+      "description": "The bridge dispatch office records sealed Red Abbey wagons by weight, escort, and destination. The schedule gives the road windows in which blood moves toward Vossgard and the escorts that must be intercepted or turned back.",
+      "discovery": "Capture the dispatch ledger, a convoy officer, or the authenticated cargo tallies before the garrison destroys them."
+    },
+    {
+      "id": "taal-s-bridge-service-roster",
+      "title": "Taal's bridge-service roster",
+      "source_encounter_id": "the-iron-causeway",
+      "revelation_id": "the-compact-can-hold-the-march-after-it-wins",
+      "description": "Taal's maintenance rolls name the engineers, stone crews, lifting specialists, and road wardens who kept the Causeway open before the war. Under recorded custody and work terms, the same cadre can maintain the Compact's only western heavy crossing and train replacements instead of disappearing into prison or Vossgard.",
+      "discovery": "Secure Taal's orderly room and accept the living engineers' surrender with named custody, work limits, and protection for their households."
+    },
+    {
+      "id": "the-shepherds-remount-lanes",
+      "title": "The shepherds' remount lanes",
+      "source_encounter_id": "the-tithe-villages",
+      "revelation_id": "the-thorn-barrows-can-carry-a-fast-eastern-advance",
+      "description": "Shepherds and field hands identify the covered lanes used to drive fodder and replacement coursers into the barrows. Their route reaches the rear of one remount station and avoids the gaps Morcant normally watches.",
+      "discovery": "Protect the households that know the route and secure their willing guidance rather than requisitioning it under threat."
+    },
+    {
+      "id": "the-abbey-tithe-road",
+      "title": "The abbey tithe road",
+      "source_encounter_id": "the-tithe-villages",
+      "revelation_id": "the-red-abbey-can-be-cut-off-before-it-empties",
+      "description": "Stopped tithe carts and village teamsters reveal the abbey’s lower service road, its gate procedure, and the time required to move prisoners and blood uphill. A Compact column can cut the ridge before the depot completes its withdrawal.",
+      "discovery": "Stop a removal convoy, preserve its drivers, and obtain the reeves’ cooperation in identifying the road and expected traffic."
+    },
+    {
+      "id": "sila-marr-s-dry-canal-route",
+      "title": "Sila Marr's dry canal route",
+      "source_encounter_id": "the-tithe-villages",
+      "revelation_id": "the-drowned-sluice-can-be-openedor-closed-on-voss",
+      "description": "Canal labor rolls and surviving workers identify a dry approach to the Outer Chain chamber and the crews needed to operate its counterweights. The route avoids the flooded road on which Keln expects a formal assault.",
+      "discovery": "Secure the labor records and protect Engineer Sila Marr or another canal crew willing to guide the Compact."
+    },
+    {
+      "id": "the-reeves-protection-terms",
+      "title": "The reeves' protection terms",
+      "source_encounter_id": "the-tithe-villages",
+      "revelation_id": "enforceable-terms-can-split-the-living-levies-from-the-dead",
+      "description": "A witnessed agreement names how surrendered conscripts, accused collaborators, requisitioned stores, and Vossgard hostages will be treated. Copies carried forward give living soldiers something more credible than a battlefield promise.",
+      "discovery": "Reach enforceable terms with the reeves, stop reprisals and looting, and have Provost Dane issue the guarantees under Compact authority."
+    },
+    {
+      "id": "the-blood-tithe-register",
+      "title": "The blood-tithe register",
+      "source_encounter_id": "the-tithe-villages",
+      "revelation_id": "breaking-the-blood-network-weakens-every-vampire-formation",
+      "description": "The tithe house records collection days, household quotas, wagon capacities, and the officials who certify delivery. Break the network by freeing its people and denying the carts, not merely by burning one storehouse.",
+      "discovery": "Take the tithe house during the village operation or compel Vosca’s clerks to turn over the active collection books."
+    },
+    {
+      "id": "the-three-village-duty-roll",
+      "title": "The three-village duty roll",
+      "source_encounter_id": "the-tithe-villages",
+      "revelation_id": "the-compact-can-hold-the-march-after-it-wins",
+      "description": "The reeves’ shared roll names granary keepers, dike crews, teamsters, road watchers, and council messengers across Garren, Orra, and Lume. If the Compact preserves those offices rather than replacing every local function with soldiers, the villages can feed patrols, report movement, and form the first provisional civil authority after Voss falls.",
+      "discovery": "Protect the three councils, preserve their working records, and agree which local duties continue under Compact protection and later review."
+    },
+    {
+      "id": "the-reeves-refugee-road-tally",
+      "title": "The reeves' refugee-road tally",
+      "source_encounter_id": "the-tithe-villages",
+      "revelation_id": "closing-three-exits-denies-voss-an-organized-breakout",
+      "description": "Years of hostage removals, tithe convoys, and emergency flights show that every mass movement from Vossgard reaches the northern March by the abbey ridge, the Bell road, or the canal. The lesser tracks can carry scouts or a fleeing vampire, but not wagons, prisoners, blood stores, and a coherent field formation.",
+      "discovery": "Compare the reeves’ movement tallies with current scout reports and obtain guides who can distinguish a military column from scattered personal flight."
+    },
+    {
+      "id": "the-covered-western-descent",
+      "title": "The covered western descent",
+      "source_encounter_id": "the-thorn-barrows",
+      "revelation_id": "the-iron-causeway-can-carry-the-heavy-column-intact",
+      "description": "A rider lane descends from the western barrows to the causeway’s less-protected gatehouse and the shadow plain beneath it. Troops holding the barrow gap can place a gallery team there without advancing along the exposed road.",
+      "discovery": "Capture a remount station, force Morcant from the western lanes, or use seized shadow mounts to reconnoiter the descent under protection."
+    },
+    {
+      "id": "morcant-s-bell-warning-route",
+      "title": "Morcant's Bell-warning route",
+      "source_encounter_id": "the-thorn-barrows",
+      "revelation_id": "the-black-bell-can-be-struck-before-the-field-reserve-withdraws",
+      "description": "Morcant’s dispatch route reaches the Black Bell tower through a narrow southern gap. Controlling the remounts or the gap lets the Compact strike the redoubt before riders can warn Ren or reinforce its courier screen.",
+      "discovery": "Break the rider rally system and follow the dispatch lane while the enemy is still reorganizing."
+    },
+    {
+      "id": "the-eastern-towpath-descent",
+      "title": "The eastern towpath descent",
+      "source_encounter_id": "the-thorn-barrows",
+      "revelation_id": "the-drowned-sluice-can-be-openedor-closed-on-voss",
+      "description": "The southeastern barrow lane joins the old canal towpath above the flooded flats. A mobile force can descend directly on the Outer Chain chamber and avoid the drowned troops screening the lower road.",
+      "discovery": "Secure the southeastern lane and use rider maps, captured mounts, or Vale’s scouts to mark a route fit for the following force."
+    },
+    {
+      "id": "morcant-s-three-exit-map",
+      "title": "Morcant's three-exit map",
+      "source_encounter_id": "the-thorn-barrows",
+      "revelation_id": "closing-three-exits-denies-voss-an-organized-breakout",
+      "description": "The riders’ operational map shows how the ridge road, bell road, and canal exit connect beyond the fortress approaches. Holding the barrow lanes gives the Compact enough lateral mobility to reinforce whichever closure Voss tests.",
+      "discovery": "Capture Morcant’s command kit or reconstruct her response routes by controlling all three remount stations."
+    },
+    {
+      "id": "control-of-the-march-lanes",
+      "title": "Control of the march lanes",
+      "source_encounter_id": "the-thorn-barrows",
+      "revelation_id": "the-compact-can-hold-the-march-after-it-wins",
+      "description": "With the remount stations reduced and the thorn gaps posted, couriers, patrols, and relief columns can move between the Gate, villages, and second belt without ceding every road to vampire cavalry.",
+      "discovery": "Leave a workable lane network, free the Dawn Lancers or captured mounts for patrol, and avoid collapsing every crossing in the fight."
+    },
+    {
+      "id": "morcant-s-recovery-cache-circuit",
+      "title": "Morcant's recovery-cache circuit",
+      "source_encounter_id": "the-thorn-barrows",
+      "revelation_id": "breaking-the-blood-network-weakens-every-vampire-formation",
+      "description": "Morcant’s remount circuit includes sealed recovery caches timed to meet riders, abbey knights, and Bell couriers between operations. The cache tokens show that the blood network is not confined to the Red Abbey: mobile distribution lets wounded vampires return to action before a pursuing force expects them.",
+      "discovery": "Take a remount station intact, capture the cache tokens, or follow a wounded rider far enough to seize the next scheduled issue point."
+    },
+    {
+      "id": "the-repair-convoy-seal",
+      "title": "The repair-convoy seal",
+      "source_encounter_id": "the-red-abbey",
+      "revelation_id": "the-iron-causeway-can-carry-the-heavy-column-intact",
+      "description": "The abbey’s engineer stores include authenticated seals and access instructions for repair crews admitted to the causeway galleries. Used promptly, they can place a Compact team inside the demolition system before Krail recognizes the substitution.",
+      "discovery": "Capture the depot office or accept the surrender of the living quartermaster staff before the seals and duty roster are destroyed."
+    },
+    {
+      "id": "the-canal-depot-records",
+      "title": "The canal depot records",
+      "source_encounter_id": "the-red-abbey",
+      "revelation_id": "the-drowned-sluice-can-be-openedor-closed-on-voss",
+      "description": "Blood shipments moved by canal during earlier campaigns, and the abbey retains lock-oil accounts, barge dimensions, and the current service order for the Underkeep Gate. The records turn preservation—or deliberate destruction—into a planned operation instead of a blind breach.",
+      "discovery": "Take the logistics office, preserve Voln’s staff, or recover the current canal packet from a departing convoy."
+    },
+    {
+      "id": "the-ridge-postern-assault-plan",
+      "title": "The ridge-postern assault plan",
+      "source_encounter_id": "the-red-abbey",
+      "revelation_id": "three-known-roads-can-carry-an-assault-into-vossgard",
+      "description": "The captured ridge schedule identifies the postern guard, the wall section supported by abbey troops, and the ground on which a consecrated staging force can assemble beyond the fortress’s main missile arcs.",
+      "discovery": "Hold the ridge road and obtain the garrison rotation from prisoners, surrendered guards, or the abbey command office."
+    },
+    {
+      "id": "the-prisoners-garrison-testimony",
+      "title": "The prisoners' garrison testimony",
+      "source_encounter_id": "the-red-abbey",
+      "revelation_id": "enforceable-terms-can-split-the-living-levies-from-the-dead",
+      "description": "Rescued prisoners and surrendered guards name which fortress companies are levies, where their families are held, and which officers have resisted feeding or reprisal orders. Compact guarantees can be addressed to actual units and households.",
+      "discovery": "Rescue the prison population and conduct an orderly surrender rather than allowing summary reprisals against the living garrison."
+    },
+    {
+      "id": "the-vault-distribution-board",
+      "title": "The vault distribution board",
+      "source_encounter_id": "the-red-abbey",
+      "revelation_id": "breaking-the-blood-network-weakens-every-vampire-formation",
+      "description": "The vault board allocates preserved blood to Rane’s knights, the Black Bell lieutenants, and Vossgard’s inner keep by campaign turn. Capturing or destroying the depot at the correct point denies recovery to the formations most likely to oppose the final breach.",
+      "discovery": "Control the blood vault and its handling crews long enough to seize, spoil, or redirect the scheduled allotments."
+    },
+    {
+      "id": "voln-s-unfilled-tithe-convoy-board",
+      "title": "Voln's unfilled tithe-convoy board",
+      "source_encounter_id": "the-red-abbey",
+      "revelation_id": "the-tithe-villages-can-be-secured-before-voss-empties-them",
+      "description": "The abbey loading board assigns separate wagons, guards, and departure hours to Garren, Orra, and Lume. Empty columns and uncountersigned receipts show which removals have not yet reached the depot, allowing the Compact to cut the crossroads or intercept a specific convoy before people and grain disappear behind the ridge gate.",
+      "discovery": "Capture the logistics office, a departing convoy packet, or Voln’s current board before the staff burns the unfilled columns."
+    },
+    {
+      "id": "voln-s-stores-and-custody-ledger",
+      "title": "Voln's stores-and-custody ledger",
+      "source_encounter_id": "the-red-abbey",
+      "revelation_id": "the-compact-can-hold-the-march-after-it-wins",
+      "description": "Voln’s ledger names quartermasters, prison clerks, teamsters, well keepers, and ridge-road crews whose work outlasts the vampire depot. Preserved under hearing and supervision, that staff can distribute relief, maintain custody, and keep the western road functioning while the Compact builds a provisional administration.",
+      "discovery": "Take the outer abbey without destroying its offices, prevent reprisals against the living staff, and place their continuing duties under a named Compact or local officer."
+    },
+    {
+      "id": "the-village-stand-fast-order",
+      "title": "The village stand-fast order",
+      "source_encounter_id": "the-black-bell-redoubt",
+      "revelation_id": "the-tithe-villages-can-be-secured-before-voss-empties-them",
+      "description": "Ren’s current order tells Vosca when the field reserve can intervene and when the village levies must withdraw alone. Seizing the courier channel or sending a valid stand-fast tone can isolate the removal operation long enough for the Compact to secure the crossroads.",
+      "discovery": "Capture the current command packet, the courier staff, or the bell itself while the order remains operationally relevant."
+    },
+    {
+      "id": "rane-s-withdrawal-sequence",
+      "title": "Rane's withdrawal sequence",
+      "source_encounter_id": "the-black-bell-redoubt",
+      "revelation_id": "the-red-abbey-can-be-cut-off-before-it-empties",
+      "description": "The signal schedule reserves a sequence for recalling the Red Abbey knights and clearing the ridge road. The Compact can strike before that sequence, falsify it, or block the road while the knights are committed elsewhere.",
+      "discovery": "Take Ren’s active signal slate or protect a captured bell crew long enough to identify and exploit the scheduled recall."
+    },
+    {
+      "id": "the-bell-road-gate-packet",
+      "title": "The Bell-road gate packet",
+      "source_encounter_id": "the-black-bell-redoubt",
+      "revelation_id": "three-known-roads-can-carry-an-assault-into-vossgard",
+      "description": "The redoubt’s fortress packet assigns relief cohorts, gate watches, and fallback lines along the direct bell road. Once the reserve is broken or contained, the Compact has a mapped central approach and knows what force Voss expects to retreat through it.",
+      "discovery": "Capture the command shelter or obtain Ren’s authenticated fortress packet during surrender or pursuit."
+    },
+    {
+      "id": "ren-s-breakout-contingency",
+      "title": "Ren's breakout contingency",
+      "source_encounter_id": "the-black-bell-redoubt",
+      "revelation_id": "closing-three-exits-denies-voss-an-organized-breakout",
+      "description": "The reserve plan names the bell road as Voss’s principal overland breakout route and specifies how Ren’s cohorts will clear the gate, hold the road shoulders, and receive survivors from the other exits. Holding the redoubt and road denies the only route suited to a large organized withdrawal.",
+      "discovery": "Capture Ren’s active contingency packet, compel her staff to surrender it, or reconstruct the plan by seizing both the command shelter and the bell-road fallback positions."
+    },
+    {
+      "id": "the-march-command-network",
+      "title": "The March command network",
+      "source_encounter_id": "the-black-bell-redoubt",
+      "revelation_id": "the-compact-can-hold-the-march-after-it-wins",
+      "description": "The bell relays, courier posts, ration stations, and surviving clerks form the only campaign-wide communication system already reaching every settlement and military road. Preserved under new authority, it can coordinate patrols and relief after the fortress falls.",
+      "discovery": "Take the redoubt without destroying all of its staff and relay infrastructure, then place it under an announced Compact or local command."
+    },
+    {
+      "id": "ren-s-canal-alarm-sequence",
+      "title": "Ren's canal-alarm sequence",
+      "source_encounter_id": "the-black-bell-redoubt",
+      "revelation_id": "the-drowned-sluice-can-be-openedor-closed-on-voss",
+      "description": "Ren’s signal slate reserves distinct tones for flooding the outer road, withdrawing the escape barges, and unweighting the Underkeep Gate. Capturing or falsifying the sequence lets a Compact column reach the lock chambers before Keln completes the response Voss expects.",
+      "discovery": "Seize the active signal slate, protect a bell crew able to read it, or control the tower long enough to test the canal tones against intercepted courier reports."
+    },
+    {
+      "id": "ren-s-living-company-stand-down-roster",
+      "title": "Ren's living-company stand-down roster",
+      "source_encounter_id": "the-black-bell-redoubt",
+      "revelation_id": "enforceable-terms-can-split-the-living-levies-from-the-dead",
+      "description": "The reserve roster separates living companies from grave cohorts, names the officers who have objected to reprisals, and records which fortress households answer for their obedience. Addressed guarantees can divide Ren’s living reserve from Vark’s programmed dead before either force reaches Vossgard.",
+      "discovery": "Capture the command shelter or accept a disciplined surrender that preserves the roster, the living couriers, and the officers willing to carry authenticated terms forward."
+    },
+    {
+      "id": "the-recovery-tone-allotment-slate",
+      "title": "The recovery-tone allotment slate",
+      "source_encounter_id": "the-black-bell-redoubt",
+      "revelation_id": "breaking-the-blood-network-weakens-every-vampire-formation",
+      "description": "A bell-code slate pairs recovery tones with Red Abbey allotments, courier stations, and the vampire formations entitled to draw from them. The schedule lets the Compact intercept a mobile issue, send a false collection order, or identify which surviving unit will weaken first when the depot is denied.",
+      "discovery": "Take Ren’s current signal records and keep a clerk or bell crew alive long enough to match the coded tones to the allotment columns."
+    },
+    {
+      "id": "the-eastern-towpath-rise",
+      "title": "The eastern towpath rise",
+      "source_encounter_id": "the-drowned-sluice",
+      "revelation_id": "the-thorn-barrows-can-carry-a-fast-eastern-advance",
+      "description": "The outer lock survey marks where the towpath rises behind the southeastern barrows and which culverts remain passable to cavalry and light infantry. A force from the canal can enter the rider lanes behind Morcant’s normal screen.",
+      "discovery": "Control the Outer Chain chamber and send engineers or scouts along the exposed towpath before Keln floods or blocks it."
+    },
+    {
+      "id": "the-lower-road-beneath-the-bell",
+      "title": "The lower road beneath the Bell",
+      "source_encounter_id": "the-drowned-sluice",
+      "revelation_id": "the-black-bell-can-be-struck-before-the-field-reserve-withdraws",
+      "description": "A lock-service road climbs from the Sunken Turn into the Black Bell’s resonance ditches below their prepared firing line. Troops can approach the tower from a direction Ren has assigned only courier guards to watch.",
+      "discovery": "Preserve the Sunken Turn controls and obtain Keln’s service map or Sila Marr’s operating route."
+    },
+    {
+      "id": "the-underkeep-gate-sequence",
+      "title": "The Underkeep Gate sequence",
+      "source_encounter_id": "the-drowned-sluice",
+      "revelation_id": "three-known-roads-can-carry-an-assault-into-vossgard",
+      "description": "The lock sequence fixes when the Underkeep Gate is unweighted, where its drowned guard must stand, and how barges can deliver an assault force beneath the outer wall. The route is dangerous and workable with controlled mechanisms.",
+      "discovery": "Take the three lock mechanisms intact or compel the lock crews to demonstrate the fortress opening sequence."
+    },
+    {
+      "id": "the-verified-lock-depth-table",
+      "title": "The verified lock-depth table",
+      "source_encounter_id": "the-drowned-sluice",
+      "revelation_id": "a-high-capacity-route-can-bring-the-siege-train-to-vossgard",
+      "description": "Gatewright soundings mark which engines can be broken into barge loads, where tow teams can work under cover, and how much bulk supply reaches the fortress per cycle. An open canal can replace a destroyed causeway as the campaign’s heavy route.",
+      "discovery": "Control the locks long enough for engineers to sound the canal and preserve the barges, towpath, and lifting gear."
+    },
+    {
+      "id": "the-escape-barge-orders",
+      "title": "The escape-barge orders",
+      "source_encounter_id": "the-drowned-sluice",
+      "revelation_id": "closing-three-exits-denies-voss-an-organized-breakout",
+      "description": "Keln’s withdrawal orders assign barges, guards, and loading priority for Voss’s lower-gate breakout. Capturing the craft and closing the Underkeep Gate removes the last route by which an organized remnant can leave the fortress unseen from the walls.",
+      "discovery": "Seize the barge station or the lock marshal’s active orders before the boats withdraw beneath Vossgard."
+    },
+    {
+      "id": "marr-s-canal-ward-roll",
+      "title": "Marr's canal-ward roll",
+      "source_encounter_id": "the-drowned-sluice",
+      "revelation_id": "the-compact-can-hold-the-march-after-it-wins",
+      "description": "Marr’s roll links lock crews, levee wardens, barge masters, towpath gangs, and the low-ground households each mechanism protects. Preserving that network gives the postwar March transport, flood control, and a civilian chain of responsibility that soldiers cannot improvise from an occupied gatehouse.",
+      "discovery": "Secure the operating records, protect the living crews from Keln and reprisals, and assign a named authority to continue canal work under review."
+    },
+    {
+      "id": "drenn-s-fortress-levy-rolls",
+      "title": "Drenn's fortress levy rolls",
+      "source_encounter_id": "vossgard",
+      "revelation_id": "enforceable-terms-can-split-the-living-levies-from-the-dead",
+      "description": "The garrison court rolls place living companies beside the households Voss holds and identify the officers Castellan Drenn believes will stand down under enforceable protection. The rolls let the Compact split the court before the inner keep fight consumes it.",
+      "discovery": "Reach the garrison court, capture its orders, or negotiate directly with Drenn and the levy officers under cover of earlier guarantees."
+    },
+    {
+      "id": "drenn-s-gate-reinforcement-board",
+      "title": "Drenn's gate-reinforcement board",
+      "source_encounter_id": "vossgard",
+      "revelation_id": "three-known-roads-can-carry-an-assault-into-vossgard",
+      "description": "Drenn’s board places the ridge postern, Bell gate, and Underkeep Gate beside their reinforcement times, interior stairs, and fallback courts. A first investment can therefore convert one captured approach into a plan for a later return without pretending that the other two routes were inaccessible or unknown.",
+      "discovery": "Hold an outer work, capture a garrison command post, or negotiate access to Drenn’s current reinforcement board before the fortress staff relocates it."
+    },
+    {
+      "id": "the-freight-yard-receiving-marks",
+      "title": "The freight-yard receiving marks",
+      "source_encounter_id": "vossgard",
+      "revelation_id": "a-high-capacity-route-can-bring-the-siege-train-to-vossgard",
+      "description": "Painted receiving marks in the western freight yard and lower hoist chamber match the ram sections, mirror frames, ammunition wagons, and barge loads on Merrow’s manifest. They confirm where a preserved Causeway or opened canal can deliver the heavy train directly into a controlled assault sector.",
+      "discovery": "Reach the western yard or lower works with Gatewrights, captured engineers, or the heavy-column manifest and compare the surviving hoists and gate clearances."
+    },
+    {
+      "id": "voss-s-breakout-loading-table",
+      "title": "Voss's breakout loading table",
+      "source_encounter_id": "vossgard",
+      "revelation_id": "closing-three-exits-denies-voss-an-organized-breakout",
+      "description": "Voss’s loading table assigns prisoners, blood, officers, wagons, and surviving formations to the ridge road, Bell road, and canal according to which remain open. No fourth line can carry an organized remnant; the margin separately records mounts and mist screens for Voss’s personal flight.",
+      "discovery": "Capture a fortress operations room, a breakout courier, or the loading staff while the assignments still correspond to visible deployments."
+    },
+    {
+      "id": "the-inner-keep-blood-service-table",
+      "title": "The inner-keep blood-service table",
+      "source_encounter_id": "vossgard",
+      "revelation_id": "breaking-the-blood-network-weakens-every-vampire-formation",
+      "description": "The service table times blood from the lower vaults to the Bell gate, ridge court, vampire reserve, and Voss’s own retreat chambers. It identifies the physical handoff points where denying carriers or cistern access prevents several wounded formations from recovering between phases of the assault.",
+      "discovery": "Seize a service stair, blood carrier, or inner-court order station before the schedule is abandoned during the final withdrawal."
+    },
+    {
+      "id": "the-civil-continuity-docket",
+      "title": "The civil-continuity docket",
+      "source_encounter_id": "vossgard",
+      "revelation_id": "the-compact-can-hold-the-march-after-it-wins",
+      "description": "The fortress docket names surviving civil clerks, road and canal officers, grain custodians, hearing dates, and the local orders that must be renewed before dawn. It gives the Warrant a bounded provisional administration instead of asking exhausted battalions to invent government after the battle.",
+      "discovery": "Preserve the garrison court and records during the assault, then place the named offices under temporary command, custody, and civil review rather than treating every servant of Voss as an enemy formation."
+    }
+  ]
+}
